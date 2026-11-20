@@ -1,0 +1,1289 @@
+{
+ "items": [
+  {
+   "id": "coffee-shop-catchup",
+   "title": "Catching Up Over Coffee",
+   "level": "B2",
+   "kind": "Everyday conversation",
+   "domain": "daily",
+   "speakers": {
+    "Maya": {
+     "accent": "en-CA",
+     "voice": "nova"
+    },
+    "Josh": {
+     "accent": "en-CA",
+     "voice": "echo"
+    }
+   },
+   "lines": [
+    {
+     "s": "Maya",
+     "t": "Josh! I haven't seen you in ages. How've you been?"
+    },
+    {
+     "s": "Josh",
+     "t": "Honestly? Run off my feet. We just moved offices, and I've been living out of boxes for two weeks."
+    },
+    {
+     "s": "Maya",
+     "t": "Oh, that sounds exhausting. Is the new place any better, at least?"
+    },
+    {
+     "s": "Josh",
+     "t": "It's way closer to home, so I can bike in now. But the open-plan layout is driving me up the wall. You can't hear yourself think."
+    },
+    {
+     "s": "Maya",
+     "t": "I know what you mean. We went open-plan last year, and half the team ended up booking meeting rooms just to get some peace and quiet."
+    },
+    {
+     "s": "Josh",
+     "t": "Exactly. Anyway, enough about me. Didn't you start that evening course in data analytics?"
+    },
+    {
+     "s": "Maya",
+     "t": "I did, yeah. It's pretty intense, two nights a week, but I'm really getting into it. I'm hoping it'll help me move into a more technical role."
+    },
+    {
+     "s": "Josh",
+     "t": "Good for you. Let me know if you ever want to grab lunch with someone from our data team. I could put you in touch."
+    },
+    {
+     "s": "Maya",
+     "t": "Seriously? That would be amazing. Thanks, Josh, I'll take you up on that."
+    }
+   ],
+   "questions": [
+    {
+     "id": "q1",
+     "prompt": "Why has Josh been busy?",
+     "options": [
+      "He started a new course.",
+      "His company moved offices.",
+      "He changed jobs.",
+      "He was on holiday."
+     ],
+     "answer": "His company moved offices.",
+     "explanation": "'We just moved offices, and I've been living out of boxes.'"
+    },
+    {
+     "id": "q2",
+     "prompt": "What does Josh dislike about the new office?",
+     "options": [
+      "It's far from home.",
+      "It's noisy because of the open-plan layout.",
+      "There's no bike parking.",
+      "It's too small."
+     ],
+     "answer": "It's noisy because of the open-plan layout.",
+     "explanation": "'driving me up the wall… You can't hear yourself think.'"
+    },
+    {
+     "id": "q3",
+     "prompt": "What does Josh offer to do?",
+     "options": [
+      "Teach Maya data analytics.",
+      "Introduce Maya to someone on his data team.",
+      "Help Maya move.",
+      "Hire Maya."
+     ],
+     "answer": "Introduce Maya to someone on his data team.",
+     "explanation": "'I could put you in touch.'"
+    }
+   ],
+   "dictation": [
+    3,
+    6
+   ],
+   "gaps": [
+    {
+     "line": 1,
+     "words": [
+      "Run off my feet"
+     ]
+    },
+    {
+     "line": 4,
+     "words": [
+      "peace and quiet"
+     ]
+    },
+    {
+     "line": 8,
+     "words": [
+      "take you up on"
+     ]
+    }
+   ],
+   "expressions": [
+    {
+     "phrase": "run off my feet",
+     "meaning": "extremely busy"
+    },
+    {
+     "phrase": "drive someone up the wall",
+     "meaning": "to annoy someone a lot"
+    },
+    {
+     "phrase": "put you in touch",
+     "meaning": "introduce you to someone"
+    },
+    {
+     "phrase": "take you up on that",
+     "meaning": "accept your offer"
+    }
+   ]
+  },
+  {
+   "id": "budget-meeting",
+   "title": "Quarterly Budget Meeting",
+   "level": "B2",
+   "kind": "Business meeting",
+   "domain": "business",
+   "speakers": {
+    "Chair": {
+     "accent": "en-US",
+     "voice": "onyx"
+    },
+    "Priya": {
+     "accent": "en-GB",
+     "voice": "shimmer"
+    },
+    "Daniel": {
+     "accent": "en-CA",
+     "voice": "echo"
+    }
+   },
+   "lines": [
+    {
+     "s": "Chair",
+     "t": "Okay, let's get started. The main item on the agenda today is the marketing budget for next quarter. Priya, would you like to kick things off?"
+    },
+    {
+     "s": "Priya",
+     "t": "Thanks. So, as you'll see in the slides, we're proposing a twelve per cent increase, mainly to fund the product launch in Western Canada."
+    },
+    {
+     "s": "Daniel",
+     "t": "Can I just come in there? I appreciate the launch is a priority, but twelve per cent seems quite steep given that sales were flat last quarter."
+    },
+    {
+     "s": "Priya",
+     "t": "That's a fair point. But the flat sales were largely because we didn't have any campaign running in the West. That's exactly the gap we're trying to close."
+    },
+    {
+     "s": "Chair",
+     "t": "Daniel, what would you be comfortable with?"
+    },
+    {
+     "s": "Daniel",
+     "t": "I'd be happier with eight per cent up front, with the option to release the remaining four if we hit our targets by the end of the first month."
+    },
+    {
+     "s": "Priya",
+     "t": "I could live with that, as long as we agree on the targets today, so we're not waiting for approval when we need to act quickly."
+    },
+    {
+     "s": "Chair",
+     "t": "Sounds like a reasonable compromise. Let's take that as agreed in principle. Priya, could you circulate revised figures by Friday?"
+    },
+    {
+     "s": "Priya",
+     "t": "Will do."
+    }
+   ],
+   "questions": [
+    {
+     "id": "q1",
+     "prompt": "What is Priya originally proposing?",
+     "options": [
+      "An 8% budget cut.",
+      "A 12% budget increase.",
+      "A new product.",
+      "Closing the western office."
+     ],
+     "answer": "A 12% budget increase.",
+     "explanation": "'we're proposing a twelve per cent increase'"
+    },
+    {
+     "id": "q2",
+     "prompt": "What is Daniel's main concern?",
+     "options": [
+      "The launch is unnecessary.",
+      "The increase is large given flat sales.",
+      "Priya's slides are wrong.",
+      "The meeting is too long."
+     ],
+     "answer": "The increase is large given flat sales.",
+     "explanation": "'twelve per cent seems quite steep given that sales were flat'"
+    },
+    {
+     "id": "q3",
+     "prompt": "What compromise is reached?",
+     "options": [
+      "12% now.",
+      "No increase.",
+      "8% now, plus 4% if first-month targets are met.",
+      "4% now, plus 8% later."
+     ],
+     "answer": "8% now, plus 4% if first-month targets are met.",
+     "explanation": "Daniel's conditional proposal is 'agreed in principle'."
+    },
+    {
+     "id": "q4",
+     "prompt": "What must Priya do by Friday?",
+     "options": [
+      "Launch the campaign.",
+      "Send revised figures.",
+      "Hire staff.",
+      "Present to the board."
+     ],
+     "answer": "Send revised figures.",
+     "explanation": "'could you circulate revised figures by Friday?'"
+    }
+   ],
+   "dictation": [
+    2,
+    6
+   ],
+   "gaps": [
+    {
+     "line": 0,
+     "words": [
+      "kick things off"
+     ]
+    },
+    {
+     "line": 2,
+     "words": [
+      "come in there"
+     ]
+    },
+    {
+     "line": 7,
+     "words": [
+      "agreed in principle"
+     ]
+    }
+   ],
+   "expressions": [
+    {
+     "phrase": "kick things off",
+     "meaning": "start the discussion"
+    },
+    {
+     "phrase": "Can I just come in there?",
+     "meaning": "polite way to interrupt in a meeting"
+    },
+    {
+     "phrase": "I could live with that",
+     "meaning": "I accept it, though it's not ideal"
+    },
+    {
+     "phrase": "agreed in principle",
+     "meaning": "accepted in general, details to follow"
+    }
+   ]
+  },
+  {
+   "id": "lecture-behavioural-finance",
+   "title": "Lecture: Loss Aversion in Behavioural Finance",
+   "level": "C1",
+   "kind": "Academic lecture",
+   "domain": "finance",
+   "speakers": {
+    "Professor": {
+     "accent": "en-GB",
+     "voice": "fable"
+    }
+   },
+   "lines": [
+    {
+     "s": "Professor",
+     "t": "Good morning, everyone. Today I want to look at one of the most robust findings in behavioural finance, namely loss aversion."
+    },
+    {
+     "s": "Professor",
+     "t": "Put simply, loss aversion is the tendency for people to feel the pain of a loss more intensely than the pleasure of an equivalent gain."
+    },
+    {
+     "s": "Professor",
+     "t": "Experimental studies suggest that, for many people, a loss feels roughly twice as powerful as a gain of the same size."
+    },
+    {
+     "s": "Professor",
+     "t": "Now, why does this matter for investors? Well, consider what's known as the disposition effect."
+    },
+    {
+     "s": "Professor",
+     "t": "Investors tend to sell shares that have risen in value too early, in order to lock in a gain, while holding on to shares that have fallen, hoping they'll recover."
+    },
+    {
+     "s": "Professor",
+     "t": "From a purely rational perspective, the price you originally paid is irrelevant. What matters is the expected future return of each investment."
+    },
+    {
+     "s": "Professor",
+     "t": "But psychologically, selling a losing position means admitting the loss, turning a paper loss into a real one, and that is precisely what loss-averse investors try to avoid."
+    },
+    {
+     "s": "Professor",
+     "t": "I should stress that loss aversion is not irrational in every context. In environments where losses can be catastrophic, caution may well be adaptive."
+    },
+    {
+     "s": "Professor",
+     "t": "For next week, I'd like you to read the chapter on framing effects and think about how the same choice can be presented as either a gain or a loss."
+    }
+   ],
+   "questions": [
+    {
+     "id": "q1",
+     "prompt": "According to the lecture, how strongly is a loss felt compared with an equal gain?",
+     "options": [
+      "About the same.",
+      "About half as strongly.",
+      "Roughly twice as strongly.",
+      "Ten times as strongly."
+     ],
+     "answer": "Roughly twice as strongly.",
+     "explanation": "'a loss feels roughly twice as powerful as a gain of the same size'"
+    },
+    {
+     "id": "q2",
+     "prompt": "What is the disposition effect?",
+     "options": [
+      "Selling winners too early and holding losers too long.",
+      "Buying only rising shares.",
+      "Ignoring the market entirely.",
+      "Diversifying across sectors."
+     ],
+     "answer": "Selling winners too early and holding losers too long.",
+     "explanation": "Line 5 describes this pattern."
+    },
+    {
+     "id": "q3",
+     "prompt": "What does the professor say is rationally relevant when deciding to sell?",
+     "options": [
+      "The original purchase price.",
+      "The expected future return.",
+      "How long you've held the share.",
+      "Media opinion."
+     ],
+     "answer": "The expected future return.",
+     "explanation": "'the price you originally paid is irrelevant'"
+    },
+    {
+     "id": "q4",
+     "prompt": "Which qualification does the professor add?",
+     "options": [
+      "Loss aversion only affects beginners.",
+      "Loss aversion may be adaptive where losses could be catastrophic.",
+      "Loss aversion has been disproven.",
+      "Gains matter more than losses."
+     ],
+     "answer": "Loss aversion may be adaptive where losses could be catastrophic.",
+     "explanation": "'caution may well be adaptive'"
+    }
+   ],
+   "dictation": [
+    1,
+    5,
+    7
+   ],
+   "gaps": [
+    {
+     "line": 0,
+     "words": [
+      "robust",
+      "namely"
+     ]
+    },
+    {
+     "line": 4,
+     "words": [
+      "lock in"
+     ]
+    },
+    {
+     "line": 6,
+     "words": [
+      "paper loss"
+     ]
+    }
+   ],
+   "expressions": [
+    {
+     "phrase": "namely",
+     "meaning": "that is to say; used to specify"
+    },
+    {
+     "phrase": "lock in a gain",
+     "meaning": "sell to secure a profit"
+    },
+    {
+     "phrase": "a paper loss",
+     "meaning": "a loss that exists only on paper until you sell"
+    },
+    {
+     "phrase": "may well be",
+     "meaning": "is quite possibly"
+    }
+   ]
+  },
+  {
+   "id": "job-interview-analyst",
+   "title": "Interview for a Financial Analyst Role",
+   "level": "C1",
+   "kind": "Job interview",
+   "domain": "business",
+   "speakers": {
+    "Interviewer": {
+     "accent": "en-CA",
+     "voice": "alloy"
+    },
+    "Candidate": {
+     "accent": "en-US",
+     "voice": "nova"
+    }
+   },
+   "lines": [
+    {
+     "s": "Interviewer",
+     "t": "Thanks for coming in. Could you tell me about a time you had to deliver bad news to a senior stakeholder?"
+    },
+    {
+     "s": "Candidate",
+     "t": "Sure. In my last role, I discovered that a revenue forecast our team had already presented to the CFO was overstated by about fifteen per cent."
+    },
+    {
+     "s": "Candidate",
+     "t": "The error came from a currency assumption that hadn't been updated. It wasn't my model, but I was the one who spotted it."
+    },
+    {
+     "s": "Interviewer",
+     "t": "How did you handle it?"
+    },
+    {
+     "s": "Candidate",
+     "t": "First, I double-checked the numbers with a colleague, because I wanted to be absolutely sure before raising the alarm."
+    },
+    {
+     "s": "Candidate",
+     "t": "Then I asked my manager if we could brief the CFO together that same afternoon, rather than waiting for the monthly review."
+    },
+    {
+     "s": "Candidate",
+     "t": "We went in with the corrected figures, a clear explanation of what had gone wrong, and a proposal to add an automated check on exchange rates."
+    },
+    {
+     "s": "Interviewer",
+     "t": "And how did the CFO react?"
+    },
+    {
+     "s": "Candidate",
+     "t": "She wasn't thrilled, obviously, but she said she appreciated hearing it from us first. The automated check is still in use, as far as I know."
+    }
+   ],
+   "questions": [
+    {
+     "id": "q1",
+     "prompt": "What was wrong with the forecast?",
+     "options": [
+      "It was understated by 15%.",
+      "It was overstated by about 15%.",
+      "It used the wrong tax rate.",
+      "It was presented late."
+     ],
+     "answer": "It was overstated by about 15%.",
+     "explanation": "'overstated by about fifteen per cent'"
+    },
+    {
+     "id": "q2",
+     "prompt": "What caused the error?",
+     "options": [
+      "A typo.",
+      "An outdated currency assumption.",
+      "Fraud.",
+      "A software crash."
+     ],
+     "answer": "An outdated currency assumption.",
+     "explanation": "'a currency assumption that hadn't been updated'"
+    },
+    {
+     "id": "q3",
+     "prompt": "Why did the candidate check with a colleague first?",
+     "options": [
+      "To share the blame.",
+      "To be certain before raising the alarm.",
+      "Because the colleague built the model.",
+      "Because the manager was away."
+     ],
+     "answer": "To be certain before raising the alarm.",
+     "explanation": "'I wanted to be absolutely sure before raising the alarm.'"
+    },
+    {
+     "id": "q4",
+     "prompt": "Which interview technique does the answer follow?",
+     "options": [
+      "Situation, Task, Action, Result (STAR).",
+      "A list of personal strengths.",
+      "Avoiding the question.",
+      "Blaming others."
+     ],
+     "answer": "Situation, Task, Action, Result (STAR).",
+     "explanation": "Situation (error), action (check, brief, propose), result (CFO reaction, lasting fix)."
+    }
+   ],
+   "dictation": [
+    5,
+    8
+   ],
+   "gaps": [
+    {
+     "line": 4,
+     "words": [
+      "raising the alarm"
+     ]
+    },
+    {
+     "line": 6,
+     "words": [
+      "automated check"
+     ]
+    },
+    {
+     "line": 8,
+     "words": [
+      "thrilled"
+     ]
+    }
+   ],
+   "expressions": [
+    {
+     "phrase": "raise the alarm",
+     "meaning": "warn people about a problem"
+    },
+    {
+     "phrase": "brief someone",
+     "meaning": "give someone essential information"
+    },
+    {
+     "phrase": "wasn't thrilled",
+     "meaning": "was not pleased (understatement)"
+    },
+    {
+     "phrase": "as far as I know",
+     "meaning": "based on my information"
+    }
+   ]
+  },
+  {
+   "id": "news-housing",
+   "title": "News Bulletin: Housing Starts and Rates",
+   "level": "C1",
+   "kind": "News broadcast",
+   "domain": "economics",
+   "speakers": {
+    "Anchor": {
+     "accent": "en-CA",
+     "voice": "onyx"
+    },
+    "Reporter": {
+     "accent": "en-CA",
+     "voice": "shimmer"
+    }
+   },
+   "lines": [
+    {
+     "s": "Anchor",
+     "t": "Housing starts fell sharply last month, according to new figures, as higher borrowing costs continued to weigh on the construction sector. Our business correspondent has more."
+    },
+    {
+     "s": "Reporter",
+     "t": "Construction began on just under two hundred thousand homes on an annualised basis, down nine per cent from the previous month and well below what economists had forecast."
+    },
+    {
+     "s": "Reporter",
+     "t": "The slowdown was concentrated in multi-unit buildings such as condominiums, where developers say rising financing costs have made many projects unviable."
+    },
+    {
+     "s": "Reporter",
+     "t": "The figures will add to pressure on governments, which have pledged to dramatically increase housing supply to address chronic affordability problems."
+    },
+    {
+     "s": "Reporter",
+     "t": "Industry groups are calling for faster permit approvals and lower development charges, arguing that red tape adds months and tens of thousands of dollars to every project."
+    },
+    {
+     "s": "Reporter",
+     "t": "Some economists, however, caution against reading too much into a single month's data, noting that housing starts are notoriously volatile."
+    },
+    {
+     "s": "Anchor",
+     "t": "Thank you. In other business news, the dollar edged higher against its US counterpart this afternoon."
+    }
+   ],
+   "questions": [
+    {
+     "id": "q1",
+     "prompt": "By how much did housing starts fall from the previous month?",
+     "options": [
+      "2%",
+      "9%",
+      "19%",
+      "20%"
+     ],
+     "answer": "9%",
+     "explanation": "'down nine per cent from the previous month'"
+    },
+    {
+     "id": "q2",
+     "prompt": "Which type of housing saw the biggest slowdown?",
+     "options": [
+      "Detached houses.",
+      "Multi-unit buildings like condos.",
+      "Social housing.",
+      "Rural homes."
+     ],
+     "answer": "Multi-unit buildings like condos.",
+     "explanation": "'concentrated in multi-unit buildings such as condominiums'"
+    },
+    {
+     "id": "q3",
+     "prompt": "What do industry groups want?",
+     "options": [
+      "Higher interest rates.",
+      "Faster permits and lower development charges.",
+      "A ban on condos.",
+      "More taxes on buyers."
+     ],
+     "answer": "Faster permits and lower development charges.",
+     "explanation": "Line 5."
+    },
+    {
+     "id": "q4",
+     "prompt": "Why do some economists urge caution?",
+     "options": [
+      "The data is fake.",
+      "Monthly housing starts are very volatile.",
+      "Rates are falling.",
+      "Construction is booming."
+     ],
+     "answer": "Monthly housing starts are very volatile.",
+     "explanation": "'notoriously volatile'"
+    }
+   ],
+   "dictation": [
+    2,
+    5
+   ],
+   "gaps": [
+    {
+     "line": 0,
+     "words": [
+      "weigh on"
+     ]
+    },
+    {
+     "line": 3,
+     "words": [
+      "chronic affordability"
+     ]
+    },
+    {
+     "line": 4,
+     "words": [
+      "red tape"
+     ]
+    }
+   ],
+   "expressions": [
+    {
+     "phrase": "on an annualised basis",
+     "meaning": "calculated as if the monthly rate continued for a year"
+    },
+    {
+     "phrase": "unviable",
+     "meaning": "not financially possible"
+    },
+    {
+     "phrase": "red tape",
+     "meaning": "excessive bureaucracy"
+    },
+    {
+     "phrase": "edged higher",
+     "meaning": "rose slightly"
+    }
+   ]
+  },
+  {
+   "id": "podcast-ai-work",
+   "title": "Podcast: Will AI Change How We Learn at Work?",
+   "level": "C2",
+   "kind": "Podcast discussion",
+   "domain": "technology",
+   "speakers": {
+    "Host": {
+     "accent": "en-US",
+     "voice": "echo"
+    },
+    "Guest": {
+     "accent": "en-GB",
+     "voice": "fable"
+    }
+   },
+   "lines": [
+    {
+     "s": "Host",
+     "t": "My guest today has spent the last decade studying how organisations train their people. Welcome to the show."
+    },
+    {
+     "s": "Guest",
+     "t": "Thanks for having me. It's a topic that's gone from niche to front-page news in about eighteen months."
+    },
+    {
+     "s": "Host",
+     "t": "So let me put the provocative version to you first. If an AI assistant can answer any question instantly, why bother learning anything at all?"
+    },
+    {
+     "s": "Guest",
+     "t": "It's a fair question, but I think it rests on a misunderstanding of what expertise is. Expertise isn't a stock of answers; it's the ability to recognise which questions are worth asking."
+    },
+    {
+     "s": "Guest",
+     "t": "A junior analyst with a brilliant tool will still struggle if they can't tell when the output is subtly wrong. And the only way to develop that judgement is, frankly, to have done the work yourself."
+    },
+    {
+     "s": "Host",
+     "t": "But isn't there a risk that companies cut the very entry-level tasks through which people used to develop that judgement?"
+    },
+    {
+     "s": "Guest",
+     "t": "That, to my mind, is the real danger, far more than mass unemployment. If the apprenticeship layer disappears, where does the next generation of experts come from?"
+    },
+    {
+     "s": "Guest",
+     "t": "The more forward-thinking firms are redesigning roles so that juniors still wrestle with problems, but with an AI acting more like a demanding tutor than a ghostwriter."
+    },
+    {
+     "s": "Host",
+     "t": "A demanding tutor rather than a ghostwriter. I like that. We'll pick that thread up after the break."
+    }
+   ],
+   "questions": [
+    {
+     "id": "q1",
+     "prompt": "How does the guest define expertise?",
+     "options": [
+      "Knowing many facts.",
+      "The ability to recognise which questions are worth asking.",
+      "Using AI tools well.",
+      "Years of experience."
+     ],
+     "answer": "The ability to recognise which questions are worth asking.",
+     "explanation": "Line 4."
+    },
+    {
+     "id": "q2",
+     "prompt": "What does the guest see as 'the real danger'?",
+     "options": [
+      "Mass unemployment.",
+      "AI making factual errors.",
+      "The disappearance of entry-level work through which people develop judgement.",
+      "Expensive software."
+     ],
+     "answer": "The disappearance of entry-level work through which people develop judgement.",
+     "explanation": "'If the apprenticeship layer disappears…'"
+    },
+    {
+     "id": "q3",
+     "prompt": "What does 'a demanding tutor rather than a ghostwriter' imply?",
+     "options": [
+      "AI should do the work for juniors.",
+      "AI should challenge and guide juniors rather than produce work for them.",
+      "AI should be banned.",
+      "Tutors should replace managers."
+     ],
+     "answer": "AI should challenge and guide juniors rather than produce work for them.",
+     "explanation": "A ghostwriter writes for you; a tutor makes you do the thinking."
+    },
+    {
+     "id": "q4",
+     "prompt": "What is the guest's attitude to the host's 'provocative' question?",
+     "options": [
+      "Fully agrees.",
+      "Considers it fair but based on a misunderstanding.",
+      "Refuses to answer.",
+      "Finds it offensive."
+     ],
+     "answer": "Considers it fair but based on a misunderstanding.",
+     "explanation": "'It's a fair question, but I think it rests on a misunderstanding'"
+    }
+   ],
+   "dictation": [
+    3,
+    6
+   ],
+   "gaps": [
+    {
+     "line": 1,
+     "words": [
+      "niche"
+     ]
+    },
+    {
+     "line": 4,
+     "words": [
+      "subtly wrong"
+     ]
+    },
+    {
+     "line": 7,
+     "words": [
+      "wrestle with"
+     ]
+    }
+   ],
+   "expressions": [
+    {
+     "phrase": "rests on a misunderstanding",
+     "meaning": "is based on a wrong idea"
+    },
+    {
+     "phrase": "to my mind",
+     "meaning": "in my opinion"
+    },
+    {
+     "phrase": "wrestle with a problem",
+     "meaning": "struggle hard to solve it"
+    },
+    {
+     "phrase": "pick up a thread",
+     "meaning": "return to a topic of discussion"
+    }
+   ]
+  },
+  {
+   "id": "bank-account",
+   "title": "Opening a Bank Account",
+   "level": "B2",
+   "kind": "Service conversation",
+   "domain": "banking",
+   "speakers": {
+    "Advisor": {
+     "accent": "en-CA",
+     "voice": "nova"
+    },
+    "Customer": {
+     "accent": "en-GB",
+     "voice": "echo"
+    }
+   },
+   "lines": [
+    {
+     "s": "Advisor",
+     "t": "Good afternoon. How can I help you today?"
+    },
+    {
+     "s": "Customer",
+     "t": "Hi. I've just moved to Canada for work, and I'd like to open a chequing account."
+    },
+    {
+     "s": "Advisor",
+     "t": "Welcome! We have a newcomer package that waives the monthly fee for the first year. Do you have your passport and your work permit with you?"
+    },
+    {
+     "s": "Customer",
+     "t": "I do. I also have a letter from my employer, if that helps."
+    },
+    {
+     "s": "Advisor",
+     "t": "Perfect. That'll speed things up. Would you also be interested in a credit card? It's a good way to start building a Canadian credit history."
+    },
+    {
+     "s": "Customer",
+     "t": "I hadn't thought of that. Is there an annual fee?"
+    },
+    {
+     "s": "Advisor",
+     "t": "Not on the basic card. The limit starts at a thousand dollars, and it can be increased after six months if you make your payments on time."
+    },
+    {
+     "s": "Customer",
+     "t": "That sounds reasonable. Let's go ahead with both, then."
+    }
+   ],
+   "questions": [
+    {
+     "id": "q1",
+     "prompt": "Why does the customer want an account?",
+     "options": [
+      "He is a student.",
+      "He has moved to Canada for work.",
+      "He is on holiday.",
+      "He is closing another account."
+     ],
+     "answer": "He has moved to Canada for work.",
+     "explanation": "Line 2."
+    },
+    {
+     "id": "q2",
+     "prompt": "What does the newcomer package offer?",
+     "options": [
+      "A free credit card.",
+      "No monthly fee for the first year.",
+      "A higher interest rate.",
+      "Free international transfers."
+     ],
+     "answer": "No monthly fee for the first year.",
+     "explanation": "Line 3."
+    },
+    {
+     "id": "q3",
+     "prompt": "Why does the advisor suggest a credit card?",
+     "options": [
+      "To earn rewards.",
+      "To build a Canadian credit history.",
+      "To travel abroad.",
+      "Because it is compulsory."
+     ],
+     "answer": "To build a Canadian credit history.",
+     "explanation": "Line 5."
+    },
+    {
+     "id": "q4",
+     "prompt": "When can the credit limit be increased?",
+     "options": [
+      "Immediately.",
+      "After six months of on-time payments.",
+      "After a year.",
+      "Never."
+     ],
+     "answer": "After six months of on-time payments.",
+     "explanation": "Line 7."
+    }
+   ],
+   "dictation": [
+    2,
+    6
+   ],
+   "gaps": [
+    {
+     "line": 2,
+     "words": [
+      "waives"
+     ]
+    },
+    {
+     "line": 4,
+     "words": [
+      "credit history"
+     ]
+    },
+    {
+     "line": 7,
+     "words": [
+      "go ahead"
+     ]
+    }
+   ],
+   "expressions": [
+    {
+     "phrase": "waive a fee",
+     "meaning": "not charge a fee"
+    },
+    {
+     "phrase": "speed things up",
+     "meaning": "make a process faster"
+    },
+    {
+     "phrase": "build a credit history",
+     "meaning": "create a record of reliable borrowing"
+    },
+    {
+     "phrase": "go ahead with",
+     "meaning": "proceed with"
+    }
+   ]
+  },
+  {
+   "id": "panel-growth-climate",
+   "title": "Panel: Can Growth and Climate Goals Coexist?",
+   "level": "C1",
+   "kind": "Panel discussion",
+   "domain": "economics",
+   "speakers": {
+    "Moderator": {
+     "accent": "en-US",
+     "voice": "onyx"
+    },
+    "Economist": {
+     "accent": "en-GB",
+     "voice": "shimmer"
+    },
+    "Activist": {
+     "accent": "en-CA",
+     "voice": "echo"
+    }
+   },
+   "lines": [
+    {
+     "s": "Moderator",
+     "t": "Our question tonight: can economies keep growing while cutting emissions fast enough to meet climate targets?"
+    },
+    {
+     "s": "Economist",
+     "t": "The evidence suggests they can, at least partially. Over thirty countries have grown their economies while reducing emissions, which we call absolute decoupling."
+    },
+    {
+     "s": "Activist",
+     "t": "With respect, the pace matters. Decoupling is happening, but nowhere near quickly enough. At current rates, we'd overshoot our targets by decades."
+    },
+    {
+     "s": "Economist",
+     "t": "I don't dispute that. My point is that growth itself isn't the enemy. What matters is what we grow: renewable energy, efficient buildings, public transport."
+    },
+    {
+     "s": "Activist",
+     "t": "But there's a risk that green growth becomes an excuse for business as usual, as if technology will rescue us without any change in how we consume."
+    },
+    {
+     "s": "Moderator",
+     "t": "So is there any common ground?"
+    },
+    {
+     "s": "Economist",
+     "t": "Plenty, I'd say. We both want a much higher carbon price and far faster investment in clean infrastructure."
+    },
+    {
+     "s": "Activist",
+     "t": "Agreed. Where we differ is on whether rich countries should also aim to consume less. I believe they should."
+    }
+   ],
+   "questions": [
+    {
+     "id": "q1",
+     "prompt": "What is 'absolute decoupling'?",
+     "options": [
+      "Growth without any emissions.",
+      "Economic growth while emissions fall.",
+      "Reducing growth to cut emissions.",
+      "Separating countries' climate policies."
+     ],
+     "answer": "Economic growth while emissions fall.",
+     "explanation": "Economist's first turn."
+    },
+    {
+     "id": "q2",
+     "prompt": "What is the activist's main concern?",
+     "options": [
+      "Decoupling is not happening at all.",
+      "Decoupling is too slow.",
+      "Carbon prices are too high.",
+      "Renewable energy is too expensive."
+     ],
+     "answer": "Decoupling is too slow.",
+     "explanation": "'nowhere near quickly enough'."
+    },
+    {
+     "id": "q3",
+     "prompt": "What do the speakers agree on?",
+     "options": [
+      "Rich countries must consume less.",
+      "A higher carbon price and faster clean investment.",
+      "Growth should stop.",
+      "Technology will solve everything."
+     ],
+     "answer": "A higher carbon price and faster clean investment.",
+     "explanation": "Economist's last turn; activist agrees."
+    },
+    {
+     "id": "q4",
+     "prompt": "Where do they still disagree?",
+     "options": [
+      "On whether climate change is real.",
+      "On whether rich countries should consume less.",
+      "On carbon prices.",
+      "On public transport."
+     ],
+     "answer": "On whether rich countries should consume less.",
+     "explanation": "Last line."
+    }
+   ],
+   "dictation": [
+    3,
+    6
+   ],
+   "gaps": [
+    {
+     "line": 2,
+     "words": [
+      "overshoot"
+     ]
+    },
+    {
+     "line": 4,
+     "words": [
+      "business as usual"
+     ]
+    },
+    {
+     "line": 5,
+     "words": [
+      "common ground"
+     ]
+    }
+   ],
+   "expressions": [
+    {
+     "phrase": "with respect",
+     "meaning": "polite way to introduce disagreement"
+    },
+    {
+     "phrase": "I don't dispute that",
+     "meaning": "I accept that point"
+    },
+    {
+     "phrase": "business as usual",
+     "meaning": "continuing without change"
+    },
+    {
+     "phrase": "common ground",
+     "meaning": "points of agreement"
+    }
+   ]
+  },
+  {
+   "id": "radio-nudging",
+   "title": "Radio Talk: The Ethics of Nudging",
+   "level": "C2",
+   "kind": "Radio talk",
+   "domain": "academic",
+   "speakers": {
+    "Speaker": {
+     "accent": "en-GB",
+     "voice": "fable"
+    }
+   },
+   "lines": [
+    {
+     "s": "Speaker",
+     "t": "A nudge, in the jargon of behavioural economics, is any feature of the way a choice is presented that predictably alters behaviour without forbidding any option or significantly changing incentives."
+    },
+    {
+     "s": "Speaker",
+     "t": "Placing fruit at eye level in a canteen is a nudge; banning chips is not. Automatically enrolling employees in a pension scheme, while allowing them to opt out, is perhaps the best-known example, and it has dramatically increased saving rates."
+    },
+    {
+     "s": "Speaker",
+     "t": "Proponents describe this as libertarian paternalism: steering people towards choices they would endorse on reflection, while leaving them free to choose otherwise."
+    },
+    {
+     "s": "Speaker",
+     "t": "Critics are unconvinced. If nudges work precisely because people do not notice them, the objection goes, they bypass rather than respect our capacity for reason."
+    },
+    {
+     "s": "Speaker",
+     "t": "There is also the awkward question of who decides which direction we are nudged in, and on what authority. A nudge towards saving seems benign; a nudge towards a particular political view would not."
+    },
+    {
+     "s": "Speaker",
+     "t": "My own view is that the defence of nudging depends heavily on transparency. A nudge that would still work if it were openly disclosed is, I think, far easier to justify than one that relies on our not knowing it is there."
+    }
+   ],
+   "questions": [
+    {
+     "id": "q1",
+     "prompt": "Which of these is NOT a nudge, according to the definition?",
+     "options": [
+      "Fruit at eye level.",
+      "Automatic pension enrolment with opt-out.",
+      "Banning chips.",
+      "Default settings."
+     ],
+     "answer": "Banning chips.",
+     "explanation": "A ban forbids an option."
+    },
+    {
+     "id": "q2",
+     "prompt": "What does 'libertarian paternalism' mean here?",
+     "options": [
+      "Forcing people to make good choices.",
+      "Guiding choices while preserving freedom to choose otherwise.",
+      "Removing all government influence.",
+      "Paying people to behave well."
+     ],
+     "answer": "Guiding choices while preserving freedom to choose otherwise.",
+     "explanation": "Line 3."
+    },
+    {
+     "id": "q3",
+     "prompt": "What is the critics' main objection?",
+     "options": [
+      "Nudges are too expensive.",
+      "Nudges bypass people's reasoning.",
+      "Nudges never work.",
+      "Nudges are illegal."
+     ],
+     "answer": "Nudges bypass people's reasoning.",
+     "explanation": "Line 4."
+    },
+    {
+     "id": "q4",
+     "prompt": "What criterion does the speaker propose?",
+     "options": [
+      "Nudges should be secret.",
+      "A nudge is easier to justify if it would still work when disclosed.",
+      "Only governments should nudge.",
+      "Nudges should be banned."
+     ],
+     "answer": "A nudge is easier to justify if it would still work when disclosed.",
+     "explanation": "Last line."
+    }
+   ],
+   "dictation": [
+    2,
+    5
+   ],
+   "gaps": [
+    {
+     "line": 1,
+     "words": [
+      "opt out"
+     ]
+    },
+    {
+     "line": 4,
+     "words": [
+      "benign"
+     ]
+    },
+    {
+     "line": 5,
+     "words": [
+      "disclosed"
+     ]
+    }
+   ],
+   "expressions": [
+    {
+     "phrase": "in the jargon of",
+     "meaning": "using the specialist vocabulary of"
+    },
+    {
+     "phrase": "opt out",
+     "meaning": "choose not to participate"
+    },
+    {
+     "phrase": "on reflection",
+     "meaning": "after careful thought"
+    },
+    {
+     "phrase": "benign",
+     "meaning": "harmless, kindly"
+    }
+   ]
+  }
+ ]
+}

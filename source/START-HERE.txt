@@ -1,0 +1,12 @@
+ENGLISH MASTERY AI - START HERE
+
+1. Double-click  start.bat
+   (first time: installs everything, 1-2 minutes, needs internet)
+2. Your browser opens  http://localhost:8765
+3. Settings > AI providers: paste your OpenAI key to enable voice conversation.
+
+stop.bat     stops the app
+restart.bat  restarts it
+start-lan.bat  lets your phone on the same Wi-Fi use it (shows address + PIN)
+
+Full guide: docs\DEPLOYMENT.md

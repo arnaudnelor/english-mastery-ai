@@ -1,0 +1,2254 @@
+{
+ "words": [
+  {
+   "id": "mitigate",
+   "word": "mitigate",
+   "ipa": "/ˈmɪtɪɡeɪt/",
+   "pos": "verb",
+   "level": "C1",
+   "domain": "business",
+   "definition": "To make something bad less severe or harmful.",
+   "examples": [
+    "We hedged our currency exposure to mitigate the risk."
+   ],
+   "synonyms": [
+    "reduce",
+    "alleviate",
+    "lessen"
+   ],
+   "antonyms": [
+    "aggravate",
+    "worsen"
+   ],
+   "collocations": [
+    "mitigate risk",
+    "mitigate the impact",
+    "mitigating factors"
+   ],
+   "french": "atténuer",
+   "kind": "word"
+  },
+  {
+   "id": "leverage",
+   "word": "leverage",
+   "ipa": "/ˈlevərɪdʒ/ (UK) /ˈlɛvərɪdʒ/ (US)",
+   "pos": "noun/verb",
+   "level": "C1",
+   "domain": "finance",
+   "definition": "Using borrowed money to increase potential returns; also, to use something to maximum advantage.",
+   "examples": [
+    "The fund used high leverage to amplify its returns."
+   ],
+   "synonyms": [
+    "gearing",
+    "exploit"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "financial leverage",
+    "leverage a position",
+    "highly leveraged"
+   ],
+   "french": "effet de levier ; tirer parti de",
+   "kind": "word"
+  },
+  {
+   "id": "volatility",
+   "word": "volatility",
+   "ipa": "/ˌvɒləˈtɪləti/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "finance",
+   "definition": "The degree to which a price changes rapidly and unpredictably.",
+   "examples": [
+    "Market volatility spiked after the central bank announcement."
+   ],
+   "synonyms": [
+    "instability",
+    "fluctuation"
+   ],
+   "antonyms": [
+    "stability"
+   ],
+   "collocations": [
+    "high volatility",
+    "implied volatility",
+    "volatility spike"
+   ],
+   "french": "volatilité",
+   "kind": "word"
+  },
+  {
+   "id": "liquidity",
+   "word": "liquidity",
+   "ipa": "/lɪˈkwɪdəti/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "finance",
+   "definition": "How easily an asset can be converted to cash without affecting its price.",
+   "examples": [
+    "Banks must hold enough liquidity to meet withdrawals."
+   ],
+   "synonyms": [],
+   "antonyms": [
+    "illiquidity"
+   ],
+   "collocations": [
+    "liquidity risk",
+    "provide liquidity",
+    "liquidity crunch"
+   ],
+   "french": "liquidité",
+   "kind": "word"
+  },
+  {
+   "id": "yield",
+   "word": "yield",
+   "ipa": "/jiːld/",
+   "pos": "noun/verb",
+   "level": "B2",
+   "domain": "finance",
+   "definition": "The income return on an investment; to produce a result.",
+   "examples": [
+    "Ten-year bond yields rose to 4%."
+   ],
+   "synonyms": [
+    "return",
+    "produce"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "bond yield",
+    "dividend yield",
+    "yield results"
+   ],
+   "french": "rendement ; produire",
+   "kind": "word"
+  },
+  {
+   "id": "headwind",
+   "word": "headwind",
+   "ipa": "/ˈhedwɪnd/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "business",
+   "definition": "A factor that slows progress.",
+   "examples": [
+    "Rising costs remain a major headwind for retailers."
+   ],
+   "synonyms": [
+    "obstacle",
+    "drag"
+   ],
+   "antonyms": [
+    "tailwind"
+   ],
+   "collocations": [
+    "face headwinds",
+    "economic headwinds"
+   ],
+   "french": "vent contraire, frein",
+   "kind": "word"
+  },
+  {
+   "id": "stakeholder",
+   "word": "stakeholder",
+   "ipa": "/ˈsteɪkhəʊldə(r)/",
+   "pos": "noun",
+   "level": "B2",
+   "domain": "business",
+   "definition": "A person or group with an interest in an organisation's success.",
+   "examples": [
+    "We need to align all stakeholders before launch."
+   ],
+   "synonyms": [
+    "interested party"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "key stakeholders",
+    "stakeholder engagement"
+   ],
+   "french": "partie prenante",
+   "kind": "word"
+  },
+  {
+   "id": "streamline",
+   "word": "streamline",
+   "ipa": "/ˈstriːmlaɪn/",
+   "pos": "verb",
+   "level": "C1",
+   "domain": "management",
+   "definition": "To make a process simpler and more efficient.",
+   "examples": [
+    "The new software will streamline our approval process."
+   ],
+   "synonyms": [
+    "simplify",
+    "rationalise"
+   ],
+   "antonyms": [
+    "complicate"
+   ],
+   "collocations": [
+    "streamline operations",
+    "streamline the process"
+   ],
+   "french": "rationaliser, simplifier",
+   "kind": "word"
+  },
+  {
+   "id": "bottleneck",
+   "word": "bottleneck",
+   "ipa": "/ˈbɒtlnek/",
+   "pos": "noun",
+   "level": "B2",
+   "domain": "project management",
+   "definition": "A point of congestion that slows a whole process.",
+   "examples": [
+    "Legal review has become a bottleneck in the project."
+   ],
+   "synonyms": [
+    "constraint",
+    "holdup"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "create a bottleneck",
+    "remove bottlenecks"
+   ],
+   "french": "goulot d'étranglement",
+   "kind": "word"
+  },
+  {
+   "id": "deliverable",
+   "word": "deliverable",
+   "ipa": "/dɪˈlɪvərəbl/",
+   "pos": "noun",
+   "level": "B2",
+   "domain": "project management",
+   "definition": "A tangible output that must be produced in a project.",
+   "examples": [
+    "The first deliverable is due at the end of the month."
+   ],
+   "synonyms": [
+    "output"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "key deliverables",
+    "project deliverables"
+   ],
+   "french": "livrable",
+   "kind": "word"
+  },
+  {
+   "id": "benchmark",
+   "word": "benchmark",
+   "ipa": "/ˈbentʃmɑːk/",
+   "pos": "noun/verb",
+   "level": "B2",
+   "domain": "finance",
+   "definition": "A standard used for comparison.",
+   "examples": [
+    "The fund outperformed its benchmark by 2%."
+   ],
+   "synonyms": [
+    "standard",
+    "yardstick"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "beat the benchmark",
+    "industry benchmark"
+   ],
+   "french": "indice de référence",
+   "kind": "word"
+  },
+  {
+   "id": "underpin",
+   "word": "underpin",
+   "ipa": "/ˌʌndəˈpɪn/",
+   "pos": "verb",
+   "level": "C1",
+   "domain": "academic",
+   "definition": "To support or form the basis of something.",
+   "examples": [
+    "Strong data underpins every recommendation in this report."
+   ],
+   "synonyms": [
+    "support",
+    "underlie"
+   ],
+   "antonyms": [
+    "undermine"
+   ],
+   "collocations": [
+    "underpin growth",
+    "underpinned by"
+   ],
+   "french": "sous-tendre, étayer",
+   "kind": "word"
+  },
+  {
+   "id": "undermine",
+   "word": "undermine",
+   "ipa": "/ˌʌndəˈmaɪn/",
+   "pos": "verb",
+   "level": "C1",
+   "domain": "general",
+   "definition": "To gradually weaken or damage something.",
+   "examples": [
+    "Constant delays undermined trust in the team."
+   ],
+   "synonyms": [
+    "weaken",
+    "erode"
+   ],
+   "antonyms": [
+    "strengthen",
+    "bolster"
+   ],
+   "collocations": [
+    "undermine confidence",
+    "undermine credibility"
+   ],
+   "french": "saper, nuire à",
+   "kind": "word"
+  },
+  {
+   "id": "bolster",
+   "word": "bolster",
+   "ipa": "/ˈbəʊlstə(r)/",
+   "pos": "verb",
+   "level": "C1",
+   "domain": "general",
+   "definition": "To support or strengthen.",
+   "examples": [
+    "The good results bolstered investor confidence."
+   ],
+   "synonyms": [
+    "reinforce",
+    "boost"
+   ],
+   "antonyms": [
+    "undermine"
+   ],
+   "collocations": [
+    "bolster confidence",
+    "bolster the economy"
+   ],
+   "french": "renforcer",
+   "kind": "word"
+  },
+  {
+   "id": "nuanced",
+   "word": "nuanced",
+   "ipa": "/ˈnjuːɑːnst/",
+   "pos": "adjective",
+   "level": "C1",
+   "domain": "academic",
+   "definition": "Showing subtle distinctions.",
+   "examples": [
+    "She gave a nuanced analysis of the policy."
+   ],
+   "synonyms": [
+    "subtle",
+    "sophisticated"
+   ],
+   "antonyms": [
+    "simplistic"
+   ],
+   "collocations": [
+    "nuanced view",
+    "nuanced understanding"
+   ],
+   "french": "nuancé",
+   "kind": "word"
+  },
+  {
+   "id": "compelling",
+   "word": "compelling",
+   "ipa": "/kəmˈpelɪŋ/",
+   "pos": "adjective",
+   "level": "C1",
+   "domain": "academic",
+   "definition": "Very convincing or interesting.",
+   "examples": [
+    "The author makes a compelling case for reform."
+   ],
+   "synonyms": [
+    "convincing",
+    "persuasive"
+   ],
+   "antonyms": [
+    "weak",
+    "unconvincing"
+   ],
+   "collocations": [
+    "compelling evidence",
+    "compelling argument"
+   ],
+   "french": "convaincant",
+   "kind": "word"
+  },
+  {
+   "id": "substantiate",
+   "word": "substantiate",
+   "ipa": "/səbˈstænʃieɪt/",
+   "pos": "verb",
+   "level": "C2",
+   "domain": "academic",
+   "definition": "To provide evidence to prove something.",
+   "examples": [
+    "The claims could not be substantiated."
+   ],
+   "synonyms": [
+    "corroborate",
+    "verify"
+   ],
+   "antonyms": [
+    "refute"
+   ],
+   "collocations": [
+    "substantiate a claim",
+    "substantiate an allegation"
+   ],
+   "french": "étayer, prouver",
+   "kind": "word"
+  },
+  {
+   "id": "discrepancy",
+   "word": "discrepancy",
+   "ipa": "/dɪˈskrepənsi/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "finance",
+   "definition": "A difference between things that should match.",
+   "examples": [
+    "The auditors found a discrepancy in the accounts."
+   ],
+   "synonyms": [
+    "inconsistency",
+    "mismatch"
+   ],
+   "antonyms": [
+    "consistency"
+   ],
+   "collocations": [
+    "discrepancy between X and Y",
+    "minor discrepancy"
+   ],
+   "french": "écart, divergence",
+   "kind": "word"
+  },
+  {
+   "id": "forthcoming",
+   "word": "forthcoming",
+   "ipa": "/ˌfɔːθˈkʌmɪŋ/",
+   "pos": "adjective",
+   "level": "C1",
+   "domain": "business",
+   "definition": "About to happen; or willing to share information.",
+   "examples": [
+    "Details will be announced at the forthcoming meeting."
+   ],
+   "synonyms": [
+    "upcoming; open"
+   ],
+   "antonyms": [
+    "reticent"
+   ],
+   "collocations": [
+    "forthcoming event",
+    "not very forthcoming"
+   ],
+   "french": "à venir ; communicatif",
+   "kind": "word"
+  },
+  {
+   "id": "pivotal",
+   "word": "pivotal",
+   "ipa": "/ˈpɪvətl/",
+   "pos": "adjective",
+   "level": "C1",
+   "domain": "general",
+   "definition": "Of crucial importance.",
+   "examples": [
+    "2008 was a pivotal year for the banking industry."
+   ],
+   "synonyms": [
+    "crucial",
+    "key"
+   ],
+   "antonyms": [
+    "minor"
+   ],
+   "collocations": [
+    "pivotal role",
+    "pivotal moment"
+   ],
+   "french": "crucial, charnière",
+   "kind": "word"
+  },
+  {
+   "id": "feasible",
+   "word": "feasible",
+   "ipa": "/ˈfiːzəbl/",
+   "pos": "adjective",
+   "level": "B2",
+   "domain": "business",
+   "definition": "Possible and practical to do.",
+   "examples": [
+    "Is it feasible to launch by June?"
+   ],
+   "synonyms": [
+    "viable",
+    "practicable"
+   ],
+   "antonyms": [
+    "impractical"
+   ],
+   "collocations": [
+    "feasibility study",
+    "technically feasible"
+   ],
+   "french": "réalisable",
+   "kind": "word"
+  },
+  {
+   "id": "scrutiny",
+   "word": "scrutiny",
+   "ipa": "/ˈskruːtəni/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "general",
+   "definition": "Careful and detailed examination.",
+   "examples": [
+    "The bank's lending practices came under scrutiny."
+   ],
+   "synonyms": [
+    "examination",
+    "inspection"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "under scrutiny",
+    "close scrutiny",
+    "public scrutiny"
+   ],
+   "french": "examen minutieux",
+   "kind": "word"
+  },
+  {
+   "id": "ubiquitous",
+   "word": "ubiquitous",
+   "ipa": "/juːˈbɪkwɪtəs/",
+   "pos": "adjective",
+   "level": "C2",
+   "domain": "technology",
+   "definition": "Present or found everywhere.",
+   "examples": [
+    "Smartphones have become ubiquitous."
+   ],
+   "synonyms": [
+    "omnipresent",
+    "pervasive"
+   ],
+   "antonyms": [
+    "rare"
+   ],
+   "collocations": [
+    "ubiquitous technology"
+   ],
+   "french": "omniprésent",
+   "kind": "word"
+  },
+  {
+   "id": "inference",
+   "word": "inference",
+   "ipa": "/ˈɪnfərəns/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "technology",
+   "definition": "A conclusion reached from evidence; in AI, running a trained model on new data.",
+   "examples": [
+    "Inference costs fall as models become more efficient."
+   ],
+   "synonyms": [
+    "deduction",
+    "conclusion"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "draw an inference",
+    "inference cost",
+    "statistical inference"
+   ],
+   "french": "inférence",
+   "kind": "word"
+  },
+  {
+   "id": "robust",
+   "word": "robust",
+   "ipa": "/rəʊˈbʌst/",
+   "pos": "adjective",
+   "level": "B2",
+   "domain": "technology",
+   "definition": "Strong and able to withstand problems.",
+   "examples": [
+    "We need a robust risk-management framework."
+   ],
+   "synonyms": [
+    "strong",
+    "resilient"
+   ],
+   "antonyms": [
+    "fragile"
+   ],
+   "collocations": [
+    "robust system",
+    "robust evidence",
+    "robust growth"
+   ],
+   "french": "robuste, solide",
+   "kind": "word"
+  },
+  {
+   "id": "fiscal",
+   "word": "fiscal",
+   "ipa": "/ˈfɪskl/",
+   "pos": "adjective",
+   "level": "C1",
+   "domain": "economics",
+   "definition": "Relating to government revenue and spending.",
+   "examples": [
+    "The government announced new fiscal measures."
+   ],
+   "synonyms": [
+    "budgetary"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "fiscal policy",
+    "fiscal year",
+    "fiscal deficit"
+   ],
+   "french": "budgétaire",
+   "kind": "word"
+  },
+  {
+   "id": "austerity",
+   "word": "austerity",
+   "ipa": "/ɒˈsterəti/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "economics",
+   "definition": "Government policies to reduce spending and deficits.",
+   "examples": [
+    "Years of austerity cut public services."
+   ],
+   "synonyms": [],
+   "antonyms": [
+    "stimulus"
+   ],
+   "collocations": [
+    "austerity measures",
+    "austerity programme"
+   ],
+   "french": "austérité",
+   "kind": "word"
+  },
+  {
+   "id": "collateral",
+   "word": "collateral",
+   "ipa": "/kəˈlætərəl/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "banking",
+   "definition": "An asset pledged as security for a loan.",
+   "examples": [
+    "The loan was secured with the house as collateral."
+   ],
+   "synonyms": [
+    "security",
+    "guarantee"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "put up collateral",
+    "collateral damage"
+   ],
+   "french": "garantie, nantissement",
+   "kind": "word"
+  },
+  {
+   "id": "underwrite",
+   "word": "underwrite",
+   "ipa": "/ˌʌndəˈraɪt/",
+   "pos": "verb",
+   "level": "C1",
+   "domain": "banking",
+   "definition": "To guarantee financially; to assess and accept risk.",
+   "examples": [
+    "The bank agreed to underwrite the share issue."
+   ],
+   "synonyms": [
+    "guarantee",
+    "insure"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "underwrite a loan",
+    "underwriting standards"
+   ],
+   "french": "souscrire, garantir",
+   "kind": "word"
+  },
+  {
+   "id": "amortize",
+   "word": "amortize",
+   "ipa": "/ˈæmətaɪz/ (US: /ˈæmərtaɪz/)",
+   "pos": "verb",
+   "level": "C2",
+   "domain": "finance",
+   "definition": "To spread a cost or repay a debt over time.",
+   "examples": [
+    "The cost of the equipment is amortized over five years."
+   ],
+   "synonyms": [
+    "depreciate",
+    "write off gradually"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "amortize a loan",
+    "amortized cost"
+   ],
+   "french": "amortir",
+   "kind": "word"
+  },
+  {
+   "id": "touch-base",
+   "word": "touch base",
+   "ipa": "",
+   "pos": "phrasal/idiom",
+   "level": "C1",
+   "domain": "natural english",
+   "definition": "To make brief contact with someone to check in.",
+   "examples": [
+    "Let's touch base next week about the budget."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [],
+   "french": "prendre contact, faire le point",
+   "kind": "idiom"
+  },
+  {
+   "id": "get-the-ball-rolling",
+   "word": "get the ball rolling",
+   "ipa": "",
+   "pos": "idiom",
+   "level": "B2",
+   "domain": "natural english",
+   "definition": "To start a process or activity.",
+   "examples": [
+    "Let's get the ball rolling with a quick round of introductions."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [],
+   "french": "lancer les choses",
+   "kind": "idiom"
+  },
+  {
+   "id": "on-the-same-page",
+   "word": "on the same page",
+   "ipa": "",
+   "pos": "idiom",
+   "level": "B2",
+   "domain": "natural english",
+   "definition": "In agreement; sharing the same understanding.",
+   "examples": [
+    "Before we start, let's make sure we're all on the same page."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [],
+   "french": "sur la même longueur d'onde",
+   "kind": "idiom"
+  },
+  {
+   "id": "ballpark-figure",
+   "word": "ballpark figure",
+   "ipa": "",
+   "pos": "idiom",
+   "level": "C1",
+   "domain": "natural english",
+   "definition": "A rough estimate.",
+   "examples": [
+    "Can you give me a ballpark figure for the cost?"
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [],
+   "french": "ordre de grandeur",
+   "kind": "idiom"
+  },
+  {
+   "id": "cut-corners",
+   "word": "cut corners",
+   "ipa": "",
+   "pos": "idiom",
+   "level": "B2",
+   "domain": "natural english",
+   "definition": "To do something badly or cheaply to save time or money.",
+   "examples": [
+    "We can't afford to cut corners on safety."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [],
+   "french": "bâcler",
+   "kind": "idiom"
+  },
+  {
+   "id": "a-steep-learning-curve",
+   "word": "a steep learning curve",
+   "ipa": "",
+   "pos": "idiom",
+   "level": "C1",
+   "domain": "natural english",
+   "definition": "Something difficult to learn quickly.",
+   "examples": [
+    "The new role came with a steep learning curve."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [],
+   "french": "un apprentissage difficile",
+   "kind": "idiom"
+  },
+  {
+   "id": "follow-up-on",
+   "word": "follow up on",
+   "ipa": "",
+   "pos": "phrasal verb",
+   "level": "B2",
+   "domain": "natural english",
+   "definition": "To take further action on something.",
+   "examples": [
+    "I'll follow up on your request by Friday."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [],
+   "french": "faire le suivi de",
+   "kind": "phrasal"
+  },
+  {
+   "id": "come-up-with",
+   "word": "come up with",
+   "ipa": "",
+   "pos": "phrasal verb",
+   "level": "B2",
+   "domain": "natural english",
+   "definition": "To think of an idea or plan.",
+   "examples": [
+    "We need to come up with a better solution."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [],
+   "french": "trouver, imaginer",
+   "kind": "phrasal"
+  },
+  {
+   "id": "phase-out",
+   "word": "phase out",
+   "ipa": "",
+   "pos": "phrasal verb",
+   "level": "C1",
+   "domain": "natural english",
+   "definition": "To gradually stop using something.",
+   "examples": [
+    "The company is phasing out paper invoices."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [],
+   "french": "supprimer progressivement",
+   "kind": "phrasal"
+  },
+  {
+   "id": "rule-out",
+   "word": "rule out",
+   "ipa": "",
+   "pos": "phrasal verb",
+   "level": "C1",
+   "domain": "natural english",
+   "definition": "To exclude a possibility.",
+   "examples": [
+    "The central bank hasn't ruled out another rate hike."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [],
+   "french": "écarter, exclure",
+   "kind": "phrasal"
+  },
+  {
+   "id": "bring-forward",
+   "word": "bring forward",
+   "ipa": "",
+   "pos": "phrasal verb",
+   "level": "C1",
+   "domain": "natural english",
+   "definition": "To move an event to an earlier time.",
+   "examples": [
+    "Can we bring the meeting forward to 10 a.m.?"
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [],
+   "french": "avancer (une date)",
+   "kind": "phrasal"
+  },
+  {
+   "id": "put-off",
+   "word": "put off",
+   "ipa": "",
+   "pos": "phrasal verb",
+   "level": "B2",
+   "domain": "natural english",
+   "definition": "To postpone.",
+   "examples": [
+    "They put off the decision until next quarter."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [],
+   "french": "reporter",
+   "kind": "phrasal"
+  },
+  {
+   "id": "the-bottom-line",
+   "word": "the bottom line",
+   "ipa": "",
+   "pos": "idiom",
+   "level": "C1",
+   "domain": "natural english",
+   "definition": "The most important point; also net profit.",
+   "examples": [
+    "The bottom line is that we need more funding."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [],
+   "french": "l'essentiel ; le résultat net",
+   "kind": "idiom"
+  },
+  {
+   "id": "go-the-extra-mile",
+   "word": "go the extra mile",
+   "ipa": "",
+   "pos": "idiom",
+   "level": "B2",
+   "domain": "natural english",
+   "definition": "To make more effort than expected.",
+   "examples": [
+    "Our support team always goes the extra mile."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [],
+   "french": "faire un effort supplémentaire",
+   "kind": "idiom"
+  },
+  {
+   "id": "keep-someone-in-the-loop",
+   "word": "keep someone in the loop",
+   "ipa": "",
+   "pos": "idiom",
+   "level": "B2",
+   "domain": "natural english",
+   "definition": "To keep someone informed.",
+   "examples": [
+    "Please keep me in the loop on any changes."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [],
+   "french": "tenir quelqu'un au courant",
+   "kind": "idiom"
+  },
+  {
+   "id": "a-double-edged-sword",
+   "word": "a double-edged sword",
+   "ipa": "",
+   "pos": "idiom",
+   "level": "C1",
+   "domain": "natural english",
+   "definition": "Something with both advantages and disadvantages.",
+   "examples": [
+    "Leverage is a double-edged sword."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [],
+   "french": "une arme à double tranchant",
+   "kind": "idiom"
+  },
+  {
+   "id": "hedge",
+   "word": "hedge",
+   "ipa": "/hedʒ/",
+   "pos": "verb/noun",
+   "level": "C1",
+   "domain": "risk management",
+   "definition": "To reduce financial risk by taking an offsetting position; a protective investment.",
+   "examples": [
+    "The airline hedges its fuel costs with futures contracts."
+   ],
+   "synonyms": [
+    "protect",
+    "offset"
+   ],
+   "antonyms": [
+    "speculate"
+   ],
+   "collocations": [
+    "hedge against inflation",
+    "hedge fund",
+    "currency hedge"
+   ],
+   "french": "se couvrir ; couverture",
+   "kind": "word"
+  },
+  {
+   "id": "exposure",
+   "word": "exposure",
+   "ipa": "/ɪkˈspəʊʒə(r)/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "risk management",
+   "definition": "The amount of risk an investor or company faces from a particular factor.",
+   "examples": [
+    "The bank reduced its exposure to commercial real estate."
+   ],
+   "synonyms": [
+    "vulnerability",
+    "risk"
+   ],
+   "antonyms": [
+    "protection"
+   ],
+   "collocations": [
+    "credit exposure",
+    "currency exposure",
+    "reduce exposure"
+   ],
+   "french": "exposition",
+   "kind": "word"
+  },
+  {
+   "id": "stress-test",
+   "word": "stress test",
+   "ipa": "/ˈstres test/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "risk management",
+   "definition": "An analysis of how a portfolio or bank would perform under extreme conditions.",
+   "examples": [
+    "All major banks passed the regulator's stress test."
+   ],
+   "synonyms": [
+    "scenario analysis"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "run a stress test",
+    "pass a stress test"
+   ],
+   "french": "test de résistance",
+   "kind": "word"
+  },
+  {
+   "id": "diversification",
+   "word": "diversification",
+   "ipa": "/daɪˌvɜːsɪfɪˈkeɪʃn/",
+   "pos": "noun",
+   "level": "B2",
+   "domain": "investment",
+   "definition": "Spreading investments across assets to reduce risk.",
+   "examples": [
+    "Diversification is the only free lunch in finance."
+   ],
+   "synonyms": [
+    "spreading risk"
+   ],
+   "antonyms": [
+    "concentration"
+   ],
+   "collocations": [
+    "portfolio diversification",
+    "geographic diversification"
+   ],
+   "french": "diversification",
+   "kind": "word"
+  },
+  {
+   "id": "asset-allocation",
+   "word": "asset allocation",
+   "ipa": "/ˈæset ˌæləˈkeɪʃn/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "investment",
+   "definition": "How a portfolio is divided between asset classes such as stocks, bonds and cash.",
+   "examples": [
+    "Asset allocation explains most of a portfolio's long-term return."
+   ],
+   "synonyms": [
+    "portfolio mix"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "strategic asset allocation",
+    "rebalance the asset allocation"
+   ],
+   "french": "allocation d'actifs",
+   "kind": "word"
+  },
+  {
+   "id": "due-diligence",
+   "word": "due diligence",
+   "ipa": "/ˌdjuː ˈdɪlɪdʒəns/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "investment",
+   "definition": "Careful investigation of a company or investment before a decision.",
+   "examples": [
+    "The deal collapsed during due diligence."
+   ],
+   "synonyms": [
+    "investigation",
+    "vetting"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "carry out due diligence",
+    "financial due diligence"
+   ],
+   "french": "audit préalable, vérification diligente",
+   "kind": "word"
+  },
+  {
+   "id": "valuation",
+   "word": "valuation",
+   "ipa": "/ˌvæljuˈeɪʃn/",
+   "pos": "noun",
+   "level": "B2",
+   "domain": "investment",
+   "definition": "An estimate of what a company or asset is worth.",
+   "examples": [
+    "The startup's valuation doubled in a year."
+   ],
+   "synonyms": [
+    "appraisal",
+    "assessment"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "stretched valuation",
+    "valuation multiple"
+   ],
+   "french": "valorisation",
+   "kind": "word"
+  },
+  {
+   "id": "dataset",
+   "word": "dataset",
+   "ipa": "/ˈdeɪtəset/",
+   "pos": "noun",
+   "level": "B2",
+   "domain": "technology",
+   "definition": "A structured collection of data used for analysis or training models.",
+   "examples": [
+    "The model was trained on a dataset of two million transactions."
+   ],
+   "synonyms": [
+    "data collection"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "training dataset",
+    "labelled dataset"
+   ],
+   "french": "jeu de données",
+   "kind": "word"
+  },
+  {
+   "id": "overfitting",
+   "word": "overfitting",
+   "ipa": "/ˌəʊvəˈfɪtɪŋ/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "technology",
+   "definition": "When a model learns noise in training data and performs poorly on new data.",
+   "examples": [
+    "Regularisation helps to prevent overfitting."
+   ],
+   "synonyms": [],
+   "antonyms": [
+    "generalisation"
+   ],
+   "collocations": [
+    "risk of overfitting",
+    "reduce overfitting"
+   ],
+   "french": "surapprentissage",
+   "kind": "word"
+  },
+  {
+   "id": "scalable",
+   "word": "scalable",
+   "ipa": "/ˈskeɪləbl/",
+   "pos": "adjective",
+   "level": "B2",
+   "domain": "technology",
+   "definition": "Able to grow or handle more work without losing performance.",
+   "examples": [
+    "We need a scalable architecture before launching in the US."
+   ],
+   "synonyms": [
+    "expandable"
+   ],
+   "antonyms": [
+    "rigid"
+   ],
+   "collocations": [
+    "scalable solution",
+    "highly scalable"
+   ],
+   "french": "évolutif, extensible",
+   "kind": "word"
+  },
+  {
+   "id": "milestone",
+   "word": "milestone",
+   "ipa": "/ˈmaɪlstəʊn/",
+   "pos": "noun",
+   "level": "B2",
+   "domain": "project management",
+   "definition": "An important point or event in a project's progress.",
+   "examples": [
+    "We hit every milestone on schedule."
+   ],
+   "synonyms": [
+    "landmark",
+    "checkpoint"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "reach a milestone",
+    "key milestone"
+   ],
+   "french": "jalon, étape clé",
+   "kind": "word"
+  },
+  {
+   "id": "scope-creep",
+   "word": "scope creep",
+   "ipa": "/ˈskəʊp kriːp/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "project management",
+   "definition": "The gradual, uncontrolled expansion of a project's requirements.",
+   "examples": [
+    "Scope creep added three months to the project."
+   ],
+   "synonyms": [
+    "feature creep"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "prevent scope creep",
+    "manage scope"
+   ],
+   "french": "dérive des objectifs",
+   "kind": "word"
+  },
+  {
+   "id": "stakeholder-buy-in",
+   "word": "stakeholder buy-in",
+   "ipa": "/ˈsteɪkhəʊldə ˈbaɪ ɪn/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "project management",
+   "definition": "Agreement and support from the people affected by a decision.",
+   "examples": [
+    "Without stakeholder buy-in, the reform will stall."
+   ],
+   "synonyms": [
+    "support",
+    "endorsement"
+   ],
+   "antonyms": [
+    "resistance"
+   ],
+   "collocations": [
+    "secure buy-in",
+    "get buy-in"
+   ],
+   "french": "adhésion des parties prenantes",
+   "kind": "word"
+  },
+  {
+   "id": "delegate",
+   "word": "delegate",
+   "ipa": "/ˈdelɪɡeɪt/",
+   "pos": "verb",
+   "level": "B2",
+   "domain": "leadership",
+   "definition": "To give part of your work or authority to someone else.",
+   "examples": [
+    "Good managers delegate tasks but not accountability."
+   ],
+   "synonyms": [
+    "assign",
+    "entrust"
+   ],
+   "antonyms": [
+    "micromanage"
+   ],
+   "collocations": [
+    "delegate responsibility",
+    "delegate tasks"
+   ],
+   "french": "déléguer",
+   "kind": "word"
+  },
+  {
+   "id": "accountability",
+   "word": "accountability",
+   "ipa": "/əˌkaʊntəˈbɪləti/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "leadership",
+   "definition": "Being responsible for decisions and their results.",
+   "examples": [
+    "The new structure brings clearer accountability."
+   ],
+   "synonyms": [
+    "responsibility",
+    "answerability"
+   ],
+   "antonyms": [
+    "impunity"
+   ],
+   "collocations": [
+    "hold someone to account",
+    "accountability framework"
+   ],
+   "french": "responsabilité",
+   "kind": "word"
+  },
+  {
+   "id": "empower",
+   "word": "empower",
+   "ipa": "/ɪmˈpaʊə(r)/",
+   "pos": "verb",
+   "level": "C1",
+   "domain": "leadership",
+   "definition": "To give someone the authority or confidence to act.",
+   "examples": [
+    "We want to empower teams to make decisions locally."
+   ],
+   "synonyms": [
+    "enable",
+    "authorise"
+   ],
+   "antonyms": [
+    "disempower"
+   ],
+   "collocations": [
+    "empower employees",
+    "feel empowered"
+   ],
+   "french": "responsabiliser, donner les moyens",
+   "kind": "word"
+  },
+  {
+   "id": "recession",
+   "word": "recession",
+   "ipa": "/rɪˈseʃn/",
+   "pos": "noun",
+   "level": "B2",
+   "domain": "economics",
+   "definition": "A significant decline in economic activity lasting months.",
+   "examples": [
+    "Many economists expect a mild recession next year."
+   ],
+   "synonyms": [
+    "downturn",
+    "slump"
+   ],
+   "antonyms": [
+    "boom",
+    "expansion"
+   ],
+   "collocations": [
+    "enter a recession",
+    "deep recession",
+    "recession risk"
+   ],
+   "french": "récession",
+   "kind": "word"
+  },
+  {
+   "id": "monetary-policy",
+   "word": "monetary policy",
+   "ipa": "/ˈmʌnɪtri ˈpɒləsi/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "economics",
+   "definition": "Central bank actions on interest rates and money supply.",
+   "examples": [
+    "Monetary policy remains restrictive."
+   ],
+   "synonyms": [],
+   "antonyms": [
+    "fiscal policy"
+   ],
+   "collocations": [
+    "tighten monetary policy",
+    "loose monetary policy"
+   ],
+   "french": "politique monétaire",
+   "kind": "word"
+  },
+  {
+   "id": "productivity",
+   "word": "productivity",
+   "ipa": "/ˌprɒdʌkˈtɪvəti/",
+   "pos": "noun",
+   "level": "B2",
+   "domain": "economics",
+   "definition": "The amount of output produced per unit of input, such as per hour worked.",
+   "examples": [
+    "Canada's productivity growth has lagged behind the US."
+   ],
+   "synonyms": [
+    "efficiency",
+    "output"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "productivity growth",
+    "boost productivity"
+   ],
+   "french": "productivité",
+   "kind": "word"
+  },
+  {
+   "id": "methodology",
+   "word": "methodology",
+   "ipa": "/ˌmeθəˈdɒlədʒi/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "academic",
+   "definition": "The system of methods used in a study.",
+   "examples": [
+    "The paper's methodology was criticised for its small sample."
+   ],
+   "synonyms": [
+    "approach",
+    "method"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "research methodology",
+    "robust methodology"
+   ],
+   "french": "méthodologie",
+   "kind": "word"
+  },
+  {
+   "id": "hypothesis",
+   "word": "hypothesis",
+   "ipa": "/haɪˈpɒθəsɪs/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "academic",
+   "definition": "A proposed explanation to be tested by research.",
+   "examples": [
+    "The data support the hypothesis that sleep aids memory."
+   ],
+   "synonyms": [
+    "theory",
+    "proposition"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "test a hypothesis",
+    "null hypothesis",
+    "reject a hypothesis"
+   ],
+   "french": "hypothèse",
+   "kind": "word"
+  },
+  {
+   "id": "peer-reviewed",
+   "word": "peer-reviewed",
+   "ipa": "/ˌpɪə rɪˈvjuːd/",
+   "pos": "adjective",
+   "level": "C1",
+   "domain": "academic",
+   "definition": "Evaluated by independent experts before publication.",
+   "examples": [
+    "Cite only peer-reviewed sources in your thesis."
+   ],
+   "synonyms": [
+    "refereed"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "peer-reviewed journal",
+    "peer-reviewed study"
+   ],
+   "french": "évalué par les pairs",
+   "kind": "word"
+  },
+  {
+   "id": "caveat",
+   "word": "caveat",
+   "ipa": "/ˈkæviæt/",
+   "pos": "noun",
+   "level": "C2",
+   "domain": "academic",
+   "definition": "A warning or condition limiting a statement.",
+   "examples": [
+    "One important caveat is that the sample was small."
+   ],
+   "synonyms": [
+    "proviso",
+    "qualification"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "with the caveat that",
+    "add a caveat"
+   ],
+   "french": "réserve, mise en garde",
+   "kind": "word"
+  },
+  {
+   "id": "corroborate",
+   "word": "corroborate",
+   "ipa": "/kəˈrɒbəreɪt/",
+   "pos": "verb",
+   "level": "C2",
+   "domain": "academic",
+   "definition": "To confirm or support with additional evidence.",
+   "examples": [
+    "Later studies corroborated the original findings."
+   ],
+   "synonyms": [
+    "confirm",
+    "substantiate"
+   ],
+   "antonyms": [
+    "contradict",
+    "refute"
+   ],
+   "collocations": [
+    "corroborate evidence",
+    "corroborate a claim"
+   ],
+   "french": "corroborer",
+   "kind": "word"
+  },
+  {
+   "id": "harness",
+   "word": "harness",
+   "ipa": "/ˈhɑːnɪs/",
+   "pos": "verb",
+   "level": "C1",
+   "domain": "business",
+   "definition": "To control and use something (such as a resource or force) to gain an advantage.",
+   "examples": [
+    "Companies are racing to harness artificial intelligence."
+   ],
+   "synonyms": [
+    "exploit",
+    "use",
+    "channel"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "harness the power of",
+    "harness technology"
+   ],
+   "french": "exploiter, mettre à profit",
+   "kind": "word"
+  },
+  {
+   "id": "pivot",
+   "word": "pivot",
+   "ipa": "/ˈpɪvət/",
+   "pos": "verb/noun",
+   "level": "C1",
+   "domain": "business",
+   "definition": "To change strategy or direction substantially.",
+   "examples": [
+    "The startup pivoted from hardware to software."
+   ],
+   "synonyms": [
+    "shift",
+    "reorient"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "pivot to",
+    "strategic pivot"
+   ],
+   "french": "changer de cap, pivoter",
+   "kind": "word"
+  },
+  {
+   "id": "headcount",
+   "word": "headcount",
+   "ipa": "/ˈhedkaʊnt/",
+   "pos": "noun",
+   "level": "B2",
+   "domain": "business",
+   "definition": "The number of people employed by an organisation.",
+   "examples": [
+    "The firm plans to reduce headcount by 5%."
+   ],
+   "synonyms": [
+    "workforce",
+    "staffing"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "freeze headcount",
+    "headcount growth"
+   ],
+   "french": "effectif",
+   "kind": "word"
+  },
+  {
+   "id": "benchmarking",
+   "word": "benchmarking",
+   "ipa": "/ˈbentʃmɑːkɪŋ/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "management",
+   "definition": "Comparing performance with the best practices of others.",
+   "examples": [
+    "Benchmarking showed our costs were above average."
+   ],
+   "synonyms": [
+    "comparison"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "competitive benchmarking"
+   ],
+   "french": "analyse comparative",
+   "kind": "word"
+  },
+  {
+   "id": "bottom-line",
+   "word": "bottom line",
+   "ipa": "/ˌbɒtəm ˈlaɪn/",
+   "pos": "noun",
+   "level": "B2",
+   "domain": "finance",
+   "definition": "Net profit; the final result that matters most.",
+   "examples": [
+    "The new pricing boosted the bottom line."
+   ],
+   "synonyms": [
+    "profit",
+    "net income"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "improve the bottom line",
+    "impact on the bottom line"
+   ],
+   "french": "résultat net",
+   "kind": "word"
+  },
+  {
+   "id": "cash-flow",
+   "word": "cash flow",
+   "ipa": "/ˈkæʃ fləʊ/",
+   "pos": "noun",
+   "level": "B2",
+   "domain": "finance",
+   "definition": "The movement of money into and out of a business.",
+   "examples": [
+    "Strong cash flow allowed the company to pay down debt."
+   ],
+   "synonyms": [
+    "liquidity"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "positive cash flow",
+    "cash flow problems"
+   ],
+   "french": "flux de trésorerie",
+   "kind": "word"
+  },
+  {
+   "id": "dividend",
+   "word": "dividend",
+   "ipa": "/ˈdɪvɪdend/",
+   "pos": "noun",
+   "level": "B2",
+   "domain": "finance",
+   "definition": "A share of profits paid to shareholders.",
+   "examples": [
+    "The board raised the quarterly dividend."
+   ],
+   "synonyms": [
+    "payout"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "pay a dividend",
+    "dividend yield"
+   ],
+   "french": "dividende",
+   "kind": "word"
+  },
+  {
+   "id": "bear-market",
+   "word": "bear market",
+   "ipa": "/ˈbeə ˌmɑːkɪt/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "finance",
+   "definition": "A prolonged period of falling prices, typically 20% or more.",
+   "examples": [
+    "Many investors panicked during the bear market."
+   ],
+   "synonyms": [
+    "downturn"
+   ],
+   "antonyms": [
+    "bull market"
+   ],
+   "collocations": [
+    "enter a bear market"
+   ],
+   "french": "marché baissier",
+   "kind": "word"
+  },
+  {
+   "id": "bull-market",
+   "word": "bull market",
+   "ipa": "/ˈbʊl ˌmɑːkɪt/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "finance",
+   "definition": "A prolonged period of rising prices.",
+   "examples": [
+    "The bull market lasted almost a decade."
+   ],
+   "synonyms": [
+    "upswing"
+   ],
+   "antonyms": [
+    "bear market"
+   ],
+   "collocations": [
+    "a raging bull market"
+   ],
+   "french": "marché haussier",
+   "kind": "word"
+  },
+  {
+   "id": "write-off",
+   "word": "write-off",
+   "ipa": "/ˈraɪt ɒf/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "finance",
+   "definition": "Reducing the recorded value of an asset to zero; a loss.",
+   "examples": [
+    "The bank took a $2 billion write-off on bad loans."
+   ],
+   "synonyms": [
+    "write-down",
+    "loss"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "take a write-off",
+    "tax write-off"
+   ],
+   "french": "dépréciation, passage en pertes",
+   "kind": "word"
+  },
+  {
+   "id": "mortgage",
+   "word": "mortgage",
+   "ipa": "/ˈmɔːɡɪdʒ/",
+   "pos": "noun",
+   "level": "B2",
+   "domain": "banking",
+   "definition": "A loan used to buy property, secured on that property.",
+   "examples": [
+    "Their mortgage payments rose after the rate increase."
+   ],
+   "synonyms": [
+    "home loan"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "take out a mortgage",
+    "mortgage rate",
+    "variable-rate mortgage"
+   ],
+   "french": "prêt hypothécaire",
+   "kind": "word"
+  },
+  {
+   "id": "overdraft",
+   "word": "overdraft",
+   "ipa": "/ˈəʊvədrɑːft/",
+   "pos": "noun",
+   "level": "B2",
+   "domain": "banking",
+   "definition": "Borrowing by spending more than is in your bank account.",
+   "examples": [
+    "The business relies on its overdraft to pay suppliers."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "overdraft fee",
+    "overdraft limit"
+   ],
+   "french": "découvert",
+   "kind": "word"
+  },
+  {
+   "id": "creditworthiness",
+   "word": "creditworthiness",
+   "ipa": "/ˈkredɪtwɜːðinəs/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "banking",
+   "definition": "How suitable someone is to receive credit.",
+   "examples": [
+    "Lenders assess creditworthiness before approving a loan."
+   ],
+   "synonyms": [
+    "credit rating"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "assess creditworthiness"
+   ],
+   "french": "solvabilité",
+   "kind": "word"
+  },
+  {
+   "id": "inflationary",
+   "word": "inflationary",
+   "ipa": "/ɪnˈfleɪʃənri/",
+   "pos": "adjective",
+   "level": "C1",
+   "domain": "economics",
+   "definition": "Causing or relating to rising prices.",
+   "examples": [
+    "Wage increases may have an inflationary effect."
+   ],
+   "synonyms": [],
+   "antonyms": [
+    "deflationary"
+   ],
+   "collocations": [
+    "inflationary pressure"
+   ],
+   "french": "inflationniste",
+   "kind": "word"
+  },
+  {
+   "id": "stimulus",
+   "word": "stimulus",
+   "ipa": "/ˈstɪmjələs/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "economics",
+   "definition": "Government spending or measures to boost economic activity.",
+   "examples": [
+    "The government announced a stimulus package."
+   ],
+   "synonyms": [
+    "boost",
+    "incentive"
+   ],
+   "antonyms": [
+    "austerity"
+   ],
+   "collocations": [
+    "stimulus package",
+    "fiscal stimulus"
+   ],
+   "french": "relance",
+   "kind": "word"
+  },
+  {
+   "id": "supply-chain",
+   "word": "supply chain",
+   "ipa": "/səˈplaɪ tʃeɪn/",
+   "pos": "noun",
+   "level": "B2",
+   "domain": "economics",
+   "definition": "The network involved in producing and delivering a product.",
+   "examples": [
+    "The pandemic exposed weaknesses in global supply chains."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "supply chain disruption",
+    "resilient supply chain"
+   ],
+   "french": "chaîne d'approvisionnement",
+   "kind": "word"
+  },
+  {
+   "id": "algorithm",
+   "word": "algorithm",
+   "ipa": "/ˈælɡərɪðəm/",
+   "pos": "noun",
+   "level": "B2",
+   "domain": "technology",
+   "definition": "A set of rules a computer follows to solve a problem.",
+   "examples": [
+    "The algorithm ranks applicants automatically."
+   ],
+   "synonyms": [
+    "procedure"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "train an algorithm",
+    "recommendation algorithm"
+   ],
+   "french": "algorithme",
+   "kind": "word"
+  },
+  {
+   "id": "bias-in-data",
+   "word": "bias",
+   "ipa": "/ˈbaɪəs/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "technology",
+   "definition": "Systematic error that unfairly favours some outcomes or groups.",
+   "examples": [
+    "The model reproduced bias present in historical data."
+   ],
+   "synonyms": [
+    "prejudice",
+    "skew"
+   ],
+   "antonyms": [
+    "fairness"
+   ],
+   "collocations": [
+    "algorithmic bias",
+    "reduce bias"
+   ],
+   "french": "biais",
+   "kind": "word"
+  },
+  {
+   "id": "benchmark-ai",
+   "word": "benchmark",
+   "ipa": "/ˈbentʃmɑːk/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "technology",
+   "definition": "A standard test used to compare the performance of models.",
+   "examples": [
+    "The new model outperformed others on reasoning benchmarks."
+   ],
+   "synonyms": [
+    "test suite"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "beat a benchmark",
+    "benchmark results"
+   ],
+   "french": "banc d'essai",
+   "kind": "word"
+  },
+  {
+   "id": "deploy",
+   "word": "deploy",
+   "ipa": "/dɪˈplɔɪ/",
+   "pos": "verb",
+   "level": "B2",
+   "domain": "technology",
+   "definition": "To put a system or product into use.",
+   "examples": [
+    "We deployed the update to all users overnight."
+   ],
+   "synonyms": [
+    "roll out",
+    "launch"
+   ],
+   "antonyms": [
+    "withdraw"
+   ],
+   "collocations": [
+    "deploy a model",
+    "deploy at scale"
+   ],
+   "french": "déployer",
+   "kind": "word"
+  },
+  {
+   "id": "deadline",
+   "word": "deadline",
+   "ipa": "/ˈdedlaɪn/",
+   "pos": "noun",
+   "level": "B2",
+   "domain": "project management",
+   "definition": "The latest time by which something must be done.",
+   "examples": [
+    "We're under pressure to meet the deadline."
+   ],
+   "synonyms": [
+    "due date"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "meet a deadline",
+    "miss a deadline",
+    "tight deadline"
+   ],
+   "french": "échéance, date limite",
+   "kind": "word"
+  },
+  {
+   "id": "contingency-plan",
+   "word": "contingency plan",
+   "ipa": "/kənˈtɪndʒənsi plæn/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "project management",
+   "definition": "A plan for dealing with a possible future problem.",
+   "examples": [
+    "Do we have a contingency plan if the supplier fails?"
+   ],
+   "synonyms": [
+    "backup plan",
+    "plan B"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "draw up a contingency plan"
+   ],
+   "french": "plan de secours",
+   "kind": "word"
+  },
+  {
+   "id": "kick-off-meeting",
+   "word": "kick-off meeting",
+   "ipa": "/ˈkɪk ɒf ˌmiːtɪŋ/",
+   "pos": "noun",
+   "level": "B2",
+   "domain": "project management",
+   "definition": "The first meeting of a project team.",
+   "examples": [
+    "Roles were agreed at the kick-off meeting."
+   ],
+   "synonyms": [
+    "launch meeting"
+   ],
+   "antonyms": [
+    "wrap-up meeting"
+   ],
+   "collocations": [
+    "hold a kick-off meeting"
+   ],
+   "french": "réunion de lancement",
+   "kind": "word"
+  },
+  {
+   "id": "constructive-feedback",
+   "word": "constructive feedback",
+   "ipa": "/kənˈstrʌktɪv ˈfiːdbæk/",
+   "pos": "noun",
+   "level": "B2",
+   "domain": "leadership",
+   "definition": "Comments intended to help someone improve.",
+   "examples": [
+    "Good managers give regular, constructive feedback."
+   ],
+   "synonyms": [],
+   "antonyms": [
+    "criticism"
+   ],
+   "collocations": [
+    "give constructive feedback"
+   ],
+   "french": "retour constructif",
+   "kind": "word"
+  },
+  {
+   "id": "mentor",
+   "word": "mentor",
+   "ipa": "/ˈmentɔː(r)/",
+   "pos": "noun/verb",
+   "level": "B2",
+   "domain": "leadership",
+   "definition": "An experienced person who advises a less experienced one.",
+   "examples": [
+    "She mentors junior analysts in her team."
+   ],
+   "synonyms": [
+    "adviser",
+    "coach"
+   ],
+   "antonyms": [
+    "mentee"
+   ],
+   "collocations": [
+    "act as a mentor",
+    "mentor someone"
+   ],
+   "french": "mentor, tuteur",
+   "kind": "word"
+  },
+  {
+   "id": "literature-review",
+   "word": "literature review",
+   "ipa": "/ˈlɪtrətʃə rɪˌvjuː/",
+   "pos": "noun",
+   "level": "C1",
+   "domain": "academic",
+   "definition": "A survey of published research on a topic.",
+   "examples": [
+    "Chapter two presents the literature review."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "conduct a literature review",
+    "systematic literature review"
+   ],
+   "french": "revue de littérature",
+   "kind": "word"
+  },
+  {
+   "id": "empirical",
+   "word": "empirical",
+   "ipa": "/ɪmˈpɪrɪkl/",
+   "pos": "adjective",
+   "level": "C1",
+   "domain": "academic",
+   "definition": "Based on observation or experiment rather than theory.",
+   "examples": [
+    "There is little empirical evidence for the claim."
+   ],
+   "synonyms": [
+    "observational",
+    "experimental"
+   ],
+   "antonyms": [
+    "theoretical"
+   ],
+   "collocations": [
+    "empirical evidence",
+    "empirical study"
+   ],
+   "french": "empirique",
+   "kind": "word"
+  },
+  {
+   "id": "plagiarism",
+   "word": "plagiarism",
+   "ipa": "/ˈpleɪdʒərɪzəm/",
+   "pos": "noun",
+   "level": "B2",
+   "domain": "academic",
+   "definition": "Presenting someone else's work as your own.",
+   "examples": [
+    "The university uses software to detect plagiarism."
+   ],
+   "synonyms": [
+    "copying"
+   ],
+   "antonyms": [],
+   "collocations": [
+    "accusation of plagiarism",
+    "avoid plagiarism"
+   ],
+   "french": "plagiat",
+   "kind": "word"
+  },
+  {
+   "id": "tentative",
+   "word": "tentative",
+   "ipa": "/ˈtentətɪv/",
+   "pos": "adjective",
+   "level": "C1",
+   "domain": "general",
+   "definition": "Not certain or fixed; cautious.",
+   "examples": [
+    "We reached a tentative agreement."
+   ],
+   "synonyms": [
+    "provisional",
+    "hesitant"
+   ],
+   "antonyms": [
+    "definitive"
+   ],
+   "collocations": [
+    "tentative conclusion",
+    "tentative step"
+   ],
+   "french": "provisoire, hésitant",
+   "kind": "word"
+  },
+  {
+   "id": "cumbersome",
+   "word": "cumbersome",
+   "ipa": "/ˈkʌmbəsəm/",
+   "pos": "adjective",
+   "level": "C1",
+   "domain": "general",
+   "definition": "Slow and complicated; difficult to handle.",
+   "examples": [
+    "The approval process is cumbersome."
+   ],
+   "synonyms": [
+    "unwieldy",
+    "clunky"
+   ],
+   "antonyms": [
+    "streamlined"
+   ],
+   "collocations": [
+    "cumbersome procedure"
+   ],
+   "french": "lourd, encombrant",
+   "kind": "word"
+  }
+ ]
+}

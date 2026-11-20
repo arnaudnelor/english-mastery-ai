@@ -1,0 +1,828 @@
+{
+ "texts": [
+  {
+   "id": "four-day-week",
+   "title": "Is the Four-Day Week Here to Stay?",
+   "level": "B2",
+   "genre": "Newspaper article",
+   "domain": "business",
+   "body": "When a mid-sized accounting firm in Halifax announced last spring that its staff would work four days a week for the same salary, many of its competitors predicted disaster. Clients, they said, would leave, deadlines would be missed, and the experiment would quietly end before the summer.\n\nA year later, the firm's managing partner says the opposite has happened. Revenue rose by six per cent, staff turnover fell from eighteen per cent to just four, and the number of sick days taken dropped by almost half. \"People simply stopped wasting time,\" she explains. \"When you know Friday is yours, you think twice before scheduling a meeting that could have been an email.\"\n\nThe firm is not alone. Pilot programmes in the United Kingdom, Iceland and Spain have reported similar results, and several Canadian provinces are now studying the idea. Supporters argue that shorter weeks reduce burnout, help companies attract talent and even cut carbon emissions from commuting.\n\nCritics, however, warn against drawing conclusions too quickly. Most pilots involve office workers whose output is difficult to measure, and companies that volunteer for such trials are likely to be enthusiastic from the start. \"It works brilliantly for a twenty-person consultancy,\" says one labour economist. \"Whether it works for a hospital, a factory or a school is a completely different question.\"\n\nThere is also the problem of intensity. Some employees in the Halifax firm admit that their four days now feel longer and more stressful than the five they used to work. For them, the extra day off is less a reward than a recovery period.\n\nFor now, the four-day week remains an experiment rather than a revolution. But as more organisations publish their results, the question may soon shift from whether it can work to where it works best.",
+   "glossary": {
+    "turnover": "the rate at which employees leave a company and are replaced",
+    "burnout": "physical or mental exhaustion caused by long-term stress at work",
+    "pilot programme": "a small-scale trial run before a full launch",
+    "consultancy": "a company that gives expert advice to other businesses",
+    "intensity": "the quality of being concentrated, demanding or extreme"
+   },
+   "questions": [
+    {
+     "id": "q1",
+     "type": "main_idea",
+     "prompt": "What is the main idea of the article?",
+     "options": [
+      "The four-day week has failed in most countries.",
+      "The four-day week shows promising results, but it is unclear how widely it applies.",
+      "Canadian provinces have made the four-day week compulsory.",
+      "Accounting firms are especially suited to shorter weeks."
+     ],
+     "answer": "The four-day week shows promising results, but it is unclear how widely it applies.",
+     "explanation": "The article presents positive results, then critics' doubts about other sectors, and ends calling it 'an experiment rather than a revolution'."
+    },
+    {
+     "id": "q2",
+     "type": "detail",
+     "prompt": "What happened to staff turnover at the Halifax firm?",
+     "options": [
+      "It rose to 18%.",
+      "It stayed the same.",
+      "It fell from 18% to 4%.",
+      "It fell by half."
+     ],
+     "answer": "It fell from 18% to 4%.",
+     "explanation": "Paragraph 2: 'staff turnover fell from eighteen per cent to just four'."
+    },
+    {
+     "id": "q3",
+     "type": "inference",
+     "prompt": "Why does the economist mention hospitals and factories?",
+     "options": [
+      "Because they already use four-day weeks.",
+      "To suggest that results from office pilots may not transfer to other workplaces.",
+      "To show that these sectors have high turnover.",
+      "Because they took part in the Spanish pilot."
+     ],
+     "answer": "To suggest that results from office pilots may not transfer to other workplaces.",
+     "explanation": "He contrasts a small consultancy with sectors where output and staffing work differently."
+    },
+    {
+     "id": "q4",
+     "type": "vocabulary",
+     "prompt": "In paragraph 4, 'volunteer for such trials' implies that the companies…",
+     "options": [
+      "were forced to participate.",
+      "chose to participate and may be biased in favour.",
+      "were paid to participate.",
+      "did not finish the trials."
+     ],
+     "answer": "chose to participate and may be biased in favour.",
+     "explanation": "This is selection bias: self-selected participants are 'likely to be enthusiastic from the start'."
+    },
+    {
+     "id": "q5",
+     "type": "critical",
+     "prompt": "Which statement would the author most likely agree with?",
+     "options": [
+      "The four-day week should be adopted immediately everywhere.",
+      "Critics of the four-day week are simply wrong.",
+      "More evidence from different sectors is needed before judging the four-day week.",
+      "Shorter weeks always increase stress."
+     ],
+     "answer": "More evidence from different sectors is needed before judging the four-day week.",
+     "explanation": "The final paragraph says the question will shift to 'where it works best' as more results are published."
+    }
+   ],
+   "discussion": "Would a four-day week work in your profession? Give two reasons for and two against."
+  },
+  {
+   "id": "central-banks-inflation",
+   "title": "Why Central Banks Raise Interest Rates",
+   "level": "B2",
+   "genre": "Explainer",
+   "domain": "finance",
+   "body": "Few announcements move financial markets as quickly as a central bank's decision on interest rates. Yet for many people the logic behind these decisions remains a mystery. Why would an institution deliberately make borrowing more expensive?\n\nThe answer lies in the central bank's main task: keeping inflation low and stable. In Canada, the Bank of Canada aims for inflation of around two per cent a year. When prices rise much faster than that, the money in people's pockets loses value, savings are eroded, and businesses struggle to plan ahead.\n\nRaising the policy interest rate works through several channels. First, loans and mortgages become more expensive, so households borrow and spend less. Second, saving becomes more attractive, since deposits earn higher returns. Third, companies postpone investment projects because the cost of financing them has increased. Together, these effects reduce demand across the economy, which eventually slows the rise in prices.\n\nThe key word is 'eventually'. Economists estimate that a change in interest rates can take between twelve and twenty-four months to have its full effect on inflation. This delay makes central banking difficult: policymakers must act on forecasts rather than on what they can see today. If they raise rates too slowly, inflation may become entrenched; if they raise them too aggressively, they risk pushing the economy into a recession.\n\nHigher rates also have side effects. Bond prices fall when rates rise, which can hurt pension funds and banks holding large bond portfolios. Homeowners with variable-rate mortgages may see their monthly payments increase sharply, and the currency often strengthens, making exports less competitive.\n\nThis is why central bankers often describe their job as a balancing act. Their aim is a so-called 'soft landing': bringing inflation back to target without causing a severe downturn.",
+   "glossary": {
+    "eroded": "gradually reduced or destroyed",
+    "policy interest rate": "the key rate set by a central bank that influences all other rates",
+    "postpone": "to delay to a later time",
+    "entrenched": "firmly established and difficult to change",
+    "soft landing": "slowing the economy enough to reduce inflation without causing a recession"
+   },
+   "questions": [
+    {
+     "id": "q1",
+     "type": "main_idea",
+     "prompt": "The text mainly explains…",
+     "options": [
+      "how to invest when rates are high.",
+      "the history of the Bank of Canada.",
+      "how and why rate increases are used to control inflation, and their risks.",
+      "why inflation is always harmful."
+     ],
+     "answer": "how and why rate increases are used to control inflation, and their risks.",
+     "explanation": "It covers the purpose, the channels, the time lag and the side effects."
+    },
+    {
+     "id": "q2",
+     "type": "detail",
+     "prompt": "Which is NOT mentioned as a channel through which higher rates reduce demand?",
+     "options": [
+      "Households borrow less.",
+      "Saving becomes more attractive.",
+      "Governments cut taxes.",
+      "Companies delay investment."
+     ],
+     "answer": "Governments cut taxes.",
+     "explanation": "Taxes are fiscal policy and are not mentioned."
+    },
+    {
+     "id": "q3",
+     "type": "inference",
+     "prompt": "Why must policymakers 'act on forecasts'?",
+     "options": [
+      "Because current data is secret.",
+      "Because rate changes take one to two years to affect inflation fully.",
+      "Because the law requires it.",
+      "Because markets ignore current data."
+     ],
+     "answer": "Because rate changes take one to two years to affect inflation fully.",
+     "explanation": "The time lag means today's decision affects future inflation."
+    },
+    {
+     "id": "q4",
+     "type": "vocabulary",
+     "prompt": "'Balancing act' in the final paragraph suggests…",
+     "options": [
+      "an easy routine decision.",
+      "managing two risks that pull in opposite directions.",
+      "a decision taken by a committee.",
+      "a circus performance."
+     ],
+     "answer": "managing two risks that pull in opposite directions.",
+     "explanation": "Inflation vs recession."
+    }
+   ],
+   "discussion": "Explain to a friend with a variable-rate mortgage why their payments have risen, in under one minute."
+  },
+  {
+   "id": "the-last-train",
+   "title": "The Last Train to Kingston",
+   "level": "B2",
+   "genre": "Short story",
+   "domain": "literature",
+   "body": "Marguerite had always believed that trains were for people with patience, and she had very little of it. So when the departure board at Union Station flickered and the 21:40 to Kingston changed from 'On time' to 'Delayed', she let out a sigh loud enough to make the man beside her look up from his newspaper.\n\n\"Forty minutes,\" he said, as if she had asked. \"It's always forty minutes. They never say an hour, because then people would leave.\"\n\nHe was older than her father would have been, with a grey scarf wrapped twice around his neck and a paper cup of tea he held but never drank. She nodded politely and returned to her phone, hoping the conversation would end there. It didn't.\n\n\"Business or pleasure?\"\n\n\"Neither,\" she said, and was surprised to hear herself continue. \"My mother's moving into a care home tomorrow. I'm supposed to help her choose what to keep.\"\n\nThe man folded his newspaper carefully, the way people fold letters they intend to read again. \"I did that for my wife,\" he said. \"Seven years ago. Do you know what she kept? Not the jewellery, not the photographs. A wooden spoon. She said it had stirred every birthday cake our children ever had.\"\n\nMarguerite laughed, and then, unexpectedly, felt her eyes sting. She thought of her mother's kitchen, of the chipped blue bowl that had held every Sunday salad of her childhood.\n\nWhen the train was finally announced, the man stood up slowly and wished her luck. She realised she hadn't asked his name. By the time she turned to ask, he had disappeared into the crowd.\n\nOn the train, Marguerite didn't open her phone. She watched the dark lake slide past the window and made a list, not of things to throw away, but of things to ask her mother about.",
+   "glossary": {
+    "flickered": "shone unsteadily, turning on and off quickly",
+    "care home": "a residential home for elderly people who need support (US: nursing home)",
+    "chipped": "with a small piece broken off the edge",
+    "sting": "to feel a sharp, burning sensation (here: eyes about to cry)"
+   },
+   "questions": [
+    {
+     "id": "q1",
+     "type": "main_idea",
+     "prompt": "What is the story mainly about?",
+     "options": [
+      "A delayed train journey to Kingston.",
+      "A chance conversation that changes how a woman approaches a difficult family moment.",
+      "An old man's memories of his wife.",
+      "How to choose possessions when moving house."
+     ],
+     "answer": "A chance conversation that changes how a woman approaches a difficult family moment.",
+     "explanation": "The ending shows her shift from 'things to throw away' to 'things to ask her mother about'."
+    },
+    {
+     "id": "q2",
+     "type": "inference",
+     "prompt": "Why did Marguerite answer 'Neither' and then keep talking?",
+     "options": [
+      "She wanted to impress the man.",
+      "She was angry about the delay.",
+      "She needed to share something she was finding emotionally hard.",
+      "She thought he was a doctor."
+     ],
+     "answer": "She needed to share something she was finding emotionally hard.",
+     "explanation": "'was surprised to hear herself continue' signals an unplanned emotional release."
+    },
+    {
+     "id": "q3",
+     "type": "vocabulary",
+     "prompt": "'the way people fold letters they intend to read again' describes the man's…",
+     "options": [
+      "carelessness.",
+      "impatience.",
+      "gentleness and care.",
+      "anger."
+     ],
+     "answer": "gentleness and care.",
+     "explanation": "The simile signals tenderness and attention."
+    },
+    {
+     "id": "q4",
+     "type": "critical",
+     "prompt": "What does the wooden spoon symbolise?",
+     "options": [
+      "Poverty.",
+      "That everyday objects can carry the deepest memories.",
+      "The wife's cooking skills.",
+      "That jewellery is worthless."
+     ],
+     "answer": "That everyday objects can carry the deepest memories.",
+     "explanation": "It is chosen over jewellery and photographs because of the memories attached to it, and is echoed by the blue bowl."
+    }
+   ],
+   "discussion": "Which ordinary object from your childhood would you keep, and why? Answer using at least two past-tense forms and one relative clause."
+  },
+  {
+   "id": "algorithmic-hiring",
+   "title": "When Algorithms Decide Who Gets Hired",
+   "level": "C1",
+   "genre": "Opinion article",
+   "domain": "technology",
+   "body": "The promise of algorithmic hiring is seductive. Human recruiters, we are told, are tired, inconsistent and prone to bias; they favour candidates who went to their old university, who share their hobbies, or who simply have names they find easy to pronounce. An algorithm, by contrast, evaluates every application against the same criteria, never gets hungry before lunch, and can screen ten thousand CVs in the time it takes a person to read ten.\n\nThe difficulty is that algorithms learn from the past, and the past is precisely what many organisations claim they are trying to escape. A model trained on a decade of hiring decisions will, unless carefully corrected, absorb whatever patterns those decisions contained. If a company historically promoted men into engineering roles, the system may learn that attributes correlated with being male are predictors of success, even when gender itself has been removed from the data. Words such as 'captain' of a sports team, gaps in employment, or the name of a particular college can act as proxies.\n\nDefenders of these tools rightly point out that human bias is no less real for being harder to measure. At least an algorithm can be audited; a manager's intuition cannot. This is a fair argument, but it holds only if audits actually take place, if their results are published, and if candidates have a meaningful way to challenge a decision. At present, few of these conditions are met. Most applicants rejected by an automated system never learn that software was involved, let alone why it ranked them as it did.\n\nNone of this means that algorithms should be banned from recruitment. It means that their use should be governed by the same principles we expect of any consequential decision: transparency, accountability and the right of appeal. Efficiency is a legitimate goal, but it is not a substitute for fairness, and it should never be mistaken for it.",
+   "glossary": {
+    "seductive": "attractive in a way that may be misleading",
+    "prone to": "likely to suffer from or do something (usually negative)",
+    "proxies": "(singular: proxy) things that represent or substitute for something else",
+    "audited": "officially examined for accuracy or fairness",
+    "consequential": "important, having significant results"
+   },
+   "questions": [
+    {
+     "id": "q1",
+     "type": "main_idea",
+     "prompt": "What is the author's overall position?",
+     "options": [
+      "Algorithms should be banned from hiring.",
+      "Algorithms are fairer than humans and should replace recruiters.",
+      "Algorithmic hiring can be useful but requires transparency, accountability and appeal.",
+      "Human recruiters are not biased."
+     ],
+     "answer": "Algorithmic hiring can be useful but requires transparency, accountability and appeal.",
+     "explanation": "The final paragraph rejects a ban but calls for governance principles."
+    },
+    {
+     "id": "q2",
+     "type": "argument",
+     "prompt": "How does the author respond to the argument that algorithms can be audited?",
+     "options": [
+      "Rejects it completely.",
+      "Accepts it, but says it only holds if audits happen, are published and decisions can be challenged.",
+      "Says audits are illegal.",
+      "Ignores it."
+     ],
+     "answer": "Accepts it, but says it only holds if audits happen, are published and decisions can be challenged.",
+     "explanation": "'This is a fair argument, but it holds only if…' is a concession followed by conditions."
+    },
+    {
+     "id": "q3",
+     "type": "inference",
+     "prompt": "Why might 'captain of a sports team' be problematic as a data point?",
+     "options": [
+      "It is irrelevant to all jobs.",
+      "It may correlate with gender or background and act as an indirect proxy for bias.",
+      "Candidates often lie about it.",
+      "It is illegal to ask about sports."
+     ],
+     "answer": "It may correlate with gender or background and act as an indirect proxy for bias.",
+     "explanation": "The text lists it among examples of proxies."
+    },
+    {
+     "id": "q4",
+     "type": "vocabulary",
+     "prompt": "'never gets hungry before lunch' refers ironically to…",
+     "options": [
+      "the cost of employing recruiters.",
+      "the idea that human judgement varies with physical state such as fatigue or hunger.",
+      "the speed of algorithms.",
+      "office catering."
+     ],
+     "answer": "the idea that human judgement varies with physical state such as fatigue or hunger.",
+     "explanation": "It contrasts human inconsistency with machine consistency."
+    },
+    {
+     "id": "q5",
+     "type": "critical",
+     "prompt": "Which rhetorical technique does the first paragraph mainly use?",
+     "options": [
+      "It presents the opposing view sympathetically before critiquing it.",
+      "It tells a personal anecdote.",
+      "It quotes statistics.",
+      "It attacks recruiters personally."
+     ],
+     "answer": "It presents the opposing view sympathetically before critiquing it.",
+     "explanation": "'The promise… is seductive' sets up the counterargument the author then examines."
+    }
+   ],
+   "discussion": "Should candidates have a legal right to know if an algorithm rejected them? Argue your position in a short paragraph using at least one concession ('Admittedly…', 'While it is true that…')."
+  },
+  {
+   "id": "esg-quarterly-report",
+   "title": "Northwind Capital — Q3 Portfolio Commentary",
+   "level": "C1",
+   "genre": "Financial report",
+   "domain": "finance",
+   "body": "Summary. The Fund returned 2.4% net of fees in the third quarter, outperforming its benchmark by 60 basis points. Year-to-date performance stands at 7.9%, against 6.8% for the benchmark. Relative gains were driven primarily by our overweight position in Canadian financials and by security selection within industrials, partly offset by our underweight in energy, which rallied sharply in September.\n\nMarket environment. The quarter was characterised by elevated volatility as investors reassessed the likely path of interest rates. Following stronger-than-expected employment data in July, markets priced out two of the three rate cuts previously anticipated for the coming year. Long-term bond yields rose accordingly, weighing on interest-rate-sensitive sectors such as utilities and real estate, in which the Fund was deliberately underweight.\n\nPortfolio activity. We initiated a position in a mid-cap logistics company whose investments in automated warehousing have, in our view, not yet been reflected in its valuation. We also reduced our exposure to two consumer-discretionary holdings, where we believe that weakening household spending poses a growing risk to earnings. Our cash allocation was increased modestly to 4% to provide flexibility should valuations become more attractive.\n\nOutlook. While inflation has moderated, it remains above central-bank targets, and we expect monetary policy to stay restrictive for longer than consensus forecasts suggest. Against this backdrop, we continue to favour companies with strong balance sheets, pricing power and consistent free cash flow. We remain cautious on highly leveraged businesses, whose refinancing costs are likely to rise materially over the next eighteen months.\n\nPast performance is not indicative of future results.",
+   "glossary": {
+    "basis point": "one hundredth of one per cent (0.01%); 60 basis points = 0.6%",
+    "overweight": "holding more of a sector than the benchmark does",
+    "priced out": "removed an expectation from market prices",
+    "pricing power": "a company's ability to raise prices without losing customers",
+    "free cash flow": "cash a company generates after paying for operations and investment",
+    "restrictive": "(of monetary policy) designed to slow the economy, with high interest rates"
+   },
+   "questions": [
+    {
+     "id": "q1",
+     "type": "detail",
+     "prompt": "By how much did the Fund beat its benchmark in Q3?",
+     "options": [
+      "2.4%",
+      "0.6%",
+      "1.1%",
+      "7.9%"
+     ],
+     "answer": "0.6%",
+     "explanation": "60 basis points = 0.6 percentage points."
+    },
+    {
+     "id": "q2",
+     "type": "inference",
+     "prompt": "Why did the underweight in energy hurt relative performance?",
+     "options": [
+      "Energy stocks fell.",
+      "Energy stocks rose strongly and the Fund held less of them than the benchmark.",
+      "The Fund sold all its energy stocks at a loss.",
+      "Energy is interest-rate sensitive."
+     ],
+     "answer": "Energy stocks rose strongly and the Fund held less of them than the benchmark.",
+     "explanation": "Being underweight a sector that rallies reduces relative return."
+    },
+    {
+     "id": "q3",
+     "type": "inference",
+     "prompt": "Why did rising bond yields not hurt the Fund much?",
+     "options": [
+      "The Fund held no bonds at all.",
+      "The Fund was underweight interest-rate-sensitive sectors such as utilities and real estate.",
+      "Yields fell in September.",
+      "The Fund hedged with energy."
+     ],
+     "answer": "The Fund was underweight interest-rate-sensitive sectors such as utilities and real estate.",
+     "explanation": "'in which the Fund was deliberately underweight'."
+    },
+    {
+     "id": "q4",
+     "type": "critical",
+     "prompt": "What is the managers' view on interest rates compared with the market consensus?",
+     "options": [
+      "Rates will fall sooner than expected.",
+      "Rates will stay high for longer than most forecasts suggest.",
+      "They have no view.",
+      "Rates will rise sharply next month."
+     ],
+     "answer": "Rates will stay high for longer than most forecasts suggest.",
+     "explanation": "'restrictive for longer than consensus forecasts suggest'."
+    },
+    {
+     "id": "q5",
+     "type": "vocabulary",
+     "prompt": "'weighing on' in paragraph 2 means…",
+     "options": [
+      "measuring.",
+      "putting downward pressure on.",
+      "supporting.",
+      "considering carefully."
+     ],
+     "answer": "putting downward pressure on.",
+     "explanation": "A common market-commentary verb: 'X weighed on stocks'."
+    }
+   ],
+   "discussion": "Summarise this commentary for a client with no financial background in three sentences."
+  },
+  {
+   "id": "sleep-memory-research",
+   "title": "Sleep and the Consolidation of Memory",
+   "level": "C1",
+   "genre": "Scientific article (popular)",
+   "domain": "academic",
+   "body": "For much of the twentieth century, sleep was regarded by many scientists as a passive state: a period in which the brain, like an idle engine, simply rested. Research over the past three decades has overturned this view. It is now widely accepted that sleep plays an active role in memory consolidation, the process by which newly acquired information is stabilised and integrated into long-term storage.\n\nThe evidence comes from several directions. In behavioural studies, participants who learn a list of word pairs and then sleep typically recall more of them the following day than participants who spend the same interval awake. Crucially, the advantage persists even when the timing of testing is controlled, suggesting that the effect cannot be attributed merely to fatigue in the waking group.\n\nNeurophysiological recordings offer a possible mechanism. During deep, slow-wave sleep, the hippocampus, a region essential for forming new memories, appears to 'replay' patterns of activity recorded during learning. These replays coincide with brief bursts of activity known as sleep spindles, which are thought to facilitate communication between the hippocampus and the neocortex. Over successive nights, memories may gradually become less dependent on the hippocampus and more firmly embedded in cortical networks.\n\nThe picture is not, however, without complications. Different types of memory may benefit from different stages of sleep: factual knowledge appears to rely heavily on slow-wave sleep, whereas some studies associate procedural skills, such as playing a musical instrument, with lighter stages. Moreover, much of the most detailed mechanistic evidence comes from studies of rodents, and its applicability to humans remains to be fully established.\n\nFor learners, the practical implications are nonetheless clear. Studying immediately before sleep, and avoiding sleep deprivation in the days after learning, are likely to improve retention, a finding with obvious relevance to anyone preparing for an examination.",
+   "glossary": {
+    "consolidation": "the process of making something stronger or more permanent",
+    "persists": "continues to exist",
+    "hippocampus": "a brain region crucial for forming new memories",
+    "facilitate": "to make easier",
+    "procedural": "relating to skills and how to perform actions",
+    "rodents": "animals such as mice and rats"
+   },
+   "questions": [
+    {
+     "id": "q1",
+     "type": "main_idea",
+     "prompt": "What is the central claim of the text?",
+     "options": [
+      "Sleep is a passive state.",
+      "Sleep actively helps stabilise and integrate memories, though details are still debated.",
+      "Rodents remember more than humans.",
+      "Students should sleep less before exams."
+     ],
+     "answer": "Sleep actively helps stabilise and integrate memories, though details are still debated.",
+     "explanation": "Paragraph 1 states the thesis; paragraph 4 adds qualifications."
+    },
+    {
+     "id": "q2",
+     "type": "argument",
+     "prompt": "Why is controlling 'the timing of testing' important in the behavioural studies?",
+     "options": [
+      "To save money.",
+      "To rule out the alternative explanation that the waking group was simply more tired.",
+      "To test more participants.",
+      "To measure sleep spindles."
+     ],
+     "answer": "To rule out the alternative explanation that the waking group was simply more tired.",
+     "explanation": "This eliminates a confounding variable."
+    },
+    {
+     "id": "q3",
+     "type": "detail",
+     "prompt": "According to the text, what are sleep spindles thought to do?",
+     "options": [
+      "Cause deep sleep.",
+      "Help communication between the hippocampus and the neocortex.",
+      "Erase unwanted memories.",
+      "Improve procedural skills only."
+     ],
+     "answer": "Help communication between the hippocampus and the neocortex.",
+     "explanation": "Paragraph 3."
+    },
+    {
+     "id": "q4",
+     "type": "critical",
+     "prompt": "Which limitation does the author acknowledge?",
+     "options": [
+      "Sleep has no effect on procedural skills.",
+      "Much detailed evidence comes from animals and may not fully apply to humans.",
+      "Behavioural studies are always unreliable.",
+      "The hippocampus is not involved in memory."
+     ],
+     "answer": "Much detailed evidence comes from animals and may not fully apply to humans.",
+     "explanation": "'its applicability to humans remains to be fully established' — hedged academic language."
+    }
+   ],
+   "discussion": "Using hedging language ('appears to', 'is thought to', 'may'), explain in your own words how sleep might help memory."
+  },
+  {
+   "id": "in-praise-of-boredom",
+   "title": "In Praise of Boredom",
+   "level": "C2",
+   "genre": "Essay",
+   "domain": "essay",
+   "body": "There was a time, not so long ago, when boredom was an ordinary feature of life rather than a problem to be solved. One waited for buses without entertainment, sat through rainy afternoons with nothing in particular to do, and endured the long, uneventful stretches that punctuated every childhood. That such experiences have all but vanished is usually counted among the conveniences of modern technology. I am no longer convinced it should be.\n\nBoredom, after all, is not merely the absence of stimulation; it is a signal. It tells us that our present activity has ceased to engage us, and in doing so it presses us, however uncomfortably, to look for something better. The child who complains of having nothing to do is, more often than adults care to admit, on the threshold of inventing something. Deprived of that discomfort, we are also deprived of its consequences.\n\nWhat has replaced it is not engagement but its imitation. The smartphone does not so much relieve boredom as anaesthetise it, offering an endless supply of novelty that demands little and rewards less. We emerge from twenty minutes of scrolling neither entertained nor rested, but with a vague sense of having been somewhere without having gone anywhere at all. The itch is scratched; the underlying restlessness remains untouched.\n\nIt would be easy, and somewhat sanctimonious, to conclude with a call to throw our devices into the sea. That is not my argument. Rather, I would suggest that boredom deserves to be tolerated, occasionally even sought out, as one might seek out silence in a noisy city. Its value lies precisely in its unproductiveness: in the room it leaves for thoughts we did not plan to have.\n\nThe mind, like a field, needs periods in which nothing appears to be growing. Whether we are still willing to leave it fallow is, perhaps, one of the quieter questions of our age.",
+   "glossary": {
+    "punctuated": "interrupted at intervals",
+    "on the threshold of": "about to begin or experience something",
+    "anaesthetise": "to numb, to remove the ability to feel",
+    "sanctimonious": "making a show of being morally superior",
+    "fallow": "(of land) left unplanted to recover its fertility"
+   },
+   "questions": [
+    {
+     "id": "q1",
+     "type": "main_idea",
+     "prompt": "What is the essayist's main argument?",
+     "options": [
+      "Smartphones should be banned.",
+      "Boredom has value as a prompt for creativity and reflection, and its disappearance is a loss.",
+      "Children today are more creative than in the past.",
+      "Boredom is a modern invention."
+     ],
+     "answer": "Boredom has value as a prompt for creativity and reflection, and its disappearance is a loss.",
+     "explanation": "Paragraphs 2 and 4 develop this; paragraph 4 explicitly rejects a device ban."
+    },
+    {
+     "id": "q2",
+     "type": "vocabulary",
+     "prompt": "'does not so much relieve boredom as anaesthetise it' means the phone…",
+     "options": [
+      "cures boredom completely.",
+      "numbs the feeling of boredom without addressing its cause.",
+      "makes people more bored.",
+      "is a medical device."
+     ],
+     "answer": "numbs the feeling of boredom without addressing its cause.",
+     "explanation": "'Not so much X as Y' = it is more accurately Y than X."
+    },
+    {
+     "id": "q3",
+     "type": "argument",
+     "prompt": "Why does the author describe a call to 'throw our devices into the sea' as 'sanctimonious'?",
+     "options": [
+      "To show it is the author's real recommendation.",
+      "To anticipate and distance the essay from an extreme, morally superior position.",
+      "Because devices pollute the sea.",
+      "To mock readers who own phones."
+     ],
+     "answer": "To anticipate and distance the essay from an extreme, morally superior position.",
+     "explanation": "A pre-emptive concession that makes the more moderate claim more credible."
+    },
+    {
+     "id": "q4",
+     "type": "critical",
+     "prompt": "The image of a field left 'fallow' suggests that…",
+     "options": [
+      "boredom is a waste of time.",
+      "apparently unproductive periods allow later growth.",
+      "farming is boring.",
+      "the mind should be constantly stimulated."
+     ],
+     "answer": "apparently unproductive periods allow later growth.",
+     "explanation": "Fallow land recovers fertility; the metaphor mirrors 'its value lies precisely in its unproductiveness'."
+    }
+   ],
+   "discussion": "Write a C2-style counter-argument: defend the view that constant access to information makes us more, not less, creative. Use at least one inversion and one 'not so much… as' structure."
+  },
+  {
+   "id": "translation-and-power",
+   "title": "Translation, Fidelity and Power",
+   "level": "C2",
+   "genre": "Academic extract",
+   "domain": "academic",
+   "body": "The notion that a translation ought to be 'faithful' to its source is so deeply ingrained in popular discussion that it is rarely interrogated. Yet fidelity, on closer inspection, proves a remarkably elusive standard. Faithful to what, precisely: to the literal meaning of each word, to the syntactic shape of the original, to its tone, its rhythm, or the effect it produced on its first readers? These aims frequently pull in opposite directions, and every translation necessarily privileges some at the expense of others.\n\nTranslation scholars have long distinguished between strategies that 'domesticate' a text, rendering it fluent and familiar to the target audience, and those that 'foreignise' it, deliberately preserving features that mark it as originating elsewhere. Neither approach is neutral. Domestication, it has been argued, risks effacing cultural difference, presenting the foreign as merely a variant of the familiar; foreignisation, conversely, may produce a text that strikes readers as awkward, obscure or even condescending in its exoticism.\n\nWhat makes these choices consequential is that they are seldom made on equal terms. Historically, the overwhelming flow of translation has been from dominant languages into less widely spoken ones, rather than the reverse. In such conditions, decisions about how to render a text are bound up with questions of prestige, access and representation: whose literature is deemed worth translating, by whom, and for which readers.\n\nNone of this is to suggest that translation is an inherently compromised activity. On the contrary, it is precisely because translators must make choices that their work is creative rather than mechanical. The point is rather that the language of fidelity tends to obscure those choices, presenting as a technical question what is, at least in part, an ethical and political one. A more honest vocabulary would acknowledge that every translation is an interpretation, and that interpretations are made by particular people, in particular places, for particular ends.",
+   "glossary": {
+    "ingrained": "firmly fixed, difficult to change",
+    "interrogated": "(academic) examined critically",
+    "elusive": "difficult to define, find or achieve",
+    "privileges": "(verb) treats as more important",
+    "effacing": "erasing, making invisible",
+    "condescending": "showing that one feels superior"
+   },
+   "questions": [
+    {
+     "id": "q1",
+     "type": "main_idea",
+     "prompt": "What is the author's central claim?",
+     "options": [
+      "Translations should always be literal.",
+      "'Fidelity' hides the fact that translation involves interpretive, ethical and political choices.",
+      "Foreignisation is better than domestication.",
+      "Translation is a purely technical activity."
+     ],
+     "answer": "'Fidelity' hides the fact that translation involves interpretive, ethical and political choices.",
+     "explanation": "Stated in the final paragraph: 'the language of fidelity tends to obscure those choices'."
+    },
+    {
+     "id": "q2",
+     "type": "argument",
+     "prompt": "What is the function of the questions in paragraph 1?",
+     "options": [
+      "To test the reader's knowledge.",
+      "To show that 'fidelity' has multiple, potentially conflicting meanings.",
+      "To introduce a survey.",
+      "To criticise translators."
+     ],
+     "answer": "To show that 'fidelity' has multiple, potentially conflicting meanings.",
+     "explanation": "Rhetorical questions break the concept into competing aims."
+    },
+    {
+     "id": "q3",
+     "type": "inference",
+     "prompt": "Why does the direction of translation flow matter, according to paragraph 3?",
+     "options": [
+      "Because it affects translators' salaries.",
+      "Because it links translation choices to unequal power, prestige and representation between languages.",
+      "Because dominant languages are easier to translate.",
+      "It doesn't; the author dismisses it."
+     ],
+     "answer": "Because it links translation choices to unequal power, prestige and representation between languages.",
+     "explanation": "'bound up with questions of prestige, access and representation'."
+    },
+    {
+     "id": "q4",
+     "type": "critical",
+     "prompt": "How does the author prevent the argument being read as an attack on translators?",
+     "options": [
+      "By praising machine translation.",
+      "By stating that the need for choices is what makes translation creative rather than compromised.",
+      "By quoting famous translators.",
+      "By avoiding any conclusion."
+     ],
+     "answer": "By stating that the need for choices is what makes translation creative rather than compromised.",
+     "explanation": "'None of this is to suggest…' — a C2 disclaiming structure."
+    }
+   ],
+   "discussion": "Think of a French expression that is hard to translate into English. Should a translator domesticate or foreignise it? Justify your answer with academic hedging."
+  },
+  {
+   "id": "pricing-psychology",
+   "title": "Why £9.99 Still Works: The Psychology of Pricing",
+   "level": "C1",
+   "genre": "Business article",
+   "domain": "business",
+   "body": "Walk into almost any shop and you will find prices ending in .99. Economists have long found this puzzling. A rational consumer, after all, should recognise that £9.99 is effectively £10. Yet decades of research, and the persistence of the practice itself, suggest that so-called charm pricing has a real effect on behaviour.\n\nThe most widely accepted explanation is the 'left-digit effect'. Because we read from left to right, we tend to anchor on the first digit we see. £9.99 is therefore encoded as 'nine-something' rather than 'ten', and feels meaningfully cheaper. Studies of used-car sales have found a striking illustration: cars with odometer readings just below a round number, such as 79,900 kilometres, sell for noticeably more than those just above it, even though the difference in actual wear is negligible.\n\nCharm pricing is only one of many techniques. Retailers also rely on 'anchoring', displaying an expensive option first so that subsequent prices seem reasonable by comparison. A restaurant may list a lavish tasting menu not because it expects many customers to order it, but because it makes the main courses look modest. Similarly, the 'decoy effect' involves adding a deliberately unattractive option to steer customers towards a more profitable one. When a cinema offers a small popcorn for $5, a large for $9 and a medium for $8.50, the medium exists chiefly to make the large seem like excellent value.\n\nNot every brand embraces these tactics. Luxury retailers often prefer round numbers, precisely because .99 signals a bargain, which is the opposite of the image they wish to project. A handbag priced at $2,000 suggests quality and confidence; one priced at $1,999.99 suggests a discount store.\n\nAs consumers become more aware of such techniques, one might expect them to lose their power. The evidence so far suggests otherwise. Knowing that a bias exists, it seems, is not the same as being immune to it.",
+   "glossary": {
+    "charm pricing": "setting prices just below a round number, e.g. 9.99",
+    "anchor": "to rely heavily on the first piece of information received",
+    "negligible": "so small that it is not important",
+    "lavish": "very generous, expensive or elaborate",
+    "decoy": "something used to lure or mislead"
+   },
+   "questions": [
+    {
+     "id": "q1",
+     "type": "main_idea",
+     "prompt": "What is the main topic of the article?",
+     "options": [
+      "Why luxury goods are expensive.",
+      "How psychological pricing techniques influence consumers.",
+      "The history of the pound sterling.",
+      "How to sell used cars."
+     ],
+     "answer": "How psychological pricing techniques influence consumers.",
+     "explanation": "The article surveys charm pricing, anchoring and decoys."
+    },
+    {
+     "id": "q2",
+     "type": "detail",
+     "prompt": "What does the used-car example illustrate?",
+     "options": [
+      "Older cars are worth more.",
+      "The left-digit effect.",
+      "The decoy effect.",
+      "Luxury pricing."
+     ],
+     "answer": "The left-digit effect.",
+     "explanation": "Readings just below a round number sell for more."
+    },
+    {
+     "id": "q3",
+     "type": "inference",
+     "prompt": "Why might a restaurant list an expensive tasting menu?",
+     "options": [
+      "To make other dishes seem reasonably priced.",
+      "Because most customers order it.",
+      "To reduce food waste.",
+      "Because it is legally required."
+     ],
+     "answer": "To make other dishes seem reasonably priced.",
+     "explanation": "Anchoring."
+    },
+    {
+     "id": "q4",
+     "type": "vocabulary",
+     "prompt": "In the popcorn example, the medium size is a…",
+     "options": [
+      "bargain.",
+      "decoy.",
+      "anchor.",
+      "charm price."
+     ],
+     "answer": "decoy.",
+     "explanation": "It steers customers to the large."
+    },
+    {
+     "id": "q5",
+     "type": "critical",
+     "prompt": "What does the final paragraph suggest?",
+     "options": [
+      "Awareness of a bias does not necessarily protect us from it.",
+      "Pricing techniques no longer work.",
+      "Consumers are fully rational.",
+      "Luxury brands will adopt .99 prices."
+     ],
+     "answer": "Awareness of a bias does not necessarily protect us from it.",
+     "explanation": "Last sentence."
+    }
+   ],
+   "discussion": "Describe a time when you think a pricing technique influenced what you bought. Use at least two words from the glossary."
+  },
+  {
+   "id": "online-learning-lessons",
+   "title": "What Remote Learning Taught Us",
+   "level": "B2",
+   "genre": "Newspaper feature",
+   "domain": "academic",
+   "body": "When schools and universities moved online almost overnight, many teachers expected it to be a temporary emergency measure. Several years later, it is clear that the experience changed education in lasting ways, though not always in the ways people predicted.\n\nThe most obvious lesson was that technology alone does not guarantee learning. Students with a quiet room, a reliable internet connection and their own laptop generally coped well. Those who shared a single phone with siblings, or who had to work to support their families, often fell behind. The gap between students from different backgrounds, which schools had worked hard to reduce, widened noticeably.\n\nTeachers also discovered that long video lectures were rarely effective. Attention tends to drop sharply after about ten to fifteen minutes on screen. The most successful online courses broke content into short segments, mixed in quizzes and discussions, and gave students regular, personal feedback.\n\nYet there were surprising benefits too. Recorded lessons allowed students to review difficult material at their own pace, and many shy students found it easier to participate in written chat than to speak up in a crowded classroom. Today, many universities offer 'hybrid' courses that combine face-to-face teaching with online materials, and most students say they prefer this flexibility.\n\nPerhaps the most important lesson, however, was a human one. When asked what they missed most, students rarely mentioned lectures. They talked about friends, conversations in corridors and the simple feeling of belonging to a community. Education, it turns out, is about more than the transfer of information.",
+   "glossary": {
+    "overnight": "very suddenly, in a very short time",
+    "fell behind": "failed to keep up with others",
+    "widened": "became larger",
+    "hybrid": "combining two different elements",
+    "belonging": "the feeling of being accepted as part of a group"
+   },
+   "questions": [
+    {
+     "id": "q1",
+     "type": "main_idea",
+     "prompt": "What is the article mainly about?",
+     "options": [
+      "How to build online courses.",
+      "The lasting lessons of the sudden move to remote learning.",
+      "Why universities should close.",
+      "The cost of laptops."
+     ],
+     "answer": "The lasting lessons of the sudden move to remote learning.",
+     "explanation": "Each paragraph presents a lesson."
+    },
+    {
+     "id": "q2",
+     "type": "detail",
+     "prompt": "Which students tended to fall behind?",
+     "options": [
+      "Shy students.",
+      "Students without good equipment or space, or who had to work.",
+      "Students in hybrid courses.",
+      "Students who watched recordings."
+     ],
+     "answer": "Students without good equipment or space, or who had to work.",
+     "explanation": "Paragraph 2."
+    },
+    {
+     "id": "q3",
+     "type": "detail",
+     "prompt": "What made online courses more successful?",
+     "options": [
+      "Longer lectures.",
+      "Short segments, quizzes, discussion and feedback.",
+      "No feedback.",
+      "Only written materials."
+     ],
+     "answer": "Short segments, quizzes, discussion and feedback.",
+     "explanation": "Paragraph 3."
+    },
+    {
+     "id": "q4",
+     "type": "inference",
+     "prompt": "What does the final paragraph suggest?",
+     "options": [
+      "Lectures are the most important part of education.",
+      "Social connection is central to education.",
+      "Students prefer studying alone.",
+      "Technology will replace teachers."
+     ],
+     "answer": "Social connection is central to education.",
+     "explanation": "Students missed friends and community."
+    }
+   ],
+   "discussion": "Do you prefer learning online or in person? Give two reasons and use a contrast linker (however, whereas, on the other hand)."
+  },
+  {
+   "id": "on-clarity",
+   "title": "On Clarity",
+   "level": "C2",
+   "genre": "Essay",
+   "domain": "essay",
+   "body": "There is a persistent suspicion, in certain academic circles, that clarity is a symptom of shallowness. If an argument can be grasped on first reading, the reasoning goes, it cannot have been very profound. Difficulty becomes a badge of seriousness, and readers who struggle are quietly reminded that the fault lies with them.\n\nI have some sympathy for the view that complex ideas resist simple expression. There are genuine thoughts that cannot be compressed into a slogan without being falsified, and a writer who strips away every qualification in pursuit of readability may end up saying something that is clear only because it is wrong. Precision has its price, and that price is sometimes paid in ease.\n\nBut the defence of difficulty is too often a defence of something else: of vagueness dressed up as depth, or of a reluctance to be pinned down. A sentence that can mean three different things is not thereby three times as profound; it is merely unfinished. The labour of clarification is not a concession to lazy readers but an obligation to oneself, for it is frequently in the attempt to say exactly what one means that one discovers whether one means anything at all.\n\nThe great stylists understood this. Their prose is often deceptively plain, yet it rewards rereading precisely because nothing in it is accidental. Clarity, in their hands, is not the absence of complexity but its mastery: the difficult thing made graspable without being made false. That is a far rarer achievement than obscurity, and a far more generous one.",
+   "glossary": {
+    "badge": "a sign or symbol of something",
+    "falsified": "made untrue or misleading",
+    "pinned down": "forced to commit to a precise position",
+    "deceptively": "in a way that gives a false impression",
+    "obscurity": "the quality of being difficult to understand"
+   },
+   "questions": [
+    {
+     "id": "q1",
+     "type": "main_idea",
+     "prompt": "What is the writer's central argument?",
+     "options": [
+      "Clarity is a sign of shallow thinking.",
+      "True clarity is a demanding achievement that masters complexity.",
+      "All academic writing should be simple.",
+      "Difficult writing is always dishonest."
+     ],
+     "answer": "True clarity is a demanding achievement that masters complexity.",
+     "explanation": "Final paragraph."
+    },
+    {
+     "id": "q2",
+     "type": "argument",
+     "prompt": "What concession does the writer make in paragraph 2?",
+     "options": [
+      "That some ideas cannot be simplified without being distorted.",
+      "That clarity is overrated.",
+      "That readers are lazy.",
+      "That slogans are useful."
+     ],
+     "answer": "That some ideas cannot be simplified without being distorted.",
+     "explanation": "'genuine thoughts that cannot be compressed… without being falsified'."
+    },
+    {
+     "id": "q3",
+     "type": "inference",
+     "prompt": "According to paragraph 3, why should writers strive for clarity?",
+     "options": [
+      "To please editors.",
+      "Because clarifying reveals whether one actually has a coherent idea.",
+      "To sell more books.",
+      "Because readers demand it."
+     ],
+     "answer": "Because clarifying reveals whether one actually has a coherent idea.",
+     "explanation": "'…one discovers whether one means anything at all.'"
+    },
+    {
+     "id": "q4",
+     "type": "vocabulary",
+     "prompt": "'Vagueness dressed up as depth' means…",
+     "options": [
+      "deep thinking expressed vaguely.",
+      "imprecision disguised as profundity.",
+      "fashionable academic writing.",
+      "clear but shallow writing."
+     ],
+     "answer": "imprecision disguised as profundity.",
+     "explanation": "'Dressed up as' = disguised as."
+    }
+   ],
+   "discussion": "Write a C2-level paragraph arguing that some difficulty in writing is justified. Include a concession and a cleft sentence."
+  }
+ ]
+}

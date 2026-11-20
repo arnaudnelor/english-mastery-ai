@@ -1,0 +1,51 @@
+{
+  "name": "english-mastery-ai",
+  "productName": "English Mastery AI",
+  "version": "1.1.0",
+  "description": "Your Personal Intelligent English Academy",
+  "private": true,
+  "type": "module",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "electron:dev": "cross-env EMA_DEV=1 electron .",
+    "dist:win": "npm run build && electron-builder --win nsis"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "cross-env": "^7.0.3",
+    "electron": "^31.3.0",
+    "electron-builder": "^24.13.3",
+    "postcss": "^8.4.40",
+    "tailwindcss": "^3.4.7",
+    "typescript": "^5.5.4",
+    "vite": "^5.3.5"
+  },
+  "build": {
+    "appId": "ai.englishmastery.app",
+    "productName": "English Mastery AI",
+    "directories": { "output": "release" },
+    "files": ["electron/**", "package.json"],
+    "extraResources": [
+      { "from": "dist", "to": "web" },
+      { "from": "../backend/dist/ema-backend", "to": "backend" }
+    ],
+    "win": { "target": "nsis", "icon": "build/icon.ico" },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "shortcutName": "English Mastery AI",
+      "deleteAppDataOnUninstall": false
+    }
+  }
+}

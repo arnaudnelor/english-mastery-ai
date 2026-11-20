@@ -1,0 +1,139 @@
+{
+  "reading": [
+    {
+      "id": "ielts-r-urban-bees",
+      "title": "The Return of the Urban Beekeeper",
+      "level": "C1",
+      "body": "A generation ago, keeping bees in a city would have struck most people as eccentric at best and dangerous at worst. Today, hives sit on the roofs of banks, hotels and university libraries from Montréal to Melbourne, and city councils that once banned the practice now publish guidelines encouraging it. Supporters present urban beekeeping as a modest but meaningful response to the widely reported decline of pollinators. The reality, ecologists increasingly argue, is rather more complicated.\n\nThe case in favour rests partly on the surprising suitability of cities for bees. Urban gardens, parks and roadside verges often contain a greater diversity of flowering plants than intensively farmed countryside, where vast fields of a single crop bloom for only a few weeks. Pesticide use is also generally lower in residential areas. Several studies have found that honey bee colonies in cities produce more honey and suffer lower winter losses than those in nearby agricultural land.\n\nHowever, the honey bee is only one of hundreds of bee species, and it is the wild species — solitary bees and bumblebees — that are most seriously threatened. Honey bees are, in effect, managed livestock. When dense populations of hives are introduced into a limited area, they compete with wild pollinators for the same nectar and pollen. Research in Paris and London has suggested that in neighbourhoods where hive density rose sharply, visits by wild bees to flowers declined. There is also evidence that managed colonies can transmit pathogens to wild populations.\n\nNone of this means that urban beekeepers are doing harm deliberately, nor that every rooftop hive is a problem. The concern is one of scale. A handful of colonies in a district with abundant flowers is unlikely to have a measurable effect; hundreds of corporate hives installed largely for public relations purposes may be another matter.\n\nMany ecologists therefore argue that the most effective way for city dwellers to help pollinators is not to keep bees at all, but to plant for them: replacing closely mown lawns with native flowering plants, leaving patches of bare soil for ground-nesting species, and avoiding pesticides. Such measures benefit the entire pollinator community rather than a single, already widespread species. As one researcher put it, saving bees by keeping honey bees is rather like protecting wild birds by keeping chickens.",
+      "questions": [
+        {"id": "q1", "prompt": "According to the passage, why can cities be good environments for honey bees?", "options": ["They are warmer than the countryside.", "They offer a wider variety of flowers and fewer pesticides.", "They have no wild bee species.", "Councils provide free hives."], "answer": "They offer a wider variety of flowers and fewer pesticides.", "explanation": "Paragraph 2 mentions diversity of flowering plants and lower pesticide use."},
+        {"id": "q2", "prompt": "What does the writer mean by calling honey bees 'managed livestock'?", "options": ["They are raised and kept by humans, like farm animals.", "They are dangerous to people.", "They are an endangered species.", "They only live on farms."], "answer": "They are raised and kept by humans, like farm animals.", "explanation": "The point is that honey bees are domesticated, unlike threatened wild species."},
+        {"id": "q3", "prompt": "What did research in Paris and London suggest?", "options": ["Wild bees visited flowers less where hive density rose sharply.", "Urban honey tastes better.", "Corporate hives produce the most honey.", "Wild bees prefer rooftops."], "answer": "Wild bees visited flowers less where hive density rose sharply.", "explanation": "Paragraph 3."},
+        {"id": "q4", "prompt": "What is the writer's view of urban beekeepers?", "options": ["They intentionally harm wild bees.", "The problem is mainly the number of hives, not individual beekeepers.", "They should be fined.", "They are solving the pollinator crisis."], "answer": "The problem is mainly the number of hives, not individual beekeepers.", "explanation": "'The concern is one of scale.'"},
+        {"id": "q5", "prompt": "The comparison with 'keeping chickens' is used to show that…", "options": ["chickens and bees need similar care.", "helping a common domesticated species does little for threatened wild ones.", "birds are more endangered than bees.", "keeping animals in cities is always wrong."], "answer": "helping a common domesticated species does little for threatened wild ones.", "explanation": "The analogy mirrors honey bees (domestic, widespread) vs wild bees (threatened)."}
+      ]
+    },
+    {
+      "id": "ielts-r-wellbeing-economics",
+      "title": "Beyond GDP: The Rise of Wellbeing Economics",
+      "level": "C1",
+      "body": "For most of the twentieth century, a country's success was measured above all by the growth of its gross domestic product. GDP has obvious strengths: it is calculated using internationally agreed methods, it is published regularly, and it correlates reasonably well with many things people value, from life expectancy to access to education. Yet its limitations were recognised even by Simon Kuznets, the economist who developed the national accounts on which it is based. GDP measures market activity, not welfare. It rises when a country spends more on cleaning up after a natural disaster, and it ignores unpaid work such as caring for children or elderly relatives.\n\nIn recent years, a growing number of governments have experimented with alternative frameworks. New Zealand introduced a so-called wellbeing budget in 2019, requiring ministries to justify spending in terms of its effect on mental health, child poverty and environmental sustainability, among other goals. Scotland, Iceland, Finland and Wales have joined a network of 'wellbeing economy governments', and Canada published a national quality-of-life framework in 2021, combining indicators of prosperity, health, environment, social cohesion and good governance.\n\nAdvocates argue that such frameworks encourage policymakers to think about long-term consequences and about groups whose needs are invisible in aggregate statistics. Critics raise two main objections. The first is practical: wellbeing is difficult to define and measure, and indicators based on surveys of life satisfaction can be influenced by cultural differences in how people answer questions. The second is political. With dozens of indicators to choose from, a government may simply highlight those that are improving and quietly ignore the rest, making it harder rather than easier for voters to hold it to account.\n\nThere is also debate about what difference the new frameworks have actually made. An evaluation of New Zealand's approach found that, while it changed the language of budget documents, the allocation of money between departments shifted only modestly. Supporters respond that changing how officials think is a necessary first step, and that institutional change is always gradual.\n\nWhat seems clear is that few economists now argue that GDP should be abandoned. The more common position is that it should be complemented: treated as one useful indicator among several, rather than as a single score by which the health of a society can be judged.",
+      "questions": [
+        {"id": "q1", "prompt": "Which limitation of GDP is mentioned in the first paragraph?", "options": ["It is published too rarely.", "It ignores unpaid work such as caring for relatives.", "It is not internationally comparable.", "It does not correlate with life expectancy."], "answer": "It ignores unpaid work such as caring for relatives.", "explanation": "Paragraph 1 lists unpaid care work."},
+        {"id": "q2", "prompt": "What did New Zealand's wellbeing budget require?", "options": ["That GDP be abolished.", "That ministries justify spending by its effect on wellbeing goals.", "That taxes be reduced.", "That all spending be approved by citizens."], "answer": "That ministries justify spending by its effect on wellbeing goals.", "explanation": "Paragraph 2."},
+        {"id": "q3", "prompt": "What is the 'political' objection to wellbeing frameworks?", "options": ["They are too expensive.", "Governments might select only favourable indicators.", "Voters do not understand them.", "They reduce economic growth."], "answer": "Governments might select only favourable indicators.", "explanation": "'highlight those that are improving and quietly ignore the rest'."},
+        {"id": "q4", "prompt": "What did the evaluation of New Zealand's approach find?", "options": ["Spending between departments changed dramatically.", "The language of budgets changed, but spending shifted only modestly.", "The framework was abandoned.", "Child poverty disappeared."], "answer": "The language of budgets changed, but spending shifted only modestly.", "explanation": "Paragraph 4."},
+        {"id": "q5", "prompt": "Which statement best reflects the writer's conclusion?", "options": ["GDP should be replaced by life-satisfaction surveys.", "GDP remains useful but should be one indicator among several.", "Wellbeing frameworks have failed.", "Only Nordic countries should use wellbeing budgets."], "answer": "GDP remains useful but should be one indicator among several.", "explanation": "Final paragraph: 'complemented… one useful indicator among several'."}
+      ]
+    },
+    {
+      "id": "ielts-r-multitasking",
+      "title": "The Hidden Cost of Switching Tasks",
+      "level": "C1",
+      "body": "Many professionals take pride in their ability to multitask: answering emails during meetings, monitoring messages while writing reports, or following a podcast while planning the week. Research in cognitive psychology, however, suggests that what feels like doing several things at once is, in most cases, rapid switching between tasks, and that this switching carries a measurable cost.\n\nIn a classic type of experiment, participants are asked to perform two simple tasks, such as classifying numbers as odd or even and letters as vowels or consonants. When the tasks alternate, responses are consistently slower and less accurate than when the same task is repeated. The delay, often only a fraction of a second, is known as the 'switch cost'. It is thought to reflect the time the brain needs to disengage from one set of rules and activate another. Crucially, the cost does not disappear entirely even when people know in advance which task is coming next.\n\nA fraction of a second may seem trivial, but in complex work the costs accumulate. After an interruption, people often take several minutes to return fully to a demanding task, and they are more likely to make errors when they do. Some researchers describe a phenomenon called 'attention residue': part of our attention remains on the previous task, particularly if it was left unfinished.\n\nInterestingly, people who multitask most frequently do not appear to become better at it. Several studies have found that heavy media multitaskers perform worse on tests of filtering out irrelevant information than light multitaskers, although it remains unclear whether multitasking causes this difference or whether people who are easily distracted are simply more inclined to multitask.\n\nThere are exceptions. Combining a highly automatic activity, such as walking, with a cognitively demanding one, such as holding a conversation, usually causes little difficulty, because the automatic task requires minimal conscious control. Problems arise mainly when two tasks compete for the same mental resources, as when we try to read an email while listening to a colleague.\n\nThe practical advice that follows is straightforward, if not always easy to apply: group similar tasks together, schedule periods without notifications for demanding work, and, where possible, finish one task before starting the next.",
+      "questions": [
+        {"id": "q1", "prompt": "According to the passage, what is most 'multitasking' actually?", "options": ["Doing several tasks at exactly the same time.", "Switching rapidly between tasks.", "Delegating tasks to others.", "A skill that improves with practice."], "answer": "Switching rapidly between tasks.", "explanation": "Paragraph 1."},
+        {"id": "q2", "prompt": "What is the 'switch cost'?", "options": ["The financial cost of interruptions.", "The delay and loss of accuracy when alternating between tasks.", "The time needed to learn a new task.", "The fatigue caused by long meetings."], "answer": "The delay and loss of accuracy when alternating between tasks.", "explanation": "Paragraph 2."},
+        {"id": "q3", "prompt": "What does 'attention residue' refer to?", "options": ["Part of our attention staying on a previous task.", "Forgetting what we were doing.", "Paying attention to two people at once.", "Mental fatigue at the end of the day."], "answer": "Part of our attention staying on a previous task.", "explanation": "Paragraph 3."},
+        {"id": "q4", "prompt": "What is uncertain about heavy media multitaskers?", "options": ["Whether they exist.", "Whether multitasking causes their poorer filtering or distractible people simply multitask more.", "Whether they are older than light multitaskers.", "Whether they use more devices."], "answer": "Whether multitasking causes their poorer filtering or distractible people simply multitask more.", "explanation": "The direction of causation is unclear (paragraph 4)."},
+        {"id": "q5", "prompt": "Why is walking while talking usually easy?", "options": ["Talking is automatic.", "Walking is automatic and needs little conscious control.", "Both tasks use the same mental resources.", "People practise it daily."], "answer": "Walking is automatic and needs little conscious control.", "explanation": "Paragraph 5."}
+      ]
+    }
+  ],
+  "listening": [
+    {
+      "id": "ielts-l-language-exchange",
+      "title": "Section 1: Enquiring about a Language Exchange",
+      "level": "B2",
+      "kind": "Conversation",
+      "speakers": {"Receptionist": {"accent": "en-GB", "voice": "shimmer"}, "Caller": {"accent": "en-CA", "voice": "echo"}},
+      "lines": [
+        {"s": "Receptionist", "t": "Good morning, Riverside Community Centre. How can I help?"},
+        {"s": "Caller", "t": "Hi, I'm calling about the language exchange programme. I saw a poster at the library."},
+        {"s": "Receptionist", "t": "Of course. The exchange meets every Thursday evening from seven until half past eight, in Room 4 on the first floor."},
+        {"s": "Caller", "t": "Great. And is there a fee?"},
+        {"s": "Receptionist", "t": "Registration is twenty-five dollars for the term, which covers coffee and materials. Students and seniors pay fifteen."},
+        {"s": "Caller", "t": "I'm not a student, so twenty-five, then. Which languages are available?"},
+        {"s": "Receptionist", "t": "This term we have English, French, Spanish and Mandarin. Japanese was popular last year, but unfortunately our volunteer has moved away."},
+        {"s": "Caller", "t": "I'd like to practise English and help someone with French. Do I need to bring anything?"},
+        {"s": "Receptionist", "t": "Just some photo identification for the first session, so we can complete your membership card. Could I take your surname?"},
+        {"s": "Caller", "t": "Yes, it's Lemieux. L-E-M-I-E-U-X."},
+        {"s": "Receptionist", "t": "Thank you, Mr Lemieux. The term starts on the fourteenth of January, and the last session is the first of April."}
+      ],
+      "questions": [
+        {"id": "q1", "prompt": "Where does the exchange take place?", "options": ["In the library.", "In Room 4 on the first floor.", "In Room 14.", "In the coffee shop."], "answer": "In Room 4 on the first floor.", "explanation": "Line 3."},
+        {"id": "q2", "prompt": "How much will the caller pay?", "options": ["$15", "$25", "$40", "Nothing"], "answer": "$25", "explanation": "He is not a student or senior."},
+        {"id": "q3", "prompt": "Which language is NOT available this term?", "options": ["Spanish", "Mandarin", "Japanese", "French"], "answer": "Japanese", "explanation": "The Japanese volunteer moved away."},
+        {"id": "q4", "prompt": "What must the caller bring to the first session?", "options": ["A textbook.", "Photo identification.", "A passport photo.", "Proof of address."], "answer": "Photo identification.", "explanation": "Needed for the membership card."}
+      ]
+    },
+    {
+      "id": "ielts-l-recycling",
+      "title": "Section 2: Visitor Information at a Recycling Centre",
+      "level": "B2",
+      "kind": "Monologue",
+      "speakers": {"Guide": {"accent": "en-CA", "voice": "nova"}},
+      "lines": [
+        {"s": "Guide", "t": "Welcome to the Eastside Resource Recovery Centre. Before we start the tour, a few practical points."},
+        {"s": "Guide", "t": "The centre is open to the public from Tuesday to Sunday. We close on Mondays for maintenance, and on statutory holidays."},
+        {"s": "Guide", "t": "When you arrive by car, please follow the green signs to the drop-off area. The blue signs are for commercial vehicles only."},
+        {"s": "Guide", "t": "Electronics such as old laptops and phones go to the building on your left. For security reasons, we recommend erasing your data before you bring devices in, although we do offer a free data-wiping service if you ask at reception."},
+        {"s": "Guide", "t": "Paint and household chemicals must be kept in their original containers. Please don't mix them or pour them into other bottles, as this makes them dangerous for our staff."},
+        {"s": "Guide", "t": "One change this year: we no longer accept polystyrene foam, because the company that processed it has closed. We're looking for a new partner and hope to accept it again next spring."},
+        {"s": "Guide", "t": "Finally, our reuse shop near the exit sells furniture and tools that are still in good condition. All profits go towards environmental education programmes in local schools."}
+      ],
+      "questions": [
+        {"id": "q1", "prompt": "When is the centre closed to the public?", "options": ["Sundays", "Mondays and statutory holidays", "Tuesdays", "Weekends"], "answer": "Mondays and statutory holidays", "explanation": "Line 2."},
+        {"id": "q2", "prompt": "Which signs should private cars follow?", "options": ["Blue", "Green", "Red", "Yellow"], "answer": "Green", "explanation": "Blue is for commercial vehicles."},
+        {"id": "q3", "prompt": "Why is polystyrene foam not accepted this year?", "options": ["It is too dangerous.", "The processing company has closed.", "It is banned by law.", "Visitors brought too much."], "answer": "The processing company has closed.", "explanation": "Line 6."},
+        {"id": "q4", "prompt": "What do profits from the reuse shop fund?", "options": ["New buildings.", "Staff salaries.", "Environmental education in local schools.", "Free data wiping."], "answer": "Environmental education in local schools.", "explanation": "Last line."}
+      ]
+    },
+    {
+      "id": "ielts-l-ebus-project",
+      "title": "Section 3: Discussing a Research Project",
+      "level": "C1",
+      "kind": "Academic discussion",
+      "speakers": {"Tutor": {"accent": "en-GB", "voice": "fable"}, "Amira": {"accent": "en-US", "voice": "nova"}, "Ben": {"accent": "en-CA", "voice": "echo"}},
+      "lines": [
+        {"s": "Tutor", "t": "So, how is your project on electric buses coming along?"},
+        {"s": "Amira", "t": "Quite well. We've decided to focus on one city rather than comparing three, as we originally planned. The data for the other two just weren't consistent enough."},
+        {"s": "Tutor", "t": "That sounds sensible. Depth rather than breadth. What's your main research question now?"},
+        {"s": "Ben", "t": "Whether the switch to electric buses has affected ridership, not just emissions. Most studies look at the environmental side, but very few ask whether passengers actually notice a difference."},
+        {"s": "Tutor", "t": "And how are you measuring that?"},
+        {"s": "Amira", "t": "We're combining the transit authority's ridership figures with a short survey. We've had about three hundred responses so far, which is more than we expected."},
+        {"s": "Tutor", "t": "Good. Be careful, though: people who choose to answer a survey about buses are probably keener on buses than the average resident."},
+        {"s": "Ben", "t": "That's a fair point. We could mention that as a limitation, and maybe compare our respondents' age and travel patterns with census data."},
+        {"s": "Tutor", "t": "Exactly. And when is your draft due? I'd like to see the methodology chapter before the end of the month, if possible."}
+      ],
+      "questions": [
+        {"id": "q1", "prompt": "Why did the students change the scope of their project?", "options": ["Their tutor asked them to.", "Data for the other cities were inconsistent.", "They ran out of time.", "The other cities had no electric buses."], "answer": "Data for the other cities were inconsistent.", "explanation": "Amira's first turn."},
+        {"id": "q2", "prompt": "What makes their research question unusual?", "options": ["It focuses on bus costs.", "It looks at ridership as well as emissions.", "It studies bus drivers.", "It compares three countries."], "answer": "It looks at ridership as well as emissions.", "explanation": "Ben: 'very few ask whether passengers actually notice a difference'."},
+        {"id": "q3", "prompt": "What concern does the tutor raise about the survey?", "options": ["Too few people responded.", "Respondents may be more positive about buses than average.", "The questions are too long.", "It was conducted online."], "answer": "Respondents may be more positive about buses than average.", "explanation": "Self-selection bias."},
+        {"id": "q4", "prompt": "What does the tutor want to see before the end of the month?", "options": ["The full draft.", "The methodology chapter.", "The survey results.", "The census data."], "answer": "The methodology chapter.", "explanation": "Last line."}
+      ]
+    },
+    {
+      "id": "ielts-l-container",
+      "title": "Section 4: Lecture on the Shipping Container",
+      "level": "C1",
+      "kind": "Lecture",
+      "speakers": {"Lecturer": {"accent": "en-US", "voice": "onyx"}},
+      "lines": [
+        {"s": "Lecturer", "t": "Today I want to talk about an invention that rarely appears in lists of great innovations, yet arguably transformed the global economy more than the internet: the standard shipping container."},
+        {"s": "Lecturer", "t": "Before the 1950s, cargo was loaded onto ships piece by piece, in sacks, barrels and wooden crates. A single vessel could take a week or more to unload, and theft and damage were common."},
+        {"s": "Lecturer", "t": "In 1956, a trucking entrepreneur named Malcom McLean sent a converted tanker from New Jersey to Texas carrying fifty-eight metal boxes that could be lifted straight onto trucks."},
+        {"s": "Lecturer", "t": "The key, however, was not the box itself but standardisation. Only when ports, ships, trains and trucks agreed on common dimensions in the late 1960s did the full benefits appear."},
+        {"s": "Lecturer", "t": "The effects were dramatic. Loading costs fell by more than ninety per cent, and the time ships spent in port dropped from days to hours."},
+        {"s": "Lecturer", "t": "This, in turn, made it economical to manufacture goods far from where they were sold, which is a major reason global supply chains look the way they do today."},
+        {"s": "Lecturer", "t": "There were losers too. Traditional port cities lost tens of thousands of dock jobs, and activity moved to new, larger terminals, often far from city centres."}
+      ],
+      "questions": [
+        {"id": "q1", "prompt": "What was the main problem with shipping before containers?", "options": ["Ships were too small.", "Loading piece by piece was slow, with theft and damage.", "There were too few ports.", "Fuel was expensive."], "answer": "Loading piece by piece was slow, with theft and damage.", "explanation": "Line 2."},
+        {"id": "q2", "prompt": "According to the lecturer, what was the real key to the container's success?", "options": ["The metal used.", "Standardised dimensions across transport systems.", "McLean's trucking company.", "Government subsidies."], "answer": "Standardised dimensions across transport systems.", "explanation": "Line 4."},
+        {"id": "q3", "prompt": "By how much did loading costs fall?", "options": ["About 50%", "More than 90%", "About 30%", "They doubled"], "answer": "More than 90%", "explanation": "Line 5."},
+        {"id": "q4", "prompt": "Which negative effect is mentioned?", "options": ["More theft.", "Loss of dock jobs in traditional port cities.", "Higher prices for consumers.", "Slower trade."], "answer": "Loss of dock jobs in traditional port cities.", "explanation": "Last line."}
+      ]
+    }
+  ]
+}

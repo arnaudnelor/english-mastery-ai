@@ -1,0 +1,321 @@
+{
+  "papers": [
+    {
+      "id": "toefl-2026-1",
+      "kind": "toefl2026",
+      "title": "TOEFL iBT (2026 format): Practice Test 1",
+      "intro": "Follows the task types of the TOEFL iBT introduced on 21 January 2026: Reading (Complete the Words, Read in Daily Life, Read an Academic Passage), Listening (Choose a Response, Conversation, Announcement, Academic Talk), Writing (Build a Sentence, Write an Email, Academic Discussion) and Speaking (Listen and Repeat, Take an Interview). The real test is adaptive; this practice version is fixed. Scores are estimated on the 1–6 band scale.",
+      "sections": [
+        {
+          "id": "reading", "name": "Reading", "minutes": 30, "scoring": "objective",
+          "parts": [
+            {
+              "id": "complete-words", "type": "gapfill", "title": "Complete the Words",
+              "instructions": "Fill in the missing letters to complete each word in the paragraph.",
+              "text": "Coral reefs cover less than one percent of the ocean fl{1}, yet they support about a quarter of all mar{2} species. Reefs are built by tiny ani{3} called polyps, which live in col{4} and produce hard skeletons of calcium carbonate. When water temp{5} rise for too long, the polyps expel the algae that liv{6} inside them and give them their col{7}. This process, known as bleaching, does not imme{8} kill the coral, but it leaves the reef weak{9} and vulnerable to dis{10}.",
+              "gaps": {
+                "1": {"prefix": "fl", "answer": ["oor"]}, "2": {"prefix": "mar", "answer": ["ine"]}, "3": {"prefix": "ani", "answer": ["mals"]},
+                "4": {"prefix": "col", "answer": ["onies"]}, "5": {"prefix": "temp", "answer": ["eratures"]}, "6": {"prefix": "liv", "answer": ["e"]},
+                "7": {"prefix": "col", "answer": ["our", "or"]}, "8": {"prefix": "imme", "answer": ["diately"]}, "9": {"prefix": "weak", "answer": ["ened"]},
+                "10": {"prefix": "dis", "answer": ["ease"]}
+              }
+            },
+            {
+              "id": "daily-life", "type": "mcq", "title": "Read in Daily Life",
+              "passage": "FROM: Campus Housing Office\nSUBJECT: Water shut-off, Maple Hall\n\nDear residents,\nTo complete repairs to the main pipe, water in Maple Hall will be turned off on Wednesday from 9 a.m. to approximately 2 p.m. Showers in the Recreation Centre will remain available to residents who show their student card. Please do not use toilets during this period. Bottled water will be provided in the main lobby from 8:30 a.m. If the work takes longer than expected, we will send a text message update by 1:30 p.m.\nThank you for your patience.",
+              "questions": [
+                {"id": "q1", "prompt": "What is the main purpose of the email?", "options": ["To announce new showers.", "To inform residents about a temporary water shut-off.", "To ask residents to report leaks.", "To change the lobby opening hours."], "answer": "To inform residents about a temporary water shut-off.", "explanation": "The email explains the shut-off and arrangements."},
+                {"id": "q2", "prompt": "What must residents show to use the Recreation Centre showers?", "options": ["A text message.", "Their student card.", "A housing contract.", "Nothing."], "answer": "Their student card.", "explanation": "Stated in the email."},
+                {"id": "q3", "prompt": "What will happen if repairs are delayed?", "options": ["Residents will receive a text by 1:30 p.m.", "Water will be off until Thursday.", "Bottled water will run out.", "Residents must move out."], "answer": "Residents will receive a text by 1:30 p.m.", "explanation": "Last sentence of the notice."}
+              ]
+            },
+            {
+              "id": "academic", "type": "mcq", "title": "Read an Academic Passage",
+              "passage": "The domestication of plants did not happen in a single place or at a single moment. Archaeological evidence indicates that agriculture emerged independently in at least a dozen regions, including the Fertile Crescent, China, Mesoamerica, the Andes and parts of Africa, over a period of several thousand years. In each case, people gradually began to favour plants with useful traits, such as seeds that remained on the stalk instead of scattering, which made harvesting easier.\n\nFor a long time, scholars assumed that farming spread because it obviously improved human life. Skeletal remains complicate this picture. Early farming populations often show signs of poorer nutrition and more dental disease than the hunter-gatherers who preceded them, probably because their diets relied heavily on a few starchy crops. Why, then, did agriculture spread? One explanation is demographic: farming produces more food per area of land, even if that food is less varied, allowing populations to grow. Once a community had committed to farming and its numbers had increased, returning to hunting and gathering was no longer a realistic option.",
+              "questions": [
+                {"id": "q1", "prompt": "What does the passage say about where agriculture began?", "options": ["It began in the Fertile Crescent and spread everywhere.", "It emerged independently in many regions.", "It began in Africa.", "Its origins are completely unknown."], "answer": "It emerged independently in many regions.", "explanation": "'independently in at least a dozen regions'."},
+                {"id": "q2", "prompt": "Why were seeds that stayed on the stalk useful?", "options": ["They grew faster.", "They made harvesting easier.", "They were more nutritious.", "They resisted disease."], "answer": "They made harvesting easier.", "explanation": "Paragraph 1."},
+                {"id": "q3", "prompt": "What do skeletal remains of early farmers often show?", "options": ["Better nutrition than hunter-gatherers.", "Poorer nutrition and more dental disease.", "Longer lives.", "Larger body size."], "answer": "Poorer nutrition and more dental disease.", "explanation": "Paragraph 2."},
+                {"id": "q4", "prompt": "The word 'complicate' in paragraph 2 suggests that the skeletal evidence…", "options": ["confirms the old assumption.", "makes the old assumption harder to accept.", "is impossible to interpret.", "was ignored by scholars."], "answer": "makes the old assumption harder to accept.", "explanation": "It challenges the idea that farming obviously improved life."},
+                {"id": "q5", "prompt": "According to the demographic explanation, why did farming persist?", "options": ["Farmers were healthier.", "Larger populations could not return to hunting and gathering.", "Governments required it.", "Wild animals disappeared."], "answer": "Larger populations could not return to hunting and gathering.", "explanation": "Last sentence."}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "listening", "name": "Listening", "minutes": 29, "scoring": "objective",
+          "parts": [
+            {
+              "id": "choose-response", "type": "mcq", "title": "Listen and Choose a Response",
+              "instructions": "Listen to each sentence, then choose the most appropriate response.",
+              "questions": [
+                {"id": "q1", "say": "Do you know if the library's open late tonight?", "accent": "en-US", "voice": "nova", "prompt": "Choose the best response.", "options": ["Yes, it's a big library.", "I think it closes at ten on Fridays.", "I returned the book yesterday.", "No, I don't read much."], "answer": "I think it closes at ten on Fridays.", "explanation": "It answers the question about opening hours."},
+                {"id": "q2", "say": "I'm sorry, I didn't catch the professor's last point about the deadline.", "accent": "en-GB", "voice": "fable", "prompt": "Choose the best response.", "options": ["She said it's been moved to next Monday.", "The professor is very tall.", "I don't like deadlines either.", "It was a great lecture."], "answer": "She said it's been moved to next Monday.", "explanation": "It supplies the missing information."},
+                {"id": "q3", "say": "Would you mind if I borrowed your notes from Tuesday?", "accent": "en-CA", "voice": "echo", "prompt": "Choose the best response.", "options": ["Yes, I was there on Tuesday.", "Not at all. I'll send you a copy tonight.", "I mind the gap.", "Tuesday was cold."], "answer": "Not at all. I'll send you a copy tonight.", "explanation": "'Not at all' = I don't mind (permission granted)."},
+                {"id": "q4", "say": "Shouldn't we have booked the study room in advance?", "accent": "en-US", "voice": "onyx", "prompt": "Choose the best response.", "options": ["Probably, but there's usually one free at this time.", "The room is very quiet.", "I booked a flight.", "We studied last week."], "answer": "Probably, but there's usually one free at this time.", "explanation": "It responds to the implied concern."},
+                {"id": "q5", "say": "How did your presentation go?", "accent": "en-GB", "voice": "shimmer", "prompt": "Choose the best response.", "options": ["It's on Thursday.", "Better than I expected, actually.", "I went by bus.", "Very well, thanks, and you?"], "answer": "Better than I expected, actually.", "explanation": "It answers how it went (past)."}
+              ]
+            },
+            {
+              "id": "conversation", "type": "mcq", "title": "Listen to a Conversation",
+              "audio": {"speakers": {"Student": {"accent": "en-US", "voice": "nova"}, "Advisor": {"accent": "en-CA", "voice": "echo"}},
+                "lines": [
+                  {"s": "Student", "t": "Hi, I wanted to ask about switching from biology to environmental science."},
+                  {"s": "Advisor", "t": "Sure. Have you completed the introductory chemistry course yet? It's required for both programmes."},
+                  {"s": "Student", "t": "Yes, last semester. But I haven't taken statistics."},
+                  {"s": "Advisor", "t": "That's fine. You can take statistics next term. The main issue is the field course in May. It fills up quickly, so you'd need to register this month."},
+                  {"s": "Student", "t": "Okay. Do I lose any credits by switching?"},
+                  {"s": "Advisor", "t": "No, all your biology courses count as electives. You'll just need to fill in this transfer form and get it signed by the department head."}
+                ]},
+              "questions": [
+                {"id": "q1", "prompt": "What does the student want to do?", "options": ["Drop out of university.", "Change programmes.", "Take a field trip.", "Retake chemistry."], "answer": "Change programmes.", "explanation": "From biology to environmental science."},
+                {"id": "q2", "prompt": "Why must the student act this month?", "options": ["Statistics is only offered now.", "The May field course fills up quickly.", "The transfer form expires.", "The advisor is leaving."], "answer": "The May field course fills up quickly.", "explanation": "Advisor's second turn."},
+                {"id": "q3", "prompt": "What happens to the student's biology credits?", "options": ["They are lost.", "They count as electives.", "They must be repeated.", "They count as statistics."], "answer": "They count as electives.", "explanation": "Last line."}
+              ]
+            },
+            {
+              "id": "announcement", "type": "mcq", "title": "Listen to an Announcement",
+              "audio": {"speakers": {"Announcer": {"accent": "en-US", "voice": "onyx"}},
+                "lines": [{"s": "Announcer", "t": "Attention, students. Because of the snowstorm, all classes after 3 p.m. today are cancelled. The library and the student centre will stay open until 8 p.m., but the shuttle bus service will stop at 5. Online classes will run as scheduled. Please check your university email for updates about tomorrow."}]},
+              "questions": [
+                {"id": "q1", "prompt": "What is cancelled?", "options": ["All online classes.", "Classes after 3 p.m. today.", "Tomorrow's classes.", "The library."], "answer": "Classes after 3 p.m. today.", "explanation": "Stated at the start."},
+                {"id": "q2", "prompt": "When does the shuttle bus stop running?", "options": ["3 p.m.", "5 p.m.", "8 p.m.", "It keeps running."], "answer": "5 p.m.", "explanation": "'the shuttle bus service will stop at 5'."}
+              ]
+            },
+            {
+              "id": "academic-talk", "type": "mcq", "title": "Listen to an Academic Talk",
+              "audio": {"speakers": {"Professor": {"accent": "en-GB", "voice": "fable"}},
+                "lines": [
+                  {"s": "Professor", "t": "Today let's look at a puzzle in economics known as the paradox of thrift."},
+                  {"s": "Professor", "t": "For an individual household, saving more is usually sensible. But if everyone tries to save more at the same time, total spending in the economy falls."},
+                  {"s": "Professor", "t": "Lower spending means lower sales for businesses, which may respond by cutting jobs. As incomes fall, households may end up saving no more than before, or even less."},
+                  {"s": "Professor", "t": "The idea is closely associated with John Maynard Keynes, who used it to argue that governments should increase spending during recessions."},
+                  {"s": "Professor", "t": "Not all economists accept the paradox. Some argue that higher savings lower interest rates, which encourages investment and offsets the fall in consumption."}
+                ]},
+              "questions": [
+                {"id": "q1", "prompt": "What is the paradox of thrift?", "options": ["Saving is always bad.", "If everyone saves more at once, total saving may not rise.", "Households should never save.", "Interest rates always rise."], "answer": "If everyone saves more at once, total saving may not rise.", "explanation": "Lines 2–3."},
+                {"id": "q2", "prompt": "How might businesses respond to lower spending?", "options": ["By raising prices.", "By cutting jobs.", "By saving more.", "By hiring more staff."], "answer": "By cutting jobs.", "explanation": "Line 3."},
+                {"id": "q3", "prompt": "What policy did Keynes support based on this idea?", "options": ["Higher taxes in recessions.", "Increased government spending in recessions.", "Lower wages.", "Balanced budgets every year."], "answer": "Increased government spending in recessions.", "explanation": "Line 4."},
+                {"id": "q4", "prompt": "What counter-argument does the professor mention?", "options": ["Higher savings lower interest rates and encourage investment.", "Households never save.", "Keynes was misquoted.", "Recessions never happen."], "answer": "Higher savings lower interest rates and encourage investment.", "explanation": "Last line."}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "writing", "name": "Writing", "minutes": 23, "scoring": "writing",
+          "parts": [
+            {
+              "id": "build-sentence", "type": "build_sentence", "title": "Build a Sentence",
+              "instructions": "Put the words in the correct order to make a sentence that responds to the first speaker.",
+              "items": [
+                {"id": "b1", "context": "Did you finish the lab report?", "chunks": ["I", "still", "need", "to", "add", "the", "conclusion"], "answer": "I still need to add the conclusion"},
+                {"id": "b2", "context": "Where should we meet?", "chunks": ["how", "about", "in", "front", "of", "the", "library"], "answer": "how about in front of the library"},
+                {"id": "b3", "context": "Why was the lecture cancelled?", "chunks": ["the", "professor", "had", "to", "attend", "a", "conference"], "answer": "the professor had to attend a conference"},
+                {"id": "b4", "context": "Can you recommend a good textbook?", "chunks": ["the", "one", "we", "used", "last", "year", "was", "excellent"], "answer": "the one we used last year was excellent"},
+                {"id": "b5", "context": "Have you registered for next term?", "chunks": ["not", "yet", "because", "the", "system", "is", "down"], "answer": "not yet because the system is down"}
+              ]
+            },
+            {
+              "id": "tasks", "type": "writing", "title": "Write an Email & Academic Discussion",
+              "tasks": [
+                {"id": "email", "label": "Write an Email (about 7 minutes)", "min_words": 80,
+                 "prompt": "You borrowed a laptop from your university's IT department for a group project, but the screen stopped working two days before it is due back. Write an email to the IT department. In your email, explain what happened, ask what you should do, and request an extension for returning it."},
+                {"id": "discussion", "label": "Write for an Academic Discussion (about 10 minutes)", "min_words": 100,
+                 "prompt": "Your professor asks: 'Should universities require all students to complete an internship before graduating?'\n\nMaya writes: 'Yes. Employers want experience, and internships help students choose a career.'\n\nDaniel writes: 'Not necessarily. Many students already work part-time, and unpaid internships are unfair to students who can't afford them.'\n\nWrite a response that contributes to the discussion. Give your opinion and support it."}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "speaking", "name": "Speaking", "minutes": 8, "scoring": "speaking",
+          "parts": [
+            {"id": "repeat", "type": "speaking_repeat", "title": "Listen and Repeat",
+             "instructions": "You are a new student being shown around campus. Listen to each sentence and repeat it exactly.",
+             "items": [
+               {"id": "r1", "text": "Welcome to the science building."},
+               {"id": "r2", "text": "The labs are on the second floor."},
+               {"id": "r3", "text": "Please sign in before using any equipment."},
+               {"id": "r4", "text": "Safety glasses are available next to the door."},
+               {"id": "r5", "text": "If you have any questions, ask one of the teaching assistants."},
+               {"id": "r6", "text": "The building is open from seven in the morning until ten at night."},
+               {"id": "r7", "text": "Remember that food and drinks are not allowed in the laboratories, even in closed containers."}
+             ]},
+            {"id": "interview", "type": "speaking_answer", "title": "Take an Interview",
+             "instructions": "A researcher is interviewing students about technology and study habits. Answer each question in about 45 seconds.",
+             "items": [
+               {"id": "i1", "question": "What device do you use most for studying, and why?"},
+               {"id": "i2", "question": "Some students prefer to study in silence, while others like background music. What works best for you?"},
+               {"id": "i3", "question": "Do you think universities should limit the use of phones during lectures? Why or why not?"},
+               {"id": "i4", "question": "Describe a time when technology helped you solve a problem in your studies."}
+             ]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cambridge-c1-1",
+      "kind": "cambridge_c1",
+      "title": "Cambridge C1 Advanced: Practice Test 1",
+      "intro": "Original practice paper in the format of C1 Advanced: Reading and Use of English (multiple-choice cloze, open cloze, word formation, key word transformations, multiple-choice reading), Writing (essay), Listening (multiple choice) and Speaking (long turn and discussion). Results are estimated on the Cambridge English Scale (160–210).",
+      "sections": [
+        {
+          "id": "reading", "name": "Reading and Use of English", "minutes": 60, "scoring": "objective",
+          "parts": [
+            {"id": "p1", "type": "gapfill", "title": "Part 1: Multiple-choice cloze", "instructions": "Choose the word that best fits each gap.",
+             "text": "The idea of a four-day working week has {1} considerable attention in recent years. Supporters claim that it can {2} productivity, while sceptics fear it will simply {3} employees under greater pressure. Much {4} on how the extra day is organised. In some firms, staff work longer hours on the remaining days, which rather {5} the purpose. Others have managed to cut unnecessary meetings and, {6} a result, maintain output. What seems clear is that there is no {7} solution that suits every sector, and companies would be {8} advised to run a trial before committing.",
+             "gaps": {
+               "1": {"options": ["attracted", "drawn up", "taken", "caught on"], "answer": "attracted"},
+               "2": {"options": ["boost", "lift off", "rise", "grow"], "answer": "boost"},
+               "3": {"options": ["put", "lay", "set", "place"], "answer": "put"},
+               "4": {"options": ["depends", "relies", "rests", "counts"], "answer": "depends"},
+               "5": {"options": ["defeats", "beats", "loses", "fails"], "answer": "defeats"},
+               "6": {"options": ["as", "for", "in", "by"], "answer": "as"},
+               "7": {"options": ["single", "sole", "lone", "unique"], "answer": "single"},
+               "8": {"options": ["well", "much", "highly", "greatly"], "answer": "well"}
+             }},
+            {"id": "p2", "type": "gapfill", "title": "Part 2: Open cloze", "instructions": "Write ONE word in each gap.",
+             "text": "Few inventions have changed daily life as profoundly {1} the refrigerator. Before it became widespread, households had to buy fresh food almost every day, and {2} that could not be eaten quickly was preserved by salting, smoking or drying. {3} though early models were expensive and noisy, demand grew rapidly. By the 1950s, most homes in North America had one, {4} transformed shopping habits and allowed the growth of large supermarkets. Not {5} did refrigeration change what people ate, but it also reshaped the global food trade, making {6} possible to transport perishable goods {7} long distances. Today, of course, we take it entirely {8} granted.",
+             "gaps": {"1": {"answer": ["as"]}, "2": {"answer": ["anything", "food", "whatever", "what"]}, "3": {"answer": ["even"]}, "4": {"answer": ["which"]}, "5": {"answer": ["only"]}, "6": {"answer": ["it"]}, "7": {"answer": ["over", "across"]}, "8": {"answer": ["for"]}}},
+            {"id": "p3", "type": "gapfill", "title": "Part 3: Word formation", "instructions": "Use the word in capitals to form a word that fits the gap.",
+             "text": "The role of sleep in learning has become the subject of {1} research. Scientists now believe that sleep is {2} for consolidating memories, and that even a short nap can lead to a {3} improvement in performance. {4}, many students sacrifice sleep before exams, a habit that may prove {5}. Experts recommend a regular routine and warn against the {6} use of screens late at night. The {7} of these simple measures is often underestimated, despite growing {8} for their benefits.",
+             "gaps": {"1": {"hint": "EXTEND", "answer": ["extensive"]}, "2": {"hint": "ESSENCE", "answer": ["essential"]}, "3": {"hint": "MEASURE", "answer": ["measurable"]}, "4": {"hint": "FORTUNATE", "answer": ["unfortunately"]}, "5": {"hint": "PRODUCT", "answer": ["counterproductive", "counter-productive", "unproductive"]}, "6": {"hint": "EXCESS", "answer": ["excessive"]}, "7": {"hint": "EFFECTIVE", "answer": ["effectiveness"]}, "8": {"hint": "SUPPORT", "answer": ["support"]}}},
+            {"id": "p4", "type": "transform", "title": "Part 4: Key word transformation", "instructions": "Complete the second sentence so that it has a similar meaning to the first, using the word given. Use between three and six words, including the word given.",
+             "items": [
+               {"id": "t1", "first": "I'm sure she didn't know about the change.", "key": "HAVE", "before": "She", "after": "about the change.", "answer": ["can't have known", "cannot have known", "couldn't have known", "could not have known"]},
+               {"id": "t2", "first": "It's possible that the meeting will be cancelled.", "key": "MIGHT", "before": "The meeting", "after": ".", "answer": ["might be cancelled", "might well be cancelled", "might get cancelled"]},
+               {"id": "t3", "first": "They didn't hire him because he lacked experience.", "key": "OF", "before": "He wasn't hired", "after": "experience.", "answer": ["because of his lack of", "on account of his lack of", "because of a lack of"]},
+               {"id": "t4", "first": "I regret not studying harder at university.", "key": "WISH", "before": "I", "after": "harder at university.", "answer": ["wish i had studied", "wish i'd studied"]},
+               {"id": "t5", "first": "As soon as she arrived, the meeting started.", "key": "SOONER", "before": "No", "after": "the meeting started.", "answer": ["sooner had she arrived than"]},
+               {"id": "t6", "first": "People say the company is planning to expand.", "key": "SAID", "before": "The company", "after": "to expand.", "answer": ["is said to be planning"]}
+             ]},
+            {"id": "p5", "type": "mcq", "title": "Part 5: Multiple-choice reading",
+             "passage": "When I first started working as a translator, I believed that my job was to be invisible. A good translation, I had been told, should read as though it had been written in the target language, without any trace of the original. I spent hours searching for idiomatic equivalents, smoothing out awkward phrases and removing anything that might strike an English reader as foreign.\n\nIt was a novel by a Brazilian writer that changed my mind. The author's sentences were long and winding, full of repetitions that, in Portuguese, created a hypnotic rhythm. My first draft was fluent and readable — and, I realised with some discomfort, rather dull. In making the book sound English, I had removed precisely what made it distinctive.\n\nThe author, whom I eventually met at a literary festival, was surprisingly relaxed about the question. 'Every translation is a new book,' she told me. 'I only ask that it be a good one.' It was generous of her, but it did not quite resolve my dilemma. A translator who departs too freely from the original risks imposing their own voice; one who follows it too closely produces something unreadable.\n\nI now think of translation less as a search for the right answer than as a series of negotiated compromises. I keep some of the strangeness, enough to remind readers that the book comes from elsewhere, while making sure that it never becomes an obstacle. Whether I strike the right balance is, inevitably, a matter of opinion. But I no longer aim to be invisible.",
+             "questions": [
+               {"id": "q1", "prompt": "What did the writer originally believe about translation?", "options": ["It should preserve the original's foreign feel.", "It should read as if originally written in the target language.", "It was mainly about grammar.", "It was impossible to do well."], "answer": "It should read as if originally written in the target language.", "explanation": "Paragraph 1."},
+               {"id": "q2", "prompt": "What did the writer realise about the first draft of the Brazilian novel?", "options": ["It contained many errors.", "It had lost what made the book distinctive.", "It was too long.", "It was too literal."], "answer": "It had lost what made the book distinctive.", "explanation": "'I had removed precisely what made it distinctive.'"},
+               {"id": "q3", "prompt": "How did the author's comment affect the writer?", "options": ["It solved the problem completely.", "It was kind but did not fully settle the writer's dilemma.", "It offended the writer.", "It made the writer stop translating."], "answer": "It was kind but did not fully settle the writer's dilemma.", "explanation": "'generous… but it did not quite resolve my dilemma'."},
+               {"id": "q4", "prompt": "What is the writer's current approach?", "options": ["To remove all foreign elements.", "To translate word for word.", "To keep some strangeness without letting it obstruct the reader.", "To let authors decide everything."], "answer": "To keep some strangeness without letting it obstruct the reader.", "explanation": "Final paragraph."}
+             ]}
+          ]
+        },
+        {
+          "id": "writing", "name": "Writing", "minutes": 45, "scoring": "writing",
+          "parts": [{"id": "essay", "type": "writing", "title": "Part 1: Essay", "tasks": [
+            {"id": "essay", "label": "Essay (220–260 words)", "min_words": 220,
+             "prompt": "Your class has attended a panel discussion on ways governments can encourage people to live more healthily. You have made the notes below.\n\nWays to encourage healthier lifestyles:\n• taxes on unhealthy food\n• free sports facilities\n• public information campaigns\n\nSome opinions expressed: 'People resent being told what to eat.' 'If it's free, more people will use it.' 'Adverts are easy to ignore.'\n\nWrite an essay discussing TWO of the methods in your notes. Explain which method you think is more effective, giving reasons to support your opinion."}
+          ]}]
+        },
+        {
+          "id": "listening", "name": "Listening", "minutes": 15, "scoring": "objective",
+          "parts": [{"id": "l1", "type": "mcq", "title": "Multiple choice: Interview with a museum curator",
+            "audio": {"speakers": {"Host": {"accent": "en-GB", "voice": "shimmer"}, "Curator": {"accent": "en-CA", "voice": "onyx"}}, "lines": [
+              {"s": "Host", "t": "My guest today is a museum curator who has just reopened a gallery after a two-year renovation. What was the thinking behind the changes?"},
+              {"s": "Curator", "t": "Honestly, our visitor surveys told us that people found the old layout exhausting. Hundreds of objects, tiny labels, no clear story. We were showing everything we owned rather than explaining anything."},
+              {"s": "Host", "t": "So you've reduced the number of objects?"},
+              {"s": "Curator", "t": "By about a third. Some colleagues were uneasy about that; it can feel like hiding the collection. But everything we removed is now available to researchers by appointment, and much of it has been photographed for our online catalogue."},
+              {"s": "Host", "t": "And what has the public reaction been?"},
+              {"s": "Curator", "t": "Visitors are staying longer, which surprised us, given there's less to see. I think when people aren't overwhelmed, they actually look. The one complaint we've had is about the lighting, which some people find too dim. That's deliberate, to protect fragile textiles, but we're adding better signage to explain why."}
+            ]},
+            "questions": [
+              {"id": "q1", "prompt": "Why was the gallery redesigned?", "options": ["The building was unsafe.", "Visitors found the old layout overwhelming.", "The museum had too few objects.", "A donor requested it."], "answer": "Visitors found the old layout overwhelming.", "explanation": "'people found the old layout exhausting'."},
+              {"id": "q2", "prompt": "How does the curator respond to concerns about 'hiding the collection'?", "options": ["Removed objects can still be seen by researchers and online.", "The objects were sold.", "The concerns were ignored.", "The objects were put in storage permanently."], "answer": "Removed objects can still be seen by researchers and online.", "explanation": "Curator's second answer."},
+              {"id": "q3", "prompt": "What surprised the museum after reopening?", "options": ["Fewer people came.", "Visitors stayed longer despite seeing fewer objects.", "Visitors wanted more objects.", "Nobody complained."], "answer": "Visitors stayed longer despite seeing fewer objects.", "explanation": "Last answer."},
+              {"id": "q4", "prompt": "What is the curator's response to complaints about lighting?", "options": ["The lights will be made brighter.", "The dim lighting will stay, but signs will explain why.", "The textiles will be removed.", "Visitors can bring torches."], "answer": "The dim lighting will stay, but signs will explain why.", "explanation": "'That's deliberate… we're adding better signage'."}
+            ]}]
+        },
+        {
+          "id": "speaking", "name": "Speaking", "minutes": 12, "scoring": "speaking",
+          "parts": [{"id": "s1", "type": "speaking_answer", "title": "Long turn and discussion", "instructions": "Answer each question for about one minute.",
+            "items": [
+              {"id": "a1", "question": "Some people prefer to work for a large organisation, others for a small one. What are the advantages and disadvantages of each?"},
+              {"id": "a2", "question": "Long turn: Talk about how technology has changed the way people work. Consider communication, flexibility and job security."},
+              {"id": "a3", "question": "Do you think people today have a better work–life balance than their parents did? Why?"},
+              {"id": "a4", "question": "Should companies be responsible for their employees' wellbeing outside working hours?"}
+            ]}]
+        }
+      ]
+    },
+    {
+      "id": "cambridge-c2-1",
+      "kind": "cambridge_c2",
+      "title": "Cambridge C2 Proficiency: Practice Test 1",
+      "intro": "Original practice paper in the format of C2 Proficiency: Reading and Use of English (multiple-choice cloze, open cloze, word formation, key word transformations, multiple-choice reading), Writing (summary essay based on two texts), Listening and Speaking. Results are estimated on the Cambridge English Scale (180–230).",
+      "sections": [
+        {
+          "id": "reading", "name": "Reading and Use of English", "minutes": 90, "scoring": "objective",
+          "parts": [
+            {"id": "p1", "type": "gapfill", "title": "Part 1: Multiple-choice cloze", "instructions": "Choose the word that best fits each gap.",
+             "text": "The notion that genius is born rather than made has long held {1} over the popular imagination. Yet research into expert performance paints a rather different picture. Studies of musicians, chess players and athletes suggest that sustained, deliberate practice {2} for far more of the variation in skill than was once supposed. This is not to say that innate ability counts for nothing, but its role may have been {3} overstated. Critics, {4}, point out that the most influential studies focused on people who had already shown early promise, a fact that inevitably {5} the findings. Moreover, the capacity to practise intensively for years may itself owe a great {6} to temperament. The debate, in short, is far from {7}, and those who claim to have the final word on the matter would do well to {8} caution.",
+             "gaps": {
+               "1": {"options": ["sway", "rule", "power", "reign"], "answer": "sway"},
+               "2": {"options": ["accounts", "explains", "reckons", "answers"], "answer": "accounts"},
+               "3": {"options": ["grossly", "widely", "deeply", "heavily"], "answer": "grossly"},
+               "4": {"options": ["however", "although", "whereas", "despite"], "answer": "however"},
+               "5": {"options": ["skews", "bends", "tilts", "leans"], "answer": "skews"},
+               "6": {"options": ["deal", "amount", "extent", "measure"], "answer": "deal"},
+               "7": {"options": ["settled", "decided", "fixed", "closed"], "answer": "settled"},
+               "8": {"options": ["exercise", "practise", "employ", "apply"], "answer": "exercise"}
+             }},
+            {"id": "p2", "type": "gapfill", "title": "Part 2: Open cloze", "instructions": "Write ONE word in each gap.",
+             "text": "It is often said that we live in an age of information overload, but {1} may be more accurate to say that we live in an age of attention scarcity. {2} the sheer volume of material competing for our interest, it is hardly surprising that we skim {3} than read. {4} matters is not how much information is available, but how much of it we are able to absorb. Some commentators argue that, far {5} making us shallower thinkers, digital media simply require new skills. Others are less sanguine, warning that habits formed online are carried over {6} other areas of life. Whichever view one takes, there is little doubt {7} the way we read has changed, and that schools will have to adapt accordingly, {8} or not they welcome the change.",
+             "gaps": {"1": {"answer": ["it"]}, "2": {"answer": ["given"]}, "3": {"answer": ["rather"]}, "4": {"answer": ["what"]}, "5": {"answer": ["from"]}, "6": {"answer": ["into", "to"]}, "7": {"answer": ["that"]}, "8": {"answer": ["whether"]}}},
+            {"id": "p3", "type": "gapfill", "title": "Part 3: Word formation", "instructions": "Use the word in capitals to form a word that fits the gap.",
+             "text": "The {1} of public trust in experts has become one of the defining concerns of our time. Some attribute it to the {2} of opinion online, where every claim can be challenged instantly. Others see it as a {3} reaction to past failures by those in authority. Whatever its causes, the consequences are hard to {4}: policies that depend on public cooperation become {5} difficult to implement. Restoring trust will require greater {6} and a willingness to admit {7}, qualities that institutions have not always displayed. Without them, any attempt at {8} is likely to fail.",
+             "gaps": {"1": {"hint": "ERODE", "answer": ["erosion"]}, "2": {"hint": "PROLIFERATE", "answer": ["proliferation"]}, "3": {"hint": "JUSTIFY", "answer": ["justifiable", "justified"]}, "4": {"hint": "EXAGGERATE", "answer": ["exaggerate", "overstate"]}, "5": {"hint": "INCREASE", "answer": ["increasingly"]}, "6": {"hint": "TRANSPARENT", "answer": ["transparency"]}, "7": {"hint": "FALLIBLE", "answer": ["fallibility"]}, "8": {"hint": "RECONCILE", "answer": ["reconciliation"]}}},
+            {"id": "p4", "type": "transform", "title": "Part 4: Key word transformation", "instructions": "Complete the second sentence so that it has a similar meaning to the first, using the word given. Use between three and eight words, including the word given.",
+             "items": [
+               {"id": "t1", "first": "The minister was not at all aware of the problem until the report was published.", "key": "NOTION", "before": "The minister", "after": "the problem until the report was published.", "answer": ["had no notion of", "had not the slightest notion of", "had no notion at all of"]},
+               {"id": "t2", "first": "It was only when I read the contract carefully that I saw the clause.", "key": "UNTIL", "before": "Not", "after": "the contract carefully did I see the clause.", "answer": ["until i read", "until i had read"]},
+               {"id": "t3", "first": "Everyone was surprised that she resigned.", "key": "CAME", "before": "Her resignation", "after": "everyone.", "answer": ["came as a surprise to", "came as a shock to"]},
+               {"id": "t4", "first": "I don't mind which restaurant we choose.", "key": "DIFFERENCE", "before": "It", "after": "which restaurant we choose.", "answer": ["makes no difference to me", "doesn't make any difference to me", "makes no difference"]},
+               {"id": "t5", "first": "He pretended to be confident, but he was actually very nervous.", "key": "FRONT", "before": "He", "after": ", but he was actually very nervous.", "answer": ["put on a brave front", "put up a front", "put on a front", "put up a brave front", "put on a confident front"]},
+               {"id": "t6", "first": "The project failed mainly because of poor planning.", "key": "DOWN", "before": "The failure of the project was", "after": "poor planning.", "answer": ["mainly down to", "largely down to", "down mainly to", "chiefly down to"]}
+             ]},
+            {"id": "p5", "type": "mcq", "title": "Part 5: Multiple-choice reading",
+             "passage": "There is a particular kind of silence that descends on a concert hall in the moments before the music begins — not the absence of sound, exactly, but a collective holding of breath. I have spent much of my career trying to understand what happens in that silence, and I am no closer to an answer than when I began.\n\nThe conventional explanation is that the audience is simply waiting, and that the silence is a courtesy, a clearing of space. But that strikes me as too modest. The silence is not merely the frame around the performance; it is part of it. Anyone who has heard a great conductor wait, seemingly interminably, before the first note knows that the tension generated in those seconds shapes everything that follows.\n\nThis is, I suspect, why recordings, for all their technical perfection, so often disappoint. They begin, as it were, mid-sentence. The silence that precedes them is the silence of a living room or a car, a silence that belongs to the listener alone and therefore carries no shared expectation. We have gained the ability to hear any music at any time, and lost, without quite noticing, the communal anticipation that once gave it weight.\n\nI do not wish to romanticise the concert hall. It is an institution with its own absurdities, from the ritual coughing between movements to the anxious etiquette of applause. Nor am I suggesting that we abandon recorded music, which has brought extraordinary works to millions who would otherwise never have heard them. My point is narrower: that something is lost when music becomes a commodity always within reach, and that what is lost is precisely what cannot be recorded.",
+             "questions": [
+               {"id": "q1", "prompt": "How does the writer view the silence before a concert?", "options": ["As a simple courtesy.", "As an integral part of the performance.", "As an uncomfortable delay.", "As something to be shortened."], "answer": "As an integral part of the performance.", "explanation": "'it is part of it'."},
+               {"id": "q2", "prompt": "Why, according to the writer, do recordings often disappoint?", "options": ["Their sound quality is poor.", "They lack the shared anticipation that precedes live music.", "They are too expensive.", "They are badly edited."], "answer": "They lack the shared anticipation that precedes live music.", "explanation": "Paragraph 3."},
+               {"id": "q3", "prompt": "What is the purpose of the final paragraph?", "options": ["To argue for abolishing recordings.", "To qualify the argument and avoid overstatement.", "To criticise audiences.", "To praise concert-hall etiquette."], "answer": "To qualify the argument and avoid overstatement.", "explanation": "'I do not wish to romanticise… My point is narrower'."},
+               {"id": "q4", "prompt": "The phrase 'begin, as it were, mid-sentence' suggests recordings…", "options": ["are cut off at the start.", "lack a meaningful lead-in of shared silence.", "start too loudly.", "have missing notes."], "answer": "lack a meaningful lead-in of shared silence.", "explanation": "Metaphor for the missing communal silence."}
+             ]}
+          ]
+        },
+        {
+          "id": "writing", "name": "Writing", "minutes": 60, "scoring": "writing",
+          "parts": [{"id": "essay", "type": "writing", "title": "Part 1: Essay summarising two texts", "tasks": [
+            {"id": "essay", "label": "Essay (240–280 words)", "min_words": 240,
+             "prompt": "Read the two texts below. Write an essay summarising and evaluating the key points from both texts. Use your own words throughout as far as possible, and include your own ideas in your answer.\n\nText 1 — The value of failure: Educational systems that punish every mistake teach students to avoid risk. Yet it is through failure that we learn most deeply: an error forces us to reconsider our assumptions in a way that success never does. Schools should therefore create spaces where experimentation is rewarded even when it does not succeed.\n\nText 2 — The limits of failure: The fashionable celebration of failure ignores an uncomfortable truth: not everyone can afford to fail. For students from disadvantaged backgrounds, a single poor result can close doors permanently. Encouraging risk-taking without providing a safety net merely transfers the cost of experimentation onto those least able to bear it."}
+          ]}]
+        },
+        {
+          "id": "listening", "name": "Listening", "minutes": 15, "scoring": "objective",
+          "parts": [{"id": "l1", "type": "mcq", "title": "Multiple choice: Discussion about urban planning",
+            "audio": {"speakers": {"Presenter": {"accent": "en-US", "voice": "nova"}, "Planner": {"accent": "en-GB", "voice": "fable"}}, "lines": [
+              {"s": "Presenter", "t": "There's been a great deal of enthusiasm recently for the so-called fifteen-minute city, where daily needs are within a short walk or cycle. You've been rather more cautious."},
+              {"s": "Planner", "t": "Cautious, yes, but not opposed. The principle is sound: fewer car journeys, livelier neighbourhoods. My reservation is that it's often presented as a design problem, when it's really an economic one."},
+              {"s": "Presenter", "t": "In what sense?"},
+              {"s": "Planner", "t": "You can zone a street for shops, but you can't make a shop viable. Local businesses need enough customers within that radius, which means a certain density of population. Many suburbs simply don't have it, and no amount of clever planning will conjure it up."},
+              {"s": "Presenter", "t": "So is the idea doomed outside dense city centres?"},
+              {"s": "Planner", "t": "Not doomed, but it has to be pursued gradually and honestly. The danger is that the label becomes a marketing exercise, attached to developments that are, in practice, as car-dependent as ever. That breeds cynicism, and cynicism is very hard to undo."}
+            ]},
+            "questions": [
+              {"id": "q1", "prompt": "What is the planner's overall attitude to the fifteen-minute city?", "options": ["Strongly opposed.", "Supportive in principle but cautious.", "Completely enthusiastic.", "Indifferent."], "answer": "Supportive in principle but cautious.", "explanation": "'Cautious, yes, but not opposed.'"},
+              {"id": "q2", "prompt": "Why does the planner call it 'an economic' problem?", "options": ["It is expensive to build.", "Local shops need enough nearby customers to survive.", "Residents cannot afford bicycles.", "Taxes are too high."], "answer": "Local shops need enough nearby customers to survive.", "explanation": "Density and viability."},
+              {"id": "q3", "prompt": "What danger does the planner warn about?", "options": ["Cities becoming too dense.", "The label being used as marketing for car-dependent developments.", "Shops closing in city centres.", "Cyclists causing accidents."], "answer": "The label being used as marketing for car-dependent developments.", "explanation": "Last turn."}
+            ]}]
+        },
+        {
+          "id": "speaking", "name": "Speaking", "minutes": 16, "scoring": "speaking",
+          "parts": [{"id": "s1", "type": "speaking_answer", "title": "Long turn and discussion", "instructions": "Answer each question for about one to two minutes.",
+            "items": [
+              {"id": "a1", "question": "Long turn: 'Progress always comes at a price.' Discuss, considering technology, the environment and society."},
+              {"id": "a2", "question": "To what extent should individuals be held responsible for problems such as climate change, compared with governments and corporations?"},
+              {"id": "a3", "question": "Is it possible to be truly objective when interpreting history?"},
+              {"id": "a4", "question": "How might the role of universities change over the next few decades?"}
+            ]}]
+        }
+      ]
+    }
+  ]
+}

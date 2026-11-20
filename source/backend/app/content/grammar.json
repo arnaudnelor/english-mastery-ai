@@ -1,0 +1,1925 @@
+{
+ "topics": [
+  {
+   "id": "present-perfect-vs-past-simple",
+   "title": "Present Perfect vs Past Simple",
+   "level": "B2",
+   "unit": "Tenses",
+   "summary": "Choose between a finished past time and a connection to the present.",
+   "explanation": "Use the past simple for actions completed at a specific, finished time (yesterday, in 2019, last week, when I was a student). Use the present perfect (have/has + past participle) when the time is unfinished or unspecified and the result or experience matters now (today, this year, ever, never, already, yet, so far, since, for).\n\nFrench speakers often use the past simple where English needs the present perfect with 'since/for': French 'J'habite ici depuis 2015' is 'I have lived here since 2015', not '*I live here since 2015'.\n\nA time expression that refers to a finished period forces the past simple: '*I have seen him yesterday' is wrong.",
+   "explanation_fr": "Le past simple situe l'action dans un passé terminé et daté. Le present perfect relie le passé au présent (expérience, résultat, période non terminée). Attention : « depuis » se traduit par le present perfect + since/for.",
+   "examples": [
+    {
+     "en": "I have worked at the bank since 2018.",
+     "note": "Still working there: present perfect + since."
+    },
+    {
+     "en": "I worked at the bank from 2015 to 2018.",
+     "note": "Finished period: past simple."
+    },
+    {
+     "en": "Have you ever presented to a board of directors?",
+     "note": "Life experience, no time specified."
+    },
+    {
+     "en": "Our revenue has grown by 12% this quarter.",
+     "note": "Unfinished period (this quarter)."
+    },
+    {
+     "en": "The market crashed in March.",
+     "note": "Specific finished time."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "pp1",
+     "type": "mcq",
+     "prompt": "I ___ in Montréal for ten years, and I still love it.",
+     "options": [
+      "live",
+      "lived",
+      "have lived",
+      "am living"
+     ],
+     "answer": "have lived",
+     "explanation": "Situation continuing to now + 'for ten years' → present perfect."
+    },
+    {
+     "id": "pp2",
+     "type": "mcq",
+     "prompt": "She ___ the report yesterday afternoon.",
+     "options": [
+      "has finished",
+      "finished",
+      "has been finishing",
+      "finishes"
+     ],
+     "answer": "finished",
+     "explanation": "'Yesterday afternoon' is a finished time → past simple."
+    },
+    {
+     "id": "pp3",
+     "type": "gap",
+     "prompt": "We ___ (not / receive) the invoice yet.",
+     "answer": [
+      "haven't received",
+      "have not received"
+     ],
+     "explanation": "'Yet' with negatives → present perfect."
+    },
+    {
+     "id": "pp4",
+     "type": "correct",
+     "prompt": "I know him since we were at university.",
+     "answer": [
+      "I have known him since we were at university.",
+      "I've known him since we were at university."
+     ],
+     "explanation": "State continuing to now with 'since' → present perfect (know is stative, so not continuous)."
+    },
+    {
+     "id": "pp5",
+     "type": "correct",
+     "prompt": "Did you ever visit Vancouver?",
+     "answer": [
+      "Have you ever visited Vancouver?"
+     ],
+     "explanation": "'Ever' asking about life experience → present perfect."
+    },
+    {
+     "id": "pp6",
+     "type": "translate",
+     "prompt": "Traduisez : « Je travaille sur ce projet depuis trois mois. »",
+     "answer": [
+      "I have been working on this project for three months.",
+      "I've been working on this project for three months.",
+      "I have worked on this project for three months.",
+      "I've worked on this project for three months."
+     ],
+     "explanation": "'Depuis' + duration → present perfect (continuous) + for."
+    }
+   ]
+  },
+  {
+   "id": "conditionals-mixed",
+   "title": "Conditionals: Zero to Mixed",
+   "level": "B2",
+   "unit": "Conditionals",
+   "summary": "Real, hypothetical and past-unreal conditions, plus mixed time references.",
+   "explanation": "Zero: if + present, present — general truths. 'If interest rates rise, bond prices fall.'\nFirst: if + present, will — likely future. 'If we sign today, we'll start on Monday.'\nSecond: if + past, would — unreal present/future. 'If I had more time, I would study law.'\nThird: if + past perfect, would have + past participle — unreal past. 'If we had hedged, we wouldn't have lost money.'\nMixed: past condition → present result: 'If I had taken that job, I would be in Toronto now.' Present condition → past result: 'If I weren't so cautious, I would have invested earlier.'\n\nNever put 'will' or 'would' in the if-clause (except for polite requests: 'If you would follow me…'). French speakers often write '*If I would have known' — the correct form is 'If I had known'.",
+   "explanation_fr": "Jamais de « would » dans la proposition en « if » : « Si j'avais su » = « If I had known ». Les conditionnels mixtes croisent passé et présent.",
+   "examples": [
+    {
+     "en": "If you heat ice, it melts.",
+     "note": "Zero conditional."
+    },
+    {
+     "en": "If the client agrees, we'll send the contract tomorrow.",
+     "note": "First conditional."
+    },
+    {
+     "en": "If I were you, I would negotiate a higher salary.",
+     "note": "Second conditional; 'were' for all persons in formal English."
+    },
+    {
+     "en": "If they had read the terms, they wouldn't have signed.",
+     "note": "Third conditional."
+    },
+    {
+     "en": "If I had studied finance, I would be an analyst now.",
+     "note": "Mixed: past cause, present result."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c1",
+     "type": "mcq",
+     "prompt": "If I ___ about the meeting, I would have come.",
+     "options": [
+      "knew",
+      "had known",
+      "would know",
+      "have known"
+     ],
+     "answer": "had known",
+     "explanation": "Third conditional: if + past perfect."
+    },
+    {
+     "id": "c2",
+     "type": "mcq",
+     "prompt": "If she hadn't missed the flight, she ___ here now.",
+     "options": [
+      "would be",
+      "would have been",
+      "will be",
+      "is"
+     ],
+     "answer": "would be",
+     "explanation": "Mixed conditional: past condition, present result ('now')."
+    },
+    {
+     "id": "c3",
+     "type": "gap",
+     "prompt": "If the price ___ (drop) below $50, we will buy more shares.",
+     "answer": [
+      "drops"
+     ],
+     "explanation": "First conditional: if + present simple."
+    },
+    {
+     "id": "c4",
+     "type": "correct",
+     "prompt": "If I would have more money, I would travel.",
+     "answer": [
+      "If I had more money, I would travel.",
+      "If I had more money, I'd travel."
+     ],
+     "explanation": "No 'would' in the if-clause; second conditional uses past simple."
+    },
+    {
+     "id": "c5",
+     "type": "correct",
+     "prompt": "If we would have invested earlier, we would have made a profit.",
+     "answer": [
+      "If we had invested earlier, we would have made a profit.",
+      "If we'd invested earlier, we would have made a profit.",
+      "If we'd invested earlier, we'd have made a profit."
+     ],
+     "explanation": "Third conditional: if + past perfect."
+    }
+   ]
+  },
+  {
+   "id": "inversion-emphasis",
+   "title": "Inversion for Emphasis",
+   "level": "C1",
+   "unit": "Advanced Structures",
+   "summary": "Front negative adverbials and invert subject and auxiliary for formal emphasis.",
+   "explanation": "After certain negative or restrictive adverbials placed at the start of a clause, English inverts the subject and auxiliary, as in a question: Never, Rarely, Seldom, Hardly…when, No sooner…than, Not only…but also, Only then, Only after, Under no circumstances, At no time, Little (did I know).\n\n'Never have I seen such volatility.' 'Not only did the company miss its targets, but it also lost its CEO.'\n\nIf there is no auxiliary, add do/does/did. With 'Only after/when/if', inversion happens in the main clause: 'Only after the audit did we discover the error.'\n\nInverted conditionals drop 'if': 'Had we known…' (= If we had known), 'Should you need help…' (= If you need help), 'Were the rates to rise…'. These are very common in formal business writing.",
+   "explanation_fr": "Comme en interrogative : auxiliaire avant le sujet après un adverbe négatif placé en tête. Registre soutenu, très utile à l'écrit (IELTS, rapports).",
+   "examples": [
+    {
+     "en": "Rarely do we see such strong quarterly growth.",
+     "note": "Rarely + do + subject."
+    },
+    {
+     "en": "No sooner had the market opened than prices plunged.",
+     "note": "No sooner + past perfect … than."
+    },
+    {
+     "en": "Under no circumstances should you share your password.",
+     "note": "Formal prohibition."
+    },
+    {
+     "en": "Had I known about the merger, I would have sold my shares.",
+     "note": "Inverted third conditional."
+    },
+    {
+     "en": "Should you have any questions, please do not hesitate to contact me.",
+     "note": "Inverted first conditional, classic email closing."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "inv1",
+     "type": "mcq",
+     "prompt": "Not only ___ the deadline, but they also exceeded the budget.",
+     "options": [
+      "they missed",
+      "did they miss",
+      "they did miss",
+      "missed they"
+     ],
+     "answer": "did they miss",
+     "explanation": "Not only + auxiliary + subject."
+    },
+    {
+     "id": "inv2",
+     "type": "mcq",
+     "prompt": "Hardly ___ sat down when the phone rang.",
+     "options": [
+      "I had",
+      "had I",
+      "did I",
+      "I have"
+     ],
+     "answer": "had I",
+     "explanation": "Hardly + had + subject + past participle … when."
+    },
+    {
+     "id": "inv3",
+     "type": "gap",
+     "prompt": "___ you require further information, please contact our office. (formal 'If')",
+     "answer": [
+      "Should"
+     ],
+     "explanation": "Inverted first conditional: Should + subject."
+    },
+    {
+     "id": "inv4",
+     "type": "correct",
+     "prompt": "Never I have seen such a well-organised conference.",
+     "answer": [
+      "Never have I seen such a well-organised conference.",
+      "Never have I seen such a well-organized conference."
+     ],
+     "explanation": "Never + auxiliary + subject."
+    },
+    {
+     "id": "inv5",
+     "type": "correct",
+     "prompt": "Only after the meeting we understood the problem.",
+     "answer": [
+      "Only after the meeting did we understand the problem."
+     ],
+     "explanation": "Only after + noun phrase → inversion in the main clause with did."
+    },
+    {
+     "id": "inv6",
+     "type": "translate",
+     "prompt": "Rewrite formally with inversion: 'If we had known about the risks, we would not have invested.'",
+     "answer": [
+      "Had we known about the risks, we would not have invested.",
+      "Had we known about the risks, we wouldn't have invested."
+     ],
+     "explanation": "Drop 'if' and invert: Had + subject + past participle."
+    }
+   ]
+  },
+  {
+   "id": "passive-voice",
+   "title": "The Passive Voice in Professional English",
+   "level": "B2",
+   "unit": "Voice",
+   "summary": "Form the passive in all tenses and use it to focus on actions, results and processes.",
+   "explanation": "Form: be (in the right tense) + past participle. 'The report is reviewed / was reviewed / has been reviewed / will be reviewed / is being reviewed.'\n\nUse it when the agent is unknown, obvious or unimportant, or to sound objective: 'Mistakes were made.' 'The data were collected over six months.'\n\nReporting passives are common in news and academic English: 'It is believed that…', 'The company is said to be considering a sale.', 'Prices are expected to rise.'\n\n'Have/get something done' (causative): 'We had the contract reviewed by a lawyer.'\n\nAvoid overusing the passive in emails: active is often clearer and more direct.",
+   "explanation_fr": "Être + participe passé. Le passif « impersonnel » (It is believed that…) correspond souvent au « on » français : « On dit que… » = « It is said that… ».",
+   "examples": [
+    {
+     "en": "The new policy will be implemented in January.",
+     "note": "Future passive."
+    },
+    {
+     "en": "Your application is being processed.",
+     "note": "Present continuous passive."
+    },
+    {
+     "en": "The bank is reported to have lost $2 billion.",
+     "note": "Reporting passive with perfect infinitive."
+    },
+    {
+     "en": "We need to get the software updated.",
+     "note": "Causative."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "pa1",
+     "type": "mcq",
+     "prompt": "The results ___ next week.",
+     "options": [
+      "will announce",
+      "will be announced",
+      "are announcing",
+      "will been announced"
+     ],
+     "answer": "will be announced",
+     "explanation": "Future passive: will be + past participle."
+    },
+    {
+     "id": "pa2",
+     "type": "gap",
+     "prompt": "The building ___ (renovate) at the moment, so the office is closed.",
+     "answer": [
+      "is being renovated"
+     ],
+     "explanation": "Ongoing action → present continuous passive."
+    },
+    {
+     "id": "pa3",
+     "type": "translate",
+     "prompt": "Traduisez : « On pense que l'économie va ralentir. »",
+     "answer": [
+      "It is thought that the economy will slow down.",
+      "It is believed that the economy will slow down.",
+      "The economy is thought to be slowing down.",
+      "The economy is expected to slow down.",
+      "It is thought that the economy is going to slow down."
+     ],
+     "explanation": "French 'on' + reporting verb → reporting passive."
+    },
+    {
+     "id": "pa4",
+     "type": "correct",
+     "prompt": "The meeting was took place in Ottawa.",
+     "answer": [
+      "The meeting took place in Ottawa.",
+      "The meeting was held in Ottawa."
+     ],
+     "explanation": "'Take place' is intransitive and has no passive; or use 'was held'."
+    }
+   ]
+  },
+  {
+   "id": "articles",
+   "title": "Articles: a, an, the, or nothing",
+   "level": "B2",
+   "unit": "Determiners",
+   "summary": "The zero article is where French speakers struggle most.",
+   "explanation": "Use 'a/an' for one non-specific countable thing: 'She's an economist.' (Note: jobs take an article in English, unlike French 'Elle est économiste'.)\nUse 'the' when both speakers know which one: 'The meeting starts at 3.'\nUse NO article for general statements with plural or uncountable nouns: 'Inflation affects everyone.' 'Banks need capital.' French uses 'le/la/les' here ('L'inflation touche tout le monde'), so French speakers often add a wrong 'the'.\n\nNo article with most names of countries, companies, meals, and with 'next/last + time': 'next week', 'in Canada', 'at lunch'. But: the United States, the UK, the Netherlands.",
+   "explanation_fr": "Les généralités en anglais n'ont pas d'article : « La finance est complexe » = « Finance is complex ». Les métiers prennent « a/an ».",
+   "examples": [
+    {
+     "en": "Education is the key to success.",
+     "note": "General uncountable noun: no article."
+    },
+    {
+     "en": "The education I received in Lyon was excellent.",
+     "note": "Specific: the."
+    },
+    {
+     "en": "He works as a data scientist.",
+     "note": "Job: a/an."
+    },
+    {
+     "en": "I'll see you next Monday.",
+     "note": "No article with next/last."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "ar1",
+     "type": "mcq",
+     "prompt": "___ unemployment has fallen in most provinces.",
+     "options": [
+      "The",
+      "An",
+      "A",
+      "(no article)"
+     ],
+     "answer": "(no article)",
+     "explanation": "General uncountable noun → zero article."
+    },
+    {
+     "id": "ar2",
+     "type": "correct",
+     "prompt": "My sister is engineer at the Hydro-Québec.",
+     "answer": [
+      "My sister is an engineer at Hydro-Québec.",
+      "My sister is an engineer at Hydro-Quebec."
+     ],
+     "explanation": "Jobs need 'an'; company names take no article."
+    },
+    {
+     "id": "ar3",
+     "type": "correct",
+     "prompt": "The life is too short to work in a job you hate.",
+     "answer": [
+      "Life is too short to work in a job you hate."
+     ],
+     "explanation": "'Life' in general → no article."
+    },
+    {
+     "id": "ar4",
+     "type": "gap",
+     "prompt": "We met ___ CEO of the company at the conference. (article)",
+     "answer": [
+      "the"
+     ],
+     "explanation": "There is only one CEO of that company → the."
+    }
+   ]
+  },
+  {
+   "id": "gerunds-infinitives",
+   "title": "Gerunds and Infinitives",
+   "level": "B2",
+   "unit": "Verb Patterns",
+   "summary": "Which verbs take -ing, which take to, and which change meaning.",
+   "explanation": "+ -ing: avoid, consider, deny, enjoy, finish, mind, postpone, risk, suggest, recommend, look forward to, be used to, object to.\n+ to-infinitive: afford, agree, decide, expect, fail, hope, manage, offer, plan, refuse, seem, tend.\nMeaning changes: stop doing (quit) vs stop to do (pause in order to); remember doing (memory of past) vs remember to do (not forget a task); try doing (experiment) vs try to do (make an effort); regret to inform (formal bad news) vs regret doing.\n\nAfter prepositions, always -ing: 'I'm interested in working…', 'Thank you for helping…'. Watch 'to' as a preposition: 'I look forward to hearing from you' (NOT '*to hear').\n\n'Suggest' never takes an object + infinitive: '*He suggested me to apply' → 'He suggested (that) I apply' / 'He suggested applying'.",
+   "explanation_fr": "« Suggérer à quelqu'un de faire » ne se calque pas : He suggested that I apply. Après une préposition : toujours -ing.",
+   "examples": [
+    {
+     "en": "I look forward to hearing from you.",
+     "note": "'to' is a preposition here → -ing."
+    },
+    {
+     "en": "We can't afford to lose this client.",
+     "note": "afford + to."
+    },
+    {
+     "en": "Remember to send the minutes.",
+     "note": "Don't forget a future task."
+    },
+    {
+     "en": "I remember meeting her in Paris.",
+     "note": "Memory of a past event."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "gi1",
+     "type": "mcq",
+     "prompt": "I'm looking forward to ___ with your team.",
+     "options": [
+      "work",
+      "working",
+      "to work",
+      "worked"
+     ],
+     "answer": "working",
+     "explanation": "'look forward to' + -ing."
+    },
+    {
+     "id": "gi2",
+     "type": "mcq",
+     "prompt": "The board refused ___ the proposal.",
+     "options": [
+      "approving",
+      "to approve",
+      "approve",
+      "approved"
+     ],
+     "answer": "to approve",
+     "explanation": "refuse + to-infinitive."
+    },
+    {
+     "id": "gi3",
+     "type": "correct",
+     "prompt": "My manager suggested me to take a course.",
+     "answer": [
+      "My manager suggested that I take a course.",
+      "My manager suggested I take a course.",
+      "My manager suggested taking a course.",
+      "My manager suggested that I should take a course."
+     ],
+     "explanation": "suggest + that-clause or -ing; never object + infinitive."
+    },
+    {
+     "id": "gi4",
+     "type": "gap",
+     "prompt": "Would you mind ___ (close) the door?",
+     "answer": [
+      "closing"
+     ],
+     "explanation": "mind + -ing."
+    },
+    {
+     "id": "gi5",
+     "type": "mcq",
+     "prompt": "He stopped ___ a coffee on the way to work (= paused in order to get one).",
+     "options": [
+      "getting",
+      "to get",
+      "get",
+      "got"
+     ],
+     "answer": "to get",
+     "explanation": "stop + to = stop in order to do something."
+    }
+   ]
+  },
+  {
+   "id": "relative-clauses",
+   "title": "Defining and Non-defining Relative Clauses",
+   "level": "B2",
+   "unit": "Clauses",
+   "summary": "who, which, that, whose, whom — and where commas change the meaning.",
+   "explanation": "Defining clauses identify which one; no commas; 'that' is allowed; the relative pronoun can be dropped if it's the object: 'The analyst (that) we hired is brilliant.'\nNon-defining clauses add extra information; commas required; never 'that'; pronoun cannot be dropped: 'Our CFO, who joined in 2020, is retiring.'\n\n'Which' can refer to a whole clause: 'The deal fell through, which surprised everyone.'\n'Whose' = possession for people and things: 'a company whose shares doubled'.\n'Whom' after prepositions in formal English: 'the person to whom I spoke'.\nPrepositions can go at the end informally: 'the person I spoke to'.",
+   "explanation_fr": "Les virgules changent le sens. Pas de « that » après une virgule. « Dont » se traduit souvent par « whose » ou par une préposition (« the project I told you about »).",
+   "examples": [
+    {
+     "en": "The report that you sent was very clear.",
+     "note": "Defining, 'that' OK, could be omitted."
+    },
+    {
+     "en": "Toronto, which is Canada's largest city, is a financial hub.",
+     "note": "Non-defining: commas, which."
+    },
+    {
+     "en": "She's the manager whose team won the award.",
+     "note": "Possession: whose."
+    },
+    {
+     "en": "Prices rose sharply, which hurt consumers.",
+     "note": "'which' refers to the whole idea."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "rc1",
+     "type": "mcq",
+     "prompt": "My brother, ___ lives in Calgary, works in oil and gas.",
+     "options": [
+      "that",
+      "who",
+      "which",
+      "whose"
+     ],
+     "answer": "who",
+     "explanation": "Non-defining clause about a person → who (never that)."
+    },
+    {
+     "id": "rc2",
+     "type": "correct",
+     "prompt": "This is the project which I told you.",
+     "answer": [
+      "This is the project I told you about.",
+      "This is the project which I told you about.",
+      "This is the project that I told you about.",
+      "This is the project about which I told you."
+     ],
+     "explanation": "'tell someone about something' — the preposition is needed (French 'dont')."
+    },
+    {
+     "id": "rc3",
+     "type": "gap",
+     "prompt": "We partnered with a startup ___ founder used to work at Google.",
+     "answer": [
+      "whose"
+     ],
+     "explanation": "Possession → whose."
+    },
+    {
+     "id": "rc4",
+     "type": "correct",
+     "prompt": "The CEO, that was appointed last year, has resigned.",
+     "answer": [
+      "The CEO, who was appointed last year, has resigned."
+     ],
+     "explanation": "Non-defining: 'that' is not allowed."
+    }
+   ]
+  },
+  {
+   "id": "reported-speech",
+   "title": "Reported Speech and Reporting Verbs",
+   "level": "B2",
+   "unit": "Reporting",
+   "summary": "Backshift, reported questions, and precise reporting verbs.",
+   "explanation": "When the reporting verb is past, tenses usually shift back: 'We are losing money' → She said they were losing money. Present perfect → past perfect; will → would; can → could.\nNo backshift is needed if the statement is still true: 'He said the office is closed on Mondays.'\n\nReported questions use statement word order and no question mark: 'Where is the file?' → He asked where the file was (NOT '*where was the file').\nYes/no questions use if/whether.\n\nAt C1, replace 'say' with precise verbs: admit, deny, claim, insist, warn, urge, recommend, acknowledge, point out, argue. Note their patterns: deny + -ing, warn sb (not) to, recommend + -ing/that.",
+   "explanation_fr": "Question rapportée = ordre sujet-verbe, sans inversion ni « do ». « Il m'a demandé où était le dossier » = He asked me where the file was.",
+   "examples": [
+    {
+     "en": "She told me she had already signed the contract.",
+     "note": "Present perfect → past perfect."
+    },
+    {
+     "en": "He asked whether we could meet on Friday.",
+     "note": "Yes/no question → whether."
+    },
+    {
+     "en": "The CFO denied manipulating the figures.",
+     "note": "deny + -ing."
+    },
+    {
+     "en": "The auditor warned us not to delay the filing.",
+     "note": "warn + object + not to."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "rs1",
+     "type": "correct",
+     "prompt": "She asked me where did I work.",
+     "answer": [
+      "She asked me where I worked."
+     ],
+     "explanation": "Reported question: statement word order, no 'did'."
+    },
+    {
+     "id": "rs2",
+     "type": "mcq",
+     "prompt": "'I didn't take the money.' → He ___ taking the money.",
+     "options": [
+      "refused",
+      "denied",
+      "rejected",
+      "admitted"
+     ],
+     "answer": "denied",
+     "explanation": "deny + -ing = say you did not do it."
+    },
+    {
+     "id": "rs3",
+     "type": "gap",
+     "prompt": "'Will you be at the meeting?' → She asked ___ I would be at the meeting.",
+     "answer": [
+      "if",
+      "whether"
+     ],
+     "explanation": "Yes/no question → if/whether."
+    },
+    {
+     "id": "rs4",
+     "type": "translate",
+     "prompt": "Report this formally: 'You should diversify your portfolio,' the advisor said to me.",
+     "answer": [
+      "The advisor advised me to diversify my portfolio.",
+      "The advisor recommended that I diversify my portfolio.",
+      "The advisor recommended diversifying my portfolio.",
+      "The advisor advised me to diversify my portfolio"
+     ],
+     "explanation": "advise sb to / recommend that sb (do)."
+    }
+   ]
+  },
+  {
+   "id": "modals-deduction",
+   "title": "Modals of Deduction and Speculation",
+   "level": "C1",
+   "unit": "Modals",
+   "summary": "must, can't, might, could — about the present and the past.",
+   "explanation": "Present: must be (almost certain yes), can't be (almost certain no), might/may/could be (possible). 'She must be in a meeting — she's not answering.'\nPast: must have + past participle, can't/couldn't have + pp, might/may/could have + pp. 'They must have known about the problem.'\n\n'Mustn't' is NOT the opposite of 'must' for deduction — it means prohibition. Use 'can't' for negative deduction.\n\nCriticism of the past: should have / shouldn't have + pp. 'We should have hedged our currency exposure.'\n'Needn't have' = you did it but it wasn't necessary; 'didn't need to' = it wasn't necessary (maybe you didn't do it).",
+   "explanation_fr": "« Il a dû oublier » = He must have forgotten. « Ça ne peut pas être vrai » = That can't be true (pas « mustn't »). « J'aurais dû » = I should have.",
+   "examples": [
+    {
+     "en": "The lights are off. They must have gone home.",
+     "note": "Past deduction."
+    },
+    {
+     "en": "That can't be the right figure — it's far too high.",
+     "note": "Negative present deduction."
+    },
+    {
+     "en": "The email might have gone to your spam folder.",
+     "note": "Past possibility."
+    },
+    {
+     "en": "You needn't have printed the slides; we're using the projector.",
+     "note": "Unnecessary past action."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "md1",
+     "type": "mcq",
+     "prompt": "He looks exhausted. He ___ worked all night.",
+     "options": [
+      "must have",
+      "can't have",
+      "should",
+      "mustn't have"
+     ],
+     "answer": "must have",
+     "explanation": "Strong past deduction."
+    },
+    {
+     "id": "md2",
+     "type": "mcq",
+     "prompt": "She ___ be the new director — she only joined last week as an intern.",
+     "options": [
+      "mustn't",
+      "can't",
+      "might",
+      "must"
+     ],
+     "answer": "can't",
+     "explanation": "Negative deduction → can't (mustn't = prohibition)."
+    },
+    {
+     "id": "md3",
+     "type": "translate",
+     "prompt": "Traduisez : « On aurait dû vendre nos actions en janvier. »",
+     "answer": [
+      "We should have sold our shares in January.",
+      "We should have sold our stocks in January."
+     ],
+     "explanation": "Regret/criticism about the past → should have + pp."
+    },
+    {
+     "id": "md4",
+     "type": "correct",
+     "prompt": "He must forgot the password.",
+     "answer": [
+      "He must have forgotten the password."
+     ],
+     "explanation": "Past deduction: must have + past participle."
+    }
+   ]
+  },
+  {
+   "id": "subjunctive",
+   "title": "The Subjunctive and Unreal Past",
+   "level": "C1",
+   "unit": "Advanced Structures",
+   "summary": "It's essential that he be…; I wish I had…; It's time we left.",
+   "explanation": "Mandative subjunctive (formal, very common in US and Canadian business English): after verbs/adjectives of demand or importance, use the base form for all persons: 'The board insists that the CEO resign.' 'It is essential that every employee complete the training.' British English often uses 'should': 'that every employee should complete…'.\n\nUnreal past: after wish, if only, would rather, it's (high) time, as if — use past for present meaning and past perfect for past meaning:\n'I wish I spoke better English.' (present regret)\n'I wish I had studied harder.' (past regret)\n'It's high time we updated our systems.'\n'I'd rather you didn't share this.'\n\n'Wish + would' is for complaints about others' behaviour: 'I wish they would reply.'",
+   "explanation_fr": "Le subjonctif anglais = forme de base sans -s : « Il est indispensable qu'il soit présent » = It is essential that he be present.",
+   "examples": [
+    {
+     "en": "We recommend that the company diversify its revenue streams.",
+     "note": "Base form 'diversify' (not diversifies)."
+    },
+    {
+     "en": "If only I had accepted that offer!",
+     "note": "Past regret."
+    },
+    {
+     "en": "It's time we made a decision.",
+     "note": "Unreal past after 'it's time'."
+    },
+    {
+     "en": "She talks as if she were the owner.",
+     "note": "Formal 'were'."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "sj1",
+     "type": "mcq",
+     "prompt": "The regulator demanded that the bank ___ its reserves.",
+     "options": [
+      "increases",
+      "increase",
+      "increased",
+      "will increase"
+     ],
+     "answer": "increase",
+     "explanation": "Mandative subjunctive: base form."
+    },
+    {
+     "id": "sj2",
+     "type": "gap",
+     "prompt": "I wish I ___ (have) more time to prepare for the interview yesterday.",
+     "answer": [
+      "had had"
+     ],
+     "explanation": "Past regret → wish + past perfect."
+    },
+    {
+     "id": "sj3",
+     "type": "correct",
+     "prompt": "It's time we leave.",
+     "answer": [
+      "It's time we left.",
+      "It is time we left.",
+      "It's time for us to leave.",
+      "It's time to leave."
+     ],
+     "explanation": "it's time + subject + past simple."
+    },
+    {
+     "id": "sj4",
+     "type": "correct",
+     "prompt": "I would rather you don't tell anyone.",
+     "answer": [
+      "I would rather you didn't tell anyone.",
+      "I'd rather you didn't tell anyone."
+     ],
+     "explanation": "would rather + someone + past simple."
+    }
+   ]
+  },
+  {
+   "id": "cleft-sentences",
+   "title": "Cleft Sentences for Emphasis",
+   "level": "C1",
+   "unit": "Advanced Structures",
+   "summary": "It was… that…; What I need is…; The reason why… is…",
+   "explanation": "Cleft sentences split one idea into two clauses to highlight the important part — essential for presentations and persuasive speaking.\n\nIt-cleft: It + be + focus + that/who: 'It was the marketing team that found the error.' 'It's not the price that worries me, it's the timeline.'\nWh-cleft: What + clause + be + focus: 'What we need is a clear strategy.' 'What I'd like to do is (to) walk you through the numbers.'\nOther patterns: 'All I want is…', 'The thing that surprised me was…', 'The reason (why) we chose them is that…' (not '*is because').",
+   "explanation_fr": "Équivalent de « C'est … qui/que » et « Ce dont nous avons besoin, c'est… ». Très utile pour structurer une présentation orale.",
+   "examples": [
+    {
+     "en": "What really matters is the long-term return.",
+     "note": "Wh-cleft."
+    },
+    {
+     "en": "It was in 2008 that the crisis really began.",
+     "note": "It-cleft focusing on time."
+    },
+    {
+     "en": "What I'd like to do now is look at the risks.",
+     "note": "Presentation signposting."
+    },
+    {
+     "en": "The reason we're late is that the train broke down.",
+     "note": "'is that', not 'is because'."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "cl1",
+     "type": "translate",
+     "prompt": "Emphasise 'a better work-life balance': 'We need a better work-life balance.'",
+     "answer": [
+      "What we need is a better work-life balance.",
+      "What we need is a better work–life balance.",
+      "It's a better work-life balance that we need.",
+      "It is a better work-life balance that we need."
+     ],
+     "explanation": "Wh-cleft: What + subject + verb + is + focus."
+    },
+    {
+     "id": "cl2",
+     "type": "mcq",
+     "prompt": "It was the CFO ___ approved the budget.",
+     "options": [
+      "which",
+      "who",
+      "what",
+      "whom"
+     ],
+     "answer": "who",
+     "explanation": "It-cleft focusing on a person → who/that."
+    },
+    {
+     "id": "cl3",
+     "type": "correct",
+     "prompt": "The reason why I applied is because I love finance.",
+     "answer": [
+      "The reason why I applied is that I love finance.",
+      "The reason I applied is that I love finance.",
+      "I applied because I love finance."
+     ],
+     "explanation": "'The reason … is that' (avoid 'is because' in formal English)."
+    }
+   ]
+  },
+  {
+   "id": "prepositions-collocations",
+   "title": "Dependent Prepositions (French Interference)",
+   "level": "B2",
+   "unit": "Prepositions",
+   "summary": "The prepositions French speakers most often get wrong.",
+   "explanation": "Many English verbs, adjectives and nouns require a fixed preposition that differs from French:\n- depend ON (not *of) — dépendre de\n- married TO (not *with) — marié avec\n- responsible FOR — responsable de\n- good AT (skill) — bon en\n- arrive IN a city / AT a place (never *arrive to)\n- interested IN, specialise IN\n- discuss sth (no preposition: *discuss about) — discuter de\n- explain sth TO sb (not *explain me) — m'expliquer\n- listen TO, wait FOR, ask FOR, pay FOR\n- the reason FOR, an increase IN, the key TO, the solution TO\n- on the phone, on the internet, at the weekend (UK) / on the weekend (US/CA)",
+   "explanation_fr": "Ces erreurs viennent du calque du français. Apprenez le verbe avec sa préposition comme un seul bloc.",
+   "examples": [
+    {
+     "en": "It depends on the interest rate.",
+     "note": "depend on."
+    },
+    {
+     "en": "Could you explain the process to me?",
+     "note": "explain something to someone."
+    },
+    {
+     "en": "We discussed the budget.",
+     "note": "No 'about' after discuss."
+    },
+    {
+     "en": "There has been a sharp increase in demand.",
+     "note": "increase in."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "pr1",
+     "type": "correct",
+     "prompt": "Can you explain me the difference?",
+     "answer": [
+      "Can you explain the difference to me?",
+      "Could you explain the difference to me?"
+     ],
+     "explanation": "explain something TO someone."
+    },
+    {
+     "id": "pr2",
+     "type": "correct",
+     "prompt": "We need to discuss about the contract.",
+     "answer": [
+      "We need to discuss the contract.",
+      "We need to talk about the contract."
+     ],
+     "explanation": "discuss takes a direct object."
+    },
+    {
+     "id": "pr3",
+     "type": "mcq",
+     "prompt": "It depends ___ the market conditions.",
+     "options": [
+      "of",
+      "from",
+      "on",
+      "in"
+     ],
+     "answer": "on",
+     "explanation": "depend on."
+    },
+    {
+     "id": "pr4",
+     "type": "mcq",
+     "prompt": "We arrived ___ Toronto at midnight.",
+     "options": [
+      "to",
+      "at",
+      "in",
+      "on"
+     ],
+     "answer": "in",
+     "explanation": "arrive in + city/country."
+    },
+    {
+     "id": "pr5",
+     "type": "gap",
+     "prompt": "She's married ___ a lawyer.",
+     "answer": [
+      "to"
+     ],
+     "explanation": "married to."
+    }
+   ]
+  },
+  {
+   "id": "future-forms",
+   "title": "Future Forms: will, going to, present continuous",
+   "level": "B2",
+   "unit": "Tenses",
+   "summary": "Choose the right future for decisions, plans, arrangements, predictions and schedules.",
+   "explanation": "will: decisions made at the moment of speaking, promises, offers, and predictions based on opinion. 'I'll send it right away.' 'I think rates will fall.'\ngoing to: plans already decided, and predictions based on present evidence. 'We're going to hire two analysts.' 'Look at those clouds — it's going to rain.'\nPresent continuous: fixed personal arrangements, usually with a time. 'I'm meeting the CFO on Thursday.'\nPresent simple: timetables and schedules. 'The flight leaves at 7:15.'\nFuture continuous (will be + -ing): an action in progress at a future time, or a polite question about plans. 'This time tomorrow I'll be flying to Calgary.' 'Will you be using the meeting room?'\nFuture perfect (will have + pp): completed before a future time. 'By June we will have launched the product.'\nNo 'will' after when/as soon as/before/until/if in future time clauses: 'I'll call you when I arrive' (NOT *when I will arrive).",
+   "explanation_fr": "Après « when, as soon as, before, until », présent en anglais (là où le français met un futur) : « Je t'appellerai quand j'arriverai » = I'll call you when I arrive.",
+   "examples": [
+    {
+     "en": "I'm seeing the dentist at four.",
+     "note": "Arrangement: present continuous."
+    },
+    {
+     "en": "By the end of the year, we'll have doubled our client base.",
+     "note": "Future perfect."
+    },
+    {
+     "en": "I'll let you know as soon as I hear anything.",
+     "note": "Present simple after 'as soon as'."
+    },
+    {
+     "en": "The market opens at 9:30.",
+     "note": "Timetable: present simple."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "ff1",
+     "type": "mcq",
+     "prompt": "I'll call you as soon as I ___ the results.",
+     "options": [
+      "will get",
+      "get",
+      "am getting",
+      "got"
+     ],
+     "answer": "get",
+     "explanation": "No 'will' in a future time clause."
+    },
+    {
+     "id": "ff2",
+     "type": "mcq",
+     "prompt": "The phone's ringing. — Don't worry, I ___ it.",
+     "options": [
+      "'m going to answer",
+      "answer",
+      "'ll answer",
+      "'m answering"
+     ],
+     "answer": "'ll answer",
+     "explanation": "Decision at the moment of speaking → will."
+    },
+    {
+     "id": "ff3",
+     "type": "gap",
+     "prompt": "By the time you arrive, we ___ (finish) the presentation.",
+     "answer": [
+      "will have finished",
+      "'ll have finished"
+     ],
+     "explanation": "Completed before a future moment → future perfect."
+    },
+    {
+     "id": "ff4",
+     "type": "correct",
+     "prompt": "When I will finish my MBA, I will look for a job in Toronto.",
+     "answer": [
+      "When I finish my MBA, I will look for a job in Toronto.",
+      "When I finish my MBA, I'll look for a job in Toronto.",
+      "When I have finished my MBA, I will look for a job in Toronto."
+     ],
+     "explanation": "Present tense after 'when' for future time."
+    },
+    {
+     "id": "ff5",
+     "type": "mcq",
+     "prompt": "This time next week I ___ on a beach in Cuba.",
+     "options": [
+      "will lie",
+      "will be lying",
+      "lie",
+      "will have lain"
+     ],
+     "answer": "will be lying",
+     "explanation": "Action in progress at a future moment → future continuous."
+    }
+   ]
+  },
+  {
+   "id": "subject-verb-agreement",
+   "title": "Subject–Verb Agreement",
+   "level": "B2",
+   "unit": "Agreement",
+   "summary": "Tricky subjects: collective nouns, 'each', 'the number of', uncountables and long noun phrases.",
+   "explanation": "The verb agrees with the head noun, not the nearest noun: 'The quality of the reports IS excellent.'\nEach / every / either / neither + singular: 'Each of the candidates HAS a CV.' ('Neither… nor' agrees with the nearer subject.)\n'The number of' + singular; 'a number of' + plural: 'The number of applicants HAS risen.' 'A number of applicants HAVE withdrawn.'\nUncountables are singular: information, advice, news, research, equipment, feedback, evidence: 'The news IS good.' (NOT *the news are; NOT *informations, *advices)\nCollective nouns (team, staff, government, company): singular in North American English, singular or plural in British English. 'The team is…' (US/CA) / 'The team are…' (UK).\nAmounts of money/time/distance are singular: 'Ten million dollars IS a lot.'\n'People', 'police', 'staff' (CA/US often singular for staff) — 'people' is always plural: 'People ARE…'.",
+   "explanation_fr": "Attention aux indénombrables : information, advice, news, research, feedback ne prennent jamais de -s et sont au singulier.",
+   "examples": [
+    {
+     "en": "The results of the survey are encouraging.",
+     "note": "Head noun 'results' → plural."
+    },
+    {
+     "en": "Neither the manager nor the employees were informed.",
+     "note": "Agrees with the nearer subject."
+    },
+    {
+     "en": "Your feedback has been very useful.",
+     "note": "Uncountable → singular."
+    },
+    {
+     "en": "Five years is a long time to wait.",
+     "note": "Period of time → singular."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "sv1",
+     "type": "mcq",
+     "prompt": "The list of items ___ on the desk.",
+     "options": [
+      "are",
+      "is",
+      "were",
+      "have been"
+     ],
+     "answer": "is",
+     "explanation": "Head noun 'list' is singular."
+    },
+    {
+     "id": "sv2",
+     "type": "correct",
+     "prompt": "Thank you for all the informations and advices.",
+     "answer": [
+      "Thank you for all the information and advice."
+     ],
+     "explanation": "Uncountable nouns: no -s."
+    },
+    {
+     "id": "sv3",
+     "type": "mcq",
+     "prompt": "The number of complaints ___ fallen this year.",
+     "options": [
+      "have",
+      "has",
+      "are",
+      "were"
+     ],
+     "answer": "has",
+     "explanation": "'The number of' → singular."
+    },
+    {
+     "id": "sv4",
+     "type": "gap",
+     "prompt": "Each of the analysts ___ (be) responsible for one sector.",
+     "answer": [
+      "is"
+     ],
+     "explanation": "'Each' → singular."
+    },
+    {
+     "id": "sv5",
+     "type": "correct",
+     "prompt": "The news are very worrying for investors.",
+     "answer": [
+      "The news is very worrying for investors."
+     ],
+     "explanation": "'News' is singular."
+    }
+   ]
+  },
+  {
+   "id": "participle-clauses",
+   "title": "Participle Clauses",
+   "level": "C1",
+   "unit": "Clauses",
+   "summary": "Compress information elegantly with -ing, -ed and having + past participle.",
+   "explanation": "Participle clauses replace a subject + verb in a subordinate clause, making writing more concise and formal.\nPresent participle (-ing) — active, simultaneous or reason: 'Feeling unwell, she left the meeting early.' (= Because she felt unwell)\nPast participle (-ed) — passive meaning: 'Founded in 1867, the bank is one of Canada's oldest.' (= which was founded)\nPerfect participle (having + pp) — one action completed before another: 'Having reviewed the data, the committee approved the loan.'\nReduced relative clauses: 'The candidates shortlisted for the role will be contacted.' 'Anyone wishing to attend should register.'\nThe subject of the participle clause MUST be the same as the main clause; otherwise you get a 'dangling participle': '*Walking into the office, the computer was on.' (The computer wasn't walking!) → 'Walking into the office, I saw that the computer was on.'",
+   "explanation_fr": "Le sujet implicite du participe doit être celui de la principale. « Ayant terminé le rapport, je l'ai envoyé » = Having finished the report, I sent it.",
+   "examples": [
+    {
+     "en": "Having worked in banking for ten years, he understands risk well.",
+     "note": "Earlier action → perfect participle."
+    },
+    {
+     "en": "Written in plain English, the guide is easy to follow.",
+     "note": "Passive meaning."
+    },
+    {
+     "en": "Not knowing what to say, I remained silent.",
+     "note": "Negative participle: 'not' first."
+    },
+    {
+     "en": "Employees working remotely must use the VPN.",
+     "note": "Reduced relative clause."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "pc1",
+     "type": "mcq",
+     "prompt": "___ the contract, they started the project immediately.",
+     "options": [
+      "Signed",
+      "Having signed",
+      "Being signed",
+      "Sign"
+     ],
+     "answer": "Having signed",
+     "explanation": "Completed earlier action, active → having + pp."
+    },
+    {
+     "id": "pc2",
+     "type": "mcq",
+     "prompt": "___ in 1990, the company now employs 5,000 people.",
+     "options": [
+      "Founding",
+      "Having founded",
+      "Founded",
+      "Found"
+     ],
+     "answer": "Founded",
+     "explanation": "Passive meaning (the company was founded)."
+    },
+    {
+     "id": "pc3",
+     "type": "correct",
+     "prompt": "Arriving late, the meeting had already started.",
+     "answer": [
+      "Arriving late, I found that the meeting had already started.",
+      "Arriving late, we found that the meeting had already started.",
+      "When I arrived late, the meeting had already started.",
+      "When I arrived, the meeting had already started."
+     ],
+     "explanation": "Dangling participle: the meeting didn't arrive late."
+    },
+    {
+     "id": "pc4",
+     "type": "translate",
+     "prompt": "Combine with a participle clause: 'She didn't know the answer. She asked her colleague.'",
+     "answer": [
+      "Not knowing the answer, she asked her colleague."
+     ],
+     "explanation": "Negative participle clause showing reason."
+    }
+   ]
+  },
+  {
+   "id": "noun-clauses",
+   "title": "Noun Clauses (that, wh-, whether)",
+   "level": "C1",
+   "unit": "Clauses",
+   "summary": "Clauses that act as subjects or objects: 'What surprised me was…', 'Whether we succeed depends on…'.",
+   "explanation": "A noun clause does the job of a noun: subject, object or complement.\nthat-clauses: 'I believe (that) the plan will work.' As subject, 'that' is required and often replaced by 'It… that': 'That the CEO resigned surprised no one.' → 'It surprised no one that the CEO resigned.'\nwh-clauses use statement word order: 'I don't know where the file is.' (NOT *where is the file) 'What matters is the result.'\nwhether/if-clauses for yes/no: 'Whether we expand depends on funding.' Use 'whether' (not 'if') as subject, after prepositions and before 'to': 'We discussed whether to hire.'\n'The fact that' allows a that-clause after prepositions: 'Despite the fact that sales fell…' (NOT *despite that sales fell).",
+   "explanation_fr": "« Ce que » = what : « Ce qui compte, c'est… » = What matters is… Ordre affirmatif dans les subordonnées interrogatives.",
+   "examples": [
+    {
+     "en": "What we need is more time.",
+     "note": "wh-clause as subject."
+    },
+    {
+     "en": "It's unclear whether the merger will be approved.",
+     "note": "whether-clause after 'It's unclear'."
+    },
+    {
+     "en": "Could you tell me where the conference room is?",
+     "note": "Indirect question: statement order."
+    },
+    {
+     "en": "Despite the fact that rates rose, demand stayed strong.",
+     "note": "'the fact that' after a preposition."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "nc1",
+     "type": "correct",
+     "prompt": "Can you tell me where is the nearest bank?",
+     "answer": [
+      "Can you tell me where the nearest bank is?"
+     ],
+     "explanation": "Indirect question: subject before verb."
+    },
+    {
+     "id": "nc2",
+     "type": "mcq",
+     "prompt": "___ we can meet the deadline depends on the supplier.",
+     "options": [
+      "If",
+      "Whether",
+      "That",
+      "What"
+     ],
+     "answer": "Whether",
+     "explanation": "Subject position → whether."
+    },
+    {
+     "id": "nc3",
+     "type": "translate",
+     "prompt": "Traduisez : « Ce qui m'inquiète, c'est le coût. »",
+     "answer": [
+      "What worries me is the cost.",
+      "What concerns me is the cost."
+     ],
+     "explanation": "« Ce qui » = what (wh-cleft/noun clause)."
+    },
+    {
+     "id": "nc4",
+     "type": "correct",
+     "prompt": "Despite that the market fell, our fund grew.",
+     "answer": [
+      "Despite the fact that the market fell, our fund grew.",
+      "Although the market fell, our fund grew.",
+      "Even though the market fell, our fund grew."
+     ],
+     "explanation": "'despite' is a preposition: use 'the fact that' or switch to 'although'."
+    }
+   ]
+  },
+  {
+   "id": "punctuation",
+   "title": "Punctuation for Professional Writing",
+   "level": "B2",
+   "unit": "Punctuation & Sentence Construction",
+   "summary": "Commas, semicolons, colons, apostrophes, and avoiding comma splices.",
+   "explanation": "Comma splice: two complete sentences joined with only a comma are wrong in English (they are common in French). '*Sales rose, profits fell.' Fix with a full stop, a semicolon, or a conjunction: 'Sales rose, but profits fell.' / 'Sales rose; profits fell.'\nSemicolon (;) joins closely related independent clauses, especially before 'however', 'therefore', 'moreover': 'Costs increased; however, margins held.'\nColon (:) introduces a list, explanation or example after a complete clause: 'We have one priority: growth.'\nCommas after introductory phrases ('In 2025, …'), around non-defining clauses, and before 'but/so/yet' joining clauses. No comma before a that-clause: 'He said that…' (NOT *He said, that…).\nApostrophes: possession ('the company's results', 'the companies' results') and contractions. 'its' (possessive) vs 'it's' (it is).\nNo space before ? ! : ; in English (unlike French).",
+   "explanation_fr": "En anglais : pas d'espace avant « ; : ? ! », pas de virgule entre deux phrases complètes, et « however » se ponctue « ; however, ».",
+   "examples": [
+    {
+     "en": "The project was delayed; however, the budget was respected.",
+     "note": "Semicolon + however + comma."
+    },
+    {
+     "en": "Three markets grew: Canada, Mexico and Brazil.",
+     "note": "Colon before a list."
+    },
+    {
+     "en": "The bank raised its rates.",
+     "note": "'its' = possessive, no apostrophe."
+    },
+    {
+     "en": "Prices fell, so demand increased.",
+     "note": "Comma + conjunction joins clauses."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "pu1",
+     "type": "correct",
+     "prompt": "The meeting was long, nobody reached a decision.",
+     "answer": [
+      "The meeting was long, but nobody reached a decision.",
+      "The meeting was long; nobody reached a decision.",
+      "The meeting was long. Nobody reached a decision.",
+      "The meeting was long, and nobody reached a decision.",
+      "The meeting was long, yet nobody reached a decision."
+     ],
+     "explanation": "Comma splice: use a conjunction, semicolon or full stop."
+    },
+    {
+     "id": "pu2",
+     "type": "mcq",
+     "prompt": "The company announced ___ quarterly results.",
+     "options": [
+      "it's",
+      "its",
+      "its'",
+      "it is"
+     ],
+     "answer": "its",
+     "explanation": "Possessive 'its' has no apostrophe."
+    },
+    {
+     "id": "pu3",
+     "type": "correct",
+     "prompt": "Revenue grew however costs grew faster.",
+     "answer": [
+      "Revenue grew; however, costs grew faster.",
+      "Revenue grew. However, costs grew faster."
+     ],
+     "explanation": "'however' between clauses needs ; or . and a comma after."
+    },
+    {
+     "id": "pu4",
+     "type": "mcq",
+     "prompt": "Which is correctly punctuated in English?",
+     "options": [
+      "Are you available ?",
+      "Are you available?",
+      "Are you available ? ",
+      "Are you available ;"
+     ],
+     "answer": "Are you available?",
+     "explanation": "No space before a question mark in English."
+    }
+   ]
+  },
+  {
+   "id": "hedging",
+   "title": "Hedging and Academic Caution",
+   "level": "C1",
+   "unit": "Academic Style",
+   "summary": "Sound credible by qualifying your claims: may, appears to, tends to, it could be argued that.",
+   "explanation": "Academic and professional English avoids absolute claims that the evidence cannot support. Hedging shows precision, not weakness.\nModal verbs: may, might, could ('This may reflect…').\nLexical verbs: appear to, seem to, tend to, suggest, indicate ('The data suggest that…').\nAdverbs: possibly, arguably, largely, broadly, to some extent, in most cases.\nImpersonal structures: It could be argued that…, It is likely that…, There is some evidence that…\nQuantifiers instead of absolutes: 'many/most' instead of 'all', 'often' instead of 'always'.\nBoosters, used sparingly when evidence is strong: clearly, undoubtedly, demonstrates.\nAvoid over-hedging: '*It might possibly perhaps suggest…' is weak.",
+   "explanation_fr": "Équivalent de « il semblerait que », « dans une certaine mesure ». En IELTS/rédaction académique, les affirmations nuancées sont mieux notées.",
+   "examples": [
+    {
+     "en": "These findings suggest that remote work may increase productivity.",
+     "note": "Verb + modal hedge."
+    },
+    {
+     "en": "It could be argued that the policy was introduced too early.",
+     "note": "Impersonal hedge."
+    },
+    {
+     "en": "Inflation appears to have peaked.",
+     "note": "appear to + perfect infinitive."
+    },
+    {
+     "en": "Social media is, to some extent, responsible for polarisation.",
+     "note": "Adverbial hedge."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "hd1",
+     "type": "mcq",
+     "prompt": "Which sentence is most appropriately hedged for an academic essay?",
+     "options": [
+      "Technology destroys all jobs.",
+      "Technology always creates more jobs.",
+      "Technology may displace some jobs while creating others.",
+      "Technology definitely has no effect on jobs."
+     ],
+     "answer": "Technology may displace some jobs while creating others.",
+     "explanation": "Modal + quantifier ('some')."
+    },
+    {
+     "id": "hd2",
+     "type": "translate",
+     "prompt": "Hedge this claim: 'Higher taxes reduce investment.'",
+     "answer": [
+      "Higher taxes may reduce investment.",
+      "Higher taxes tend to reduce investment.",
+      "Higher taxes can reduce investment.",
+      "Higher taxes might reduce investment.",
+      "Higher taxes could reduce investment.",
+      "Higher taxes appear to reduce investment.",
+      "Higher taxes may tend to reduce investment."
+     ],
+     "explanation": "Use a modal or 'tend to'."
+    },
+    {
+     "id": "hd3",
+     "type": "gap",
+     "prompt": "The results ___ to indicate a link between sleep and memory. (verb: seem/appear)",
+     "answer": [
+      "seem",
+      "appear"
+     ],
+     "explanation": "seem/appear + to-infinitive."
+    },
+    {
+     "id": "hd4",
+     "type": "mcq",
+     "prompt": "Choose the over-hedged sentence:",
+     "options": [
+      "The data may indicate a trend.",
+      "It could perhaps possibly be suggested that there might be a trend.",
+      "There appears to be a trend.",
+      "The data suggest a trend."
+     ],
+     "answer": "It could perhaps possibly be suggested that there might be a trend.",
+     "explanation": "Stacking hedges makes writing vague."
+    }
+   ]
+  },
+  {
+   "id": "nominalisation",
+   "title": "Nominalisation",
+   "level": "C2",
+   "unit": "Academic Style",
+   "summary": "Turn verbs and adjectives into nouns for dense, formal, written English.",
+   "explanation": "Nominalisation means expressing processes as nouns: 'Prices increased rapidly, which worried investors' → 'The rapid increase in prices worried investors.'\nIt makes writing more concise, objective and cohesive, because a noun phrase can become the subject of the next sentence: 'The government cut spending. This reduction…'\nCommon patterns: verb → noun (analyse → analysis, fail → failure, decide → decision, reduce → reduction, grow → growth), adjective → noun (stable → stability, available → availability, important → importance).\nWatch the prepositions: an increase IN, a decline IN, a reduction IN/OF, the analysis OF, the failure TO do / OF something, a decision TO do / ON something.\nOveruse creates heavy, unclear prose ('the implementation of the facilitation of…'). Use it in reports and essays; keep speech and emails more verbal.",
+   "explanation_fr": "Typique de l'écrit académique, comme en français (« l'augmentation des prix » plutôt que « les prix ont augmenté »).",
+   "examples": [
+    {
+     "en": "The failure of the merger led to job losses.",
+     "note": "fail → failure."
+    },
+    {
+     "en": "There has been a significant decline in demand.",
+     "note": "decline in."
+    },
+    {
+     "en": "The availability of credit is essential for growth.",
+     "note": "available → availability."
+    },
+    {
+     "en": "Their decision to withdraw surprised analysts.",
+     "note": "decision to."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "nm1",
+     "type": "translate",
+     "prompt": "Nominalise: 'The company expanded quickly, and this attracted investors.'",
+     "answer": [
+      "The company's rapid expansion attracted investors.",
+      "The rapid expansion of the company attracted investors.",
+      "The company's quick expansion attracted investors."
+     ],
+     "explanation": "expand → expansion; quickly → rapid/quick."
+    },
+    {
+     "id": "nm2",
+     "type": "mcq",
+     "prompt": "There has been a sharp ___ unemployment.",
+     "options": [
+      "reduce of",
+      "reduction in",
+      "reducing of",
+      "reduced in"
+     ],
+     "answer": "reduction in",
+     "explanation": "reduction in + noun."
+    },
+    {
+     "id": "nm3",
+     "type": "translate",
+     "prompt": "Nominalise: 'Because the economy is unstable, firms delay investment.'",
+     "answer": [
+      "The instability of the economy causes firms to delay investment.",
+      "Economic instability causes firms to delay investment.",
+      "Due to economic instability, firms delay investment.",
+      "Because of economic instability, firms delay investment.",
+      "Economic instability leads firms to delay investment."
+     ],
+     "explanation": "unstable → instability."
+    },
+    {
+     "id": "nm4",
+     "type": "gap",
+     "prompt": "The ___ (analyse) of the data took three weeks.",
+     "answer": [
+      "analysis"
+     ],
+     "explanation": "analyse → analysis."
+    }
+   ]
+  },
+  {
+   "id": "ellipsis-substitution",
+   "title": "Ellipsis and Substitution",
+   "level": "C2",
+   "unit": "Cohesion",
+   "summary": "Avoid repetition like a native speaker: so, not, one(s), do so, and leaving words out.",
+   "explanation": "Native speakers rarely repeat whole phrases. They substitute or omit.\nSubstitution: one/ones for countable nouns ('I prefer the blue one'); do/does/did for verb phrases ('She works harder than I do'); do so in formal style ('The board was asked to reconsider, and it did so'); so/not for clauses after think, hope, expect, suppose, be afraid ('Will rates rise? — I expect so / I hope not').\nEllipsis (leaving out words recoverable from context): after auxiliaries ('I haven't finished, but Sarah has.'), after 'to' ('I'd like to come, but I'm not able to.'), in comparisons ('He earns more than I.' formal / 'than me' informal), and in coordinated clauses ('Some invested in stocks, others in bonds.').\nFrench speakers often say '*I think yes' (je pense que oui) → 'I think so'; '*I hope' alone → 'I hope so'.",
+   "explanation_fr": "« Je pense que oui / non » = I think so / I don't think so. « J'espère » en réponse = I hope so.",
+   "examples": [
+    {
+     "en": "Will the deal close this week? — I don't think so.",
+     "note": "so after think."
+    },
+    {
+     "en": "You said you'd call, but you didn't.",
+     "note": "Ellipsis after auxiliary."
+    },
+    {
+     "en": "Is the report ready? — I'm afraid not.",
+     "note": "not after be afraid."
+    },
+    {
+     "en": "Applicants were invited to resubmit, and many did so.",
+     "note": "Formal 'do so'."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "el1",
+     "type": "correct",
+     "prompt": "Is she coming to the conference? — I think yes.",
+     "answer": [
+      "I think so.",
+      "I think so",
+      "Is she coming to the conference? — I think so."
+     ],
+     "explanation": "think so (not 'think yes')."
+    },
+    {
+     "id": "el2",
+     "type": "mcq",
+     "prompt": "Are prices going to rise again? — I hope ___.",
+     "options": [
+      "no",
+      "not",
+      "don't",
+      "nothing"
+     ],
+     "answer": "not",
+     "explanation": "hope not = I hope they won't."
+    },
+    {
+     "id": "el3",
+     "type": "gap",
+     "prompt": "I wanted to attend the webinar, but I wasn't able ___.",
+     "answer": [
+      "to"
+     ],
+     "explanation": "Ellipsis after 'to'."
+    },
+    {
+     "id": "el4",
+     "type": "mcq",
+     "prompt": "These reports are better than the ___ we received last year.",
+     "options": [
+      "one",
+      "ones",
+      "those ones",
+      "it"
+     ],
+     "answer": "ones",
+     "explanation": "Plural substitute for 'reports'."
+    }
+   ]
+  },
+  {
+   "id": "quantifiers",
+   "title": "Quantifiers and Determiners",
+   "level": "B2",
+   "unit": "Determiners",
+   "summary": "much/many, few/a few, little/a little, each/every, either/neither, all/whole.",
+   "explanation": "Countable plural: many, (a) few, fewer, a number of. Uncountable: much, (a) little, less, an amount of. Both: a lot of, plenty of, some, any, no, most.\n'A few / a little' = some (positive); 'few / little' = not enough (negative): 'Few candidates passed' (disappointing) vs 'A few candidates passed' (some did).\n'Each' looks at members individually (often two or more); 'every' at the whole group (three or more): 'Each partner signed.' 'Every employee received a bonus.'\n'Either/neither' for two: 'Neither option is ideal.' 'All' vs 'whole': 'all the day' is unnatural → 'the whole day', 'all day'.\nIn formal English, use 'fewer' with countables: 'fewer errors' (not *less errors).",
+   "explanation_fr": "« Peu de » = few/little ; « quelques » = a few. « Moins de » + dénombrable = fewer.",
+   "examples": [
+    {
+     "en": "We received fewer complaints this quarter.",
+     "note": "fewer + countable."
+    },
+    {
+     "en": "There's little evidence to support the claim.",
+     "note": "little = almost none."
+    },
+    {
+     "en": "Each of the three options has drawbacks.",
+     "note": "each + singular verb."
+    },
+    {
+     "en": "I spent the whole afternoon on the report.",
+     "note": "the whole + singular noun."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "qn1",
+     "type": "mcq",
+     "prompt": "There were ___ questions after the talk, so we finished early.",
+     "options": [
+      "few",
+      "a few",
+      "little",
+      "a little"
+     ],
+     "answer": "few",
+     "explanation": "Negative meaning: not many."
+    },
+    {
+     "id": "qn2",
+     "type": "mcq",
+     "prompt": "We have ___ time left: let's take a short break.",
+     "options": [
+      "a little",
+      "a few",
+      "few",
+      "many"
+     ],
+     "answer": "a little",
+     "explanation": "Uncountable, positive meaning."
+    },
+    {
+     "id": "qn3",
+     "type": "correct",
+     "prompt": "There were less people at the conference than last year.",
+     "answer": [
+      "There were fewer people at the conference than last year."
+     ],
+     "explanation": "people is countable → fewer."
+    },
+    {
+     "id": "qn4",
+     "type": "mcq",
+     "prompt": "___ of the two proposals was accepted; both were rejected.",
+     "options": [
+      "Either",
+      "Neither",
+      "None",
+      "Both"
+     ],
+     "answer": "Neither",
+     "explanation": "Two items, negative → neither."
+    },
+    {
+     "id": "qn5",
+     "type": "correct",
+     "prompt": "I worked all the day on the presentation.",
+     "answer": [
+      "I worked all day on the presentation.",
+      "I worked the whole day on the presentation."
+     ],
+     "explanation": "all day / the whole day."
+    }
+   ]
+  },
+  {
+   "id": "causative",
+   "title": "Causatives: have/get something done",
+   "level": "B2",
+   "unit": "Verb Patterns",
+   "summary": "Arranging for others to do things, and 'have/get someone do/to do'.",
+   "explanation": "have/get + object + past participle = arrange for someone else to do it: 'We had the accounts audited.' 'I need to get my laptop repaired.'\nAlso for unpleasant experiences: 'He had his wallet stolen.'\nhave + person + infinitive (without to): 'I'll have my assistant send you the file.'\nget + person + to-infinitive (persuade): 'I got the bank to waive the fee.'\nmake + person + infinitive (force): 'They made us sign a confidentiality agreement.'\nlet + person + infinitive (allow): 'My manager let me work from home.'",
+   "explanation_fr": "« Faire faire » = have/get something done : « J'ai fait réparer ma voiture » = I had my car repaired.",
+   "examples": [
+    {
+     "en": "We're having the office repainted next week.",
+     "note": "Arranged service."
+    },
+    {
+     "en": "She got her colleague to cover the meeting.",
+     "note": "Persuaded."
+    },
+    {
+     "en": "He had his car broken into last night.",
+     "note": "Unpleasant experience."
+    },
+    {
+     "en": "The auditor made us provide every receipt.",
+     "note": "Obligation."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "ca1",
+     "type": "translate",
+     "prompt": "Traduisez : « Je fais réviser mon CV par un professionnel. »",
+     "answer": [
+      "I'm having my CV reviewed by a professional.",
+      "I am having my CV reviewed by a professional.",
+      "I'm getting my CV reviewed by a professional.",
+      "I have my CV reviewed by a professional.",
+      "I'm having my resume reviewed by a professional.",
+      "I'm having my résumé reviewed by a professional."
+     ],
+     "explanation": "have/get + object + past participle."
+    },
+    {
+     "id": "ca2",
+     "type": "mcq",
+     "prompt": "I finally got the landlord ___ the heating.",
+     "options": [
+      "fix",
+      "to fix",
+      "fixed",
+      "fixing"
+     ],
+     "answer": "to fix",
+     "explanation": "get + person + to-infinitive."
+    },
+    {
+     "id": "ca3",
+     "type": "mcq",
+     "prompt": "They made the interns ___ late every night.",
+     "options": [
+      "stay",
+      "to stay",
+      "staying",
+      "stayed"
+     ],
+     "answer": "stay",
+     "explanation": "make + person + bare infinitive."
+    },
+    {
+     "id": "ca4",
+     "type": "correct",
+     "prompt": "I need to repair my phone by a technician.",
+     "answer": [
+      "I need to have my phone repaired by a technician.",
+      "I need to get my phone repaired by a technician."
+     ],
+     "explanation": "The technician repairs it → causative."
+    }
+   ]
+  },
+  {
+   "id": "future-in-the-past",
+   "title": "Future in the Past",
+   "level": "C1",
+   "unit": "Tenses",
+   "summary": "was going to, would, was about to, was to: talking about the future from a past viewpoint.",
+   "explanation": "Use these forms to describe what was planned, expected or predicted at a past moment.\nwas/were going to: plans that often did not happen: 'I was going to call you, but I forgot.'\nwould: predictions/reported futures: 'She knew the project would succeed.'\nwas/were about to: something on the point of happening: 'We were about to sign when the deal collapsed.'\nwas/were to (formal): destiny or arrangements: 'He was to become CEO ten years later.' 'The meeting was to have taken place on Monday' (but didn't).\nwas/were (just) on the point of + -ing: 'I was on the point of leaving.'",
+   "explanation_fr": "« J'allais t'appeler » = I was going to call you. « Il allait devenir PDG » (destin) = He was to become CEO.",
+   "examples": [
+    {
+     "en": "I was going to apply, but the deadline had passed.",
+     "note": "Unfulfilled plan."
+    },
+    {
+     "en": "Nobody imagined the company would grow so fast.",
+     "note": "Past prediction."
+    },
+    {
+     "en": "They were about to launch when the regulator intervened.",
+     "note": "Imminent."
+    },
+    {
+     "en": "Little did she know she was to lead the firm one day.",
+     "note": "Formal 'destiny'."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "fp1",
+     "type": "mcq",
+     "prompt": "I ___ email you, but I lost your address.",
+     "options": [
+      "will",
+      "was going to",
+      "am going to",
+      "would have"
+     ],
+     "answer": "was going to",
+     "explanation": "Unfulfilled past plan."
+    },
+    {
+     "id": "fp2",
+     "type": "mcq",
+     "prompt": "We ___ leave when the fire alarm went off.",
+     "options": [
+      "were about to",
+      "are about to",
+      "will be about to",
+      "had been about to"
+     ],
+     "answer": "were about to",
+     "explanation": "On the point of happening in the past."
+    },
+    {
+     "id": "fp3",
+     "type": "translate",
+     "prompt": "Traduisez : « Il savait que le marché allait se redresser. »",
+     "answer": [
+      "He knew the market would recover.",
+      "He knew that the market would recover.",
+      "He knew the market was going to recover.",
+      "He knew that the market was going to recover."
+     ],
+     "explanation": "Future seen from the past → would / was going to."
+    },
+    {
+     "id": "fp4",
+     "type": "mcq",
+     "prompt": "The merger ___ completed in March, but it was postponed.",
+     "options": [
+      "was to have been",
+      "will have been",
+      "is to be",
+      "would be"
+     ],
+     "answer": "was to have been",
+     "explanation": "was to + perfect passive infinitive = planned but didn't happen."
+    }
+   ]
+  },
+  {
+   "id": "discourse-markers",
+   "title": "Discourse Markers for Speaking and Writing",
+   "level": "C1",
+   "unit": "Cohesion",
+   "summary": "however, nevertheless, whereas, as a result, that said, admittedly: linking ideas precisely.",
+   "explanation": "Contrast: however, nevertheless, nonetheless (formal, sentence-linking); whereas, while (contrast two clauses); that said / having said that (spoken, concession after a point); even so.\nConcession: admittedly, granted, it is true that… but…\nCause/result: as a result, consequently, therefore, thus (formal), hence (formal, often + noun: 'hence the delay').\nAddition: moreover, furthermore, in addition, what is more.\nReformulation: in other words, that is to say, to put it another way.\nPunctuation: 'However' joining clauses needs a semicolon or full stop: 'Sales rose; however, costs rose faster.' 'Whereas' joins clauses directly: 'Sales rose, whereas costs fell.'\nFrench traps: 'actually' ≠ actuellement (= currently); 'eventually' ≠ éventuellement (= possibly); 'in fact' is fine; 'at the contrary' → 'on the contrary'.",
+   "explanation_fr": "Faux amis : « actually » = en fait ; « eventually » = finalement ; « éventuellement » = possibly ; « au contraire » = on the contrary.",
+   "examples": [
+    {
+     "en": "The plan is ambitious. That said, it is achievable.",
+     "note": "Spoken concession."
+    },
+    {
+     "en": "Prices rose sharply; hence the drop in demand.",
+     "note": "hence + noun."
+    },
+    {
+     "en": "Admittedly, the data are limited, but the trend is clear.",
+     "note": "Concession."
+    },
+    {
+     "en": "Currently, we have two offices.",
+     "note": "Not 'actually'."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "dm1",
+     "type": "mcq",
+     "prompt": "The first quarter was weak. ___, the year ended strongly.",
+     "options": [
+      "Nevertheless",
+      "Whereas",
+      "Because",
+      "Moreover"
+     ],
+     "answer": "Nevertheless",
+     "explanation": "Contrast between sentences."
+    },
+    {
+     "id": "dm2",
+     "type": "correct",
+     "prompt": "Actually, the company employs 500 people, but next year it will employ 800.",
+     "answer": [
+      "Currently, the company employs 500 people, but next year it will employ 800.",
+      "At the moment, the company employs 500 people, but next year it will employ 800.",
+      "At present, the company employs 500 people, but next year it will employ 800."
+     ],
+     "explanation": "actuellement = currently."
+    },
+    {
+     "id": "dm3",
+     "type": "mcq",
+     "prompt": "The supplier was late; ___ the delay in production.",
+     "options": [
+      "hence",
+      "therefore",
+      "so that",
+      "thus that"
+     ],
+     "answer": "hence",
+     "explanation": "hence + noun phrase."
+    },
+    {
+     "id": "dm4",
+     "type": "correct",
+     "prompt": "At the contrary, the results were excellent.",
+     "answer": [
+      "On the contrary, the results were excellent."
+     ],
+     "explanation": "on the contrary."
+    },
+    {
+     "id": "dm5",
+     "type": "mcq",
+     "prompt": "Investors were optimistic, ___ analysts were more cautious.",
+     "options": [
+      "whereas",
+      "however",
+      "moreover",
+      "therefore"
+     ],
+     "answer": "whereas",
+     "explanation": "Joins two contrasting clauses."
+    }
+   ]
+  }
+ ]
+}

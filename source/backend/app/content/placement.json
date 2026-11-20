@@ -1,0 +1,32 @@
+{
+  "grammar_vocab": [
+    {"id": "p1", "level": "B1", "prompt": "I ___ to Toronto three times this year.", "options": ["went", "have been", "am going", "was"], "answer": "have been"},
+    {"id": "p2", "level": "B1", "prompt": "If it rains tomorrow, we ___ the meeting online.", "options": ["will hold", "would hold", "hold", "held"], "answer": "will hold"},
+    {"id": "p3", "level": "B1", "prompt": "She is interested ___ working abroad.", "options": ["on", "for", "in", "about"], "answer": "in"},
+    {"id": "p4", "level": "B1", "prompt": "Choose the correct sentence.", "options": ["He don't like coffee.", "He doesn't likes coffee.", "He doesn't like coffee.", "He not like coffee."], "answer": "He doesn't like coffee."},
+    {"id": "p5", "level": "B1", "prompt": "Could you give me some ___ about the course?", "options": ["informations", "information", "an information", "informations'"], "answer": "information"},
+    {"id": "p6", "level": "B1", "prompt": "The report ___ by the manager yesterday.", "options": ["was written", "wrote", "has written", "is writing"], "answer": "was written"},
+    {"id": "p7", "level": "B2", "prompt": "I'm looking forward to ___ from you.", "options": ["hear", "hearing", "be hearing", "have heard"], "answer": "hearing"},
+    {"id": "p8", "level": "B2", "prompt": "If I had known about the delay, I ___ a later train.", "options": ["would take", "will take", "would have taken", "had taken"], "answer": "would have taken"},
+    {"id": "p9", "level": "B2", "prompt": "The project, ___ began in March, is now complete.", "options": ["that", "which", "what", "who"], "answer": "which"},
+    {"id": "p10", "level": "B2", "prompt": "We need to ___ a decision before Friday.", "options": ["do", "make", "take up", "have"], "answer": "make"},
+    {"id": "p11", "level": "B2", "prompt": "She asked me where ___.", "options": ["did I work", "I worked", "do I work", "worked I"], "answer": "I worked"},
+    {"id": "p12", "level": "B2", "prompt": "The meeting was ___ until next week because the CEO was ill.", "options": ["put off", "put up", "put out", "put on"], "answer": "put off"},
+    {"id": "p13", "level": "C1", "prompt": "Not only ___ the target, but they also reduced costs.", "options": ["they met", "did they meet", "they did meet", "met they"], "answer": "did they meet"},
+    {"id": "p14", "level": "C1", "prompt": "___ the data, the committee approved the proposal.", "options": ["Having reviewed", "Reviewed", "Being reviewed", "To review"], "answer": "Having reviewed"},
+    {"id": "p15", "level": "C1", "prompt": "The new policy is likely to ___ public trust if it is poorly explained.", "options": ["undermine", "underline", "undergo", "undertake"], "answer": "undermine"},
+    {"id": "p16", "level": "C1", "prompt": "It's essential that every employee ___ the training by June.", "options": ["completes", "complete", "will complete", "completed"], "answer": "complete"},
+    {"id": "p17", "level": "C1", "prompt": "The findings ___ that remote work may increase productivity.", "options": ["prove definitely", "suggest", "are proving", "tell"], "answer": "suggest"},
+    {"id": "p18", "level": "C1", "prompt": "She must ___ the email; she replied an hour ago.", "options": ["read", "have read", "had read", "be reading"], "answer": "have read"},
+    {"id": "p19", "level": "C2", "prompt": "Little ___ that the merger would collapse within a year.", "options": ["did anyone suspect", "anyone suspected", "anyone did suspect", "suspected anyone"], "answer": "did anyone suspect"},
+    {"id": "p20", "level": "C2", "prompt": "The essay does not so much refute the theory ___ refine it.", "options": ["than", "but", "as", "so"], "answer": "as"},
+    {"id": "p21", "level": "C2", "prompt": "Choose the most precise word: The author's argument is ___; it depends on an assumption she never states.", "options": ["tenuous", "tenacious", "tentative", "tedious"], "answer": "tenuous"},
+    {"id": "p22", "level": "C2", "prompt": "Will the regulator approve the deal? — I very much doubt ___.", "options": ["it", "so", "that", "this"], "answer": "it"},
+    {"id": "p23", "level": "C2", "prompt": "The ___ of the evidence led the court to dismiss the case.", "options": ["paucity", "plethora", "propensity", "proximity"], "answer": "paucity"},
+    {"id": "p24", "level": "C2", "prompt": "___ it not for the central bank's intervention, the currency would have collapsed.", "options": ["Were", "Had", "Should", "Was"], "answer": "Had"}
+  ],
+  "reading_text": "reading:four-day-week",
+  "listening_items": ["coffee-shop-catchup", "lecture-behavioural-finance"],
+  "writing_prompt": "In about 120–180 words: describe a challenge you faced at work or in your studies, how you handled it, and what you would do differently now.",
+  "speaking_prompt": "Speak for about one minute: What is the most important skill for success in your field, and why?"
+}

@@ -1,0 +1,87 @@
+{
+ "exams": [
+  {
+   "id": "ielts-academic-1",
+   "title": "IELTS Academic: Practice Test 1",
+   "kind": "ielts_academic",
+   "sections": {
+    "listening": {
+     "minutes": 30,
+     "items": [
+      "ielts-l-language-exchange",
+      "ielts-l-recycling",
+      "ielts-l-ebus-project",
+      "ielts-l-container"
+     ]
+    },
+    "reading": {
+     "minutes": 60,
+     "texts": [
+      "ielts-r-urban-bees",
+      "ielts-r-wellbeing-economics",
+      "ielts-r-multitasking"
+     ]
+    },
+    "writing": {
+     "minutes": 60,
+     "task1": {
+      "prompt": "The chart below shows the percentage of employees working remotely at least two days a week in four industries in 2019 and 2025. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+      "chart": {
+       "title": "Employees working remotely ≥2 days/week (%)",
+       "categories": [
+        "Finance",
+        "Technology",
+        "Education",
+        "Manufacturing"
+       ],
+       "series": [
+        {
+         "name": "2019",
+         "values": [
+          12,
+          28,
+          6,
+          3
+         ]
+        },
+        {
+         "name": "2025",
+         "values": [
+          46,
+          71,
+          19,
+          8
+         ]
+        }
+       ]
+      }
+     },
+     "task2": {
+      "prompt": "Some people believe that universities should focus on providing practical skills for the workplace, while others think the main purpose of higher education is to develop critical thinking and knowledge for its own sake. Discuss both views and give your own opinion. Write at least 250 words."
+     }
+    },
+    "speaking": {
+     "part1": [
+      "Let's talk about your work or studies. What do you enjoy most about it?",
+      "How do you usually spend your weekends?",
+      "Do you prefer reading on paper or on a screen? Why?"
+     ],
+     "part2": {
+      "topic": "Describe a skill you learned that has been useful in your career or studies.",
+      "points": [
+       "what the skill is",
+       "how and when you learned it",
+       "how you have used it",
+       "and explain why it has been so useful"
+      ]
+     },
+     "part3": [
+      "Which skills do you think will be most important in the workplace in twenty years' time?",
+      "Should employers or individuals be responsible for training?",
+      "How has technology changed the way people learn new skills?"
+     ]
+    }
+   }
+  }
+ ]
+}

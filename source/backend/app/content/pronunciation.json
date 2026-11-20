@@ -1,0 +1,56 @@
+{
+  "sounds": [
+    {"ipa": "ɪ", "type": "vowel", "name": "short i", "examples": ["ship", "live", "fill", "bit"], "tip": "Shorter and more relaxed than French 'i'. Don't stretch it: 'ship' is not 'sheep'.", "french_trap": true},
+    {"ipa": "iː", "type": "vowel", "name": "long ee", "examples": ["sheep", "leave", "feel", "beat"], "tip": "Long and tense, lips spread. Close to French 'i' but held longer.", "french_trap": false},
+    {"ipa": "æ", "type": "vowel", "name": "trap vowel", "examples": ["cat", "bad", "man", "bank"], "tip": "Open your jaw wide, between French 'a' and 'è'. Strong in North American English.", "french_trap": true},
+    {"ipa": "ʌ", "type": "vowel", "name": "strut vowel", "examples": ["cut", "luck", "money", "budget"], "tip": "Short, central, relaxed 'uh'. Not French 'eu' or 'o'.", "french_trap": true},
+    {"ipa": "ɑː", "type": "vowel", "name": "long a", "examples": ["car", "father", "start", "heart"], "tip": "Open and long, from the back of the mouth.", "french_trap": false},
+    {"ipa": "ɒ / ɑ", "type": "vowel", "name": "lot vowel", "examples": ["hot", "stock", "cost", "job"], "tip": "UK: short rounded 'o'. North America: open 'ah' (stock ≈ 'stahk').", "french_trap": false},
+    {"ipa": "ʊ", "type": "vowel", "name": "short oo", "examples": ["full", "book", "look", "could"], "tip": "Short and relaxed, lips slightly rounded. 'full' is not 'fool'.", "french_trap": true},
+    {"ipa": "uː", "type": "vowel", "name": "long oo", "examples": ["fool", "food", "blue", "two"], "tip": "Long, lips rounded, like French 'ou' held longer.", "french_trap": false},
+    {"ipa": "ɜː", "type": "vowel", "name": "nurse vowel", "examples": ["work", "first", "learn", "bird"], "tip": "Central vowel; in North America followed by a strong 'r'. 'work' ≠ 'walk'.", "french_trap": true},
+    {"ipa": "ə", "type": "vowel", "name": "schwa", "examples": ["about", "banana", "the", "percent"], "tip": "The most common English sound: a short, weak, neutral 'uh' in unstressed syllables. Key to natural rhythm.", "french_trap": true},
+    {"ipa": "eɪ", "type": "diphthong", "name": "face", "examples": ["day", "rate", "make", "paper"], "tip": "Glide from 'e' to 'i'. French speakers often say a flat 'é': 'rate' must glide.", "french_trap": true},
+    {"ipa": "aɪ", "type": "diphthong", "name": "price", "examples": ["time", "buy", "high", "price"], "tip": "Glide from 'a' to 'i'.", "french_trap": false},
+    {"ipa": "əʊ / oʊ", "type": "diphthong", "name": "goat", "examples": ["go", "loan", "low", "phone"], "tip": "A glide, not a pure French 'o'. 'loan' ends with a slight 'w'.", "french_trap": true},
+    {"ipa": "aʊ", "type": "diphthong", "name": "mouth", "examples": ["now", "about", "house", "account"], "tip": "Glide from 'a' to 'u'. Canadians often raise it before voiceless sounds: 'about'.", "french_trap": false},
+    {"ipa": "θ", "type": "consonant", "name": "voiceless th", "examples": ["think", "three", "growth", "month"], "tip": "Tongue tip lightly between the teeth, blow air. Not 's' ('sink') and not 'f'.", "french_trap": true},
+    {"ipa": "ð", "type": "consonant", "name": "voiced th", "examples": ["this", "the", "other", "although"], "tip": "Same position as θ but with voice. Not 'z' ('zis') and not 'd'.", "french_trap": true},
+    {"ipa": "h", "type": "consonant", "name": "h", "examples": ["hire", "house", "half", "hedge"], "tip": "Always pronounced: a breath of air. 'hire' ≠ 'ire'. And don't add it where it isn't: 'hour', 'honest'.", "french_trap": true},
+    {"ipa": "r", "type": "consonant", "name": "English r", "examples": ["rate", "really", "return", "risk"], "tip": "Tongue curls back, never touches the roof of the mouth. Not the French throat 'r'.", "french_trap": true},
+    {"ipa": "w", "type": "consonant", "name": "w", "examples": ["work", "wealth", "would", "quarter"], "tip": "Rounded lips gliding forward, like the start of French 'oui'.", "french_trap": false},
+    {"ipa": "ŋ", "type": "consonant", "name": "ng", "examples": ["thing", "banking", "long", "meeting"], "tip": "One nasal sound at the back. Don't add a hard 'g' at the end of '-ing'.", "french_trap": true},
+    {"ipa": "dʒ", "type": "consonant", "name": "j", "examples": ["job", "budget", "manager", "change"], "tip": "'d' + 'zh': harder than French 'j'. 'job' starts like 'djob'.", "french_trap": true},
+    {"ipa": "tʃ", "type": "consonant", "name": "ch", "examples": ["check", "chart", "purchase", "much"], "tip": "'t' + 'sh': 'check' not 'sheck'.", "french_trap": true}
+  ],
+  "minimal_pairs": [
+    {"id": "i-ii", "contrast": "ɪ vs iː", "pairs": [["ship", "sheep"], ["live", "leave"], ["fill", "feel"], ["bit", "beat"], ["still", "steal"], ["hit", "heat"]]},
+    {"id": "th-s", "contrast": "θ vs s", "pairs": [["think", "sink"], ["thick", "sick"], ["thank", "sank"], ["path", "pass"], ["mouth", "mouse"], ["worth", "worse"]]},
+    {"id": "th-z", "contrast": "ð vs z", "pairs": [["then", "zen"], ["breathe", "breeze"], ["clothing", "closing"], ["bathe", "bays"]]},
+    {"id": "h-none", "contrast": "h vs no h", "pairs": [["hire", "ire"], ["heat", "eat"], ["hear", "ear"], ["hold", "old"], ["hate", "eight"], ["hand", "and"]]},
+    {"id": "ae-e", "contrast": "æ vs e", "pairs": [["bad", "bed"], ["man", "men"], ["sat", "set"], ["bat", "bet"], ["had", "head"]]},
+    {"id": "u-uu", "contrast": "ʊ vs uː", "pairs": [["full", "fool"], ["pull", "pool"], ["look", "Luke"], ["should", "shooed"]]},
+    {"id": "er-or", "contrast": "ɜː vs ɔː", "pairs": [["work", "walk"], ["word", "ward"], ["firm", "form"], ["shirt", "short"], ["bird", "board"]]},
+    {"id": "v-w", "contrast": "v vs w", "pairs": [["vest", "west"], ["vine", "wine"], ["veil", "whale"], ["verse", "worse"]]}
+  ],
+  "word_stress": [
+    {"word": "economy", "stress": "e-CON-o-my"}, {"word": "economic", "stress": "e-co-NOM-ic"},
+    {"word": "photograph", "stress": "PHO-to-graph"}, {"word": "photographer", "stress": "pho-TOG-ra-pher"},
+    {"word": "analysis", "stress": "a-NAL-y-sis"}, {"word": "analytical", "stress": "an-a-LYT-i-cal"},
+    {"word": "development", "stress": "de-VEL-op-ment"}, {"word": "comfortable", "stress": "COMF-ta-ble"},
+    {"word": "record (noun)", "stress": "REC-ord"}, {"word": "record (verb)", "stress": "re-CORD"},
+    {"word": "increase (noun)", "stress": "IN-crease"}, {"word": "increase (verb)", "stress": "in-CREASE"},
+    {"word": "hotel", "stress": "ho-TEL"}, {"word": "interesting", "stress": "IN-tres-ting"},
+    {"word": "determine", "stress": "de-TER-mine"}, {"word": "management", "stress": "MAN-age-ment"}
+  ],
+  "shadowing": [
+    {"id": "sh1", "level": "B2", "focus": "Weak forms (to, a, of, and)", "text": "I'd like to ask a couple of questions about the budget and the timeline."},
+    {"id": "sh2", "level": "B2", "focus": "th sounds", "text": "I think the third quarter was worth more than three thousand dollars."},
+    {"id": "sh3", "level": "B2", "focus": "Linking consonant to vowel", "text": "Can I ask about an update on it at eleven?"},
+    {"id": "sh4", "level": "C1", "focus": "Sentence stress on key words", "text": "We didn't miss the target because of the market; we missed it because of our pricing."},
+    {"id": "sh5", "level": "C1", "focus": "h and r", "text": "Higher rates are hurting home buyers, but the housing market remains relatively resilient."},
+    {"id": "sh6", "level": "C1", "focus": "Rising and falling intonation in lists", "text": "We reviewed the revenue, the costs, the risks, and the overall return."},
+    {"id": "sh7", "level": "C2", "focus": "Contrastive stress", "text": "I said the report was accurate, not that it was complete."},
+    {"id": "sh8", "level": "C2", "focus": "Rhythm and reduction", "text": "If we'd known what they were going to propose, we'd have prepared a counteroffer."}
+  ]
+}
