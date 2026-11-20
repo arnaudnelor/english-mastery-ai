@@ -48,7 +48,7 @@ async function boot(base) {
 function scheduleSync() {
   if (!persistent) return;
   clearTimeout(syncTimer);
-  syncTimer = setTimeout(() => py.FS.syncfs(false, () => {}), 300);
+  syncTimer = setTimeout(() => py.FS.syncfs(false, () => {}), 150);
 }
 
 async function request(msg) {
@@ -65,6 +65,10 @@ self.onmessage = async (e) => {
   if (msg.type === "boot") {
     try { self.postMessage({ type: "ready", ...(await boot(msg.base)) }); }
     catch (err) { self.postMessage({ type: "error", text: String((err && err.message) || err) }); }
+    return;
+  }
+  if (msg.type === "sync") {
+    if (persistent && py) { clearTimeout(syncTimer); py.FS.syncfs(false, () => {}); }
     return;
   }
   if (msg.type === "request") {
