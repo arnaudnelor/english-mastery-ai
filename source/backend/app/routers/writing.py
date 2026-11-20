@@ -10,6 +10,8 @@ from ..providers.llm import ChatMessage, MissingAPIKey, ProviderError, get_llm
 router = APIRouter(prefix="/api/writing", tags=["writing"])
 
 GENRES = {
+    "short_text": "Short text (A1–A2): about me, a postcard, a simple email",
+    "paragraph": "Structured paragraph (B1)",
     "email": "Professional email",
     "essay": "Academic / opinion essay",
     "ielts_task2": "IELTS Academic Writing Task 2",
@@ -22,7 +24,7 @@ GENRES = {
 }
 
 PROMPT = """You are a demanding but kind writing tutor (Cambridge C2 examiner level) for a French-speaking learner.
-Genre: {genre}. Target level: {target}.
+Genre: {genre}. Target level: {target}. Learner's current level: {level} — judge the text against what is realistic for that level, and keep explanations simple for A1–B1.
 Return strict JSON:
 {{"improved_text": str,
   "issues": [{{"category": "grammar"|"vocabulary"|"naturalness"|"coherence"|"repetition"|"register"|"punctuation",
@@ -41,6 +43,7 @@ class WritingIn(BaseModel):
     genre: str = "essay"
     text: str = Field(min_length=20, max_length=12000)
     task: str | None = Field(None, max_length=2000)
+    lesson_id: str | None = Field(None, max_length=60)
 
 
 @router.get("/genres")
@@ -55,7 +58,7 @@ def evaluate(body: WritingIn, p: Profile = Depends(current_profile), db: Session
     user = (f"Task: {body.task}\n\n" if body.task else "") + f"Learner text:\n\"\"\"{body.text}\"\"\""
     try:
         result = get_llm().chat_json(
-            [ChatMessage("system", PROMPT.format(genre=GENRES[body.genre], target=p.target_level)), ChatMessage("user", user)],
+            [ChatMessage("system", PROMPT.format(genre=GENRES[body.genre], target=p.target_level, level=p.estimated_level)), ChatMessage("user", user)],
             max_tokens=3000,
         )
     except MissingAPIKey as e:
@@ -68,6 +71,8 @@ def evaluate(body: WritingIn, p: Profile = Depends(current_profile), db: Session
     overall = float(result.get("overall") or 0)
     db.add(ActivityLog(profile_id=p.id, skill="writing", item_id=body.genre, score=max(0.0, min(1.0, overall)),
                        seconds=len(body.text.split()) * 3))
+    if body.lesson_id:
+        db.add(ActivityLog(profile_id=p.id, skill="writing", item_id=f"lesson:{body.lesson_id}", score=max(0.0, min(1.0, overall)), seconds=0))
     db.commit()
     if result.get("practice_band_estimate") is not None:
         result["disclaimer"] = "Practice estimate only — not an official IELTS score."

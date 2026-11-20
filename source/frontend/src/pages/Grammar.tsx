@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useLocation, useParams } from "react-router-dom";
 import { api } from "../lib/api";
 import { useProfile } from "../App";
 import { ErrorBox, LevelPill, Speak } from "../components/ui";
@@ -18,8 +18,8 @@ export function GrammarList() {
   return (
     <div className="mx-auto max-w-5xl space-y-6">
       <div className="flex items-end justify-between">
-        <div><h1 className="h1">Grammar Academy</h1><p className="muted mt-1">20 topics from B2 to C2, written for French speakers, with exercises that feed your weakness tracker. Works offline.</p></div>
-        <div className="flex gap-1">{["", "B2", "C1", "C2"].map((l) => <button key={l} onClick={() => setLevel(l)} className={level === l ? "btn-primary" : "btn-ghost"}>{l || "All"}</button>)}</div>
+        <div><h1 className="h1">Grammar Academy</h1><p className="muted mt-1">Every grammar topic from A1 to C2, written for French speakers, with exercises that feed your weakness tracker.</p></div>
+        <div className="flex gap-1">{["", "A1", "A2", "B1", "B2", "C1", "C2"].map((l) => <button key={l} onClick={() => setLevel(l)} className={level === l ? "btn-primary" : "btn-ghost"}>{l || "All"}</button>)}</div>
       </div>
       <div className="grid grid-cols-2 gap-4">
         {shown.map((t) => (
@@ -38,6 +38,8 @@ export function GrammarList() {
 
 export function GrammarTopic() {
   const { id } = useParams();
+  const { pathname } = useLocation();
+  const inAcademy = pathname.startsWith("/lesson/");
   const { profile } = useProfile();
   const [t, setT] = useState<Topic | null>(null);
   const [answers, setAnswers] = useState<Record<string, string>>({});
@@ -62,8 +64,10 @@ export function GrammarTopic() {
 
   return (
     <div className="mx-auto max-w-3xl space-y-6">
-      <Link to="/grammar" className="text-sm text-brand-500">← All topics</Link>
-      <div><div className="flex items-center gap-2"><LevelPill l={t.level} /><span className="text-xs uppercase text-ink-400">{t.unit}</span></div><div className="mt-2 flex items-center justify-between"><h1 className="h1">{t.title}</h1><BookmarkButton kind="grammar" itemId={t.id} title={t.title} route={`/grammar/${t.id}`} /></div></div>
+      {inAcademy ? (t.unit === "Business English" ? <Link to="/business" className="text-sm text-brand-500">← Business English Academy</Link>
+        : <Link to={`/level/${t.level}`} className="text-sm text-brand-500">← {t.level} level dashboard</Link>)
+        : <Link to="/grammar" className="text-sm text-brand-500">← All topics</Link>}
+      <div><div className="flex items-center gap-2"><LevelPill l={t.level} /><span className="text-xs uppercase text-ink-400">{t.unit}</span></div><div className="mt-2 flex items-center justify-between"><h1 className="h1">{t.title}</h1><BookmarkButton kind="grammar" itemId={t.id} title={t.title} route={inAcademy ? `/lesson/${t.id}` : `/grammar/${t.id}`} /></div></div>
       <div className="card space-y-3 leading-relaxed">
         {t.explanation.split("\n").filter(Boolean).map((p, i) => <p key={i}>{p}</p>)}
         {profile.french_explanations && t.explanation_fr && <p className="rounded-xl bg-ink-50 p-3 italic text-ink-600 dark:bg-ink-950 dark:text-ink-400">🇫🇷 {t.explanation_fr}</p>}
@@ -76,6 +80,9 @@ export function GrammarTopic() {
       </div>
       <div className="card space-y-5">
         <div className="flex items-center justify-between"><h2 className="font-semibold">Practice</h2>{done > 0 && <span className="text-sm text-ink-400">{score}/{done} correct</span>}</div>
+        {done === t.exercises.length && inAcademy && (
+          <div className="rounded-xl bg-brand-50 p-3 text-sm dark:bg-brand-500/10">Lesson complete: {score}/{done}. {score / done >= 0.7 ? "Well done!" : "Review the explanation and try the level test later."} <Link className="font-medium underline" to={t.unit === "Business English" ? "/business" : `/level/${t.level}`}>Back to the {t.unit === "Business English" ? "Business Academy" : `${t.level} programme`} →</Link></div>
+        )}
         {t.exercises.map((ex, n) => {
           const r = results[ex.id];
           return (

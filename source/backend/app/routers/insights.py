@@ -30,38 +30,31 @@ def _done_map(db, pid) -> dict[str, float]:
 
 @router.get("/path")
 def path(p: Profile = Depends(current_profile), db: Session = Depends(get_db)):
-    done = _done_map(db, p.id)
-    lo, hi = ORDER.index(p.estimated_level if p.estimated_level in ORDER else "B2"), ORDER.index(p.target_level)
-    levels = ORDER[max(1, lo): max(lo, hi) + 1] or ["B2"]
+    """The personalised path is the learner's current academy level, plus targeted revision."""
+    from .academy import FULL_NAMES, LEVELS, Facts, _tests, confirmed, level_status, resolve
+    if not confirmed(p):
+        return {"level_confirmed": False, "placement_done": False}
+    f = Facts(db, p.id)
+    tests = _tests(db, p.id, "level_test")
+    lv = next(x for x in content.curriculum()["levels"] if x["code"] == p.estimated_level)
+    units = [{"title": u["title"], "items": [resolve(it, f) for it in u["items"]]} for u in lv["units"]]
+    flat = [i for u in units for i in u["items"] if i["available"]]
     weak = Counter(m.pattern for m in db.scalars(select(Mistake).where(Mistake.profile_id == p.id)))
-    units = []
-    for lv in levels:
-        for t in content.grammar_topics():
-            if t["level"] == lv:
-                units.append({"kind": "grammar", "id": t["id"], "title": t["title"], "level": lv, "route": f"/grammar/{t['id']}",
-                              "done": done.get(t["id"], 0) >= 0.7, "priority": weak.get(t["title"], 0)})
-        for t in content.reading_texts():
-            if t["level"] == lv:
-                units.append({"kind": "reading", "id": t["id"], "title": t["title"], "level": lv, "route": f"/reading/{t['id']}",
-                              "done": t["id"] in done, "priority": 0})
-        for it in content.listening_items():
-            if it["level"] == lv:
-                units.append({"kind": "listening", "id": it["id"], "title": it["title"], "level": lv, "route": f"/listening/{it['id']}",
-                              "done": it["id"] in done, "priority": 0})
-    # Recurring-mistake topics first, then by level; done items sink within their week
-    units.sort(key=lambda u: (-min(u["priority"], 1), ORDER.index(u["level"])))
-    speaking = ["business", "academic", "debate", "job_interview", "presentation", "negotiation", "finance", "ielts", "mba", "university"]
-    weeks = []
-    for i in range(0, len(units), 4):
-        chunk = units[i:i + 4]
-        mode = speaking[(i // 4) % len(speaking)]
-        chunk.append({"kind": "speaking", "id": mode, "title": MODES[mode]["title"], "level": chunk[0]["level"],
-                      "route": f"/conversation?mode={mode}", "done": False, "priority": 0})
-        weeks.append({"week": i // 4 + 1, "units": chunk})
-    total = sum(1 for u in units)
-    completed = sum(1 for u in units if u["done"])
-    return {"levels": levels, "weeks": weeks, "completed": completed, "total": total,
-            "placement_done": p.placement_done_at is not None}
+    revision = []
+    for code in LEVELS[: LEVELS.index(p.estimated_level) + 1]:
+        for u in next(x for x in content.curriculum()["levels"] if x["code"] == code)["units"]:
+            for it in u["items"]:
+                if it["kind"] != "lesson":
+                    continue
+                r = resolve(it, f)
+                low = r["score"] is not None and r["score"] < 0.7
+                if low or weak.get(r["title"], 0):
+                    revision.append(r | {"level": code, "reason": f"Score {round(r['score'] * 100)}%" if low else f"{weak[r['title']]} recurring mistakes"})
+    return {"level_confirmed": True, "placement_done": p.placement_done_at is not None, "level": p.estimated_level,
+            "level_name": FULL_NAMES[p.estimated_level], "status": level_status(p.estimated_level, p, tests),
+            "units": units, "completed": sum(i["done"] for i in flat), "total": len(flat),
+            "next": next(({"title": i["title"], "route": i["route"]} for i in flat if not i["done"]), None),
+            "test": tests.get(p.estimated_level), "revision": revision[:8]}
 
 
 @router.get("/analytics")
@@ -111,9 +104,10 @@ def search(q: str, p: Profile = Depends(current_profile), db: Session = Depends(
         return []
     hits = []
     has = lambda *parts: q in " ".join(x for x in parts if x).lower()  # noqa: E731
-    for t in content.grammar_topics():
+    for t in content.all_lessons():
         if has(t["title"], t["summary"], t["unit"], t["explanation"]):
-            hits.append({"kind": "Grammar", "title": t["title"], "level": t["level"], "route": f"/grammar/{t['id']}"})
+            kind = "Business" if t["unit"] == "Business English" else "Lesson"
+            hits.append({"kind": kind, "title": t["title"], "level": t["level"], "route": f"/lesson/{t['id']}"})
     for w in content.vocabulary():
         if has(w["word"], w["definition"], w["french"]):
             hits.append({"kind": "Vocabulary", "title": f"{w['word']}: {w['definition']}", "level": w["level"], "route": f"/vocabulary?domain={w['domain']}"})

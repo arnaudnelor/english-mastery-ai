@@ -46,11 +46,11 @@ def add_to_deck(word_id: str, p: Profile = Depends(current_profile), db: Session
 
 
 @router.post("/deck-all")
-def add_all(level: str | None = None, p: Profile = Depends(current_profile), db: Session = Depends(get_db)):
+def add_all(level: str | None = None, domain: str | None = None, p: Profile = Depends(current_profile), db: Session = Depends(get_db)):
     have = _cards(db, p.id)
     n = 0
     for w in content.vocabulary():
-        if w["id"] not in have and (level is None or w["level"] == level):
+        if w["id"] not in have and (level is None or w["level"] == level) and (domain is None or w["domain"] == domain):
             db.add(VocabCard(profile_id=p.id, word_id=w["id"]))
             n += 1
     db.commit()

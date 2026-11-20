@@ -79,7 +79,7 @@ def items(p: Profile = Depends(current_profile), db: Session = Depends(get_db)):
 @router.post("/items")
 def add(
     title: str = Form(..., min_length=1, max_length=200),
-    level: str = Form("C1", pattern=r"^(B1|B2|C1|C2)$"),
+    level: str = Form("C1", pattern=r"^(A1|A2|B1|B2|C1|C2)$"),
     youtube_url: str = Form(""),
     transcript: str = Form("", max_length=200000),
     video: UploadFile | None = File(None),

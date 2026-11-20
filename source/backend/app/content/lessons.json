@@ -1,0 +1,2779 @@
+{
+ "lessons": [
+  {
+   "id": "a1-alphabet",
+   "title": "The Alphabet and Spelling",
+   "level": "A1",
+   "unit": "First Steps",
+   "summary": "Say the 26 letters, spell your name, and avoid the letters French speakers mix up.",
+   "explanation": "Say the letters in groups that share a sound:\n/eɪ/: A H J K · /iː/: B C D E G P T V Z · /e/: F L M N S X · /aɪ/: I Y · /əʊ/: O · /uː/: Q U W · /ɑː/: R.\nThe big French traps: E is 'ee' and I is 'eye' (the opposite of French!); G is 'jee' and J is 'jay'; A sounds like 'ay'; R is 'ar'; W is 'double-you'.\nZ is 'zed' in Canada and the UK, 'zee' in the US.\nSpelling a name: 'How do you spell that?' — 'M-A-R-I-E, Marie.' Double letters: 'double L', 'double S'.\nEmail addresses: @ = 'at', . = 'dot', _ = 'underscore', - = 'dash' or 'hyphen'.",
+   "explanation_fr": "Attention : E se dit « i » et I se dit « aï » en anglais. G = « dji », J = « djé ».",
+   "examples": [
+    {
+     "en": "How do you spell your surname? — L-E-M-I-E-U-X.",
+     "note": "Spelling a name."
+    },
+    {
+     "en": "My email is anna dot roy at example dot com.",
+     "note": "Email addresses."
+    },
+    {
+     "en": "It's spelled with a double S.",
+     "note": "Double letters."
+    },
+    {
+     "en": "Z is pronounced 'zed' in Canada.",
+     "note": "Regional difference."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "a1-alphabet-al1",
+     "type": "mcq",
+     "prompt": "Which letter is pronounced like the word 'eye'?",
+     "options": [
+      "E",
+      "I",
+      "A",
+      "Y"
+     ],
+     "answer": "I",
+     "explanation": "I = /aɪ/ (like 'eye')."
+    },
+    {
+     "id": "a1-alphabet-al2",
+     "type": "mcq",
+     "prompt": "Which letter sounds like 'ee'?",
+     "options": [
+      "I",
+      "E",
+      "A",
+      "Y"
+     ],
+     "answer": "E",
+     "explanation": "E = /iː/."
+    },
+    {
+     "id": "a1-alphabet-al3",
+     "type": "mcq",
+     "prompt": "How do you say '@' in an email address?",
+     "options": [
+      "at",
+      "arobase",
+      "and",
+      "about"
+     ],
+     "answer": "at",
+     "explanation": "@ = at."
+    },
+    {
+     "id": "a1-alphabet-al4",
+     "type": "mcq",
+     "prompt": "Which group of letters all share the same vowel sound?",
+     "options": [
+      "A, H, J, K",
+      "A, E, I, O",
+      "B, F, L, M",
+      "G, J, Q, U"
+     ],
+     "answer": "A, H, J, K",
+     "explanation": "All /eɪ/."
+    },
+    {
+     "id": "a1-alphabet-al5",
+     "type": "mcq",
+     "prompt": "In Canada, the last letter of the alphabet is usually pronounced…",
+     "options": [
+      "zee",
+      "zed",
+      "zay",
+      "zeta"
+     ],
+     "answer": "zed",
+     "explanation": "Canada and the UK: zed."
+    }
+   ]
+  },
+  {
+   "id": "a1-greetings",
+   "title": "Greetings and Introductions",
+   "level": "A1",
+   "unit": "First Steps",
+   "summary": "Hello, how are you, nice to meet you: starting and ending a conversation.",
+   "explanation": "Greetings: Hello / Hi (informal) / Good morning (until noon) / Good afternoon / Good evening. 'Good night' is only for going to bed or leaving at night.\nAsking how someone is: 'How are you?' — 'I'm fine/good, thanks. And you?' Informal: 'How's it going?' — 'Not bad!'\nIntroducing yourself: 'My name's Paul. I'm from Lyon. I work in finance.' Meeting someone: 'Nice to meet you.' — 'Nice to meet you too.'\nIntroducing others: 'This is my colleague, Sarah.'\nSaying goodbye: 'Bye!', 'See you later/tomorrow', 'Have a nice day!'\nNote: 'How do you do?' is very formal and rare today.",
+   "explanation_fr": "« Enchanté » = Nice to meet you. « Bonne nuit » ne s'utilise que pour aller se coucher.",
+   "examples": [
+    {
+     "en": "Hi, I'm Lucas. Nice to meet you.",
+     "note": "Introducing yourself."
+    },
+    {
+     "en": "This is Mei, my new colleague.",
+     "note": "Introducing someone."
+    },
+    {
+     "en": "How's it going? — Pretty good, thanks!",
+     "note": "Informal."
+    },
+    {
+     "en": "See you tomorrow! Have a good evening.",
+     "note": "Saying goodbye."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "a1-greetings-gr1",
+     "type": "mcq",
+     "prompt": "It's 10 a.m. You meet your manager. You say:",
+     "options": [
+      "Good night",
+      "Good morning",
+      "Good evening",
+      "Goodbye"
+     ],
+     "answer": "Good morning",
+     "explanation": "Morning until noon."
+    },
+    {
+     "id": "a1-greetings-gr2",
+     "type": "mcq",
+     "prompt": "Someone says 'Nice to meet you.' You answer:",
+     "options": [
+      "Nice to meet you too.",
+      "I'm fine.",
+      "Yes, it is.",
+      "Good night."
+     ],
+     "answer": "Nice to meet you too.",
+     "explanation": "Standard reply."
+    },
+    {
+     "id": "a1-greetings-gr3",
+     "type": "mcq",
+     "prompt": "To introduce your friend, you say:",
+     "options": [
+      "He is calling Tom.",
+      "This is Tom.",
+      "It's Tom friend.",
+      "I present you Tom."
+     ],
+     "answer": "This is Tom.",
+     "explanation": "Natural introduction."
+    },
+    {
+     "id": "a1-greetings-gr4",
+     "type": "correct",
+     "prompt": "I call myself Sophie.",
+     "answer": [
+      "My name is Sophie.",
+      "My name's Sophie.",
+      "I'm Sophie."
+     ],
+     "explanation": "« Je m'appelle » = My name is / I'm."
+    },
+    {
+     "id": "a1-greetings-gr5",
+     "type": "mcq",
+     "prompt": "'How are you?' — Choose the best answer:",
+     "options": [
+      "I'm 30.",
+      "I'm fine, thanks. And you?",
+      "I'm from Paris.",
+      "Yes, I am."
+     ],
+     "answer": "I'm fine, thanks. And you?",
+     "explanation": "Ask back."
+    }
+   ]
+  },
+  {
+   "id": "a1-numbers-dates",
+   "title": "Numbers, Dates and Time",
+   "level": "A1",
+   "unit": "Everyday Life",
+   "summary": "Counting, prices, phone numbers, days, months, dates and telling the time.",
+   "explanation": "Numbers: 13 thirteen vs 30 thirty (stress: thirTEEN, THIRty). 100 = a hundred, 1,000 = a thousand. English uses a comma for thousands (1,500) and a point for decimals (2.5).\nPrices: $4.99 = 'four ninety-nine' or 'four dollars ninety-nine'.\nOrdinals: 1st first, 2nd second, 3rd third, 4th fourth… 21st twenty-first.\nDates: 'on Monday', 'in March', 'on March 5th' / 'on the 5th of March'. Days and months take a capital letter in English. North America often writes 03/05 for March 5.\nTime: 3:15 = 'quarter past three' / 'three fifteen'; 3:30 = 'half past three'; 3:45 = 'quarter to four'. a.m. (morning) / p.m. (afternoon and evening).",
+   "explanation_fr": "Majuscule aux jours et mois : Monday, March. Virgule pour les milliers, point pour les décimales : 1,500.50.",
+   "examples": [
+    {
+     "en": "My birthday is on July 14th.",
+     "note": "Date with 'on'."
+    },
+    {
+     "en": "The meeting is at half past two.",
+     "note": "Time."
+    },
+    {
+     "en": "It costs twenty-nine ninety-nine.",
+     "note": "Price."
+    },
+    {
+     "en": "My number is five-one-four, five-five-five, oh-one-two-three.",
+     "note": "Phone number ('oh' for 0)."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "a1-numbers-dates-nd1",
+     "type": "mcq",
+     "prompt": "Which is 13?",
+     "options": [
+      "thirty",
+      "thirteen",
+      "three",
+      "thirteenth"
+     ],
+     "answer": "thirteen",
+     "explanation": "13 = thirteen."
+    },
+    {
+     "id": "a1-numbers-dates-nd2",
+     "type": "mcq",
+     "prompt": "I start work ___ Monday ___ 9 a.m.",
+     "options": [
+      "in / at",
+      "on / at",
+      "at / on",
+      "on / in"
+     ],
+     "answer": "on / at",
+     "explanation": "on + day, at + time."
+    },
+    {
+     "id": "a1-numbers-dates-nd3",
+     "type": "mcq",
+     "prompt": "4:45 is…",
+     "options": [
+      "quarter past four",
+      "quarter to five",
+      "half past four",
+      "four to quarter"
+     ],
+     "answer": "quarter to five",
+     "explanation": "15 minutes before five."
+    },
+    {
+     "id": "a1-numbers-dates-nd4",
+     "type": "correct",
+     "prompt": "My birthday is in the 3 june.",
+     "answer": [
+      "My birthday is on June 3rd.",
+      "My birthday is on the 3rd of June.",
+      "My birthday is on June 3.",
+      "My birthday is on 3 June."
+     ],
+     "explanation": "on + date; capital letter for months."
+    },
+    {
+     "id": "a1-numbers-dates-nd5",
+     "type": "mcq",
+     "prompt": "The ___ month of the year is March.",
+     "options": [
+      "three",
+      "third",
+      "thirth",
+      "threeth"
+     ],
+     "answer": "third",
+     "explanation": "Ordinal: third."
+    }
+   ]
+  },
+  {
+   "id": "a2-shopping",
+   "title": "Shopping and Services",
+   "level": "A2",
+   "unit": "Everyday Communication",
+   "summary": "Asking for things, prices, sizes and paying in shops and restaurants.",
+   "explanation": "Asking: 'Can I have…?', 'Could I get…?', 'I'd like…' (= I would like, polite). 'Do you have this in a medium / in blue?'\nPrices: 'How much is it?' (one thing) / 'How much are they?' (plural). 'That comes to $24.50.'\nPaying: 'Can I pay by card?', 'Do you take cash?', 'Can I tap?' (contactless). 'Would you like a receipt / a bag?'\nRestaurants: 'A table for two, please.' 'Could we have the bill/check, please?' (UK bill, North America check). Tipping in Canada and the US: usually 15–20%.\nReturns: 'I'd like to return this.' 'Can I exchange it for a smaller size?'",
+   "explanation_fr": "« Je voudrais » = I'd like (pas *I want, trop direct). « L'addition » = the bill (UK) / the check (Canada, US).",
+   "examples": [
+    {
+     "en": "I'd like a large coffee, please.",
+     "note": "Polite request."
+    },
+    {
+     "en": "Do you have these shoes in a size 9?",
+     "note": "Size."
+    },
+    {
+     "en": "Could we have the check, please?",
+     "note": "Restaurant (North America)."
+    },
+    {
+     "en": "I'd like to return this sweater. It's too small.",
+     "note": "Return."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "a2-shopping-sh1",
+     "type": "mcq",
+     "prompt": "Choose the most polite request:",
+     "options": [
+      "I want a coffee.",
+      "Give me a coffee.",
+      "I'd like a coffee, please.",
+      "Coffee!"
+     ],
+     "answer": "I'd like a coffee, please.",
+     "explanation": "I'd like = polite."
+    },
+    {
+     "id": "a2-shopping-sh2",
+     "type": "mcq",
+     "prompt": "___ are these jeans?",
+     "options": [
+      "How much",
+      "How many",
+      "What cost",
+      "How price"
+     ],
+     "answer": "How much",
+     "explanation": "Price → How much."
+    },
+    {
+     "id": "a2-shopping-sh3",
+     "type": "mcq",
+     "prompt": "In a Canadian restaurant you ask for:",
+     "options": [
+      "the addition",
+      "the check",
+      "the note",
+      "the account"
+     ],
+     "answer": "the check",
+     "explanation": "Bill (UK) / check (North America)."
+    },
+    {
+     "id": "a2-shopping-sh4",
+     "type": "gap",
+     "prompt": "Can I pay ___ card?",
+     "answer": [
+      "by",
+      "with"
+     ],
+     "explanation": "pay by card."
+    },
+    {
+     "id": "a2-shopping-sh5",
+     "type": "correct",
+     "prompt": "Do you have this in more small?",
+     "answer": [
+      "Do you have this in a smaller size?",
+      "Do you have this in small?",
+      "Do you have this in a small?"
+     ],
+     "explanation": "smaller / a small."
+    }
+   ]
+  },
+  {
+   "id": "a2-travel",
+   "title": "Travel and Directions",
+   "level": "A2",
+   "unit": "Everyday Communication",
+   "summary": "Airports, hotels, public transport and asking for directions.",
+   "explanation": "At the airport: 'Where do I check in?', 'Is this the gate for Calgary?', 'My flight is delayed / cancelled.' boarding pass, carry-on, checked baggage.\nAt the hotel: 'I have a reservation under the name Martin.' 'What time is check-out?' 'Is breakfast included?'\nTransport: 'A return/round-trip ticket to Ottawa, please.' (UK return, North America round-trip). 'Which bus goes downtown?' 'Where do I get off?'\nDirections: 'Excuse me, how do I get to the station?' — 'Go straight ahead, turn left at the lights, it's on your right / next to the bank / across from the park.'\n'downtown' (North America) = centre-ville.",
+   "explanation_fr": "« Aller-retour » = return (UK) / round-trip (North America). « En face de » = across from / opposite.",
+   "examples": [
+    {
+     "en": "Excuse me, how do I get to the museum?",
+     "note": "Asking directions."
+    },
+    {
+     "en": "Turn right at the corner. It's across from the church.",
+     "note": "Giving directions."
+    },
+    {
+     "en": "I have a reservation for three nights.",
+     "note": "Hotel."
+    },
+    {
+     "en": "Our flight has been delayed by two hours.",
+     "note": "Airport."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "a2-travel-tr1",
+     "type": "mcq",
+     "prompt": "You want to go and come back. In Canada you ask for a ___ ticket.",
+     "options": [
+      "one-way",
+      "round-trip",
+      "single",
+      "double"
+     ],
+     "answer": "round-trip",
+     "explanation": "North American term."
+    },
+    {
+     "id": "a2-travel-tr2",
+     "type": "mcq",
+     "prompt": "The bank is ___ the café. (= on the other side of the street)",
+     "options": [
+      "across from",
+      "between",
+      "behind of",
+      "in front"
+     ],
+     "answer": "across from",
+     "explanation": "Opposite."
+    },
+    {
+     "id": "a2-travel-tr3",
+     "type": "mcq",
+     "prompt": "At the hotel desk you say:",
+     "options": [
+      "I have a reservation under the name Roy.",
+      "I reserved me a room.",
+      "I have a booking on Roy.",
+      "Give me a room."
+     ],
+     "answer": "I have a reservation under the name Roy.",
+     "explanation": "Standard phrase."
+    },
+    {
+     "id": "a2-travel-tr4",
+     "type": "gap",
+     "prompt": "Go straight ___ and turn left at the lights.",
+     "answer": [
+      "ahead",
+      "on"
+     ],
+     "explanation": "go straight ahead / on."
+    },
+    {
+     "id": "a2-travel-tr5",
+     "type": "correct",
+     "prompt": "Where I can take the bus for downtown?",
+     "answer": [
+      "Where can I take the bus downtown?",
+      "Where can I get the bus downtown?",
+      "Where can I take the bus to downtown?",
+      "Where can I catch the bus downtown?"
+     ],
+     "explanation": "Question order: Where can I…?"
+    }
+   ]
+  },
+  {
+   "id": "a2-everyday-communication",
+   "title": "Everyday Requests, Offers and Invitations",
+   "level": "A2",
+   "unit": "Everyday Communication",
+   "summary": "Could you…? Would you like…? Let's… How about…? Accepting and refusing politely.",
+   "explanation": "Requests: 'Can you…?' (neutral), 'Could you…?' (more polite), 'Would you mind + -ing?' (very polite): 'Could you send me the file?' 'Would you mind closing the door?'\nOffers: 'Shall I…?', 'Can I help you?', 'Would you like some water?' (would like + noun / to + verb).\nInvitations and suggestions: 'Would you like to come for dinner?', 'Let's meet at six.', 'How about going to the cinema?', 'Why don't we take a break?'\nAccepting: 'I'd love to!', 'Sounds great!' Refusing politely: 'I'd love to, but I'm busy on Friday.', 'Thanks, but I can't make it.'\nSay 'please' and 'thank you' often; direct imperatives can sound rude in English.",
+   "explanation_fr": "« Ça te dirait de… ? » = How about… ? / Would you like to… ? Refuser poliment : I'd love to, but…",
+   "examples": [
+    {
+     "en": "Could you help me with my bags?",
+     "note": "Polite request."
+    },
+    {
+     "en": "Would you like to join us for lunch?",
+     "note": "Invitation."
+    },
+    {
+     "en": "How about meeting on Thursday?",
+     "note": "Suggestion + -ing."
+    },
+    {
+     "en": "I'd love to, but I've already got plans.",
+     "note": "Polite refusal."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "a2-everyday-communication-ec1",
+     "type": "mcq",
+     "prompt": "Would you mind ___ the window?",
+     "options": [
+      "open",
+      "to open",
+      "opening",
+      "opened"
+     ],
+     "answer": "opening",
+     "explanation": "would you mind + -ing."
+    },
+    {
+     "id": "a2-everyday-communication-ec2",
+     "type": "mcq",
+     "prompt": "Your friend invites you, but you can't go. You say:",
+     "options": [
+      "No.",
+      "I don't want.",
+      "I'd love to, but I'm working that day.",
+      "Impossible."
+     ],
+     "answer": "I'd love to, but I'm working that day.",
+     "explanation": "Polite refusal."
+    },
+    {
+     "id": "a2-everyday-communication-ec3",
+     "type": "gap",
+     "prompt": "How about ___ (go) for a walk?",
+     "answer": [
+      "going"
+     ],
+     "explanation": "How about + -ing."
+    },
+    {
+     "id": "a2-everyday-communication-ec4",
+     "type": "mcq",
+     "prompt": "Choose the polite offer:",
+     "options": [
+      "Shall I carry that for you?",
+      "I carry that.",
+      "You want I carry?",
+      "Carry that!"
+     ],
+     "answer": "Shall I carry that for you?",
+     "explanation": "Offer: Shall I…?"
+    },
+    {
+     "id": "a2-everyday-communication-ec5",
+     "type": "correct",
+     "prompt": "Would you like come to my party?",
+     "answer": [
+      "Would you like to come to my party?"
+     ],
+     "explanation": "would like + to + verb."
+    }
+   ]
+  },
+  {
+   "id": "b1-idioms",
+   "title": "Everyday Idiomatic Expressions",
+   "level": "B1",
+   "unit": "Natural English",
+   "summary": "Common idioms that native speakers use every day, with their meaning and register.",
+   "explanation": "Idioms make your English sound natural, but use them in the right situation.\nbreak the ice = start a conversation in a new group · a piece of cake = very easy · under the weather = slightly ill · hit the books = study hard · cost an arm and a leg = be very expensive · on the fence = undecided · call it a day = stop working for the day · get the hang of = learn how to do something · in the same boat = in the same difficult situation · once in a blue moon = very rarely.\nIdioms are fixed: don't change the words ('a piece of cake', NOT *a part of cake).",
+   "explanation_fr": "Les expressions idiomatiques ne se traduisent pas mot à mot : « coûter les yeux de la tête » = cost an arm and a leg.",
+   "examples": [
+    {
+     "en": "The exam was a piece of cake.",
+     "note": "Very easy."
+    },
+    {
+     "en": "I'm feeling a bit under the weather today.",
+     "note": "Slightly ill."
+    },
+    {
+     "en": "Let's call it a day and continue tomorrow.",
+     "note": "Stop working."
+    },
+    {
+     "en": "Don't worry, we're all in the same boat.",
+     "note": "Same situation."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "b1-idioms-id1",
+     "type": "mcq",
+     "prompt": "'I'm on the fence about the job offer' means:",
+     "options": [
+      "I accepted it.",
+      "I haven't decided.",
+      "I refused it.",
+      "I'm excited."
+     ],
+     "answer": "I haven't decided.",
+     "explanation": "on the fence = undecided."
+    },
+    {
+     "id": "b1-idioms-id2",
+     "type": "mcq",
+     "prompt": "Choose the idiom: 'The new phone was very expensive.' → It ___.",
+     "options": [
+      "cost an arm and a leg",
+      "was a piece of cake",
+      "broke the ice",
+      "hit the books"
+     ],
+     "answer": "cost an arm and a leg",
+     "explanation": "Very expensive."
+    },
+    {
+     "id": "b1-idioms-id3",
+     "type": "mcq",
+     "prompt": "A good joke at the start of a meeting can help ___.",
+     "options": [
+      "break the ice",
+      "call it a day",
+      "hit the books",
+      "be under the weather"
+     ],
+     "answer": "break the ice",
+     "explanation": "Start a relaxed conversation."
+    },
+    {
+     "id": "b1-idioms-id4",
+     "type": "gap",
+     "prompt": "It took me a week to get the ___ of the new software.",
+     "answer": [
+      "hang"
+     ],
+     "explanation": "get the hang of."
+    },
+    {
+     "id": "b1-idioms-id5",
+     "type": "mcq",
+     "prompt": "'I go to the theatre once in a blue moon' means:",
+     "options": [
+      "often",
+      "every month",
+      "very rarely",
+      "at night"
+     ],
+     "answer": "very rarely",
+     "explanation": "Very rarely."
+    }
+   ]
+  },
+  {
+   "id": "b1-professional-communication",
+   "title": "Polite Communication at Work",
+   "level": "B1",
+   "unit": "Communication",
+   "summary": "Softening requests, disagreeing politely, and phone and video-call phrases.",
+   "explanation": "Softening makes requests polite: 'Could you possibly…?', 'I was wondering if you could…', 'Would it be possible to…?'\nDisagreeing politely: 'I see your point, but…', 'I'm not sure I agree.', 'That's a good idea; however, …'. Avoid a flat 'You're wrong.'\nAsking for clarification: 'Sorry, could you repeat that?', 'What do you mean by…?', 'Just to clarify, …'\nCalls: 'This is Marie from accounting.', 'Could I speak to…?', 'I'll put you through.', 'Can I leave a message?' Video calls: 'You're on mute.', 'Can everyone see my screen?', 'You're breaking up.'\nEnding: 'Thanks for your time.', 'I'll get back to you by Friday.'",
+   "explanation_fr": "Le conditionnel adoucit : « Pourriez-vous… » = Could you possibly… / I was wondering if you could…",
+   "examples": [
+    {
+     "en": "I was wondering if you could send me the slides.",
+     "note": "Soft request."
+    },
+    {
+     "en": "I see your point, but I think we need more data.",
+     "note": "Polite disagreement."
+    },
+    {
+     "en": "Sorry, you're on mute.",
+     "note": "Video call."
+    },
+    {
+     "en": "I'll get back to you by the end of the day.",
+     "note": "Follow-up promise."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "b1-professional-communication-pr1",
+     "type": "mcq",
+     "prompt": "Choose the most polite request:",
+     "options": [
+      "Send me the report.",
+      "I was wondering if you could send me the report.",
+      "You must send me the report.",
+      "Report, please."
+     ],
+     "answer": "I was wondering if you could send me the report.",
+     "explanation": "Softened request."
+    },
+    {
+     "id": "b1-professional-communication-pr2",
+     "type": "mcq",
+     "prompt": "In a video call, someone's sound keeps cutting out. You say:",
+     "options": [
+      "You're breaking up.",
+      "You're breaking down.",
+      "You're cutting.",
+      "You're broken."
+     ],
+     "answer": "You're breaking up.",
+     "explanation": "Fixed expression."
+    },
+    {
+     "id": "b1-professional-communication-pr3",
+     "type": "mcq",
+     "prompt": "Choose a polite way to disagree:",
+     "options": [
+      "You're wrong.",
+      "I see your point, but I'm not sure that will work.",
+      "No way.",
+      "That's stupid."
+     ],
+     "answer": "I see your point, but I'm not sure that will work.",
+     "explanation": "Acknowledge, then disagree."
+    },
+    {
+     "id": "b1-professional-communication-pr4",
+     "type": "gap",
+     "prompt": "I'll get ___ to you by Friday.",
+     "answer": [
+      "back"
+     ],
+     "explanation": "get back to someone = reply later."
+    },
+    {
+     "id": "b1-professional-communication-pr5",
+     "type": "correct",
+     "prompt": "Can you repeat? I didn't understand.",
+     "answer": [
+      "Could you repeat that, please? I didn't understand.",
+      "Sorry, could you repeat that? I didn't understand.",
+      "Can you repeat that? I didn't understand."
+     ],
+     "explanation": "repeat needs an object: repeat that."
+    }
+   ]
+  },
+  {
+   "id": "b1-paragraphs",
+   "title": "Writing Structured Paragraphs",
+   "level": "B1",
+   "unit": "Writing",
+   "summary": "Topic sentence, supporting details, linking words and a concluding sentence.",
+   "explanation": "A good paragraph develops ONE main idea.\n1. Topic sentence: states the main idea. 'Working from home has several advantages.'\n2. Supporting sentences: explanations, examples, details. Use linkers: firstly, also, in addition, for example, for instance, however, as a result.\n3. Concluding sentence: sums up or links to the next idea. 'Overall, …', 'For these reasons, …'\nKeep sentences clear: one idea per sentence; avoid very long sentences joined with commas.\nUse a new paragraph for each new main idea, and leave a blank line between paragraphs in emails.",
+   "explanation_fr": "Un paragraphe = une idée principale annoncée dans la première phrase.",
+   "examples": [
+    {
+     "en": "Topic: Public transport in my city is excellent.",
+     "note": "Topic sentence."
+    },
+    {
+     "en": "For example, the metro runs every three minutes at rush hour.",
+     "note": "Supporting example."
+    },
+    {
+     "en": "In addition, tickets are cheaper than parking.",
+     "note": "Adding a point."
+    },
+    {
+     "en": "Overall, it is the best way to get around.",
+     "note": "Conclusion."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "b1-paragraphs-pg1",
+     "type": "mcq",
+     "prompt": "Which is the best topic sentence for a paragraph about exercise?",
+     "options": [
+      "For example, I run.",
+      "Regular exercise has many benefits for health.",
+      "Also, swimming.",
+      "In conclusion, sport."
+     ],
+     "answer": "Regular exercise has many benefits for health.",
+     "explanation": "States the main idea."
+    },
+    {
+     "id": "b1-paragraphs-pg2",
+     "type": "mcq",
+     "prompt": "Which linker introduces an example?",
+     "options": [
+      "However",
+      "For instance",
+      "As a result",
+      "Overall"
+     ],
+     "answer": "For instance",
+     "explanation": "Example."
+    },
+    {
+     "id": "b1-paragraphs-pg3",
+     "type": "mcq",
+     "prompt": "Which linker shows a consequence?",
+     "options": [
+      "As a result",
+      "For example",
+      "Firstly",
+      "In addition"
+     ],
+     "answer": "As a result",
+     "explanation": "Consequence."
+    },
+    {
+     "id": "b1-paragraphs-pg4",
+     "type": "correct",
+     "prompt": "I like my job, it is interesting, my colleagues are nice, the salary is good.",
+     "answer": [
+      "I like my job. It is interesting, my colleagues are nice and the salary is good.",
+      "I like my job because it is interesting, my colleagues are nice and the salary is good.",
+      "I like my job. It is interesting. My colleagues are nice, and the salary is good."
+     ],
+     "explanation": "Avoid joining sentences with commas only."
+    }
+   ]
+  },
+  {
+   "id": "b1-storytelling",
+   "title": "Telling a Story Well",
+   "level": "B1",
+   "unit": "Telling Stories",
+   "summary": "Sequencing words, reacting, and keeping your listener interested.",
+   "explanation": "Structure: set the scene (when, where, who) → the problem or event → what happened next → the ending and how you felt.\nSequencing: first, at first, then, after that, later, suddenly, all of a sudden, eventually, in the end, finally.\n'At the end' (= at the final point of something) ≠ 'in the end' (= finally, after a long process). 'Eventually' = finally, after a delay (NOT éventuellement).\nKeep the listener engaged: 'You won't believe what happened…', 'Guess what?', 'Anyway, …'\nListeners react: 'Really?', 'No way!', 'What happened next?', 'That must have been scary!'",
+   "explanation_fr": "Faux ami : « eventually » = finalement (pas « éventuellement »). « In the end » = au final.",
+   "examples": [
+    {
+     "en": "You won't believe what happened on my way to work.",
+     "note": "Hooking the listener."
+    },
+    {
+     "en": "All of a sudden, the train stopped in the tunnel.",
+     "note": "Sudden event."
+    },
+    {
+     "en": "Eventually, after an hour, we started moving again.",
+     "note": "Finally, after a delay."
+    },
+    {
+     "en": "No way! That must have been stressful.",
+     "note": "Reacting."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "b1-storytelling-st1",
+     "type": "mcq",
+     "prompt": "We waited for hours, but ___ the bus arrived.",
+     "options": [
+      "eventually",
+      "possibly",
+      "actually",
+      "at the end"
+     ],
+     "answer": "eventually",
+     "explanation": "Finally, after a delay."
+    },
+    {
+     "id": "b1-storytelling-st2",
+     "type": "mcq",
+     "prompt": "Which phrase introduces a sudden event?",
+     "options": [
+      "All of a sudden",
+      "In conclusion",
+      "For example",
+      "On the other hand"
+     ],
+     "answer": "All of a sudden",
+     "explanation": "Sudden event."
+    },
+    {
+     "id": "b1-storytelling-st3",
+     "type": "mcq",
+     "prompt": "Your friend tells you a surprising story. You react:",
+     "options": [
+      "No way! What happened next?",
+      "I agree.",
+      "That's correct.",
+      "Thank you."
+     ],
+     "answer": "No way! What happened next?",
+     "explanation": "Show interest."
+    },
+    {
+     "id": "b1-storytelling-st4",
+     "type": "mcq",
+     "prompt": "We argued for a long time, but ___ we agreed.",
+     "options": [
+      "in the end",
+      "at the end",
+      "at end",
+      "in end"
+     ],
+     "answer": "in the end",
+     "explanation": "Finally, after a process."
+    }
+   ]
+  },
+  {
+   "id": "b2-collocations",
+   "title": "Collocations: Words That Go Together",
+   "level": "B2",
+   "unit": "Vocabulary",
+   "summary": "make or do, strong or heavy, and other natural word partnerships.",
+   "explanation": "Collocations are word pairs that native speakers use together. Using the wrong partner sounds unnatural even when the meaning is clear.\nmake: a decision, a mistake, progress, an effort, a phone call, money, a complaint. do: homework, business, research, a favour, damage, your best.\ntake: a break, a photo, an exam, a risk, notes, part in. have: a meeting, a look, an argument, fun.\nAdjective + noun: heavy rain/traffic, strong coffee/wind, high prices/salary, deep concern, a rough estimate, a tough decision.\nAdverb + adjective: highly recommended, deeply concerned, fully aware, bitterly disappointed.",
+   "explanation_fr": "« Prendre une décision » = make a decision ; « faire une erreur » = make a mistake ; « passer un examen » = take an exam.",
+   "examples": [
+    {
+     "en": "We need to make a decision today.",
+     "note": "make + decision."
+    },
+    {
+     "en": "She's doing research on climate policy.",
+     "note": "do + research."
+    },
+    {
+     "en": "Traffic was heavy this morning.",
+     "note": "heavy + traffic."
+    },
+    {
+     "en": "I'm fully aware of the risks.",
+     "note": "adverb + adjective."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "b2-collocations-cl1",
+     "type": "mcq",
+     "prompt": "I ___ a mistake in the report.",
+     "options": [
+      "did",
+      "made",
+      "took",
+      "had"
+     ],
+     "answer": "made",
+     "explanation": "make a mistake."
+    },
+    {
+     "id": "b2-collocations-cl2",
+     "type": "mcq",
+     "prompt": "There was ___ rain all night.",
+     "options": [
+      "strong",
+      "heavy",
+      "big",
+      "high"
+     ],
+     "answer": "heavy",
+     "explanation": "heavy rain."
+    },
+    {
+     "id": "b2-collocations-cl3",
+     "type": "mcq",
+     "prompt": "I'm going to ___ the IELTS exam in June.",
+     "options": [
+      "pass",
+      "take",
+      "make",
+      "do up"
+     ],
+     "answer": "take",
+     "explanation": "take an exam (pass = succeed)."
+    },
+    {
+     "id": "b2-collocations-cl4",
+     "type": "gap",
+     "prompt": "Could you ___ me a favour?",
+     "answer": [
+      "do"
+     ],
+     "explanation": "do someone a favour."
+    },
+    {
+     "id": "b2-collocations-cl5",
+     "type": "mcq",
+     "prompt": "This course is ___ recommended.",
+     "options": [
+      "highly",
+      "strongly much",
+      "very high",
+      "tall"
+     ],
+     "answer": "highly",
+     "explanation": "highly recommended."
+    }
+   ]
+  },
+  {
+   "id": "b2-debating",
+   "title": "Debates and Presentations",
+   "level": "B2",
+   "unit": "Communication",
+   "summary": "Presenting arguments, signposting a talk, and responding to counter-arguments.",
+   "explanation": "Signposting a presentation: 'Today I'm going to talk about…', 'First, … Then, … Finally, …', 'Let's move on to…', 'To sum up, …'.\nGiving opinions: 'In my view, …', 'I'm convinced that…', 'It seems to me that…'.\nSupporting arguments: 'This is supported by…', 'A clear example of this is…', 'The evidence suggests…'.\nConceding: 'Admittedly, …', 'It's true that…, but…'. Counter-arguing: 'Having said that, …', 'On the other hand, …', 'That argument overlooks…'.\nInterrupting politely: 'Sorry to interrupt, but…', 'If I could just come in here…'.",
+   "explanation_fr": "Pour concéder : « Certes… mais » = Admittedly…, but / It's true that…, but.",
+   "examples": [
+    {
+     "en": "Today I'm going to talk about the future of remote work.",
+     "note": "Introduction."
+    },
+    {
+     "en": "Let's move on to the costs.",
+     "note": "Transition."
+    },
+    {
+     "en": "Admittedly, the plan is expensive, but it will save money long term.",
+     "note": "Concession."
+    },
+    {
+     "en": "That argument overlooks the impact on small businesses.",
+     "note": "Counter-argument."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "b2-debating-db1",
+     "type": "mcq",
+     "prompt": "Which phrase moves to the next point of a presentation?",
+     "options": [
+      "Let's move on to…",
+      "To sum up…",
+      "Admittedly…",
+      "Sorry to interrupt…"
+     ],
+     "answer": "Let's move on to…",
+     "explanation": "Transition."
+    },
+    {
+     "id": "b2-debating-db2",
+     "type": "mcq",
+     "prompt": "Which phrase concedes a point?",
+     "options": [
+      "Admittedly, …",
+      "Firstly, …",
+      "Let's move on…",
+      "In my view, …"
+     ],
+     "answer": "Admittedly, …",
+     "explanation": "Concession."
+    },
+    {
+     "id": "b2-debating-db3",
+     "type": "mcq",
+     "prompt": "To interrupt politely you say:",
+     "options": [
+      "Stop talking.",
+      "If I could just come in here…",
+      "Listen to me.",
+      "You're wrong."
+     ],
+     "answer": "If I could just come in here…",
+     "explanation": "Polite interruption."
+    },
+    {
+     "id": "b2-debating-db4",
+     "type": "gap",
+     "prompt": "To sum ___, there are three main reasons.",
+     "answer": [
+      "up"
+     ],
+     "explanation": "to sum up."
+    }
+   ]
+  },
+  {
+   "id": "c1-advanced-idioms",
+   "title": "Advanced Idiomatic Expressions",
+   "level": "C1",
+   "unit": "Natural English",
+   "summary": "Idioms for nuance: hedging, criticism, agreement and risk.",
+   "explanation": "At C1, idioms help you express nuance precisely.\nbe a far cry from = very different from (worse) · a double-edged sword = has advantages and disadvantages · beat around the bush = avoid saying something directly · the elephant in the room = an obvious problem nobody mentions · cut corners = do something badly to save money/time · play devil's advocate = argue the opposite to test an idea · a blessing in disguise = something bad that turns out good · go back to the drawing board = start planning again · (it's) not rocket science = it isn't complicated · read between the lines = understand the hidden meaning.\nRegister matters: most idioms are informal or neutral; avoid them in formal academic writing.",
+   "explanation_fr": "Registre : évitez les idiomes dans un essai académique, utilisez-les à l'oral et dans les e-mails moins formels.",
+   "examples": [
+    {
+     "en": "Let me play devil's advocate for a moment.",
+     "note": "Argue the other side."
+    },
+    {
+     "en": "Losing that contract was a blessing in disguise.",
+     "note": "Bad that turned good."
+    },
+    {
+     "en": "Nobody mentioned the budget, the elephant in the room.",
+     "note": "Obvious unspoken problem."
+    },
+    {
+     "en": "The final product was a far cry from the prototype.",
+     "note": "Very different."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c1-advanced-idioms-ai1",
+     "type": "mcq",
+     "prompt": "'Stop beating around the bush' means:",
+     "options": [
+      "Speak directly.",
+      "Work harder.",
+      "Go outside.",
+      "Be patient."
+     ],
+     "answer": "Speak directly.",
+     "explanation": "Avoiding the point."
+    },
+    {
+     "id": "c1-advanced-idioms-ai2",
+     "type": "mcq",
+     "prompt": "The plan failed, so we had to go back to the ___.",
+     "options": [
+      "drawing board",
+      "drawing room",
+      "white board",
+      "start line"
+     ],
+     "answer": "drawing board",
+     "explanation": "Start again."
+    },
+    {
+     "id": "c1-advanced-idioms-ai3",
+     "type": "mcq",
+     "prompt": "'The new rules are a double-edged sword' means they…",
+     "options": [
+      "have both benefits and drawbacks.",
+      "are dangerous.",
+      "are very strict.",
+      "will be cancelled."
+     ],
+     "answer": "have both benefits and drawbacks.",
+     "explanation": "Mixed effects."
+    },
+    {
+     "id": "c1-advanced-idioms-ai4",
+     "type": "gap",
+     "prompt": "You don't need a degree to do this; it's not rocket ___.",
+     "answer": [
+      "science"
+     ],
+     "explanation": "not rocket science."
+    }
+   ]
+  },
+  {
+   "id": "c1-presentation-language",
+   "title": "Professional Presentations",
+   "level": "C1",
+   "unit": "Communication",
+   "summary": "Opening strongly, handling data, rhetorical techniques and Q&A.",
+   "explanation": "Strong openings: a striking figure ('Every day, we lose 40 customers.'), a question, or a short story — not 'Today I will talk about…'.\nDescribing data: rose sharply / steadily / slightly; fell, dropped, plummeted; levelled off; peaked at; a twofold increase; accounted for 30%.\nRhetorical techniques: the rule of three ('faster, cheaper and safer'), contrast ('not a cost, but an investment'), rhetorical questions.\nHandling Q&A: 'That's a great question.', 'If I understand you correctly, you're asking…', 'I don't have that figure to hand, but I'll get back to you.'\nClosing: 'Let me leave you with one thought…', 'The key takeaway is…'.",
+   "explanation_fr": "Décrire une évolution : « a fortement augmenté » = rose sharply ; « s'est stabilisé » = levelled off.",
+   "examples": [
+    {
+     "en": "Sales rose sharply in Q3 before levelling off in Q4.",
+     "note": "Describing trends."
+    },
+    {
+     "en": "This is not a cost; it's an investment.",
+     "note": "Contrast."
+    },
+    {
+     "en": "I don't have that figure to hand, but I'll follow up.",
+     "note": "Q&A."
+    },
+    {
+     "en": "The key takeaway is simple: act early.",
+     "note": "Closing."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c1-presentation-language-cp1",
+     "type": "mcq",
+     "prompt": "Prices increased very quickly. They ___.",
+     "options": [
+      "rose sharply",
+      "levelled off",
+      "rose slightly",
+      "peaked down"
+     ],
+     "answer": "rose sharply",
+     "explanation": "Fast increase."
+    },
+    {
+     "id": "c1-presentation-language-cp2",
+     "type": "mcq",
+     "prompt": "After growing, sales stayed stable. They ___.",
+     "options": [
+      "plummeted",
+      "levelled off",
+      "soared",
+      "doubled"
+     ],
+     "answer": "levelled off",
+     "explanation": "Stopped changing."
+    },
+    {
+     "id": "c1-presentation-language-cp3",
+     "type": "mcq",
+     "prompt": "The strongest opening is usually…",
+     "options": [
+      "'Today I will talk about my slides.'",
+      "A striking figure or question.",
+      "Apologising for being nervous.",
+      "Reading the agenda slowly."
+     ],
+     "answer": "A striking figure or question.",
+     "explanation": "Hook the audience."
+    },
+    {
+     "id": "c1-presentation-language-cp4",
+     "type": "gap",
+     "prompt": "I don't have that figure to ___, but I'll send it to you.",
+     "answer": [
+      "hand"
+     ],
+     "explanation": "to hand = available now."
+    }
+   ]
+  },
+  {
+   "id": "c1-negotiation-language",
+   "title": "Negotiating Effectively",
+   "level": "C1",
+   "unit": "Communication",
+   "summary": "Making proposals, bargaining, conditional offers and reaching agreement.",
+   "explanation": "Opening: 'We'd like to propose…', 'Our starting point is…'.\nProbing: 'What flexibility do you have on…?', 'What would it take for you to…?'\nConditional offers (the key negotiating structure): 'If you can increase the volume, we could reduce the price.' 'We'd be willing to…, provided that / as long as…'.\nRefusing firmly but politely: 'I'm afraid that's not something we can agree to.', 'That's outside our budget.'\nSeeking agreement: 'Shall we meet halfway?', 'I think we have a deal.', 'Let's summarise what we've agreed.'",
+   "explanation_fr": "Structure clé : If you…, we could… / provided that… (à condition que).",
+   "examples": [
+    {
+     "en": "If you sign a two-year contract, we could offer a 10% discount.",
+     "note": "Conditional offer."
+    },
+    {
+     "en": "We'd be willing to pay upfront, provided that delivery is guaranteed.",
+     "note": "provided that."
+    },
+    {
+     "en": "I'm afraid that's not something we can accept.",
+     "note": "Firm refusal."
+    },
+    {
+     "en": "Shall we meet halfway on the price?",
+     "note": "Compromise."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c1-negotiation-language-ng1",
+     "type": "mcq",
+     "prompt": "If you ___ the order, we could reduce the price.",
+     "options": [
+      "increase",
+      "will increase",
+      "increased",
+      "would increase"
+     ],
+     "answer": "increase",
+     "explanation": "If + present, could."
+    },
+    {
+     "id": "c1-negotiation-language-ng2",
+     "type": "mcq",
+     "prompt": "We accept, ___ payment is made within 30 days.",
+     "options": [
+      "provided that",
+      "unless that",
+      "despite",
+      "even"
+     ],
+     "answer": "provided that",
+     "explanation": "Condition."
+    },
+    {
+     "id": "c1-negotiation-language-ng3",
+     "type": "mcq",
+     "prompt": "To suggest a compromise you say:",
+     "options": [
+      "Shall we meet halfway?",
+      "Take it or leave it.",
+      "No discussion.",
+      "That's final."
+     ],
+     "answer": "Shall we meet halfway?",
+     "explanation": "Compromise."
+    },
+    {
+     "id": "c1-negotiation-language-ng4",
+     "type": "correct",
+     "prompt": "If you will pay in advance, we can give a discount.",
+     "answer": [
+      "If you pay in advance, we can give a discount.",
+      "If you pay in advance, we could give a discount."
+     ],
+     "explanation": "No 'will' after 'if'."
+    }
+   ]
+  },
+  {
+   "id": "c2-rhetoric",
+   "title": "Rhetoric and Persuasive Devices",
+   "level": "C2",
+   "unit": "Advanced Expression",
+   "summary": "Antithesis, tricolon, anaphora, litotes and understatement in speech and writing.",
+   "explanation": "Antithesis: contrasting ideas in balanced phrases: 'Not because it is easy, but because it is hard.'\nTricolon: a series of three for rhythm and emphasis: 'clear, concise and compelling'.\nAnaphora: repeating the opening words of successive clauses: 'We will listen. We will learn. We will act.'\nLitotes: affirming by denying the opposite: 'not without merit' (= quite good), 'no small achievement' (= a great achievement).\nUnderstatement, very British: 'It was a bit of a setback' (= a disaster).\nRhetorical questions invite agreement: 'Who would choose failure?'\nOveruse sounds manipulative: one or two devices per speech is plenty.",
+   "explanation_fr": "La litote existe aussi en français : « Ce n'est pas mal » = c'est bien. En anglais : not without merit, no small feat.",
+   "examples": [
+    {
+     "en": "This is no small achievement.",
+     "note": "Litotes."
+    },
+    {
+     "en": "Ask not what we can afford, but what we cannot afford to lose.",
+     "note": "Antithesis."
+    },
+    {
+     "en": "The plan is simple, affordable and effective.",
+     "note": "Tricolon."
+    },
+    {
+     "en": "The results were, shall we say, a little disappointing.",
+     "note": "Understatement."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c2-rhetoric-rh1",
+     "type": "mcq",
+     "prompt": "'Her proposal was not without merit' means it was…",
+     "options": [
+      "useless",
+      "fairly good",
+      "illegal",
+      "too long"
+     ],
+     "answer": "fairly good",
+     "explanation": "Litotes."
+    },
+    {
+     "id": "c2-rhetoric-rh2",
+     "type": "mcq",
+     "prompt": "'We came, we saw, we conquered' mainly uses…",
+     "options": [
+      "tricolon and anaphora",
+      "litotes",
+      "understatement",
+      "hedging"
+     ],
+     "answer": "tricolon and anaphora",
+     "explanation": "Three parallel clauses with repetition."
+    },
+    {
+     "id": "c2-rhetoric-rh3",
+     "type": "mcq",
+     "prompt": "Which sentence is antithesis?",
+     "options": [
+      "It is not a cost but an investment.",
+      "It is very expensive.",
+      "It costs about $5,000.",
+      "Is it expensive?"
+     ],
+     "answer": "It is not a cost but an investment.",
+     "explanation": "Balanced contrast."
+    },
+    {
+     "id": "c2-rhetoric-rh4",
+     "type": "mcq",
+     "prompt": "A British manager calls a major crisis 'a bit of a hiccup'. This is…",
+     "options": [
+      "understatement",
+      "exaggeration",
+      "anaphora",
+      "a rhetorical question"
+     ],
+     "answer": "understatement",
+     "explanation": "Deliberately minimising."
+    }
+   ]
+  },
+  {
+   "id": "c2-near-synonyms",
+   "title": "Subtle Differences in Meaning",
+   "level": "C2",
+   "unit": "Advanced Expression",
+   "summary": "Near-synonyms that native speakers distinguish: imply/infer, economic/economical, and more.",
+   "explanation": "imply (the speaker suggests) vs infer (the listener concludes): 'Are you implying I'm wrong?' / 'I infer from your email that…'.\neconomic (about the economy) vs economical (saving money): 'economic growth' / 'an economical car'.\ncontinual (repeated, with breaks) vs continuous (without interruption).\ndisinterested (impartial) vs uninterested (not interested).\ncomplement (complete, go well with) vs compliment (praise).\nprincipal (main; head of school) vs principle (a rule, belief).\nflout (openly disobey) vs flaunt (show off).\nfewer (countable) vs less (uncountable): 'fewer errors', 'less time'.\nA C2 speaker chooses the exact word: precision is part of proficiency.",
+   "explanation_fr": "Infer = déduire ; imply = sous-entendre. Economic = économique (de l'économie) ; economical = qui fait des économies.",
+   "examples": [
+    {
+     "en": "What can we infer from these results?",
+     "note": "Listener's conclusion."
+    },
+    {
+     "en": "We need a disinterested judge.",
+     "note": "Impartial."
+    },
+    {
+     "en": "The wine complements the meal perfectly.",
+     "note": "Goes well with."
+    },
+    {
+     "en": "He flouted the rules and then flaunted his bonus.",
+     "note": "Disobey vs show off."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c2-near-synonyms-ns1",
+     "type": "mcq",
+     "prompt": "From her tone, I ___ that she was unhappy.",
+     "options": [
+      "implied",
+      "inferred",
+      "inflicted",
+      "imposed"
+     ],
+     "answer": "inferred",
+     "explanation": "The listener infers."
+    },
+    {
+     "id": "c2-near-synonyms-ns2",
+     "type": "mcq",
+     "prompt": "This car is very ___: it uses little fuel.",
+     "options": [
+      "economic",
+      "economical",
+      "economics",
+      "economy"
+     ],
+     "answer": "economical",
+     "explanation": "Saving money."
+    },
+    {
+     "id": "c2-near-synonyms-ns3",
+     "type": "mcq",
+     "prompt": "A judge must be ___.",
+     "options": [
+      "uninterested",
+      "disinterested",
+      "disinteresting",
+      "interestless"
+     ],
+     "answer": "disinterested",
+     "explanation": "Impartial."
+    },
+    {
+     "id": "c2-near-synonyms-ns4",
+     "type": "mcq",
+     "prompt": "The company ___ environmental regulations for years.",
+     "options": [
+      "flaunted",
+      "flouted",
+      "floated",
+      "flattered"
+     ],
+     "answer": "flouted",
+     "explanation": "Openly disobeyed."
+    },
+    {
+     "id": "c2-near-synonyms-ns5",
+     "type": "mcq",
+     "prompt": "She paid me a lovely ___.",
+     "options": [
+      "complement",
+      "compliment",
+      "complimentary",
+      "completion"
+     ],
+     "answer": "compliment",
+     "explanation": "Praise."
+    }
+   ]
+  }
+ ],
+ "business": [
+  {
+   "id": "biz-communication",
+   "title": "Clear Business Communication",
+   "level": "B1",
+   "unit": "Business English",
+   "summary": "Being clear, concise and polite in everyday workplace exchanges.",
+   "explanation": "Lead with the point: state the purpose first ('I'm writing to confirm…', 'Quick question about…').\nBe concise: one idea per sentence; cut fillers like 'I just wanted to maybe ask…'.\nPolite but direct: 'Could you…by Thursday?' is better than a vague 'when you have time'.\nCheck understanding: 'Does that work for you?', 'Let me know if anything is unclear.'\nTone words: 'please', 'thanks', 'appreciate' soften without weakening the message.",
+   "explanation_fr": "En anglais professionnel, on annonce l'objectif dès la première phrase.",
+   "examples": [
+    {
+     "en": "Quick question: is the client call still at 2 p.m.?",
+     "note": "Point first."
+    },
+    {
+     "en": "Could you send me the figures by Thursday?",
+     "note": "Clear request + deadline."
+    },
+    {
+     "en": "I appreciate your help on this.",
+     "note": "Polite tone."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "biz-communication-bc1",
+     "type": "mcq",
+     "prompt": "Which opening is clearest?",
+     "options": [
+      "I hope you are well and everything is good and I wanted to maybe ask something.",
+      "I'm writing to confirm tomorrow's meeting time.",
+      "Hello, it's me again.",
+      "Sorry to bother you, maybe."
+     ],
+     "answer": "I'm writing to confirm tomorrow's meeting time.",
+     "explanation": "Purpose first."
+    },
+    {
+     "id": "biz-communication-bc2",
+     "type": "mcq",
+     "prompt": "Which request includes a clear deadline?",
+     "options": [
+      "Send it when you can.",
+      "Could you send it by Friday noon?",
+      "Maybe send it?",
+      "Send it soon-ish."
+     ],
+     "answer": "Could you send it by Friday noon?",
+     "explanation": "Specific deadline."
+    },
+    {
+     "id": "biz-communication-bc3",
+     "type": "gap",
+     "prompt": "Let me know ___ anything is unclear.",
+     "answer": [
+      "if"
+     ],
+     "explanation": "Let me know if…"
+    },
+    {
+     "id": "biz-communication-bc4",
+     "type": "mcq",
+     "prompt": "'I appreciate your help' is…",
+     "options": [
+      "polite and professional",
+      "too informal",
+      "rude",
+      "grammatically wrong"
+     ],
+     "answer": "polite and professional",
+     "explanation": "Professional thanks."
+    }
+   ]
+  },
+  {
+   "id": "biz-meetings",
+   "title": "Running and Taking Part in Meetings",
+   "level": "B2",
+   "unit": "Business English",
+   "summary": "Opening, managing the agenda, interrupting, and closing with actions.",
+   "explanation": "Opening: 'Let's get started.', 'The purpose of today's meeting is…', 'We have three items on the agenda.'\nManaging: 'Let's move on to item two.', 'We're running short of time.', 'Let's park that for now.' (postpone)\nParticipating: 'Can I just come in here?', 'Building on what Sam said…', 'I'd like to add something.'\nClosing: 'To sum up, we've agreed…', 'Action items: Priya will… by Friday.', 'Let's schedule a follow-up.'",
+   "explanation_fr": "« Mettons ce point de côté » = Let's park that for now.",
+   "examples": [
+    {
+     "en": "The purpose of today's meeting is to agree on the budget.",
+     "note": "Opening."
+    },
+    {
+     "en": "Let's park that and come back to it next week.",
+     "note": "Postpone."
+    },
+    {
+     "en": "Action item: Daniel will send the revised figures by Friday.",
+     "note": "Closing."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "biz-meetings-bm1",
+     "type": "mcq",
+     "prompt": "To postpone a topic, the chair says:",
+     "options": [
+      "Let's park that for now.",
+      "Let's kill that.",
+      "Let's stop.",
+      "Forget it."
+     ],
+     "answer": "Let's park that for now.",
+     "explanation": "Postpone."
+    },
+    {
+     "id": "biz-meetings-bm2",
+     "type": "mcq",
+     "prompt": "To add to a colleague's idea:",
+     "options": [
+      "Building on what Sam said…",
+      "Sam is wrong…",
+      "Anyway…",
+      "Whatever…"
+     ],
+     "answer": "Building on what Sam said…",
+     "explanation": "Build on."
+    },
+    {
+     "id": "biz-meetings-bm3",
+     "type": "gap",
+     "prompt": "Let's move ___ to item three.",
+     "answer": [
+      "on"
+     ],
+     "explanation": "move on to."
+    },
+    {
+     "id": "biz-meetings-bm4",
+     "type": "mcq",
+     "prompt": "A list of who does what after a meeting is called…",
+     "options": [
+      "action items",
+      "the agenda",
+      "the minutes only",
+      "the slides"
+     ],
+     "answer": "action items",
+     "explanation": "Action items."
+    }
+   ]
+  },
+  {
+   "id": "biz-negotiation",
+   "title": "Business Negotiation",
+   "level": "C1",
+   "unit": "Business English",
+   "summary": "Anchoring, trading concessions, conditional offers and closing a deal.",
+   "explanation": "Anchor: 'Our price for this volume is $120 per unit.'\nTrade, don't give: 'If you commit to 12 months, we can bring the price down to $110.'\nProbe interests: 'What's most important to you: price, timing or flexibility?'\nHold firm: 'That's our best offer at this stage.', 'We'd need something in return.'\nClose: 'So, to confirm: $110 per unit, 12-month term, delivery in March. Do we have a deal?' Then follow up in writing.",
+   "explanation_fr": "Ne jamais concéder sans contrepartie : If you…, we can…",
+   "examples": [
+    {
+     "en": "If you commit to a longer term, we can improve the price.",
+     "note": "Conditional trade."
+    },
+    {
+     "en": "We'd need something in return.",
+     "note": "Ask for a concession."
+    },
+    {
+     "en": "To confirm, we've agreed on $110 per unit.",
+     "note": "Close."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "biz-negotiation-bn1",
+     "type": "mcq",
+     "prompt": "Which is a conditional trade?",
+     "options": [
+      "OK, we'll lower the price.",
+      "If you order 500 units, we can offer 8% off.",
+      "Price is fixed.",
+      "Maybe a discount."
+     ],
+     "answer": "If you order 500 units, we can offer 8% off.",
+     "explanation": "Trade."
+    },
+    {
+     "id": "biz-negotiation-bn2",
+     "type": "mcq",
+     "prompt": "To ask the other side about priorities:",
+     "options": [
+      "What matters most to you: price or delivery time?",
+      "Accept our price.",
+      "You must decide now.",
+      "Why are you difficult?"
+     ],
+     "answer": "What matters most to you: price or delivery time?",
+     "explanation": "Probing interests."
+    },
+    {
+     "id": "biz-negotiation-bn3",
+     "type": "gap",
+     "prompt": "That's our best ___ at this stage.",
+     "answer": [
+      "offer"
+     ],
+     "explanation": "best offer."
+    },
+    {
+     "id": "biz-negotiation-bn4",
+     "type": "mcq",
+     "prompt": "After agreement, you should…",
+     "options": [
+      "summarise and confirm in writing",
+      "leave quickly",
+      "renegotiate",
+      "say nothing"
+     ],
+     "answer": "summarise and confirm in writing",
+     "explanation": "Confirm terms."
+    }
+   ]
+  },
+  {
+   "id": "biz-presentations",
+   "title": "Corporate Presentations",
+   "level": "B2",
+   "unit": "Business English",
+   "summary": "Structuring a business presentation, presenting results and recommending action.",
+   "explanation": "Structure: hook → objective → 3 key points → recommendation → next steps.\nResults: 'Revenue grew by 8% year on year.', 'Margins came under pressure.', 'We outperformed the market.'\nRecommendation: 'We recommend that we expand into Alberta.', 'Our proposal is to…'\nVisuals: 'As you can see on this slide…', 'The chart shows…', 'Let me draw your attention to…'\nClose with a clear ask: 'We're asking for approval of a $2M budget.'",
+   "explanation_fr": "Recommander : We recommend that we expand… (subjonctif : base verbale).",
+   "examples": [
+    {
+     "en": "Revenue grew by 8% year on year.",
+     "note": "Results."
+    },
+    {
+     "en": "As you can see on this slide, costs fell in Q3.",
+     "note": "Visuals."
+    },
+    {
+     "en": "We're asking for approval of the budget today.",
+     "note": "Clear ask."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "biz-presentations-bp1",
+     "type": "mcq",
+     "prompt": "Which phrase draws attention to a visual?",
+     "options": [
+      "As you can see on this slide…",
+      "To be honest…",
+      "By the way…",
+      "Anyway…"
+     ],
+     "answer": "As you can see on this slide…",
+     "explanation": "Visuals."
+    },
+    {
+     "id": "biz-presentations-bp2",
+     "type": "mcq",
+     "prompt": "Revenue went from 100 to 108 compared with last year. Revenue grew by 8% ___.",
+     "options": [
+      "year on year",
+      "per day",
+      "in total years",
+      "yearly on"
+     ],
+     "answer": "year on year",
+     "explanation": "Comparison with last year."
+    },
+    {
+     "id": "biz-presentations-bp3",
+     "type": "gap",
+     "prompt": "We recommend that the company ___ (open) a new office.",
+     "answer": [
+      "open"
+     ],
+     "explanation": "recommend that + base form."
+    },
+    {
+     "id": "biz-presentations-bp4",
+     "type": "mcq",
+     "prompt": "A strong presentation ends with…",
+     "options": [
+      "a clear request or next step",
+      "an apology",
+      "a joke only",
+      "'That's all'"
+     ],
+     "answer": "a clear request or next step",
+     "explanation": "Clear ask."
+    }
+   ]
+  },
+  {
+   "id": "biz-writing",
+   "title": "Business Writing Essentials",
+   "level": "B2",
+   "unit": "Business English",
+   "summary": "Plain English, active voice, structure and tone in reports, memos and messages.",
+   "explanation": "Plain English: prefer short words ('use' not 'utilise', 'start' not 'commence', 'help' not 'facilitate').\nActive voice is clearer: 'The team completed the audit' rather than 'The audit was completed by the team' (use the passive when the doer is unimportant).\nStructure with headings and bullet points; put the conclusion or request first (bottom line up front).\nTone: professional, positive, not emotional. Replace 'You failed to…' with 'It seems the file wasn't attached.'\nProofread names, numbers and dates.",
+   "explanation_fr": "Simplicité : use (pas utilise), start (pas commence). Conclusion d'abord.",
+   "examples": [
+    {
+     "en": "We will start the project in May.",
+     "note": "Plain English."
+    },
+    {
+     "en": "The team completed the audit on time.",
+     "note": "Active voice."
+    },
+    {
+     "en": "It looks like the attachment is missing.",
+     "note": "Neutral tone."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "biz-writing-bw1",
+     "type": "mcq",
+     "prompt": "Choose the plainer version:",
+     "options": [
+      "We will commence utilisation of the tool.",
+      "We will start using the tool.",
+      "Utilisation will be commenced.",
+      "Tool utilisation commencement."
+     ],
+     "answer": "We will start using the tool.",
+     "explanation": "Plain English."
+    },
+    {
+     "id": "biz-writing-bw2",
+     "type": "mcq",
+     "prompt": "Choose the most diplomatic sentence:",
+     "options": [
+      "You forgot the attachment again.",
+      "It seems the attachment wasn't included.",
+      "Attach it now.",
+      "Why no attachment?"
+     ],
+     "answer": "It seems the attachment wasn't included.",
+     "explanation": "Neutral tone."
+    },
+    {
+     "id": "biz-writing-bw3",
+     "type": "correct",
+     "prompt": "The decision was made by the board to postpone the launch.",
+     "answer": [
+      "The board decided to postpone the launch."
+     ],
+     "explanation": "Active voice is clearer."
+    },
+    {
+     "id": "biz-writing-bw4",
+     "type": "mcq",
+     "prompt": "'Bottom line up front' means…",
+     "options": [
+      "put the main point first",
+      "put numbers at the bottom",
+      "write a long introduction",
+      "end with the conclusion"
+     ],
+     "answer": "put the main point first",
+     "explanation": "BLUF."
+    }
+   ]
+  },
+  {
+   "id": "biz-emails",
+   "title": "Professional Emails",
+   "level": "B1",
+   "unit": "Business English",
+   "summary": "Subject lines, openings, requests, follow-ups and closings.",
+   "explanation": "Subject line: specific ('Q3 budget: approval needed by Friday').\nOpenings: 'Hi Sarah,' (neutral), 'Dear Mr. Roy,' (formal). 'I hope you're well' is optional.\nPurpose: 'I'm writing to…', 'Following our call, …', 'As discussed, …'.\nAttachments: 'Please find attached…' (formal) / 'I've attached…' (neutral).\nFollow-up: 'Just following up on my email from Monday.'\nClosings: 'Best regards,' 'Kind regards,' 'Thanks,' — avoid 'Cordially' (a French calque of 'Cordialement').",
+   "explanation_fr": "« Cordialement » = Best regards / Kind regards (pas *Cordially). « Ci-joint » = Please find attached / I've attached.",
+   "examples": [
+    {
+     "en": "Subject: Contract renewal – signature needed by June 3",
+     "note": "Specific subject."
+    },
+    {
+     "en": "Following our call, I've attached the updated proposal.",
+     "note": "Purpose + attachment."
+    },
+    {
+     "en": "Just following up on my email from Monday.",
+     "note": "Polite follow-up."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "biz-emails-be1",
+     "type": "mcq",
+     "prompt": "The best closing for a professional email is…",
+     "options": [
+      "Cordially,",
+      "Best regards,",
+      "Bisous,",
+      "Bye bye,"
+     ],
+     "answer": "Best regards,",
+     "explanation": "Standard closing."
+    },
+    {
+     "id": "biz-emails-be2",
+     "type": "mcq",
+     "prompt": "Which subject line is best?",
+     "options": [
+      "Hello",
+      "Question",
+      "Invoice #4521: payment overdue",
+      "Important!!!"
+     ],
+     "answer": "Invoice #4521: payment overdue",
+     "explanation": "Specific."
+    },
+    {
+     "id": "biz-emails-be3",
+     "type": "gap",
+     "prompt": "Please find ___ the signed contract.",
+     "answer": [
+      "attached"
+     ],
+     "explanation": "Please find attached."
+    },
+    {
+     "id": "biz-emails-be4",
+     "type": "correct",
+     "prompt": "I write you for to ask a question.",
+     "answer": [
+      "I'm writing to ask a question.",
+      "I am writing to ask a question.",
+      "I'm writing to you to ask a question."
+     ],
+     "explanation": "I'm writing to + verb."
+    }
+   ]
+  },
+  {
+   "id": "biz-leadership",
+   "title": "Leadership and Management Language",
+   "level": "C1",
+   "unit": "Business English",
+   "summary": "Giving feedback, delegating, motivating and setting expectations.",
+   "explanation": "Feedback (situation–behaviour–impact): 'In yesterday's meeting (S), you interrupted the client twice (B), which made it hard to finish the demo (I).'\nPraise specifically: 'Your analysis of the churn data was excellent: it changed our decision.'\nDelegating: 'I'd like you to take ownership of…', 'You have full authority to…', 'Let's check in on Thursday.'\nExpectations: 'What I need from you is…', 'Success looks like…'.\nCoaching questions: 'What options do you see?', 'What support do you need?'",
+   "explanation_fr": "Feedback structuré : situation, comportement, impact. « Prendre en charge » = take ownership of.",
+   "examples": [
+    {
+     "en": "I'd like you to take ownership of the client onboarding.",
+     "note": "Delegating."
+    },
+    {
+     "en": "Your analysis changed our decision; great work.",
+     "note": "Specific praise."
+    },
+    {
+     "en": "What support do you need from me?",
+     "note": "Coaching."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "biz-leadership-bl1",
+     "type": "mcq",
+     "prompt": "Which feedback is most specific and useful?",
+     "options": [
+      "Good job.",
+      "You need to improve.",
+      "In today's call, you summarised the client's needs clearly, which helped close the deal.",
+      "Be better."
+     ],
+     "answer": "In today's call, you summarised the client's needs clearly, which helped close the deal.",
+     "explanation": "Specific SBI feedback."
+    },
+    {
+     "id": "biz-leadership-bl2",
+     "type": "gap",
+     "prompt": "I'd like you to take ___ of the project.",
+     "answer": [
+      "ownership"
+     ],
+     "explanation": "take ownership of."
+    },
+    {
+     "id": "biz-leadership-bl3",
+     "type": "mcq",
+     "prompt": "A coaching question is…",
+     "options": [
+      "What options do you see?",
+      "Do it my way.",
+      "Why did you fail?",
+      "Finish it now."
+     ],
+     "answer": "What options do you see?",
+     "explanation": "Open question."
+    },
+    {
+     "id": "biz-leadership-bl4",
+     "type": "mcq",
+     "prompt": "'Success looks like…' is used to…",
+     "options": [
+      "set clear expectations",
+      "end a meeting",
+      "apologise",
+      "criticise"
+     ],
+     "answer": "set clear expectations",
+     "explanation": "Expectations."
+    }
+   ]
+  },
+  {
+   "id": "biz-hr",
+   "title": "Human Resources",
+   "level": "B2",
+   "unit": "Business English",
+   "summary": "Hiring, onboarding, performance reviews and workplace policies.",
+   "explanation": "Hiring: job posting, shortlist candidates, screen, interview, make an offer, onboard.\nContracts: full-time, part-time, permanent, fixed-term, probation period, notice period, benefits (health insurance, pension, paid time off).\nPerformance: performance review, objectives/KPIs, meet/exceed expectations, development plan, promotion, raise.\nLeaving: resign, hand in your notice, be laid off (redundancy, not your fault), be dismissed/fired (for a reason).\nPolicies: code of conduct, harassment policy, remote-work policy, diversity and inclusion.",
+   "explanation_fr": "« Licencié économique » = laid off ; « démissionner » = resign / hand in your notice ; « période d'essai » = probation period.",
+   "examples": [
+    {
+     "en": "We've shortlisted five candidates for the analyst role.",
+     "note": "Hiring."
+    },
+    {
+     "en": "She handed in her notice last week.",
+     "note": "Resigning."
+    },
+    {
+     "en": "Fifty employees were laid off after the merger.",
+     "note": "Redundancy."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "biz-hr-hr1",
+     "type": "mcq",
+     "prompt": "Losing your job because the company is cutting costs is being…",
+     "options": [
+      "laid off",
+      "promoted",
+      "onboarded",
+      "hired"
+     ],
+     "answer": "laid off",
+     "explanation": "Redundancy."
+    },
+    {
+     "id": "biz-hr-hr2",
+     "type": "mcq",
+     "prompt": "The first months of a new job, when either side can end it easily, are the…",
+     "options": [
+      "probation period",
+      "notice period",
+      "benefits",
+      "raise"
+     ],
+     "answer": "probation period",
+     "explanation": "Période d'essai."
+    },
+    {
+     "id": "biz-hr-hr3",
+     "type": "gap",
+     "prompt": "He handed in his ___ and leaves at the end of the month.",
+     "answer": [
+      "notice"
+     ],
+     "explanation": "hand in your notice."
+    },
+    {
+     "id": "biz-hr-hr4",
+     "type": "mcq",
+     "prompt": "Health insurance and paid vacation are…",
+     "options": [
+      "benefits",
+      "objectives",
+      "dismissals",
+      "shortlists"
+     ],
+     "answer": "benefits",
+     "explanation": "Benefits."
+    }
+   ]
+  },
+  {
+   "id": "biz-marketing-sales",
+   "title": "Marketing and Sales",
+   "level": "B2",
+   "unit": "Business English",
+   "summary": "Value propositions, the sales conversation, handling objections and closing.",
+   "explanation": "Marketing terms: target market, customer persona, brand awareness, value proposition, conversion rate, churn, return on investment (ROI), campaign, lead.\nSales conversation: open with questions ('What challenges are you facing with…?'), listen, then link features to benefits ('…which means you save two hours a week').\nObjections: 'I understand your concern about price. Many clients felt the same until they saw the time savings.'\nClosing: 'Shall we set up a trial for next week?', 'What would you need to move forward?'",
+   "explanation_fr": "Caractéristique → bénéfice : '…which means you…'.",
+   "examples": [
+    {
+     "en": "Our value proposition is simple: faster reporting at half the cost.",
+     "note": "Value proposition."
+    },
+    {
+     "en": "It integrates with your CRM, which means no double data entry.",
+     "note": "Feature → benefit."
+    },
+    {
+     "en": "What would you need to move forward?",
+     "note": "Closing question."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "biz-marketing-sales-ms1",
+     "type": "mcq",
+     "prompt": "The percentage of visitors who buy is the…",
+     "options": [
+      "conversion rate",
+      "churn",
+      "brand",
+      "lead time"
+     ],
+     "answer": "conversion rate",
+     "explanation": "Conversion."
+    },
+    {
+     "id": "biz-marketing-sales-ms2",
+     "type": "mcq",
+     "prompt": "Customers who stop using a service create…",
+     "options": [
+      "churn",
+      "leads",
+      "awareness",
+      "ROI"
+     ],
+     "answer": "churn",
+     "explanation": "Churn."
+    },
+    {
+     "id": "biz-marketing-sales-ms3",
+     "type": "mcq",
+     "prompt": "Best response to a price objection:",
+     "options": [
+      "I understand. Let me show you the savings it creates.",
+      "It's not expensive.",
+      "Then don't buy it.",
+      "Everyone pays that."
+     ],
+     "answer": "I understand. Let me show you the savings it creates.",
+     "explanation": "Acknowledge, then reframe."
+    },
+    {
+     "id": "biz-marketing-sales-ms4",
+     "type": "gap",
+     "prompt": "It's fully automated, ___ means your team saves time.",
+     "answer": [
+      "which"
+     ],
+     "explanation": "…, which means…"
+    }
+   ]
+  },
+  {
+   "id": "biz-corporate-finance",
+   "title": "Corporate Finance",
+   "level": "C1",
+   "unit": "Business English",
+   "summary": "Capital structure, valuation, budgeting and investment decisions.",
+   "explanation": "Key concepts: revenue, operating costs, EBITDA, net income, cash flow, working capital, capital expenditure (capex), debt vs equity financing, cost of capital, return on investment.\nInvestment appraisal: net present value (NPV), internal rate of return (IRR), payback period: 'The project has a positive NPV at an 8% discount rate.'\nBudgeting: 'We're over/under budget', 'a variance of 5%', 'forecast vs actual'.\nCapital structure: 'The company raised $50M through a bond issue.' 'Equity dilution is a concern.'",
+   "explanation_fr": "Capex = investissements ; working capital = fonds de roulement ; equity = capitaux propres.",
+   "examples": [
+    {
+     "en": "The project has a positive NPV, so we should proceed.",
+     "note": "Investment appraisal."
+    },
+    {
+     "en": "We're 5% over budget on capex this quarter.",
+     "note": "Budgeting."
+    },
+    {
+     "en": "They financed the acquisition with debt rather than equity.",
+     "note": "Capital structure."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "biz-corporate-finance-cf1",
+     "type": "mcq",
+     "prompt": "Money spent on long-term assets such as machinery is…",
+     "options": [
+      "capital expenditure",
+      "working capital",
+      "revenue",
+      "dividends"
+     ],
+     "answer": "capital expenditure",
+     "explanation": "Capex."
+    },
+    {
+     "id": "biz-corporate-finance-cf2",
+     "type": "mcq",
+     "prompt": "A project should usually be accepted if its NPV is…",
+     "options": [
+      "positive",
+      "negative",
+      "zero only",
+      "unknown"
+     ],
+     "answer": "positive",
+     "explanation": "NPV > 0 adds value."
+    },
+    {
+     "id": "biz-corporate-finance-cf3",
+     "type": "mcq",
+     "prompt": "Issuing new shares can lead to…",
+     "options": [
+      "equity dilution",
+      "debt reduction only",
+      "lower revenue",
+      "higher interest"
+     ],
+     "answer": "equity dilution",
+     "explanation": "More shares → dilution."
+    },
+    {
+     "id": "biz-corporate-finance-cf4",
+     "type": "gap",
+     "prompt": "Actual costs were higher than planned: we are ___ budget.",
+     "answer": [
+      "over"
+     ],
+     "explanation": "over budget."
+    }
+   ]
+  },
+  {
+   "id": "biz-banking-investment",
+   "title": "Banking and Investment",
+   "level": "B2",
+   "unit": "Business English",
+   "summary": "Accounts, loans, interest, portfolios and talking to clients about risk.",
+   "explanation": "Banking: chequing/savings account, overdraft, line of credit, mortgage, interest rate (fixed/variable), collateral, credit score.\nInvesting: portfolio, asset allocation, diversification, stocks/shares, bonds, ETFs, mutual funds, dividend, yield, risk tolerance, time horizon.\nClient conversation: 'What's your investment time horizon?', 'How would you feel if your portfolio fell 15% in a year?', 'Past performance is not a guarantee of future returns.'\nCanadian context: TFSA (tax-free savings account), RRSP (registered retirement savings plan).",
+   "explanation_fr": "« Taux variable » = variable rate ; « tolérance au risque » = risk tolerance. CELI = TFSA, REER = RRSP.",
+   "examples": [
+    {
+     "en": "We recommend a diversified portfolio of stocks and bonds.",
+     "note": "Advice."
+    },
+    {
+     "en": "What's your time horizon for this money?",
+     "note": "Client question."
+    },
+    {
+     "en": "Your mortgage has a five-year fixed rate.",
+     "note": "Banking."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "biz-banking-investment-bi1",
+     "type": "mcq",
+     "prompt": "Spreading investments to reduce risk is…",
+     "options": [
+      "diversification",
+      "leverage",
+      "collateral",
+      "an overdraft"
+     ],
+     "answer": "diversification",
+     "explanation": "Diversification."
+    },
+    {
+     "id": "biz-banking-investment-bi2",
+     "type": "mcq",
+     "prompt": "An asset pledged to secure a loan is…",
+     "options": [
+      "collateral",
+      "a dividend",
+      "a yield",
+      "equity"
+     ],
+     "answer": "collateral",
+     "explanation": "Collateral."
+    },
+    {
+     "id": "biz-banking-investment-bi3",
+     "type": "mcq",
+     "prompt": "In Canada, the tax-free savings account is called a…",
+     "options": [
+      "TFSA",
+      "RRSP",
+      "ETF",
+      "IPO"
+     ],
+     "answer": "TFSA",
+     "explanation": "CELI = TFSA."
+    },
+    {
+     "id": "biz-banking-investment-bi4",
+     "type": "gap",
+     "prompt": "Past performance is not a ___ of future returns.",
+     "answer": [
+      "guarantee"
+     ],
+     "explanation": "Standard disclaimer."
+    }
+   ]
+  },
+  {
+   "id": "biz-financial-markets",
+   "title": "Financial Markets",
+   "level": "C1",
+   "unit": "Business English",
+   "summary": "Market movements, monetary policy, and reading market commentary.",
+   "explanation": "Movements: stocks rallied / slumped / edged higher / were flat; the index hit a record high; volatility spiked; investors priced in a rate cut.\nPlayers: central bank, institutional investors, hedge funds, retail investors, market makers.\nMonetary policy: 'The central bank held rates steady.', 'hawkish' (favouring higher rates) vs 'dovish' (favouring lower rates), 'quantitative tightening'.\nInstruments: equities, fixed income, derivatives (futures, options), currencies (FX), commodities.\nCommentary style: 'Shares fell 4% after the company cut its guidance.'",
+   "explanation_fr": "Hawkish = favorable à des taux plus élevés ; dovish = favorable à des baisses de taux.",
+   "examples": [
+    {
+     "en": "Markets rallied after the central bank signalled a rate cut.",
+     "note": "Movement + policy."
+    },
+    {
+     "en": "The governor's tone was more hawkish than expected.",
+     "note": "Hawkish."
+    },
+    {
+     "en": "Shares slumped 6% after the profit warning.",
+     "note": "Commentary."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "biz-financial-markets-fm1",
+     "type": "mcq",
+     "prompt": "A central banker who favours higher interest rates is…",
+     "options": [
+      "hawkish",
+      "dovish",
+      "bullish",
+      "bearish"
+     ],
+     "answer": "hawkish",
+     "explanation": "Hawk."
+    },
+    {
+     "id": "biz-financial-markets-fm2",
+     "type": "mcq",
+     "prompt": "'Stocks edged higher' means they…",
+     "options": [
+      "rose slightly",
+      "rose sharply",
+      "fell",
+      "were suspended"
+     ],
+     "answer": "rose slightly",
+     "explanation": "Edged = small move."
+    },
+    {
+     "id": "biz-financial-markets-fm3",
+     "type": "mcq",
+     "prompt": "Futures and options are…",
+     "options": [
+      "derivatives",
+      "bonds",
+      "currencies",
+      "dividends"
+     ],
+     "answer": "derivatives",
+     "explanation": "Derivatives."
+    },
+    {
+     "id": "biz-financial-markets-fm4",
+     "type": "gap",
+     "prompt": "Investors have already ___ in a rate cut, so the announcement had little effect.",
+     "answer": [
+      "priced"
+     ],
+     "explanation": "price in."
+    }
+   ]
+  },
+  {
+   "id": "biz-economics",
+   "title": "Economics for Professionals",
+   "level": "B2",
+   "unit": "Business English",
+   "summary": "Inflation, growth, employment and policy: discussing the economy confidently.",
+   "explanation": "Indicators: GDP growth, inflation (CPI), unemployment rate, interest rates, exchange rate, trade balance, consumer confidence.\nCycle: expansion, peak, slowdown, recession, recovery. 'The economy contracted for two consecutive quarters.'\nPolicy: monetary policy (central bank: interest rates) vs fiscal policy (government: taxes and spending). Stimulus vs austerity.\nCause and effect: 'Higher rates tend to cool demand.', 'A weaker dollar boosts exports.'\nHedge forecasts: 'Growth is expected to slow to around 1%.'",
+   "explanation_fr": "Politique monétaire (banque centrale) ≠ politique budgétaire (fiscal policy, gouvernement).",
+   "examples": [
+    {
+     "en": "Inflation eased to 2.4% in October.",
+     "note": "Indicator."
+    },
+    {
+     "en": "A weaker dollar tends to boost exports.",
+     "note": "Cause and effect."
+    },
+    {
+     "en": "Growth is expected to slow next year.",
+     "note": "Hedged forecast."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "biz-economics-ec1",
+     "type": "mcq",
+     "prompt": "Government decisions on taxes and spending are…",
+     "options": [
+      "fiscal policy",
+      "monetary policy",
+      "trade policy",
+      "exchange policy"
+     ],
+     "answer": "fiscal policy",
+     "explanation": "Fiscal."
+    },
+    {
+     "id": "biz-economics-ec2",
+     "type": "mcq",
+     "prompt": "Two consecutive quarters of falling GDP is commonly called a…",
+     "options": [
+      "recession",
+      "recovery",
+      "boom",
+      "stimulus"
+     ],
+     "answer": "recession",
+     "explanation": "Recession."
+    },
+    {
+     "id": "biz-economics-ec3",
+     "type": "mcq",
+     "prompt": "Higher interest rates tend to ___ demand.",
+     "options": [
+      "cool",
+      "boost",
+      "double",
+      "ignore"
+     ],
+     "answer": "cool",
+     "explanation": "Reduce demand."
+    },
+    {
+     "id": "biz-economics-ec4",
+     "type": "gap",
+     "prompt": "Inflation is ___ to fall to 2% next year. (hedged forecast)",
+     "answer": [
+      "expected",
+      "forecast",
+      "projected",
+      "likely"
+     ],
+     "explanation": "is expected to."
+    }
+   ]
+  },
+  {
+   "id": "biz-project-management",
+   "title": "Project Management",
+   "level": "B2",
+   "unit": "Business English",
+   "summary": "Scope, milestones, risks, status updates and stakeholder communication.",
+   "explanation": "Lifecycle: initiation, planning, execution, monitoring, closure. Scope, deliverables, milestones, dependencies, critical path, resources.\nStatus updates (RAG: red/amber/green): 'We're on track for the March milestone.', 'We're two weeks behind schedule because of a vendor delay.'\nRisks: 'The main risk is…; to mitigate it, we will…'. Issues = risks that have happened.\nChange: 'This is a change in scope; it will affect the timeline and budget.' Avoid scope creep.\nStakeholders: sponsor, steering committee, project team, end users.",
+   "explanation_fr": "« Dans les temps » = on track / on schedule ; « en retard » = behind schedule.",
+   "examples": [
+    {
+     "en": "We're on track to deliver the first milestone in March.",
+     "note": "Status."
+    },
+    {
+     "en": "The main risk is supplier delay; we've identified a backup vendor.",
+     "note": "Risk + mitigation."
+    },
+    {
+     "en": "That request is a change in scope.",
+     "note": "Scope."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "biz-project-management-pm1",
+     "type": "mcq",
+     "prompt": "A project that is progressing as planned is…",
+     "options": [
+      "on track",
+      "behind schedule",
+      "over scope",
+      "red"
+     ],
+     "answer": "on track",
+     "explanation": "On track."
+    },
+    {
+     "id": "biz-project-management-pm2",
+     "type": "mcq",
+     "prompt": "Uncontrolled growth of project requirements is…",
+     "options": [
+      "scope creep",
+      "a milestone",
+      "a deliverable",
+      "a sponsor"
+     ],
+     "answer": "scope creep",
+     "explanation": "Scope creep."
+    },
+    {
+     "id": "biz-project-management-pm3",
+     "type": "mcq",
+     "prompt": "A risk that has actually happened becomes…",
+     "options": [
+      "an issue",
+      "a milestone",
+      "a sponsor",
+      "a dependency"
+     ],
+     "answer": "an issue",
+     "explanation": "Issue."
+    },
+    {
+     "id": "biz-project-management-pm4",
+     "type": "gap",
+     "prompt": "We are two weeks ___ schedule.",
+     "answer": [
+      "behind"
+     ],
+     "explanation": "behind schedule."
+    }
+   ]
+  },
+  {
+   "id": "biz-interviews",
+   "title": "Business Job Interviews",
+   "level": "B2",
+   "unit": "Business English",
+   "summary": "Answering competency questions with STAR, talking about strengths and asking good questions.",
+   "explanation": "Common questions: 'Tell me about yourself.', 'Why do you want this role?', 'Tell me about a time you handled a conflict.', 'What's your greatest weakness?'\nSTAR method: Situation, Task, Action, Result. Use 'I' for your actions and quantify results ('…which reduced errors by 30%').\nStrengths with evidence: 'I'm analytical: in my last role I built a model that…'\nWeakness: genuine but improving: 'I used to find delegating hard, so I…'\nYour questions: 'What does success look like in the first six months?', 'How is the team structured?'",
+   "explanation_fr": "Méthode STAR : situation, tâche, action, résultat (chiffré si possible).",
+   "examples": [
+    {
+     "en": "In my last role, I led a team of four analysts.",
+     "note": "Situation."
+    },
+    {
+     "en": "As a result, processing time dropped by 30%.",
+     "note": "Quantified result."
+    },
+    {
+     "en": "What does success look like in the first six months?",
+     "note": "Good question to ask."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "biz-interviews-bj1",
+     "type": "mcq",
+     "prompt": "In STAR, the 'R' stands for…",
+     "options": [
+      "Result",
+      "Reason",
+      "Role",
+      "Risk"
+     ],
+     "answer": "Result",
+     "explanation": "Result."
+    },
+    {
+     "id": "biz-interviews-bj2",
+     "type": "mcq",
+     "prompt": "The best answer quantifies the result, for example:",
+     "options": [
+      "It went well.",
+      "We reduced costs by 15% in six months.",
+      "Everyone liked it.",
+      "It was a success, I think."
+     ],
+     "answer": "We reduced costs by 15% in six months.",
+     "explanation": "Quantified."
+    },
+    {
+     "id": "biz-interviews-bj3",
+     "type": "mcq",
+     "prompt": "A good question to ask the interviewer:",
+     "options": [
+      "How much vacation do I get on day one?",
+      "What does success look like in this role?",
+      "Do you check emails?",
+      "Is the job easy?"
+     ],
+     "answer": "What does success look like in this role?",
+     "explanation": "Shows interest."
+    },
+    {
+     "id": "biz-interviews-bj4",
+     "type": "gap",
+     "prompt": "Tell me about a ___ when you had to manage a conflict.",
+     "answer": [
+      "time"
+     ],
+     "explanation": "Tell me about a time…"
+    }
+   ]
+  },
+  {
+   "id": "biz-networking",
+   "title": "Professional Networking",
+   "level": "B1",
+   "unit": "Business English",
+   "summary": "Introducing yourself, small talk, the elevator pitch and following up.",
+   "explanation": "Opening: 'Hi, I don't think we've met. I'm Ana, I work in risk at…', 'Is this your first time at this conference?'\nElevator pitch (30 seconds): who you are, what you do, what problem you solve, what you're looking for.\nSmall talk topics: the event, the speakers, travel, industry news. Avoid: salary, politics, religion.\nKeeping it going: open questions ('What brings you here?', 'How did you get into fintech?').\nExiting politely: 'It was great talking to you. Let's connect on LinkedIn.' Follow up within 48 hours.",
+   "explanation_fr": "Pitch en 30 secondes : qui vous êtes, ce que vous faites, ce que vous cherchez.",
+   "examples": [
+    {
+     "en": "Hi, I don't think we've met. I'm Paul, I work in data analytics.",
+     "note": "Opening."
+    },
+    {
+     "en": "What brought you to the conference?",
+     "note": "Open question."
+    },
+    {
+     "en": "It was great talking to you. Let's stay in touch.",
+     "note": "Exit."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "biz-networking-nw1",
+     "type": "mcq",
+     "prompt": "The best way to start a conversation with a stranger at an event:",
+     "options": [
+      "What's your salary?",
+      "Hi, I don't think we've met. I'm…",
+      "Who are you voting for?",
+      "Give me your card."
+     ],
+     "answer": "Hi, I don't think we've met. I'm…",
+     "explanation": "Natural opening."
+    },
+    {
+     "id": "biz-networking-nw2",
+     "type": "mcq",
+     "prompt": "A 30-second summary of who you are and what you do is…",
+     "options": [
+      "an elevator pitch",
+      "a CV",
+      "a keynote",
+      "an agenda"
+     ],
+     "answer": "an elevator pitch",
+     "explanation": "Pitch."
+    },
+    {
+     "id": "biz-networking-nw3",
+     "type": "mcq",
+     "prompt": "Which topic should you avoid in networking small talk?",
+     "options": [
+      "the conference speakers",
+      "industry news",
+      "politics",
+      "travel"
+     ],
+     "answer": "politics",
+     "explanation": "Avoid controversial topics."
+    },
+    {
+     "id": "biz-networking-nw4",
+     "type": "gap",
+     "prompt": "It was great talking to you. Let's stay in ___.",
+     "answer": [
+      "touch"
+     ],
+     "explanation": "stay in touch."
+    }
+   ]
+  },
+  {
+   "id": "biz-executive",
+   "title": "Executive Communication",
+   "level": "C1",
+   "unit": "Business English",
+   "summary": "Speaking to senior leaders: brevity, the bottom line, and handling tough questions.",
+   "explanation": "Executives want the conclusion first: 'Bottom line: we need $2M more to launch on time.'\nUse the pyramid principle: answer → 3 supporting reasons → details only if asked.\nBe decisive but honest: 'My recommendation is…', 'The trade-off is…', 'The main risk is…'.\nNumbers over adjectives: 'a 12% drop' not 'a big drop'.\nTough questions: 'That's a fair challenge.', 'Here's what we know and what we don't.', 'I'll come back to you with the figure by end of day.'",
+   "explanation_fr": "Le « bottom line » d'abord, puis trois raisons.",
+   "examples": [
+    {
+     "en": "Bottom line: we recommend delaying the launch by one month.",
+     "note": "Conclusion first."
+    },
+    {
+     "en": "The trade-off is a short delay versus a much lower risk of failure.",
+     "note": "Trade-off."
+    },
+    {
+     "en": "Here's what we know, and what we don't yet know.",
+     "note": "Honesty under pressure."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "biz-executive-ex1",
+     "type": "mcq",
+     "prompt": "When briefing a CEO, start with…",
+     "options": [
+      "the conclusion or recommendation",
+      "the full history",
+      "a long agenda",
+      "your methodology"
+     ],
+     "answer": "the conclusion or recommendation",
+     "explanation": "Bottom line first."
+    },
+    {
+     "id": "biz-executive-ex2",
+     "type": "mcq",
+     "prompt": "Which is more executive-ready?",
+     "options": [
+      "Sales dropped a lot.",
+      "Sales dropped 12% in Q3, mainly in Ontario.",
+      "Sales were not great.",
+      "Sales were bad-ish."
+     ],
+     "answer": "Sales dropped 12% in Q3, mainly in Ontario.",
+     "explanation": "Numbers over adjectives."
+    },
+    {
+     "id": "biz-executive-ex3",
+     "type": "gap",
+     "prompt": "My ___ is that we pause the project until Q2.",
+     "answer": [
+      "recommendation"
+     ],
+     "explanation": "My recommendation is…"
+    },
+    {
+     "id": "biz-executive-ex4",
+     "type": "mcq",
+     "prompt": "If you don't know a figure, say:",
+     "options": [
+      "I'll come back to you with it by end of day.",
+      "I think it's maybe 10%.",
+      "Nobody knows.",
+      "That's not important."
+     ],
+     "answer": "I'll come back to you with it by end of day.",
+     "explanation": "Honest follow-up."
+    }
+   ]
+  },
+  {
+   "id": "biz-reports",
+   "title": "Business Reports and Analysis",
+   "level": "C1",
+   "unit": "Business English",
+   "summary": "Executive summaries, describing findings, cautious conclusions and recommendations.",
+   "explanation": "Structure: executive summary → background → findings → analysis → conclusions → recommendations → appendices.\nExecutive summary: half a page; the decision-maker should understand everything from it alone.\nDescribing findings: 'The data indicate that…', 'Customer churn increased markedly among users aged 18–24.'\nCautious analysis: 'This suggests…', 'appears to be driven by…', 'is likely to…'.\nRecommendations: numbered, actionable, with owner and timeline: '1. Launch a retention campaign targeting new users (Marketing, Q2).'",
+   "explanation_fr": "Constats : The data indicate that… ; prudence : This suggests…",
+   "examples": [
+    {
+     "en": "The data indicate a strong link between onboarding time and churn.",
+     "note": "Finding."
+    },
+    {
+     "en": "This appears to be driven by slower delivery times.",
+     "note": "Cautious analysis."
+    },
+    {
+     "en": "1. Reduce onboarding to under 7 days (Operations, by Q3).",
+     "note": "Actionable recommendation."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "biz-reports-br1",
+     "type": "mcq",
+     "prompt": "The section a busy executive reads first is the…",
+     "options": [
+      "executive summary",
+      "appendix",
+      "methodology",
+      "bibliography"
+     ],
+     "answer": "executive summary",
+     "explanation": "Summary first."
+    },
+    {
+     "id": "biz-reports-br2",
+     "type": "mcq",
+     "prompt": "Which phrasing is appropriately cautious?",
+     "options": [
+      "This proves that price is the only factor.",
+      "This suggests that price is a major factor.",
+      "Price is obviously everything.",
+      "Price is never a factor."
+     ],
+     "answer": "This suggests that price is a major factor.",
+     "explanation": "Hedged."
+    },
+    {
+     "id": "biz-reports-br3",
+     "type": "mcq",
+     "prompt": "A good recommendation includes…",
+     "options": [
+      "an action, an owner and a timeline",
+      "only an opinion",
+      "a question",
+      "an apology"
+     ],
+     "answer": "an action, an owner and a timeline",
+     "explanation": "Actionable."
+    },
+    {
+     "id": "biz-reports-br4",
+     "type": "gap",
+     "prompt": "The data ___ that churn is highest among new users. (formal: show)",
+     "answer": [
+      "indicate",
+      "show",
+      "suggest"
+     ],
+     "explanation": "The data indicate…"
+    }
+   ]
+  }
+ ]
+}

@@ -1,9 +1,418 @@
 {
  "items": [
   {
+   "id": "a1-cafe-order",
+   "title": "Ordering at a Café",
+   "level": "A1",
+   "kind": "Everyday conversation",
+   "domain": "daily",
+   "speakers": {
+    "Server": {
+     "accent": "en-CA",
+     "voice": "nova"
+    },
+    "Tom": {
+     "accent": "en-CA",
+     "voice": "echo"
+    }
+   },
+   "lines": [
+    {
+     "s": "Server",
+     "t": "Hi there! What can I get you?"
+    },
+    {
+     "s": "Tom",
+     "t": "Hi. Can I have a medium coffee, please?"
+    },
+    {
+     "s": "Server",
+     "t": "Sure. Milk and sugar?"
+    },
+    {
+     "s": "Tom",
+     "t": "Just milk, please. And a blueberry muffin."
+    },
+    {
+     "s": "Server",
+     "t": "For here or to go?"
+    },
+    {
+     "s": "Tom",
+     "t": "To go, please."
+    },
+    {
+     "s": "Server",
+     "t": "Okay, that's six twenty-five."
+    },
+    {
+     "s": "Tom",
+     "t": "Can I pay by card?"
+    },
+    {
+     "s": "Server",
+     "t": "Of course. Just tap here. Have a nice day!"
+    },
+    {
+     "s": "Tom",
+     "t": "Thanks, you too!"
+    }
+   ],
+   "questions": [
+    {
+     "id": "q1",
+     "prompt": "What does Tom order?",
+     "options": [
+      "A small tea and a cookie",
+      "A medium coffee and a muffin",
+      "A large coffee",
+      "A sandwich"
+     ],
+     "answer": "A medium coffee and a muffin",
+     "explanation": "'a medium coffee… And a blueberry muffin.'"
+    },
+    {
+     "id": "q2",
+     "prompt": "How much does it cost?",
+     "options": [
+      "$5.25",
+      "$6.25",
+      "$6.75",
+      "$2.65"
+     ],
+     "answer": "$6.25",
+     "explanation": "'six twenty-five'."
+    },
+    {
+     "id": "q3",
+     "prompt": "How does Tom pay?",
+     "options": [
+      "In cash",
+      "By card",
+      "He doesn't pay",
+      "By cheque"
+     ],
+     "answer": "By card",
+     "explanation": "'Can I pay by card?'"
+    }
+   ],
+   "dictation": [
+    1,
+    7
+   ],
+   "gaps": [
+    {
+     "line": 1,
+     "words": [
+      "Can I have"
+     ]
+    },
+    {
+     "line": 4,
+     "words": [
+      "For here or to go"
+     ]
+    }
+   ],
+   "expressions": [
+    {
+     "phrase": "What can I get you?",
+     "meaning": "What would you like? (server)"
+    },
+    {
+     "phrase": "For here or to go?",
+     "meaning": "Will you eat here or take it away?"
+    },
+    {
+     "phrase": "Just tap here",
+     "meaning": "Pay contactless with your card"
+    }
+   ]
+  },
+  {
+   "id": "a2-hotel-directions",
+   "title": "At the Hotel: Asking for Directions",
+   "level": "A2",
+   "kind": "Travel conversation",
+   "domain": "travel",
+   "speakers": {
+    "Receptionist": {
+     "accent": "en-CA",
+     "voice": "shimmer"
+    },
+    "Ana": {
+     "accent": "en-US",
+     "voice": "alloy"
+    }
+   },
+   "lines": [
+    {
+     "s": "Ana",
+     "t": "Good morning. I'd like to visit the art museum today. How do I get there?"
+    },
+    {
+     "s": "Receptionist",
+     "t": "It's not far. You can walk there in about fifteen minutes."
+    },
+    {
+     "s": "Ana",
+     "t": "Great. Which way do I go?"
+    },
+    {
+     "s": "Receptionist",
+     "t": "Turn left when you leave the hotel and go straight ahead for two blocks. Then turn right on Sherbrooke Street."
+    },
+    {
+     "s": "Ana",
+     "t": "Left, two blocks, then right on Sherbrooke. Okay."
+    },
+    {
+     "s": "Receptionist",
+     "t": "Yes. The museum is on your left, across from a big church. You can't miss it."
+    },
+    {
+     "s": "Ana",
+     "t": "Is it open on Mondays?"
+    },
+    {
+     "s": "Receptionist",
+     "t": "Yes, it opens at ten. But it closes early today, at five."
+    },
+    {
+     "s": "Ana",
+     "t": "Perfect. And is there a good place for lunch near there?"
+    },
+    {
+     "s": "Receptionist",
+     "t": "There's a nice café inside the museum. I'd recommend it."
+    }
+   ],
+   "questions": [
+    {
+     "id": "q1",
+     "prompt": "How long does it take to walk to the museum?",
+     "options": [
+      "5 minutes",
+      "10 minutes",
+      "15 minutes",
+      "50 minutes"
+     ],
+     "answer": "15 minutes",
+     "explanation": "'about fifteen minutes'."
+    },
+    {
+     "id": "q2",
+     "prompt": "What is across from the museum?",
+     "options": [
+      "A café",
+      "A big church",
+      "A hotel",
+      "A park"
+     ],
+     "answer": "A big church",
+     "explanation": "'across from a big church'."
+    },
+    {
+     "id": "q3",
+     "prompt": "What time does the museum close today?",
+     "options": [
+      "10 a.m.",
+      "5 p.m.",
+      "6 p.m.",
+      "It's closed"
+     ],
+     "answer": "5 p.m.",
+     "explanation": "'it closes early today, at five'."
+    }
+   ],
+   "dictation": [
+    3,
+    5
+   ],
+   "gaps": [
+    {
+     "line": 3,
+     "words": [
+      "go straight ahead"
+     ]
+    },
+    {
+     "line": 5,
+     "words": [
+      "across from"
+     ]
+    }
+   ],
+   "expressions": [
+    {
+     "phrase": "How do I get there?",
+     "meaning": "Asking for directions"
+    },
+    {
+     "phrase": "You can't miss it",
+     "meaning": "It's very easy to find"
+    },
+    {
+     "phrase": "I'd recommend it",
+     "meaning": "I think it's good; you should try it"
+    }
+   ]
+  },
+  {
+   "id": "b2-debate-cars-downtown",
+   "title": "Debate: Should Cars Be Banned Downtown?",
+   "level": "B2",
+   "kind": "Radio debate",
+   "domain": "society",
+   "speakers": {
+    "Host": {
+     "accent": "en-CA",
+     "voice": "onyx"
+    },
+    "Leila": {
+     "accent": "en-CA",
+     "voice": "nova"
+    },
+    "Mark": {
+     "accent": "en-GB",
+     "voice": "echo"
+    }
+   },
+   "lines": [
+    {
+     "s": "Host",
+     "t": "Tonight's question: should private cars be banned from the city centre? Leila, you're in favour."
+    },
+    {
+     "s": "Leila",
+     "t": "I am. Cities that have done it, like Oslo, have seen cleaner air, fewer accidents and, contrary to what people expected, busier shops."
+    },
+    {
+     "s": "Mark",
+     "t": "With respect, Oslo is a very different city. Here, many people commute from suburbs with poor public transport. A ban would hit them hardest."
+    },
+    {
+     "s": "Leila",
+     "t": "That's a fair point, but it's an argument for improving transit, not for keeping the status quo."
+    },
+    {
+     "s": "Mark",
+     "t": "In theory, yes. In practice, new transit lines take ten years to build. What do people do in the meantime?"
+    },
+    {
+     "s": "Leila",
+     "t": "You phase it in. Start with weekends, add park-and-ride sites on the edge of town, and expand gradually."
+    },
+    {
+     "s": "Host",
+     "t": "Mark, would you accept a gradual approach?"
+    },
+    {
+     "s": "Mark",
+     "t": "I could live with a pilot project, provided that businesses are consulted and the results are published independently."
+    },
+    {
+     "s": "Leila",
+     "t": "I'd have no problem with that. The data will speak for themselves."
+    }
+   ],
+   "questions": [
+    {
+     "id": "q1",
+     "prompt": "What is Mark's main objection?",
+     "options": [
+      "Cars are safer than buses.",
+      "Commuters from suburbs with poor transit would suffer.",
+      "Shops would make more money.",
+      "Oslo's air is worse."
+     ],
+     "answer": "Commuters from suburbs with poor transit would suffer.",
+     "explanation": "'A ban would hit them hardest.'"
+    },
+    {
+     "id": "q2",
+     "prompt": "How does Leila respond to the transit problem?",
+     "options": [
+      "She ignores it.",
+      "She suggests phasing the ban in gradually.",
+      "She agrees to cancel the idea.",
+      "She says suburbs don't matter."
+     ],
+     "answer": "She suggests phasing the ban in gradually.",
+     "explanation": "'You phase it in.'"
+    },
+    {
+     "id": "q3",
+     "prompt": "On what condition would Mark accept a pilot project?",
+     "options": [
+      "If it is free",
+      "If businesses are consulted and results are published independently",
+      "If it only lasts one day",
+      "If Oslo pays"
+     ],
+     "answer": "If businesses are consulted and results are published independently",
+     "explanation": "'provided that businesses are consulted…'"
+    },
+    {
+     "id": "q4",
+     "prompt": "By the end, the two speakers…",
+     "options": [
+      "completely disagree",
+      "find some common ground",
+      "stop talking",
+      "agree to ban all cars immediately"
+     ],
+     "answer": "find some common ground",
+     "explanation": "Both accept a pilot project."
+    }
+   ],
+   "dictation": [
+    4,
+    8
+   ],
+   "gaps": [
+    {
+     "line": 3,
+     "words": [
+      "fair point"
+     ]
+    },
+    {
+     "line": 5,
+     "words": [
+      "phase it in"
+     ]
+    },
+    {
+     "line": 7,
+     "words": [
+      "provided that"
+     ]
+    }
+   ],
+   "expressions": [
+    {
+     "phrase": "With respect, …",
+     "meaning": "Polite way to start disagreeing"
+    },
+    {
+     "phrase": "the status quo",
+     "meaning": "the current situation"
+    },
+    {
+     "phrase": "phase something in",
+     "meaning": "introduce it gradually"
+    },
+    {
+     "phrase": "I could live with…",
+     "meaning": "I could accept…"
+    }
+   ]
+  },
+  {
    "id": "coffee-shop-catchup",
    "title": "Catching Up Over Coffee",
-   "level": "B2",
+   "level": "B1",
    "kind": "Everyday conversation",
    "domain": "daily",
    "speakers": {
@@ -867,7 +1276,7 @@
   {
    "id": "bank-account",
    "title": "Opening a Bank Account",
-   "level": "B2",
+   "level": "B1",
    "kind": "Service conversation",
    "domain": "banking",
    "speakers": {

@@ -25,6 +25,7 @@ class Profile(Base):
     french_explanations: Mapped[int] = mapped_column(Integer, default=0)
     reminder_time: Mapped[str | None] = mapped_column(String(5), nullable=True)  # "19:00"
     placement_done_at: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
+    level_confirmed: Mapped[int] = mapped_column(Integer, default=0)  # set by placement, manual choice or a level test
     created_at: Mapped[datetime] = mapped_column(DateTime, default=now)
 
 
@@ -128,3 +129,17 @@ class ExamAttempt(Base):
     overall_band: Mapped[float | None] = mapped_column(Float, nullable=True)
     started_at: Mapped[datetime] = mapped_column(DateTime, default=now)
     finished_at: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
+
+
+class AssessmentResult(Base):
+    """Placement tests, level tests and Business Academy assessments."""
+
+    __tablename__ = "assessment_results"
+    id: Mapped[int] = mapped_column(primary_key=True)
+    profile_id: Mapped[int] = mapped_column(ForeignKey("profiles.id"), index=True)
+    kind: Mapped[str] = mapped_column(String(20))  # placement | level_test | business
+    level: Mapped[str] = mapped_column(String(10))  # resulting / tested level, or "business"
+    score: Mapped[float] = mapped_column(Float)
+    passed: Mapped[int] = mapped_column(Integer, default=0)
+    details: Mapped[dict | None] = mapped_column(JSON, nullable=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=now)

@@ -24,7 +24,7 @@ export function ReadingList() {
     <div className="mx-auto max-w-5xl space-y-6">
       <div className="flex items-end justify-between">
         <div><h1 className="h1">Advanced Reading</h1><p className="muted mt-1">Original texts from B2 to C2: news, finance, research, fiction and essays. Timed, with comprehension, inference and argument questions.</p></div>
-        <div className="flex gap-1">{["", "B2", "C1", "C2"].map((l) => <button key={l} onClick={() => setLevel(l)} className={level === l ? "btn-primary" : "btn-ghost"}>{l || "All"}</button>)}</div>
+        <div className="flex gap-1">{["", "A1", "A2", "B1", "B2", "C1", "C2"].map((l) => <button key={l} onClick={() => setLevel(l)} className={level === l ? "btn-primary" : "btn-ghost"}>{l || "All"}</button>)}</div>
       </div>
       <div className="grid grid-cols-2 gap-4">
         {shown.map((t) => (

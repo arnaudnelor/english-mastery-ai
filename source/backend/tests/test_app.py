@@ -9,11 +9,11 @@ from app.services import srs
 
 # ---------- content integrity ----------
 def test_curriculum_is_well_formed():
-    topics = content.grammar_topics()
-    assert len(topics) >= 10
+    topics = content.all_lessons()
+    assert len(topics) >= 60
     ids = set()
     for t in topics:
-        assert t["level"] in {"B2", "C1", "C2"}
+        assert t["level"] in {"A1", "A2", "B1", "B2", "C1", "C2"}
         assert t["explanation"] and t["examples"] and len(t["exercises"]) >= 3
         for e in t["exercises"]:
             assert e["id"] not in ids

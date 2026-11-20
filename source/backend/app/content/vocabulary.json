@@ -1,6 +1,1160 @@
 {
  "words": [
   {
+   "id": "family",
+   "word": "family",
+   "ipa": "/ˈfæməli/",
+   "pos": "noun",
+   "level": "A1",
+   "domain": "everyday",
+   "definition": "Parents, children, brothers and sisters.",
+   "examples": [
+    "I live with my family in Montréal."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "my family",
+    "family dinner"
+   ],
+   "french": "famille",
+   "kind": "word"
+  },
+  {
+   "id": "breakfast",
+   "word": "breakfast",
+   "ipa": "/ˈbrekfəst/",
+   "pos": "noun",
+   "level": "A1",
+   "domain": "everyday",
+   "definition": "The first meal of the day.",
+   "examples": [
+    "I have breakfast at seven."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "have breakfast",
+    "eat breakfast"
+   ],
+   "french": "petit-déjeuner",
+   "kind": "word"
+  },
+  {
+   "id": "work",
+   "word": "work",
+   "ipa": "/wɜːrk/",
+   "pos": "verb",
+   "level": "A1",
+   "domain": "everyday",
+   "definition": "To do a job, usually for money.",
+   "examples": [
+    "She works in a bank."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "work from home",
+    "work hard"
+   ],
+   "french": "travailler",
+   "kind": "word"
+  },
+  {
+   "id": "apartment",
+   "word": "apartment",
+   "ipa": "/əˈpɑːrtmənt/",
+   "pos": "noun",
+   "level": "A1",
+   "domain": "everyday",
+   "definition": "A set of rooms to live in, inside a bigger building.",
+   "examples": [
+    "My apartment is small but bright."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "rent an apartment"
+   ],
+   "french": "appartement",
+   "kind": "word"
+  },
+  {
+   "id": "weather",
+   "word": "weather",
+   "ipa": "/ˈweðər/",
+   "pos": "noun",
+   "level": "A1",
+   "domain": "everyday",
+   "definition": "How hot, cold, sunny or rainy it is.",
+   "examples": [
+    "The weather is cold today."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "nice weather",
+    "the weather forecast"
+   ],
+   "french": "météo, temps",
+   "kind": "word"
+  },
+  {
+   "id": "tired",
+   "word": "tired",
+   "ipa": "/taɪərd/",
+   "pos": "adjective",
+   "level": "A1",
+   "domain": "everyday",
+   "definition": "Needing rest or sleep.",
+   "examples": [
+    "I'm tired after work."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "feel tired",
+    "very tired"
+   ],
+   "french": "fatigué",
+   "kind": "word"
+  },
+  {
+   "id": "hungry",
+   "word": "hungry",
+   "ipa": "/ˈhʌŋɡri/",
+   "pos": "adjective",
+   "level": "A1",
+   "domain": "everyday",
+   "definition": "Wanting to eat.",
+   "examples": [
+    "Are you hungry? Let's eat."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "be hungry"
+   ],
+   "french": "avoir faim",
+   "kind": "word"
+  },
+  {
+   "id": "expensive",
+   "word": "expensive",
+   "ipa": "/ɪkˈspensɪv/",
+   "pos": "adjective",
+   "level": "A1",
+   "domain": "everyday",
+   "definition": "Costing a lot of money.",
+   "examples": [
+    "This restaurant is expensive."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "very expensive"
+   ],
+   "french": "cher",
+   "kind": "word"
+  },
+  {
+   "id": "cheap",
+   "word": "cheap",
+   "ipa": "/tʃiːp/",
+   "pos": "adjective",
+   "level": "A1",
+   "domain": "everyday",
+   "definition": "Not costing a lot of money.",
+   "examples": [
+    "The bus is cheap."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "cheap tickets"
+   ],
+   "french": "bon marché",
+   "kind": "word"
+  },
+  {
+   "id": "busy",
+   "word": "busy",
+   "ipa": "/ˈbɪzi/",
+   "pos": "adjective",
+   "level": "A1",
+   "domain": "everyday",
+   "definition": "Having a lot to do.",
+   "examples": [
+    "I'm busy on Monday."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "a busy day",
+    "busy street"
+   ],
+   "french": "occupé",
+   "kind": "word"
+  },
+  {
+   "id": "weekend",
+   "word": "weekend",
+   "ipa": "/ˈwiːkend/",
+   "pos": "noun",
+   "level": "A1",
+   "domain": "everyday",
+   "definition": "Saturday and Sunday.",
+   "examples": [
+    "What do you do on the weekend?"
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "on the weekend",
+    "have a nice weekend"
+   ],
+   "french": "week-end",
+   "kind": "word"
+  },
+  {
+   "id": "colleague",
+   "word": "colleague",
+   "ipa": "/ˈkɑːliːɡ/",
+   "pos": "noun",
+   "level": "A1",
+   "domain": "work",
+   "definition": "A person you work with.",
+   "examples": [
+    "My colleague is from Toronto."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "work colleague"
+   ],
+   "french": "collègue",
+   "kind": "word"
+  },
+  {
+   "id": "job",
+   "word": "job",
+   "ipa": "/dʒɑːb/",
+   "pos": "noun",
+   "level": "A1",
+   "domain": "work",
+   "definition": "The work you do to earn money.",
+   "examples": [
+    "I have a new job."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "get a job",
+    "full-time job"
+   ],
+   "french": "emploi, travail",
+   "kind": "word"
+  },
+  {
+   "id": "buy",
+   "word": "buy",
+   "ipa": "/baɪ/",
+   "pos": "verb",
+   "level": "A1",
+   "domain": "everyday",
+   "definition": "To get something by paying money.",
+   "examples": [
+    "I buy bread every morning."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "buy something for someone"
+   ],
+   "french": "acheter",
+   "kind": "word"
+  },
+  {
+   "id": "open",
+   "word": "open",
+   "ipa": "/ˈoʊpən/",
+   "pos": "adjective",
+   "level": "A1",
+   "domain": "everyday",
+   "definition": "Not closed; ready for customers.",
+   "examples": [
+    "The store is open until nine."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "open late"
+   ],
+   "french": "ouvert",
+   "kind": "word"
+  },
+  {
+   "id": "early",
+   "word": "early",
+   "ipa": "/ˈɜːrli/",
+   "pos": "adverb",
+   "level": "A1",
+   "domain": "everyday",
+   "definition": "Before the usual time.",
+   "examples": [
+    "I get up early."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "early morning"
+   ],
+   "french": "tôt",
+   "kind": "word"
+  },
+  {
+   "id": "late",
+   "word": "late",
+   "ipa": "/leɪt/",
+   "pos": "adjective",
+   "level": "A1",
+   "domain": "everyday",
+   "definition": "After the usual or expected time.",
+   "examples": [
+    "Sorry I'm late!"
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "be late for"
+   ],
+   "french": "en retard, tard",
+   "kind": "word"
+  },
+  {
+   "id": "street",
+   "word": "street",
+   "ipa": "/striːt/",
+   "pos": "noun",
+   "level": "A1",
+   "domain": "everyday",
+   "definition": "A road in a town.",
+   "examples": [
+    "I live on Maple Street."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "on the street"
+   ],
+   "french": "rue",
+   "kind": "word"
+  },
+  {
+   "id": "friend",
+   "word": "friend",
+   "ipa": "/frend/",
+   "pos": "noun",
+   "level": "A1",
+   "domain": "everyday",
+   "definition": "A person you like and know well.",
+   "examples": [
+    "She's my best friend."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "best friend",
+    "make friends"
+   ],
+   "french": "ami(e)",
+   "kind": "word"
+  },
+  {
+   "id": "help",
+   "word": "help",
+   "ipa": "/help/",
+   "pos": "verb",
+   "level": "A1",
+   "domain": "everyday",
+   "definition": "To make something easier for someone.",
+   "examples": [
+    "Can you help me?"
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "help someone with something"
+   ],
+   "french": "aider",
+   "kind": "word"
+  },
+  {
+   "id": "appointment",
+   "word": "appointment",
+   "ipa": "/əˈpɔɪntmənt/",
+   "pos": "noun",
+   "level": "A2",
+   "domain": "everyday",
+   "definition": "A meeting arranged for a fixed time.",
+   "examples": [
+    "I have a doctor's appointment at three."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "make an appointment",
+    "cancel an appointment"
+   ],
+   "french": "rendez-vous",
+   "kind": "word"
+  },
+  {
+   "id": "receipt",
+   "word": "receipt",
+   "ipa": "/rɪˈsiːt/",
+   "pos": "noun",
+   "level": "A2",
+   "domain": "shopping",
+   "definition": "A paper that shows you paid for something.",
+   "examples": [
+    "Keep the receipt in case you return it."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "keep the receipt"
+   ],
+   "french": "reçu, ticket de caisse",
+   "kind": "word"
+  },
+  {
+   "id": "refund",
+   "word": "refund",
+   "ipa": "/ˈriːfʌnd/",
+   "pos": "noun",
+   "level": "A2",
+   "domain": "shopping",
+   "definition": "Money given back when you return something.",
+   "examples": [
+    "Can I get a refund?"
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "get a refund",
+    "full refund"
+   ],
+   "french": "remboursement",
+   "kind": "word"
+  },
+  {
+   "id": "delay",
+   "word": "delay",
+   "ipa": "/dɪˈleɪ/",
+   "pos": "noun",
+   "level": "A2",
+   "domain": "travel",
+   "definition": "A time when something happens later than planned.",
+   "examples": [
+    "There's a two-hour delay."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "flight delay"
+   ],
+   "french": "retard",
+   "kind": "word"
+  },
+  {
+   "id": "luggage",
+   "word": "luggage",
+   "ipa": "/ˈlʌɡɪdʒ/",
+   "pos": "noun",
+   "level": "A2",
+   "domain": "travel",
+   "definition": "Bags and suitcases for travel (uncountable).",
+   "examples": [
+    "How much luggage do you have?"
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "carry-on luggage"
+   ],
+   "french": "bagages",
+   "kind": "word"
+  },
+  {
+   "id": "reservation",
+   "word": "reservation",
+   "ipa": "/ˌrezərˈveɪʃən/",
+   "pos": "noun",
+   "level": "A2",
+   "domain": "travel",
+   "definition": "An arrangement to keep a room or table for you.",
+   "examples": [
+    "I have a reservation for two nights."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "make a reservation"
+   ],
+   "french": "réservation",
+   "kind": "word"
+  },
+  {
+   "id": "downtown",
+   "word": "downtown",
+   "ipa": "/ˌdaʊnˈtaʊn/",
+   "pos": "noun",
+   "level": "A2",
+   "domain": "travel",
+   "definition": "The centre of a city (North America).",
+   "examples": [
+    "Let's meet downtown."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "go downtown"
+   ],
+   "french": "centre-ville",
+   "kind": "word"
+  },
+  {
+   "id": "borrow",
+   "word": "borrow",
+   "ipa": "/ˈbɑːroʊ/",
+   "pos": "verb",
+   "level": "A2",
+   "domain": "everyday",
+   "definition": "To take something you will give back.",
+   "examples": [
+    "Can I borrow your pen?"
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "borrow money"
+   ],
+   "french": "emprunter",
+   "kind": "word"
+  },
+  {
+   "id": "lend",
+   "word": "lend",
+   "ipa": "/lend/",
+   "pos": "verb",
+   "level": "A2",
+   "domain": "everyday",
+   "definition": "To give something that will be given back.",
+   "examples": [
+    "Could you lend me ten dollars?"
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "lend someone something"
+   ],
+   "french": "prêter",
+   "kind": "word"
+  },
+  {
+   "id": "forget",
+   "word": "forget",
+   "ipa": "/fərˈɡet/",
+   "pos": "verb",
+   "level": "A2",
+   "domain": "everyday",
+   "definition": "Not to remember.",
+   "examples": [
+    "Don't forget your keys!"
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "forget to do something"
+   ],
+   "french": "oublier",
+   "kind": "word"
+  },
+  {
+   "id": "remember",
+   "word": "remember",
+   "ipa": "/rɪˈmembər/",
+   "pos": "verb",
+   "level": "A2",
+   "domain": "everyday",
+   "definition": "To keep in your mind.",
+   "examples": [
+    "I remember my first day at school."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "remember to do"
+   ],
+   "french": "se souvenir",
+   "kind": "word"
+  },
+  {
+   "id": "decide",
+   "word": "decide",
+   "ipa": "/dɪˈsaɪd/",
+   "pos": "verb",
+   "level": "A2",
+   "domain": "everyday",
+   "definition": "To choose after thinking.",
+   "examples": [
+    "We decided to stay home."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "decide to do"
+   ],
+   "french": "décider",
+   "kind": "word"
+  },
+  {
+   "id": "crowded",
+   "word": "crowded",
+   "ipa": "/ˈkraʊdɪd/",
+   "pos": "adjective",
+   "level": "A2",
+   "domain": "travel",
+   "definition": "Full of people.",
+   "examples": [
+    "The metro is crowded at 8 a.m."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "crowded bus"
+   ],
+   "french": "bondé",
+   "kind": "word"
+  },
+  {
+   "id": "healthy",
+   "word": "healthy",
+   "ipa": "/ˈhelθi/",
+   "pos": "adjective",
+   "level": "A2",
+   "domain": "everyday",
+   "definition": "Good for your body; not ill.",
+   "examples": [
+    "I try to eat healthy food."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "healthy lifestyle"
+   ],
+   "french": "sain, en bonne santé",
+   "kind": "word"
+  },
+  {
+   "id": "improve",
+   "word": "improve",
+   "ipa": "/ɪmˈpruːv/",
+   "pos": "verb",
+   "level": "A2",
+   "domain": "learning",
+   "definition": "To get better or make better.",
+   "examples": [
+    "I want to improve my English."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "improve skills"
+   ],
+   "french": "améliorer",
+   "kind": "word"
+  },
+  {
+   "id": "advice",
+   "word": "advice",
+   "ipa": "/ədˈvaɪs/",
+   "pos": "noun",
+   "level": "A2",
+   "domain": "everyday",
+   "definition": "An opinion about what someone should do (uncountable).",
+   "examples": [
+    "Can I give you some advice?"
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "a piece of advice",
+    "give advice"
+   ],
+   "french": "conseil(s)",
+   "kind": "word"
+  },
+  {
+   "id": "salary",
+   "word": "salary",
+   "ipa": "/ˈsæləri/",
+   "pos": "noun",
+   "level": "A2",
+   "domain": "work",
+   "definition": "Money you earn every month or year for your job.",
+   "examples": [
+    "The salary is good."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "annual salary"
+   ],
+   "french": "salaire",
+   "kind": "word"
+  },
+  {
+   "id": "schedule",
+   "word": "schedule",
+   "ipa": "/ˈskedʒuːl/",
+   "pos": "noun",
+   "level": "A2",
+   "domain": "work",
+   "definition": "A plan of times when things happen.",
+   "examples": [
+    "My schedule is full this week."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "busy schedule",
+    "on schedule"
+   ],
+   "french": "emploi du temps, horaire",
+   "kind": "word"
+  },
+  {
+   "id": "neighbour",
+   "word": "neighbour",
+   "ipa": "/ˈneɪbər/",
+   "pos": "noun",
+   "level": "A2",
+   "domain": "everyday",
+   "definition": "A person who lives near you.",
+   "examples": [
+    "Our neighbours are very friendly."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "next-door neighbour"
+   ],
+   "french": "voisin",
+   "kind": "word"
+  },
+  {
+   "id": "cancel",
+   "word": "cancel",
+   "ipa": "/ˈkænsəl/",
+   "pos": "verb",
+   "level": "A2",
+   "domain": "everyday",
+   "definition": "To stop something planned from happening.",
+   "examples": [
+    "They cancelled the concert."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "cancel a meeting"
+   ],
+   "french": "annuler",
+   "kind": "word"
+  },
+  {
+   "id": "achieve",
+   "word": "achieve",
+   "ipa": "/əˈtʃiːv/",
+   "pos": "verb",
+   "level": "B1",
+   "domain": "work",
+   "definition": "To succeed in doing something after effort.",
+   "examples": [
+    "She achieved her goal of running a marathon."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "achieve a goal"
+   ],
+   "french": "atteindre, accomplir",
+   "kind": "word"
+  },
+  {
+   "id": "deadline",
+   "word": "deadline",
+   "ipa": "/ˈdedlaɪn/",
+   "pos": "noun",
+   "level": "B1",
+   "domain": "work",
+   "definition": "The time by which something must be done.",
+   "examples": [
+    "The deadline is Friday at noon."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "meet a deadline",
+    "miss a deadline"
+   ],
+   "french": "date limite",
+   "kind": "word"
+  },
+  {
+   "id": "purpose",
+   "word": "purpose",
+   "ipa": "/ˈpɜːrpəs/",
+   "pos": "noun",
+   "level": "B1",
+   "domain": "general",
+   "definition": "The reason for doing something.",
+   "examples": [
+    "The purpose of the meeting is to plan the budget."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "on purpose"
+   ],
+   "french": "but, objectif",
+   "kind": "word"
+  },
+  {
+   "id": "opportunity",
+   "word": "opportunity",
+   "ipa": "/ˌɑːpərˈtuːnəti/",
+   "pos": "noun",
+   "level": "B1",
+   "domain": "work",
+   "definition": "A chance to do something.",
+   "examples": [
+    "This job is a great opportunity."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "take an opportunity"
+   ],
+   "french": "occasion, opportunité",
+   "kind": "word"
+  },
+  {
+   "id": "increase",
+   "word": "increase",
+   "ipa": "/ɪnˈkriːs/",
+   "pos": "verb",
+   "level": "B1",
+   "domain": "business",
+   "definition": "To become bigger in amount.",
+   "examples": [
+    "Prices increased by 5%."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "increase sharply"
+   ],
+   "french": "augmenter",
+   "kind": "word"
+  },
+  {
+   "id": "reduce",
+   "word": "reduce",
+   "ipa": "/rɪˈduːs/",
+   "pos": "verb",
+   "level": "B1",
+   "domain": "business",
+   "definition": "To make smaller.",
+   "examples": [
+    "We need to reduce costs."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "reduce costs"
+   ],
+   "french": "réduire",
+   "kind": "word"
+  },
+  {
+   "id": "suggest",
+   "word": "suggest",
+   "ipa": "/səɡˈdʒest/",
+   "pos": "verb",
+   "level": "B1",
+   "domain": "communication",
+   "definition": "To give an idea for someone to consider.",
+   "examples": [
+    "I suggest we meet on Monday."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "suggest that"
+   ],
+   "french": "suggérer",
+   "kind": "word"
+  },
+  {
+   "id": "experience",
+   "word": "experience",
+   "ipa": "/ɪkˈspɪriəns/",
+   "pos": "noun",
+   "level": "B1",
+   "domain": "work",
+   "definition": "Knowledge from doing something.",
+   "examples": [
+    "I have five years' experience in sales."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "work experience"
+   ],
+   "french": "expérience",
+   "kind": "word"
+  },
+  {
+   "id": "solution",
+   "word": "solution",
+   "ipa": "/səˈluːʃən/",
+   "pos": "noun",
+   "level": "B1",
+   "domain": "general",
+   "definition": "A way to solve a problem.",
+   "examples": [
+    "We found a solution."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "find a solution"
+   ],
+   "french": "solution",
+   "kind": "word"
+  },
+  {
+   "id": "rely-on",
+   "word": "rely on",
+   "ipa": "/rɪˈlaɪ ɑːn/",
+   "pos": "phrasal verb",
+   "level": "B1",
+   "domain": "general",
+   "definition": "To need or trust someone or something.",
+   "examples": [
+    "You can rely on me."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "rely heavily on"
+   ],
+   "french": "compter sur",
+   "kind": "phrasal"
+  },
+  {
+   "id": "figure-out",
+   "word": "figure out",
+   "ipa": "/ˈfɪɡjər aʊt/",
+   "pos": "phrasal verb",
+   "level": "B1",
+   "domain": "general",
+   "definition": "To understand or solve after thinking.",
+   "examples": [
+    "I can't figure out this form."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "figure out how"
+   ],
+   "french": "comprendre, trouver",
+   "kind": "phrasal"
+  },
+  {
+   "id": "put-off",
+   "word": "put off",
+   "ipa": "/pʊt ɔːf/",
+   "pos": "phrasal verb",
+   "level": "B1",
+   "domain": "general",
+   "definition": "To postpone.",
+   "examples": [
+    "Don't put off your homework."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "put off a decision"
+   ],
+   "french": "remettre à plus tard",
+   "kind": "phrasal"
+  },
+  {
+   "id": "actually",
+   "word": "actually",
+   "ipa": "/ˈæktʃuəli/",
+   "pos": "adverb",
+   "level": "B1",
+   "domain": "false friends",
+   "definition": "In fact (NOT 'currently').",
+   "examples": [
+    "Actually, I'm from Québec, not France."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "actually, …"
+   ],
+   "french": "en fait",
+   "kind": "word"
+  },
+  {
+   "id": "currently",
+   "word": "currently",
+   "ipa": "/ˈkɜːrəntli/",
+   "pos": "adverb",
+   "level": "B1",
+   "domain": "false friends",
+   "definition": "At the present time (= actuellement).",
+   "examples": [
+    "I'm currently looking for a job."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "currently working"
+   ],
+   "french": "actuellement",
+   "kind": "word"
+  },
+  {
+   "id": "eventually",
+   "word": "eventually",
+   "ipa": "/ɪˈventʃuəli/",
+   "pos": "adverb",
+   "level": "B1",
+   "domain": "false friends",
+   "definition": "Finally, after a long time (NOT éventuellement).",
+   "examples": [
+    "Eventually, we found the hotel."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "eventually decide"
+   ],
+   "french": "finalement",
+   "kind": "word"
+  },
+  {
+   "id": "challenge",
+   "word": "challenge",
+   "ipa": "/ˈtʃælɪndʒ/",
+   "pos": "noun",
+   "level": "B1",
+   "domain": "general",
+   "definition": "Something difficult that tests your ability.",
+   "examples": [
+    "Learning a language is a challenge."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "face a challenge"
+   ],
+   "french": "défi",
+   "kind": "word"
+  },
+  {
+   "id": "confident",
+   "word": "confident",
+   "ipa": "/ˈkɑːnfɪdənt/",
+   "pos": "adjective",
+   "level": "B1",
+   "domain": "general",
+   "definition": "Sure of yourself and your abilities.",
+   "examples": [
+    "I feel more confident speaking English."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "feel confident"
+   ],
+   "french": "confiant, sûr de soi",
+   "kind": "word"
+  },
+  {
+   "id": "attend",
+   "word": "attend",
+   "ipa": "/əˈtend/",
+   "pos": "verb",
+   "level": "B1",
+   "domain": "false friends",
+   "definition": "To go to an event (NOT attendre).",
+   "examples": [
+    "I attended a conference in Ottawa."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "attend a meeting"
+   ],
+   "french": "assister à",
+   "kind": "word"
+  },
+  {
+   "id": "aware",
+   "word": "aware",
+   "ipa": "/əˈwer/",
+   "pos": "adjective",
+   "level": "B1",
+   "domain": "general",
+   "definition": "Knowing that something exists.",
+   "examples": [
+    "Are you aware of the new rules?"
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "be aware of"
+   ],
+   "french": "conscient, au courant",
+   "kind": "word"
+  },
+  {
+   "id": "skill",
+   "word": "skill",
+   "ipa": "/skɪl/",
+   "pos": "noun",
+   "level": "B1",
+   "domain": "work",
+   "definition": "An ability to do something well.",
+   "examples": [
+    "Communication is a key skill."
+   ],
+   "synonyms": [],
+   "antonyms": [],
+   "collocations": [
+    "develop skills"
+   ],
+   "french": "compétence",
+   "kind": "word"
+  },
+  {
    "id": "mitigate",
    "word": "mitigate",
    "ipa": "/ˈmɪtɪɡeɪt/",
@@ -913,23 +2067,6 @@
    "antonyms": [],
    "collocations": [],
    "french": "avancer (une date)",
-   "kind": "phrasal"
-  },
-  {
-   "id": "put-off",
-   "word": "put off",
-   "ipa": "",
-   "pos": "phrasal verb",
-   "level": "B2",
-   "domain": "natural english",
-   "definition": "To postpone.",
-   "examples": [
-    "They put off the decision until next quarter."
-   ],
-   "synonyms": [],
-   "antonyms": [],
-   "collocations": [],
-   "french": "reporter",
    "kind": "phrasal"
   },
   {
@@ -2018,29 +3155,6 @@
     "deploy at scale"
    ],
    "french": "déployer",
-   "kind": "word"
-  },
-  {
-   "id": "deadline",
-   "word": "deadline",
-   "ipa": "/ˈdedlaɪn/",
-   "pos": "noun",
-   "level": "B2",
-   "domain": "project management",
-   "definition": "The latest time by which something must be done.",
-   "examples": [
-    "We're under pressure to meet the deadline."
-   ],
-   "synonyms": [
-    "due date"
-   ],
-   "antonyms": [],
-   "collocations": [
-    "meet a deadline",
-    "miss a deadline",
-    "tight deadline"
-   ],
-   "french": "échéance, date limite",
    "kind": "word"
   },
   {

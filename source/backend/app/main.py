@@ -15,7 +15,7 @@ from fastapi.staticfiles import StaticFiles
 
 from .config import settings
 from .db import init_engine
-from .routers import assess, conversation, exam, grammar, insights, papers, listening, profile, pronunciation, reading, system, video, vocabulary, writing
+from .routers import academy, assess, conversation, exam, grammar, insights, papers, listening, profile, pronunciation, reading, system, video, vocabulary, writing
 
 
 def setup_logging():
@@ -40,7 +40,7 @@ def create_app(static_dir: str | None = None) -> FastAPI:
         allow_methods=["*"],
         allow_headers=["*"],
     )
-    for r in (profile, grammar, vocabulary, conversation, writing, reading, listening, pronunciation, video, exam, papers, assess, insights, system):
+    for r in (profile, academy, grammar, vocabulary, conversation, writing, reading, listening, pronunciation, video, exam, papers, assess, insights, system):
         app.include_router(r.router)
 
     LOOPBACK = {"127.0.0.1", "::1", "localhost", "testclient"}

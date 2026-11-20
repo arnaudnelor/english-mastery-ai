@@ -44,7 +44,7 @@ export const api = {
 export interface Profile {
   id: number; name: string; target_level: string; estimated_level: string; daily_minutes: number;
   accent_preference: "en-CA" | "en-US" | "en-GB"; correction_mode: string; french_explanations: boolean;
-  reminder_time: string | null; placement_done?: boolean;
+  reminder_time: string | null; placement_done?: boolean; level_confirmed?: boolean;
 }
 export interface Issue { category: string; original: string; corrected: string; explanation: string; pattern?: string; explanation_fr?: string | null }
 export interface Feedback {

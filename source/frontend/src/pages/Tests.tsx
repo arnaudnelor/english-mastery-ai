@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
+import { LEVEL_NAMES } from "./Academy";
+import { useAcademy } from "../App";
 import { api, ApiError } from "../lib/api";
 import { Recorder } from "../lib/speech";
 import { useProfile } from "../App";
@@ -8,10 +10,12 @@ import { Item, useLinePlayer } from "./Listening";
 
 interface Q { id: string; level?: string; prompt: string; options: string[]; key?: string }
 interface Placement { grammar_vocab: Q[]; reading: { title: string; body: string; questions: Q[] }; listening: (Omit<Item, "questions"> & { questions: Q[] })[]; writing_prompt: string; speaking_prompt: string }
-interface PlacementResult { overall: string; skills: Record<string, string>; scores: Record<string, number>; notes: string[]; disclaimer: string; writing: { justification: string } | null }
+interface PlacementResult { overall: string; overall_name?: string; skills: Record<string, string>; scores: Record<string, number>; notes: string[]; disclaimer: string; writing: { justification: string } | null }
 
 export default function Tests() {
-  const [mode, setMode] = useState<"menu" | "placement" | "weekly">("menu");
+  const [params] = useSearchParams();
+  const [mode, setMode] = useState<"menu" | "placement" | "weekly">(params.get("start") === "placement" ? "placement" : "menu");
+  useEffect(() => { if (params.get("start") === "placement") setMode("placement"); }, [params]);
   return (
     <div className="mx-auto max-w-5xl space-y-6">
       <div><h1 className="h1">Tests & Assessments</h1><p className="muted mt-1">Placement test, weekly progress checks and full mock exams.</p></div>
@@ -45,6 +49,7 @@ function PlayOnce({ item }: { item: Placement["listening"][number] }) {
 
 function PlacementTest({ onExit }: { onExit: () => void }) {
   const { profile, setProfile } = useProfile();
+  const { reload } = useAcademy();
   const [t, setT] = useState<Placement | null>(null);
   const [step, setStep] = useState(0);
   const [ans, setAns] = useState<Record<string, string>>({});
@@ -59,7 +64,7 @@ function PlacementTest({ onExit }: { onExit: () => void }) {
   useEffect(() => { api.get<Placement>("/api/assess/placement").then(setT); }, []);
   if (!t) return <div className="text-ink-400">Loading…</div>;
   const set = (k: string, v: string) => setAns((a) => ({ ...a, [k]: v }));
-  const STEPS = ["Grammar & vocabulary", "Reading", "Listening", "Writing", "Speaking"];
+  const STEPS = ["Grammar, vocabulary & sentences", "Reading", "Listening", "Writing", "Speaking"];
 
   async function stopSpeaking() {
     setRec(false); setBusy(true); setErr(null);
@@ -73,16 +78,18 @@ function PlacementTest({ onExit }: { onExit: () => void }) {
       const out = await api.post<PlacementResult>("/api/assess/placement/submit", { answers: ans, writing, speaking_level: speak?.level ?? null, seconds: Math.round((Date.now() - started.current) / 1000) });
       setRes(out);
       setProfile(await api.get("/api/profile"));
+      reload();
     } finally { setBusy(false); }
   }
 
   if (res) return (
     <div className="space-y-4">
-      <div className="card text-center"><div className="label">Your estimated level</div><div className="font-serif text-6xl">{res.overall}</div><p className="mt-2 text-xs text-gold-500">{res.disclaimer}</p></div>
+      <div className="card text-center !border-brand-500"><div className="label">Your English level</div><div className="font-serif text-5xl">{res.overall} — {(res.overall_name ?? LEVEL_NAMES[res.overall]).toUpperCase()}</div>
+        <p className="mt-2 text-sm">Your {res.overall} programme is now open, and every level below it stays available for review.</p><p className="mt-2 text-xs text-gold-500">{res.disclaimer}</p></div>
       <div className="grid grid-cols-5 gap-3">{Object.entries(res.skills).map(([k, v]) => <div key={k} className="card text-center"><div className="label">{k.replace("_", " & ")}</div><div className="font-serif text-2xl">{v}</div>{res.scores[k] != null && <div className="text-xs text-ink-400">{Math.round(res.scores[k] * 100)}%</div>}</div>)}</div>
       {res.writing?.justification && <div className="card text-sm"><div className="label">Writing</div>{res.writing.justification}</div>}
       {res.notes.length > 0 && <ul className="list-disc pl-5 text-sm text-ink-400">{res.notes.map((n) => <li key={n}>{n}</li>)}</ul>}
-      <div className="flex gap-2"><Link to="/path" className="btn-primary">See my learning path</Link><button className="btn-ghost" onClick={onExit}>Back</button></div>
+      <div className="flex gap-2"><Link to={`/level/${res.overall}`} className="btn-primary">Start my {res.overall} programme</Link><Link to="/" className="btn-ghost">Dashboard</Link><button className="btn-ghost" onClick={onExit}>Back</button></div>
     </div>
   );
   return (

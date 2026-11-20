@@ -1,9 +1,1004 @@
 {
  "topics": [
   {
+   "id": "a1-to-be",
+   "title": "The Verb 'To Be'",
+   "level": "A1",
+   "unit": "First Steps",
+   "summary": "am, is, are: saying who you are, where you are and how you feel.",
+   "explanation": "'To be' is the most important verb in English.\nI am · you are · he/she/it is · we are · they are.\nShort forms (contractions) are normal in speech: I'm, you're, he's, she's, it's, we're, they're.\nNegative: add 'not': I'm not, he isn't (is not), they aren't (are not).\nQuestions: put the verb first: 'Are you a student?' 'Is she from Toronto?' Short answers: 'Yes, I am.' 'No, she isn't.'\nFrench speakers: age uses 'to be', not 'have': 'I am 30' (NOT *I have 30 years). Also: 'I am hungry / cold / right / afraid' (j'ai faim / froid / raison / peur).",
+   "explanation_fr": "Âge, faim, froid, raison, peur : on utilise 'to be' en anglais. « J'ai 30 ans » = I am 30.",
+   "examples": [
+    {
+     "en": "I'm Arnaud. I'm from Montréal.",
+     "note": "Introducing yourself."
+    },
+    {
+     "en": "She isn't at home. She's at work.",
+     "note": "Negative + location."
+    },
+    {
+     "en": "Are they your colleagues? — Yes, they are.",
+     "note": "Question and short answer."
+    },
+    {
+     "en": "I'm 35 years old.",
+     "note": "Age with 'to be'."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "a1-to-be-tb1",
+     "type": "mcq",
+     "prompt": "My brother ___ a teacher.",
+     "options": [
+      "am",
+      "is",
+      "are",
+      "be"
+     ],
+     "answer": "is",
+     "explanation": "he/she/it → is."
+    },
+    {
+     "id": "a1-to-be-tb2",
+     "type": "mcq",
+     "prompt": "___ you from Canada?",
+     "options": [
+      "Is",
+      "Am",
+      "Are",
+      "Do"
+     ],
+     "answer": "Are",
+     "explanation": "Questions with 'you' → Are you…?"
+    },
+    {
+     "id": "a1-to-be-tb3",
+     "type": "gap",
+     "prompt": "We ___ (not) tired. (use the short form)",
+     "answer": [
+      "aren't",
+      "are not",
+      "'re not"
+     ],
+     "explanation": "we + are not → aren't."
+    },
+    {
+     "id": "a1-to-be-tb4",
+     "type": "correct",
+     "prompt": "I have 28 years.",
+     "answer": [
+      "I am 28 years old.",
+      "I'm 28 years old.",
+      "I am 28.",
+      "I'm 28."
+     ],
+     "explanation": "Age uses 'to be' in English."
+    },
+    {
+     "id": "a1-to-be-tb5",
+     "type": "translate",
+     "prompt": "Traduisez : « J'ai froid. »",
+     "answer": [
+      "I am cold.",
+      "I'm cold."
+     ],
+     "explanation": "Sensations use 'to be' + adjective."
+    }
+   ]
+  },
+  {
+   "id": "a1-present-simple",
+   "title": "Present Simple",
+   "level": "A1",
+   "unit": "Everyday Life",
+   "summary": "Habits, routines and facts: I work, she works.",
+   "explanation": "Use the present simple for habits, routines, timetables and things that are always true: 'I drink coffee every morning.' 'Water boils at 100 °C.'\nForm: I/you/we/they work · he/she/it works (add -s). Spelling: watch → watches, study → studies, go → goes, have → has.\nNegative: don't / doesn't + base verb: 'She doesn't work on Fridays' (NOT *doesn't works).\nQuestions: Do / Does + subject + base verb: 'Do you speak French?' 'Where does he live?'\nCommon time words: always, usually, often, sometimes, never, every day, on Mondays. Frequency adverbs go before the main verb: 'I usually take the bus.'",
+   "explanation_fr": "N'oubliez pas le -s à la 3e personne : she works. Après does/doesn't, le verbe reste à la base : Does she work?",
+   "examples": [
+    {
+     "en": "I start work at nine.",
+     "note": "Routine."
+    },
+    {
+     "en": "He lives in Ottawa and works in a bank.",
+     "note": "Third person -s."
+    },
+    {
+     "en": "We don't watch TV in the evening.",
+     "note": "Negative."
+    },
+    {
+     "en": "Does she speak English? — Yes, she does.",
+     "note": "Question."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "a1-present-simple-ps1",
+     "type": "mcq",
+     "prompt": "My sister ___ in a hospital.",
+     "options": [
+      "work",
+      "works",
+      "working",
+      "is work"
+     ],
+     "answer": "works",
+     "explanation": "she → works."
+    },
+    {
+     "id": "a1-present-simple-ps2",
+     "type": "mcq",
+     "prompt": "___ you like coffee?",
+     "options": [
+      "Does",
+      "Do",
+      "Are",
+      "Is"
+     ],
+     "answer": "Do",
+     "explanation": "you → Do."
+    },
+    {
+     "id": "a1-present-simple-ps3",
+     "type": "gap",
+     "prompt": "He ___ (not / eat) meat.",
+     "answer": [
+      "doesn't eat",
+      "does not eat"
+     ],
+     "explanation": "he → doesn't + base verb."
+    },
+    {
+     "id": "a1-present-simple-ps4",
+     "type": "correct",
+     "prompt": "She don't like Mondays.",
+     "answer": [
+      "She doesn't like Mondays.",
+      "She does not like Mondays."
+     ],
+     "explanation": "she → doesn't."
+    },
+    {
+     "id": "a1-present-simple-ps5",
+     "type": "mcq",
+     "prompt": "Choose the correct word order:",
+     "options": [
+      "I always am late.",
+      "I am always late.",
+      "Always I am late.",
+      "I am late always."
+     ],
+     "answer": "I am always late.",
+     "explanation": "Frequency adverbs go after 'to be'."
+    }
+   ]
+  },
+  {
+   "id": "a1-present-continuous",
+   "title": "Present Continuous",
+   "level": "A1",
+   "unit": "Everyday Life",
+   "summary": "What is happening now: I'm reading, they're working.",
+   "explanation": "Use the present continuous for actions happening now or around now: 'I'm cooking dinner.' 'She's studying English this year.'\nForm: am/is/are + verb-ing. Spelling: make → making, run → running, sit → sitting.\nNegative: 'He isn't listening.' Questions: 'Are you working today?' 'What are you doing?'\nPresent simple vs continuous: habits → simple ('I usually walk'), now → continuous ('Today I'm taking the bus').\nSome verbs are rarely continuous (state verbs): like, love, know, want, need, understand: 'I know' (NOT *I'm knowing).",
+   "explanation_fr": "Pas de forme « en train de » en français standard : I'm working = je travaille (en ce moment). Les verbes d'état (know, want, like) restent au présent simple.",
+   "examples": [
+    {
+     "en": "Look! It's snowing.",
+     "note": "Happening now."
+    },
+    {
+     "en": "I'm reading a great book at the moment.",
+     "note": "Around now."
+    },
+    {
+     "en": "What are you doing? — I'm making coffee.",
+     "note": "Question."
+    },
+    {
+     "en": "I want a coffee. (NOT I'm wanting)",
+     "note": "State verb."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "a1-present-continuous-pc1",
+     "type": "mcq",
+     "prompt": "Be quiet! The baby ___.",
+     "options": [
+      "sleeps",
+      "is sleeping",
+      "sleep",
+      "are sleeping"
+     ],
+     "answer": "is sleeping",
+     "explanation": "Happening now."
+    },
+    {
+     "id": "a1-present-continuous-pc2",
+     "type": "gap",
+     "prompt": "They ___ (watch) a film right now.",
+     "answer": [
+      "are watching",
+      "'re watching"
+     ],
+     "explanation": "they → are + -ing."
+    },
+    {
+     "id": "a1-present-continuous-pc3",
+     "type": "mcq",
+     "prompt": "I ___ what you mean.",
+     "options": [
+      "understand",
+      "am understanding",
+      "understanding",
+      "am understand"
+     ],
+     "answer": "understand",
+     "explanation": "State verb: no -ing."
+    },
+    {
+     "id": "a1-present-continuous-pc4",
+     "type": "correct",
+     "prompt": "She is work at the moment.",
+     "answer": [
+      "She is working at the moment.",
+      "She's working at the moment."
+     ],
+     "explanation": "be + verb-ing."
+    },
+    {
+     "id": "a1-present-continuous-pc5",
+     "type": "mcq",
+     "prompt": "He usually ___ to work, but today he ___ the bus.",
+     "options": [
+      "walks / is taking",
+      "is walking / takes",
+      "walk / take",
+      "walks / takes"
+     ],
+     "answer": "walks / is taking",
+     "explanation": "Habit vs now."
+    }
+   ]
+  },
+  {
+   "id": "a1-questions",
+   "title": "Asking Questions",
+   "level": "A1",
+   "unit": "First Steps",
+   "summary": "Yes/no questions and question words: what, where, when, who, how.",
+   "explanation": "Yes/no questions: with 'to be', invert: 'Is he here?'. With other verbs, use do/does: 'Do you work here?'\nQuestion words: what (thing), where (place), when (time), who (person), why (reason), how (manner), how much (price/uncountable), how many (countable), how old (age), what time.\nWord order: question word + do/does/be + subject + verb: 'Where do you live?' 'What time does the train leave?' 'How old are you?'\nFrench speakers: don't forget do/does: *Where you live? → Where do you live?",
+   "explanation_fr": "N'oubliez pas l'auxiliaire do/does : « Où habites-tu ? » = Where do you live?",
+   "examples": [
+    {
+     "en": "Where do you work?",
+     "note": "Question word + do."
+    },
+    {
+     "en": "What time is it?",
+     "note": "Time."
+    },
+    {
+     "en": "How much is this coffee?",
+     "note": "Price."
+    },
+    {
+     "en": "Who is your teacher?",
+     "note": "Person."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "a1-questions-q1",
+     "type": "mcq",
+     "prompt": "___ do you live? — In Québec City.",
+     "options": [
+      "What",
+      "Where",
+      "When",
+      "Who"
+     ],
+     "answer": "Where",
+     "explanation": "Place → where."
+    },
+    {
+     "id": "a1-questions-q2",
+     "type": "mcq",
+     "prompt": "___ is the meeting? — At 3 p.m.",
+     "options": [
+      "What time",
+      "Where",
+      "How much",
+      "Who"
+     ],
+     "answer": "What time",
+     "explanation": "Time."
+    },
+    {
+     "id": "a1-questions-q3",
+     "type": "correct",
+     "prompt": "Where you work?",
+     "answer": [
+      "Where do you work?"
+     ],
+     "explanation": "Add 'do'."
+    },
+    {
+     "id": "a1-questions-q4",
+     "type": "gap",
+     "prompt": "How ___ brothers do you have? (many/much)",
+     "answer": [
+      "many"
+     ],
+     "explanation": "Countable → many."
+    },
+    {
+     "id": "a1-questions-q5",
+     "type": "mcq",
+     "prompt": "___ she speak Spanish?",
+     "options": [
+      "Do",
+      "Does",
+      "Is",
+      "Are"
+     ],
+     "answer": "Does",
+     "explanation": "she → does."
+    }
+   ]
+  },
+  {
+   "id": "a1-word-order",
+   "title": "Building Basic Sentences",
+   "level": "A1",
+   "unit": "First Steps",
+   "summary": "Subject + verb + object, adjectives before nouns, and where to put place and time.",
+   "explanation": "English word order is fixed: Subject + Verb + Object: 'Marie drinks tea.'\nAdjectives go before the noun and never take -s: 'a red car', 'two red cars' (NOT *a car red, *reds cars).\nPlace before time at the end: 'I go to the gym every day.' 'We met in Paris last year.'\nEvery sentence needs a subject: 'It is raining.' 'It's late.' (NOT *Is raining).\nThere is / there are to say something exists: 'There is a café near my office.' 'There are three people in the room.'",
+   "explanation_fr": "L'adjectif se place avant le nom et reste invariable : « des voitures rouges » = red cars. « Il y a » = there is / there are.",
+   "examples": [
+    {
+     "en": "I have a small apartment.",
+     "note": "Adjective before noun."
+    },
+    {
+     "en": "She works in Toronto every summer.",
+     "note": "Place, then time."
+    },
+    {
+     "en": "There are two banks on this street.",
+     "note": "There are + plural."
+    },
+    {
+     "en": "It's cold today.",
+     "note": "Subject 'it'."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "a1-word-order-wo1",
+     "type": "mcq",
+     "prompt": "Choose the correct sentence:",
+     "options": [
+      "I have a car blue.",
+      "I have a blue car.",
+      "I have a blues car.",
+      "A blue car I have."
+     ],
+     "answer": "I have a blue car.",
+     "explanation": "Adjective before noun, no -s."
+    },
+    {
+     "id": "a1-word-order-wo2",
+     "type": "mcq",
+     "prompt": "___ a supermarket near here?",
+     "options": [
+      "Is there",
+      "There is",
+      "Are there",
+      "Has it"
+     ],
+     "answer": "Is there",
+     "explanation": "Question: Is there…?"
+    },
+    {
+     "id": "a1-word-order-wo3",
+     "type": "correct",
+     "prompt": "Is very hot today.",
+     "answer": [
+      "It is very hot today.",
+      "It's very hot today."
+     ],
+     "explanation": "A subject is required: it."
+    },
+    {
+     "id": "a1-word-order-wo4",
+     "type": "correct",
+     "prompt": "We go every Sunday to the market.",
+     "answer": [
+      "We go to the market every Sunday."
+     ],
+     "explanation": "Place before time."
+    },
+    {
+     "id": "a1-word-order-wo5",
+     "type": "translate",
+     "prompt": "Traduisez : « Il y a trois chambres dans la maison. »",
+     "answer": [
+      "There are three bedrooms in the house.",
+      "There are three rooms in the house."
+     ],
+     "explanation": "Il y a + pluriel = there are."
+    }
+   ]
+  },
+  {
+   "id": "a2-past-simple",
+   "title": "Past Simple",
+   "level": "A2",
+   "unit": "Talking About the Past",
+   "summary": "Finished actions in the past: worked, went, saw, did.",
+   "explanation": "Use the past simple for finished actions at a finished time: yesterday, last week, in 2020, two days ago.\nRegular verbs: add -ed: work → worked, live → lived, study → studied, stop → stopped.\nIrregular verbs must be learned: go → went, have → had, see → saw, make → made, get → got, take → took, buy → bought, say → said, come → came, be → was/were.\nNegative: didn't + base verb: 'I didn't go' (NOT *didn't went). Questions: Did + subject + base verb: 'Did you see it?' 'Where did you go?'",
+   "explanation_fr": "Après did/didn't, le verbe reste à la base : Did you go? I didn't go. « Il y a deux jours » = two days ago.",
+   "examples": [
+    {
+     "en": "I visited my parents last weekend.",
+     "note": "Regular verb."
+    },
+    {
+     "en": "We went to Vancouver in 2022.",
+     "note": "Irregular verb."
+    },
+    {
+     "en": "She didn't call me yesterday.",
+     "note": "Negative."
+    },
+    {
+     "en": "What did you do on Saturday?",
+     "note": "Question."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "a2-past-simple-pa1",
+     "type": "mcq",
+     "prompt": "Yesterday I ___ a new phone.",
+     "options": [
+      "buy",
+      "buyed",
+      "bought",
+      "buying"
+     ],
+     "answer": "bought",
+     "explanation": "buy → bought (irregular)."
+    },
+    {
+     "id": "a2-past-simple-pa2",
+     "type": "gap",
+     "prompt": "They ___ (not / come) to the party.",
+     "answer": [
+      "didn't come",
+      "did not come"
+     ],
+     "explanation": "didn't + base verb."
+    },
+    {
+     "id": "a2-past-simple-pa3",
+     "type": "correct",
+     "prompt": "Did you went to the meeting?",
+     "answer": [
+      "Did you go to the meeting?"
+     ],
+     "explanation": "Did + base verb."
+    },
+    {
+     "id": "a2-past-simple-pa4",
+     "type": "mcq",
+     "prompt": "I moved to Canada three years ___.",
+     "options": [
+      "before",
+      "ago",
+      "last",
+      "since"
+     ],
+     "answer": "ago",
+     "explanation": "Time + ago."
+    },
+    {
+     "id": "a2-past-simple-pa5",
+     "type": "gap",
+     "prompt": "Where ___ you have lunch yesterday?",
+     "answer": [
+      "did"
+     ],
+     "explanation": "Past question: did."
+    }
+   ]
+  },
+  {
+   "id": "a2-future",
+   "title": "Talking About the Future: going to and will",
+   "level": "A2",
+   "unit": "Plans and Predictions",
+   "summary": "Plans with 'going to', quick decisions and promises with 'will'.",
+   "explanation": "going to + verb: plans and intentions already decided: 'I'm going to visit my sister next month.'\nAlso predictions from what we can see: 'Look at the sky. It's going to rain.'\nwill + verb: decisions made now, offers, promises: 'I'll help you.' 'I'll call you tonight.'\nAlso general predictions and opinions: 'I think it will be a good year.'\nNegative: won't (will not), isn't going to. Questions: 'Will you come?' 'Are you going to apply?'\nPresent continuous for fixed arrangements: 'I'm meeting Tom at six.'",
+   "explanation_fr": "« Je vais » (projet) = I'm going to. Décision spontanée ou promesse = I'll.",
+   "examples": [
+    {
+     "en": "We're going to buy a house next year.",
+     "note": "Plan."
+    },
+    {
+     "en": "The phone is ringing. — I'll answer it.",
+     "note": "Instant decision."
+    },
+    {
+     "en": "I think you'll love Montréal.",
+     "note": "Prediction/opinion."
+    },
+    {
+     "en": "I won't be late, I promise.",
+     "note": "Promise."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "a2-future-fu1",
+     "type": "mcq",
+     "prompt": "I've decided. I ___ learn to drive this summer.",
+     "options": [
+      "will",
+      "am going to",
+      "go",
+      "going"
+     ],
+     "answer": "am going to",
+     "explanation": "Plan already decided."
+    },
+    {
+     "id": "a2-future-fu2",
+     "type": "mcq",
+     "prompt": "It's hot in here. — I ___ open the window.",
+     "options": [
+      "'ll",
+      "'m going to",
+      "open",
+      "opened"
+     ],
+     "answer": "'ll",
+     "explanation": "Decision at the moment."
+    },
+    {
+     "id": "a2-future-fu3",
+     "type": "gap",
+     "prompt": "Don't worry, I ___ (not) tell anyone. (short form)",
+     "answer": [
+      "won't",
+      "will not"
+     ],
+     "explanation": "Promise: won't."
+    },
+    {
+     "id": "a2-future-fu4",
+     "type": "correct",
+     "prompt": "Tomorrow I will to go to the bank.",
+     "answer": [
+      "Tomorrow I will go to the bank.",
+      "Tomorrow I'm going to go to the bank.",
+      "Tomorrow I am going to go to the bank.",
+      "Tomorrow I'm going to the bank."
+     ],
+     "explanation": "will + base verb (no 'to')."
+    }
+   ]
+  },
+  {
+   "id": "a2-comparatives",
+   "title": "Comparatives and Superlatives",
+   "level": "A2",
+   "unit": "Describing and Comparing",
+   "summary": "bigger, more expensive, the best: comparing people, places and things.",
+   "explanation": "Short adjectives (1 syllable): add -er / -est: cheap → cheaper → the cheapest; big → bigger → the biggest.\nAdjectives ending in -y: easy → easier → the easiest.\nLong adjectives (2+ syllables): more / the most: expensive → more expensive → the most expensive.\nIrregular: good → better → the best; bad → worse → the worst; far → farther/further → the farthest.\nUse 'than' with comparatives: 'Toronto is bigger than Ottawa.' (NOT *more big, *bigger that).\nas … as for equality: 'This phone is as fast as that one.' 'It isn't as cheap as I thought.'",
+   "explanation_fr": "« Plus grand que » = bigger than (jamais *more big). « Le meilleur » = the best.",
+   "examples": [
+    {
+     "en": "This hotel is cheaper than that one.",
+     "note": "Comparative."
+    },
+    {
+     "en": "It's the most beautiful city in Canada.",
+     "note": "Superlative."
+    },
+    {
+     "en": "My English is better than last year.",
+     "note": "Irregular."
+    },
+    {
+     "en": "The test wasn't as difficult as I expected.",
+     "note": "as … as."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "a2-comparatives-co1",
+     "type": "mcq",
+     "prompt": "A plane is ___ than a train.",
+     "options": [
+      "fast",
+      "faster",
+      "more fast",
+      "fastest"
+     ],
+     "answer": "faster",
+     "explanation": "Short adjective + -er."
+    },
+    {
+     "id": "a2-comparatives-co2",
+     "type": "mcq",
+     "prompt": "This is ___ restaurant in town.",
+     "options": [
+      "the better",
+      "the best",
+      "the most good",
+      "best"
+     ],
+     "answer": "the best",
+     "explanation": "good → the best."
+    },
+    {
+     "id": "a2-comparatives-co3",
+     "type": "correct",
+     "prompt": "Montréal is more big than Québec City.",
+     "answer": [
+      "Montréal is bigger than Québec City.",
+      "Montreal is bigger than Quebec City."
+     ],
+     "explanation": "big → bigger."
+    },
+    {
+     "id": "a2-comparatives-co4",
+     "type": "gap",
+     "prompt": "Learning English is ___ (easy) than learning Mandarin.",
+     "answer": [
+      "easier"
+     ],
+     "explanation": "-y → -ier."
+    },
+    {
+     "id": "a2-comparatives-co5",
+     "type": "gap",
+     "prompt": "This laptop is ___ expensive ___ the other one. (equality)",
+     "answer": [
+      "as/as",
+      "as as",
+      "as, as"
+     ],
+     "explanation": "as … as."
+    }
+   ]
+  },
+  {
+   "id": "a2-modals",
+   "title": "Modal Verbs: can, must, have to, should",
+   "level": "A2",
+   "unit": "Plans and Predictions",
+   "summary": "Ability, permission, obligation and advice.",
+   "explanation": "can / can't: ability and permission: 'I can swim.' 'Can I sit here?'\nmust / have to: obligation. 'You must wear a helmet.' (rule) 'I have to work on Saturday.' (external obligation).\ndon't have to = not necessary: 'You don't have to come.' mustn't = not allowed: 'You mustn't smoke here.'\nshould / shouldn't: advice: 'You should see a doctor.'\nModals have no -s and are followed by the base verb without 'to': 'She can drive' (NOT *She cans, *can to drive). Exception: have to.",
+   "explanation_fr": "« Tu ne dois pas » (interdiction) = you mustn't ; « tu n'es pas obligé » = you don't have to. Pas de 'to' après can/must/should.",
+   "examples": [
+    {
+     "en": "Can you help me with this form?",
+     "note": "Request."
+    },
+    {
+     "en": "You don't have to pay; it's free.",
+     "note": "Not necessary."
+    },
+    {
+     "en": "You mustn't park here.",
+     "note": "Prohibition."
+    },
+    {
+     "en": "You should practise every day.",
+     "note": "Advice."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "a2-modals-mo1",
+     "type": "mcq",
+     "prompt": "It's a free event. You ___ buy a ticket.",
+     "options": [
+      "mustn't",
+      "don't have to",
+      "can't",
+      "shouldn't"
+     ],
+     "answer": "don't have to",
+     "explanation": "Not necessary."
+    },
+    {
+     "id": "a2-modals-mo2",
+     "type": "mcq",
+     "prompt": "She ___ speak three languages.",
+     "options": [
+      "can",
+      "cans",
+      "can to",
+      "is can"
+     ],
+     "answer": "can",
+     "explanation": "No -s, no 'to'."
+    },
+    {
+     "id": "a2-modals-mo3",
+     "type": "correct",
+     "prompt": "You should to rest.",
+     "answer": [
+      "You should rest."
+     ],
+     "explanation": "No 'to' after should."
+    },
+    {
+     "id": "a2-modals-mo4",
+     "type": "mcq",
+     "prompt": "Passengers ___ use phones during take-off. It's not allowed.",
+     "options": [
+      "mustn't",
+      "don't have to",
+      "should",
+      "can"
+     ],
+     "answer": "mustn't",
+     "explanation": "Prohibition."
+    },
+    {
+     "id": "a2-modals-mo5",
+     "type": "translate",
+     "prompt": "Traduisez : « Tu devrais apprendre l'anglais. »",
+     "answer": [
+      "You should learn English."
+     ],
+     "explanation": "Conseil = should."
+    }
+   ]
+  },
+  {
+   "id": "b1-past-perfect",
+   "title": "Past Perfect",
+   "level": "B1",
+   "unit": "Telling Stories",
+   "summary": "had + past participle: what happened before another past event.",
+   "explanation": "Use the past perfect to show that one past action happened before another past action or time: 'When I arrived, the meeting had already started.'\nForm: had + past participle: had gone, had finished, had seen. Short form: I'd, she'd.\nCompare: 'When I arrived, the meeting started' (it started as I arrived) vs 'had started' (it started before).\nCommon with: already, just, never…before, by the time, after, before.\nDon't overuse it: if the order is clear (with before/after), the past simple is often fine: 'I left after I finished' is acceptable.",
+   "explanation_fr": "Équivalent du plus-que-parfait : « J'avais déjà mangé » = I had already eaten.",
+   "examples": [
+    {
+     "en": "By the time we got to the station, the train had left.",
+     "note": "Earlier past action."
+    },
+    {
+     "en": "She had never seen snow before she moved to Canada.",
+     "note": "Experience before a past time."
+    },
+    {
+     "en": "I'd just finished the report when my boss called.",
+     "note": "just + past perfect."
+    },
+    {
+     "en": "They were tired because they had worked all night.",
+     "note": "Cause."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "b1-past-perfect-pp1",
+     "type": "mcq",
+     "prompt": "When I got home, someone ___ the window.",
+     "options": [
+      "broke",
+      "had broken",
+      "has broken",
+      "was breaking"
+     ],
+     "answer": "had broken",
+     "explanation": "The breaking happened first."
+    },
+    {
+     "id": "b1-past-perfect-pp2",
+     "type": "gap",
+     "prompt": "She ___ (never / fly) before her trip to Paris.",
+     "answer": [
+      "had never flown"
+     ],
+     "explanation": "had never + past participle."
+    },
+    {
+     "id": "b1-past-perfect-pp3",
+     "type": "correct",
+     "prompt": "When we arrived, the film has already started.",
+     "answer": [
+      "When we arrived, the film had already started."
+     ],
+     "explanation": "Earlier past → had + pp."
+    },
+    {
+     "id": "b1-past-perfect-pp4",
+     "type": "translate",
+     "prompt": "Traduisez : « Il avait déjà payé l'addition. »",
+     "answer": [
+      "He had already paid the bill.",
+      "He'd already paid the bill.",
+      "He had already paid the check."
+     ],
+     "explanation": "Plus-que-parfait = past perfect."
+    }
+   ]
+  },
+  {
+   "id": "b1-phrasal-verbs",
+   "title": "Phrasal Verbs: Meaning and Word Order",
+   "level": "B1",
+   "unit": "Natural English",
+   "summary": "look after, give up, find out, turn down — and where the object goes.",
+   "explanation": "A phrasal verb = verb + particle (up, out, off, on, down…). The meaning is often not obvious: give up = stop trying; find out = discover; look after = take care of; turn down = refuse; run out of = have no more; get on with = have a good relationship.\nSeparable phrasal verbs: a noun object can go before or after the particle: 'turn off the light' / 'turn the light off'. A pronoun MUST go in the middle: 'turn it off' (NOT *turn off it).\nInseparable: the object always goes after: 'look after the children', 'look after them'.\nThree-part verbs are inseparable: 'I ran out of time', 'She gets on with her colleagues'.",
+   "explanation_fr": "Avec un pronom, la particule va à la fin : « Éteins-la » = turn it off.",
+   "examples": [
+    {
+     "en": "I gave up smoking two years ago.",
+     "note": "Stop a habit."
+    },
+    {
+     "en": "Can you pick me up at the station?",
+     "note": "Pronoun in the middle."
+    },
+    {
+     "en": "We've run out of milk.",
+     "note": "Three-part verb."
+    },
+    {
+     "en": "I need to find out what time the store opens.",
+     "note": "Discover."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "b1-phrasal-verbs-ph1",
+     "type": "mcq",
+     "prompt": "The company offered her a job, but she ___ it ___.",
+     "options": [
+      "turned / down",
+      "turned / off",
+      "gave / up",
+      "looked / after"
+     ],
+     "answer": "turned / down",
+     "explanation": "Refuse = turn down."
+    },
+    {
+     "id": "b1-phrasal-verbs-ph2",
+     "type": "correct",
+     "prompt": "Please turn off it.",
+     "answer": [
+      "Please turn it off."
+     ],
+     "explanation": "Pronoun between verb and particle."
+    },
+    {
+     "id": "b1-phrasal-verbs-ph3",
+     "type": "mcq",
+     "prompt": "Who will ___ your dog while you're away?",
+     "options": [
+      "look after",
+      "look up",
+      "look for",
+      "look out"
+     ],
+     "answer": "look after",
+     "explanation": "Take care of."
+    },
+    {
+     "id": "b1-phrasal-verbs-ph4",
+     "type": "gap",
+     "prompt": "We ran ___ of paper, so I couldn't print the report.",
+     "answer": [
+      "out"
+     ],
+     "explanation": "run out of."
+    },
+    {
+     "id": "b1-phrasal-verbs-ph5",
+     "type": "mcq",
+     "prompt": "I need to ___ how much the course costs.",
+     "options": [
+      "find out",
+      "find up",
+      "give up",
+      "get on"
+     ],
+     "answer": "find out",
+     "explanation": "Discover."
+    }
+   ]
+  },
+  {
+   "id": "b1-narrative-tenses",
+   "title": "Narrative Tenses for Storytelling",
+   "level": "B1",
+   "unit": "Telling Stories",
+   "summary": "Past continuous, past simple and past perfect working together in a story.",
+   "explanation": "Good stories combine three past tenses:\nPast continuous (was/were + -ing) sets the scene or describes an action in progress: 'It was raining and people were hurrying home.'\nPast simple gives the main events in order: 'Suddenly, the lights went out.'\nPast perfect goes back to an earlier event: 'I realised I had left my keys at the office.'\n'When' + past simple often interrupts a continuous action: 'I was cooking when the phone rang.' 'While' + continuous for two simultaneous actions: 'While I was waiting, I read the news.'",
+   "explanation_fr": "Imparfait (décor, action en cours) ≈ past continuous ; passé composé/simple (événements) ≈ past simple ; plus-que-parfait ≈ past perfect.",
+   "examples": [
+    {
+     "en": "I was walking to work when I saw an old friend.",
+     "note": "Interrupted action."
+    },
+    {
+     "en": "While she was talking, everyone was taking notes.",
+     "note": "Simultaneous actions."
+    },
+    {
+     "en": "When I got to the airport, I realised I had forgotten my passport.",
+     "note": "Earlier event."
+    },
+    {
+     "en": "The sun was shining, and the streets were full of tourists.",
+     "note": "Setting the scene."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "b1-narrative-tenses-nt1",
+     "type": "mcq",
+     "prompt": "I ___ a shower when the doorbell rang.",
+     "options": [
+      "had",
+      "was having",
+      "have had",
+      "had had"
+     ],
+     "answer": "was having",
+     "explanation": "Action in progress interrupted."
+    },
+    {
+     "id": "b1-narrative-tenses-nt2",
+     "type": "mcq",
+     "prompt": "While we ___ dinner, the power went off.",
+     "options": [
+      "had",
+      "were having",
+      "have",
+      "had had"
+     ],
+     "answer": "were having",
+     "explanation": "while + continuous."
+    },
+    {
+     "id": "b1-narrative-tenses-nt3",
+     "type": "gap",
+     "prompt": "She was upset because she ___ (lose) her phone earlier that day.",
+     "answer": [
+      "had lost"
+     ],
+     "explanation": "Earlier event → past perfect."
+    },
+    {
+     "id": "b1-narrative-tenses-nt4",
+     "type": "correct",
+     "prompt": "When I was arriving, they already left.",
+     "answer": [
+      "When I arrived, they had already left."
+     ],
+     "explanation": "Arrival = event (past simple); leaving happened before (past perfect)."
+    }
+   ]
+  },
+  {
    "id": "present-perfect-vs-past-simple",
    "title": "Present Perfect vs Past Simple",
-   "level": "B2",
+   "level": "B1",
    "unit": "Tenses",
    "summary": "Choose between a finished past time and a connection to the present.",
    "explanation": "Use the past simple for actions completed at a specific, finished time (yesterday, in 2019, last week, when I was a student). Use the present perfect (have/has + past participle) when the time is unfinished or unspecified and the result or experience matters now (today, this year, ever, never, already, yet, so far, since, for).\n\nFrench speakers often use the past simple where English needs the present perfect with 'since/for': French 'J'habite ici depuis 2015' is 'I have lived here since 2015', not '*I live here since 2015'.\n\nA time expression that refers to a finished period forces the past simple: '*I have seen him yesterday' is wrong.",
@@ -103,7 +1098,7 @@
   {
    "id": "conditionals-mixed",
    "title": "Conditionals: Zero to Mixed",
-   "level": "B2",
+   "level": "B1",
    "unit": "Conditionals",
    "summary": "Real, hypothetical and past-unreal conditions, plus mixed time references.",
    "explanation": "Zero: if + present, present — general truths. 'If interest rates rise, bond prices fall.'\nFirst: if + present, will — likely future. 'If we sign today, we'll start on Monday.'\nSecond: if + past, would — unreal present/future. 'If I had more time, I would study law.'\nThird: if + past perfect, would have + past participle — unreal past. 'If we had hedged, we wouldn't have lost money.'\nMixed: past condition → present result: 'If I had taken that job, I would be in Toronto now.' Present condition → past result: 'If I weren't so cautious, I would have invested earlier.'\n\nNever put 'will' or 'would' in the if-clause (except for polite requests: 'If you would follow me…'). French speakers often write '*If I would have known' — the correct form is 'If I had known'.",
@@ -963,7 +1958,7 @@
   {
    "id": "future-forms",
    "title": "Future Forms: will, going to, present continuous",
-   "level": "B2",
+   "level": "B1",
    "unit": "Tenses",
    "summary": "Choose the right future for decisions, plans, arrangements, predictions and schedules.",
    "explanation": "will: decisions made at the moment of speaking, promises, offers, and predictions based on opinion. 'I'll send it right away.' 'I think rates will fall.'\ngoing to: plans already decided, and predictions based on present evidence. 'We're going to hire two analysts.' 'Look at those clouds — it's going to rain.'\nPresent continuous: fixed personal arrangements, usually with a time. 'I'm meeting the CFO on Thursday.'\nPresent simple: timetables and schedules. 'The flight leaves at 7:15.'\nFuture continuous (will be + -ing): an action in progress at a future time, or a polite question about plans. 'This time tomorrow I'll be flying to Calgary.' 'Will you be using the meeting room?'\nFuture perfect (will have + pp): completed before a future time. 'By June we will have launched the product.'\nNo 'will' after when/as soon as/before/until/if in future time clauses: 'I'll call you when I arrive' (NOT *when I will arrive).",

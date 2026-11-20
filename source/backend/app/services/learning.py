@@ -11,12 +11,12 @@ from ..models import ActivityLog, Mistake, VocabCard
 from .srs import status
 
 SKILLS = ("listening", "speaking", "reading", "writing", "grammar", "vocabulary", "pronunciation")
-LEVELS = ["B1", "B2", "C1", "C2"]
+LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"]
 
 
 def score_to_cefr(avg: float, item_level: str = "B2") -> str:
     """Map an average score on items of a given level onto a CEFR estimate."""
-    idx = LEVELS.index(item_level) if item_level in LEVELS else 1
+    idx = LEVELS.index(item_level) if item_level in LEVELS else 3
     if avg >= 0.85:
         idx += 1
     elif avg < 0.5:

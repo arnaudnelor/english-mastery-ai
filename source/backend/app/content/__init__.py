@@ -20,8 +20,31 @@ def vocabulary() -> list[dict]:
     return json.loads((DIR / "vocabulary.json").read_text(encoding="utf-8"))["words"]
 
 
+@lru_cache
+def _lessons_file() -> dict:
+    return json.loads((DIR / "lessons.json").read_text(encoding="utf-8"))
+
+
+def lessons() -> list[dict]:
+    """Communicative lessons attached to a CEFR level (same schema as grammar topics)."""
+    return _lessons_file()["lessons"]
+
+
+def business_lessons() -> list[dict]:
+    return _lessons_file()["business"]
+
+
+def all_lessons() -> list[dict]:
+    return grammar_topics() + lessons() + business_lessons()
+
+
+@lru_cache
+def curriculum() -> dict:
+    return json.loads((DIR / "curriculum.json").read_text(encoding="utf-8"))
+
+
 def find_topic(topic_id: str) -> dict | None:
-    return next((t for t in grammar_topics() if t["id"] == topic_id), None)
+    return next((t for t in all_lessons() if t["id"] == topic_id), None)
 
 
 def find_word(word_id: str) -> dict | None:

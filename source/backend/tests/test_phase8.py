@@ -6,19 +6,19 @@ from app.routers.assess import grammar_level, median_level
 
 def test_level_helpers():
     assert grammar_level({"B1": (6, 6), "B2": (5, 6), "C1": (3, 6), "C2": (6, 6)}) == "B2"
-    assert grammar_level({"B1": (2, 6), "B2": (0, 6), "C1": (0, 6), "C2": (0, 6)}) == "A2"
+    assert grammar_level({"B1": (2, 6), "B2": (0, 6), "C1": (0, 6), "C2": (0, 6)}) == "A1"
     assert median_level(["C1", "B2", "C2", "B2"]) == "B2"
 
 
 def test_placement_flow(client, profile, llm):
     t = client.get("/api/assess/placement").json()
-    assert len(t["grammar_vocab"]) == 24 and "answer" not in t["grammar_vocab"][0]
+    assert len(t["grammar_vocab"]) == 36 and "answer" not in t["grammar_vocab"][0]
     pl = content.placement()
-    answers = {q["id"]: q["answer"] for q in pl["grammar_vocab"] if q["level"] in ("B1", "B2", "C1")}
+    answers = {q["id"]: q["answer"] for q in pl["grammar_vocab"] if q["level"] in ("A1", "A2", "B1", "B2", "C1")}
     for q in content.by_id(content.reading_texts(), "four-day-week")["questions"]:
         answers[f"four-day-week:{q['id']}"] = q["answer"]
     r = client.post("/api/assess/placement/submit", json={"answers": answers, "writing": "word " * 60, "speaking_level": "C1"}).json()
-    assert r["skills"]["grammar_vocabulary"] == "C1" and r["skills"]["reading"] == "C2" and r["skills"]["listening"] == "B1"
+    assert r["skills"]["grammar_vocabulary"] == "C1" and r["skills"]["reading"] == "C2" and r["skills"]["listening"] == "A1"
     assert r["skills"]["writing"] == "C1" and r["overall"] == "C1"
     prof = client.get("/api/profile").json()
     assert prof["estimated_level"] == "C1" and prof["placement_done"]
@@ -39,13 +39,15 @@ def test_weekly_check(client, profile):
 
 def test_path_analytics_search_bookmarks(client, profile):
     client.post("/api/grammar/topics/articles/answer", json={"exercise_id": "ar1", "answer": "(no article)"})
+    assert client.get("/api/path").json()["level_confirmed"] is False
+    client.post("/api/academy/choose-level", json={"level": "B2"})
     path = client.get("/api/path").json()
-    assert path["total"] > 10 and path["weeks"][0]["units"][-1]["kind"] == "speaking"
-    assert any(u["id"] == "articles" and u["done"] for w in path["weeks"] for u in w["units"])
+    assert path["level"] == "B2" and path["total"] > 10 and path["next"]["route"]
+    assert any(r["ref"] == "articles" for r in path["revision"])  # answered wrongly -> revision
     a = client.get("/api/analytics").json()
     assert len(a["minutes_per_week"]) == 12 and a["totals"]["activities"] >= 1 and a["history"][0]["skill"] == "grammar"
     hits = client.get("/api/search", params={"q": "inversion"}).json()
-    assert any(h["kind"] == "Grammar" for h in hits)
+    assert any(h["kind"] == "Lesson" and h["route"] == "/lesson/inversion-emphasis" for h in hits)
     assert any(h["kind"] == "Vocabulary" for h in client.get("/api/search", params={"q": "atténuer"}).json())
     b = client.post("/api/bookmarks", json={"kind": "grammar", "item_id": "articles", "title": "Articles", "route": "/grammar/articles"}).json()
     assert client.post("/api/bookmarks", json={"kind": "grammar", "item_id": "articles", "title": "Articles", "route": "/grammar/articles"}).json()["id"] == b["id"]

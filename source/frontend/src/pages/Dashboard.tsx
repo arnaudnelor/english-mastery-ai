@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { api } from "../lib/api";
-import { useProfile } from "../App";
+import { useAcademy, useProfile } from "../App";
+import { AcademyAreas } from "./Academy";
 import { Bar, CategoryPill, ErrorBox } from "../components/ui";
 
 interface Dash {
@@ -17,6 +18,7 @@ const LIVE = new Set(["/conversation", "/grammar", "/vocabulary", "/writing", "/
 
 export default function Dashboard() {
   const { profile } = useProfile();
+  const { overview } = useAcademy();
   const [d, setD] = useState<Dash | null>(null);
   const [err, setErr] = useState<string | null>(null);
   useEffect(() => { api.get<Dash>("/api/profile/dashboard").then(setD).catch((e) => setErr(e.message)); }, []);
@@ -29,16 +31,15 @@ export default function Dashboard() {
   return (
     <div className="mx-auto max-w-6xl space-y-6">
       <div className="flex items-end justify-between">
-        <div><h1 className="h1">{greet}, {profile.name}.</h1><p className="muted mt-1">Here's today's session, built around your weak spots.</p></div>
-        <Link to="/conversation" className="btn-primary">Start speaking practice</Link>
+        <div><h1 className="h1">{greet}, {profile.name}.</h1><p className="muted mt-1">Your academy: six CEFR levels, the Business English Academy and your assessments.</p></div>
+        {overview?.next ? <Link to={overview.next.route} className="btn-primary">Continue: {overview.next.title}</Link> : <Link to="/conversation" className="btn-primary">Start speaking practice</Link>}
       </div>
 
-      {!profile.placement_done && (
-        <div className="card flex items-center justify-between !border-gold-500 !py-4"><span>New here? A 40-minute placement test sets your real level and builds your learning path.</span><Link to="/tests" className="btn-primary">Take the placement test</Link></div>
-      )}
+      <AcademyAreas />
+      <h2 className="pt-2 font-serif text-2xl">Your statistics and daily practice</h2>
       <div className="grid grid-cols-4 gap-4">
         {[
-          ["Estimated level", d.estimated_cefr, `target ${profile.target_level}`],
+          ["Academy level", overview?.current_level ?? "Not placed", overview?.current_level ? `${overview.current_level_name} · skills estimate ${d.estimated_cefr}` : "take the placement test"],
           ["Streak", `${d.streak_days} day${d.streak_days === 1 ? "" : "s"}`, "keep it going"],
           ["This week", `${d.minutes_week} min`, `${d.minutes_month} min this month`],
           ["Vocabulary", `${d.vocabulary.mastered} mastered`, `${d.vocabulary.due} due · ${d.vocabulary.total} in deck`],

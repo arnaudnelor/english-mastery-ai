@@ -1,0 +1,1045 @@
+{
+ "levels": [
+  {
+   "code": "A1",
+   "name": "Beginner",
+   "description": "Understand and use everyday expressions, introduce yourself and ask simple questions.",
+   "units": [
+    {
+     "title": "Unit 1 · First Steps",
+     "items": [
+      {
+       "kind": "lesson",
+       "ref": "a1-alphabet"
+      },
+      {
+       "kind": "lesson",
+       "ref": "a1-greetings"
+      },
+      {
+       "kind": "lesson",
+       "ref": "a1-to-be"
+      },
+      {
+       "kind": "pronunciation",
+       "ref": "pronunciation",
+       "title": "Sounds of English: the alphabet and vowels"
+      }
+     ]
+    },
+    {
+     "title": "Unit 2 · Everyday Life",
+     "items": [
+      {
+       "kind": "lesson",
+       "ref": "a1-numbers-dates"
+      },
+      {
+       "kind": "lesson",
+       "ref": "a1-present-simple"
+      },
+      {
+       "kind": "vocab",
+       "ref": "level:A1",
+       "title": "A1 core vocabulary (20 words)"
+      },
+      {
+       "kind": "reading",
+       "ref": "a1-my-day"
+      }
+     ]
+    },
+    {
+     "title": "Unit 3 · Building Sentences",
+     "items": [
+      {
+       "kind": "lesson",
+       "ref": "a1-word-order"
+      },
+      {
+       "kind": "lesson",
+       "ref": "a1-questions"
+      },
+      {
+       "kind": "lesson",
+       "ref": "a1-present-continuous"
+      },
+      {
+       "kind": "listening",
+       "ref": "a1-cafe-order"
+      }
+     ]
+    },
+    {
+     "title": "Unit 4 · Communicate",
+     "items": [
+      {
+       "kind": "conversation",
+       "ref": "a1_intro",
+       "title": "Conversation: introduce yourself"
+      },
+      {
+       "kind": "writing",
+       "ref": "a1-about-me",
+       "genre": "short_text",
+       "title": "Writing: all about me",
+       "task": "Write 6–8 sentences about yourself: your name, where you live, your job or studies, your family and what you like doing."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "A2",
+   "name": "Elementary",
+   "description": "Handle shopping, travel and everyday situations; talk about the past and future plans.",
+   "units": [
+    {
+     "title": "Unit 1 · Talking About the Past",
+     "items": [
+      {
+       "kind": "lesson",
+       "ref": "a2-past-simple"
+      },
+      {
+       "kind": "reading",
+       "ref": "a2-weekend-quebec"
+      },
+      {
+       "kind": "vocab",
+       "ref": "level:A2",
+       "title": "A2 everyday vocabulary (20 words)"
+      }
+     ]
+    },
+    {
+     "title": "Unit 2 · Plans and Comparisons",
+     "items": [
+      {
+       "kind": "lesson",
+       "ref": "a2-future"
+      },
+      {
+       "kind": "lesson",
+       "ref": "a2-comparatives"
+      },
+      {
+       "kind": "lesson",
+       "ref": "a2-modals"
+      }
+     ]
+    },
+    {
+     "title": "Unit 3 · Shopping and Travel",
+     "items": [
+      {
+       "kind": "lesson",
+       "ref": "a2-shopping"
+      },
+      {
+       "kind": "lesson",
+       "ref": "a2-travel"
+      },
+      {
+       "kind": "listening",
+       "ref": "a2-hotel-directions"
+      },
+      {
+       "kind": "conversation",
+       "ref": "a2_shopping",
+       "title": "Role-play: in a shop"
+      },
+      {
+       "kind": "conversation",
+       "ref": "a2_travel",
+       "title": "Role-play: at the hotel and the station"
+      }
+     ]
+    },
+    {
+     "title": "Unit 4 · Everyday Communication",
+     "items": [
+      {
+       "kind": "lesson",
+       "ref": "a2-everyday-communication"
+      },
+      {
+       "kind": "writing",
+       "ref": "a2-email-friend",
+       "genre": "short_text",
+       "title": "Writing: an email to a friend",
+       "task": "Write an email (80–100 words) to a friend about your last weekend and invite them to do something next Saturday."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "B1",
+   "name": "Intermediate",
+   "description": "Deal with most situations at work and while travelling, tell stories and give opinions.",
+   "units": [
+    {
+     "title": "Unit 1 · Tenses in Context",
+     "items": [
+      {
+       "kind": "lesson",
+       "ref": "present-perfect-vs-past-simple"
+      },
+      {
+       "kind": "lesson",
+       "ref": "b1-past-perfect"
+      },
+      {
+       "kind": "lesson",
+       "ref": "b1-narrative-tenses"
+      },
+      {
+       "kind": "lesson",
+       "ref": "future-forms"
+      }
+     ]
+    },
+    {
+     "title": "Unit 2 · Conditions and Phrasal Verbs",
+     "items": [
+      {
+       "kind": "lesson",
+       "ref": "conditionals-mixed"
+      },
+      {
+       "kind": "lesson",
+       "ref": "b1-phrasal-verbs"
+      },
+      {
+       "kind": "vocab",
+       "ref": "level:B1",
+       "title": "B1 vocabulary and false friends (20 words)"
+      }
+     ]
+    },
+    {
+     "title": "Unit 3 · Natural English",
+     "items": [
+      {
+       "kind": "lesson",
+       "ref": "b1-idioms"
+      },
+      {
+       "kind": "lesson",
+       "ref": "b1-storytelling"
+      },
+      {
+       "kind": "listening",
+       "ref": "coffee-shop-catchup"
+      },
+      {
+       "kind": "conversation",
+       "ref": "b1_story",
+       "title": "Speaking: tell a story"
+      }
+     ]
+    },
+    {
+     "title": "Unit 4 · At Work",
+     "items": [
+      {
+       "kind": "lesson",
+       "ref": "b1-professional-communication"
+      },
+      {
+       "kind": "conversation",
+       "ref": "b1_workplace",
+       "title": "Role-play: a day at the office"
+      },
+      {
+       "kind": "reading",
+       "ref": "online-learning-lessons"
+      }
+     ]
+    },
+    {
+     "title": "Unit 5 · Writing and Fluency",
+     "items": [
+      {
+       "kind": "lesson",
+       "ref": "b1-paragraphs"
+      },
+      {
+       "kind": "writing",
+       "ref": "b1-paragraph",
+       "genre": "paragraph",
+       "title": "Writing: a structured paragraph",
+       "task": "Write one well-structured paragraph (120–150 words): 'The advantages of learning a language online.' Use a topic sentence, two supporting ideas with examples, and a concluding sentence."
+      },
+      {
+       "kind": "conversation",
+       "ref": "fluency",
+       "title": "Fluency drill: one minute without stopping"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "B2",
+   "name": "Upper Intermediate",
+   "description": "Interact fluently with native speakers, argue a point of view and understand complex texts.",
+   "units": [
+    {
+     "title": "Unit 1 · Advanced Structures",
+     "items": [
+      {
+       "kind": "lesson",
+       "ref": "passive-voice"
+      },
+      {
+       "kind": "lesson",
+       "ref": "causative"
+      },
+      {
+       "kind": "lesson",
+       "ref": "reported-speech"
+      },
+      {
+       "kind": "lesson",
+       "ref": "relative-clauses"
+      }
+     ]
+    },
+    {
+     "title": "Unit 2 · Complex Sentences",
+     "items": [
+      {
+       "kind": "lesson",
+       "ref": "gerunds-infinitives"
+      },
+      {
+       "kind": "lesson",
+       "ref": "articles"
+      },
+      {
+       "kind": "lesson",
+       "ref": "quantifiers"
+      },
+      {
+       "kind": "lesson",
+       "ref": "subject-verb-agreement"
+      },
+      {
+       "kind": "lesson",
+       "ref": "punctuation"
+      }
+     ]
+    },
+    {
+     "title": "Unit 3 · Vocabulary in Use",
+     "items": [
+      {
+       "kind": "lesson",
+       "ref": "b2-collocations"
+      },
+      {
+       "kind": "lesson",
+       "ref": "prepositions-collocations"
+      },
+      {
+       "kind": "vocab",
+       "ref": "level:B2",
+       "title": "B2 vocabulary set"
+      }
+     ]
+    },
+    {
+     "title": "Unit 4 · Reading and Listening",
+     "items": [
+      {
+       "kind": "reading",
+       "ref": "four-day-week"
+      },
+      {
+       "kind": "reading",
+       "ref": "the-last-train"
+      },
+      {
+       "kind": "listening",
+       "ref": "b2-debate-cars-downtown"
+      }
+     ]
+    },
+    {
+     "title": "Unit 5 · Debates and Essays",
+     "items": [
+      {
+       "kind": "lesson",
+       "ref": "b2-debating"
+      },
+      {
+       "kind": "conversation",
+       "ref": "debate",
+       "title": "Debate with the AI professor"
+      },
+      {
+       "kind": "conversation",
+       "ref": "presentation",
+       "title": "Give a short presentation"
+      },
+      {
+       "kind": "writing",
+       "ref": "b2-essay",
+       "genre": "essay",
+       "title": "Writing: opinion essay",
+       "task": "Write an opinion essay (250 words): 'Should private cars be banned from city centres?' Present both sides and give your own view."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "C1",
+   "name": "Advanced",
+   "description": "Express yourself fluently and precisely in academic and professional settings.",
+   "units": [
+    {
+     "title": "Unit 1 · Sophisticated Grammar",
+     "items": [
+      {
+       "kind": "lesson",
+       "ref": "inversion-emphasis"
+      },
+      {
+       "kind": "lesson",
+       "ref": "cleft-sentences"
+      },
+      {
+       "kind": "lesson",
+       "ref": "participle-clauses"
+      },
+      {
+       "kind": "lesson",
+       "ref": "noun-clauses"
+      }
+     ]
+    },
+    {
+     "title": "Unit 2 · Nuance and Stance",
+     "items": [
+      {
+       "kind": "lesson",
+       "ref": "modals-deduction"
+      },
+      {
+       "kind": "lesson",
+       "ref": "subjunctive"
+      },
+      {
+       "kind": "lesson",
+       "ref": "future-in-the-past"
+      },
+      {
+       "kind": "lesson",
+       "ref": "hedging"
+      },
+      {
+       "kind": "lesson",
+       "ref": "discourse-markers"
+      }
+     ]
+    },
+    {
+     "title": "Unit 3 · Advanced Vocabulary and Idioms",
+     "items": [
+      {
+       "kind": "lesson",
+       "ref": "c1-advanced-idioms"
+      },
+      {
+       "kind": "vocab",
+       "ref": "level:C1",
+       "title": "C1 academic and professional vocabulary"
+      }
+     ]
+    },
+    {
+     "title": "Unit 4 · Critical Reading and Complex Listening",
+     "items": [
+      {
+       "kind": "reading",
+       "ref": "algorithmic-hiring"
+      },
+      {
+       "kind": "reading",
+       "ref": "sleep-memory-research"
+      },
+      {
+       "kind": "listening",
+       "ref": "news-housing"
+      },
+      {
+       "kind": "listening",
+       "ref": "panel-growth-climate"
+      }
+     ]
+    },
+    {
+     "title": "Unit 5 · Presenting, Negotiating, Debating",
+     "items": [
+      {
+       "kind": "lesson",
+       "ref": "c1-presentation-language"
+      },
+      {
+       "kind": "lesson",
+       "ref": "c1-negotiation-language"
+      },
+      {
+       "kind": "conversation",
+       "ref": "academic",
+       "title": "Academic discussion"
+      },
+      {
+       "kind": "conversation",
+       "ref": "negotiation",
+       "title": "Negotiation simulation"
+      },
+      {
+       "kind": "pronunciation",
+       "ref": "pronunciation",
+       "title": "Advanced pronunciation: stress, rhythm and intonation"
+      }
+     ]
+    },
+    {
+     "title": "Unit 6 · Academic Writing",
+     "items": [
+      {
+       "kind": "writing",
+       "ref": "c1-academic-essay",
+       "genre": "essay",
+       "title": "Writing: academic essay",
+       "task": "Write an academic essay (300 words): 'To what extent should algorithms be used in hiring decisions?' Use hedging, evidence and a clear line of argument."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "C2",
+   "name": "Proficiency",
+   "description": "Understand virtually everything and express subtle shades of meaning with near-native precision.",
+   "units": [
+    {
+     "title": "Unit 1 · Near-Native Grammar",
+     "items": [
+      {
+       "kind": "lesson",
+       "ref": "nominalisation"
+      },
+      {
+       "kind": "lesson",
+       "ref": "ellipsis-substitution"
+      }
+     ]
+    },
+    {
+     "title": "Unit 2 · Precision and Subtlety",
+     "items": [
+      {
+       "kind": "lesson",
+       "ref": "c2-near-synonyms"
+      },
+      {
+       "kind": "vocab",
+       "ref": "level:C2",
+       "title": "C2 sophisticated vocabulary"
+      }
+     ]
+    },
+    {
+     "title": "Unit 3 · Literary and Academic Texts",
+     "items": [
+      {
+       "kind": "reading",
+       "ref": "in-praise-of-boredom"
+      },
+      {
+       "kind": "reading",
+       "ref": "translation-and-power"
+      },
+      {
+       "kind": "reading",
+       "ref": "on-clarity"
+      },
+      {
+       "kind": "soon",
+       "ref": "",
+       "title": "Research paper analysis (coming soon)"
+      }
+     ]
+    },
+    {
+     "title": "Unit 4 · Native-Level Listening",
+     "items": [
+      {
+       "kind": "listening",
+       "ref": "podcast-ai-work"
+      },
+      {
+       "kind": "listening",
+       "ref": "radio-nudging"
+      }
+     ]
+    },
+    {
+     "title": "Unit 5 · Rhetoric and Argumentation",
+     "items": [
+      {
+       "kind": "lesson",
+       "ref": "c2-rhetoric"
+      },
+      {
+       "kind": "conversation",
+       "ref": "phd_interview",
+       "title": "Academic discussion: doctoral interview"
+      },
+      {
+       "kind": "writing",
+       "ref": "c2-argument",
+       "genre": "essay",
+       "title": "Writing: nuanced argument",
+       "task": "Write a nuanced argumentative essay (350 words): 'Clarity is a moral obligation for experts.' Concede, qualify and use at least two rhetorical devices."
+      },
+      {
+       "kind": "writing",
+       "ref": "c2-summary",
+       "genre": "summary",
+       "title": "Writing: précis",
+       "task": "Summarise 'Translation and Power' in exactly 120 words, preserving the author's stance."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "business": [
+  {
+   "id": "communication",
+   "title": "Business Communication",
+   "icon": "💬",
+   "level": "B1–B2",
+   "items": [
+    {
+     "kind": "lesson",
+     "ref": "biz-communication"
+    },
+    {
+     "kind": "vocab",
+     "ref": "domain:business",
+     "title": "Business vocabulary"
+    },
+    {
+     "kind": "conversation",
+     "ref": "business",
+     "title": "Workplace update with your manager"
+    }
+   ]
+  },
+  {
+   "id": "meetings",
+   "title": "Professional Meetings",
+   "icon": "🗓️",
+   "level": "B2",
+   "items": [
+    {
+     "kind": "lesson",
+     "ref": "biz-meetings"
+    },
+    {
+     "kind": "listening",
+     "ref": "budget-meeting"
+    },
+    {
+     "kind": "conversation",
+     "ref": "meeting_chair",
+     "title": "Chair a meeting"
+    },
+    {
+     "kind": "writing",
+     "ref": "biz-minutes",
+     "genre": "minutes",
+     "title": "Write the minutes",
+     "task": "Write the minutes of the budget meeting you listened to: attendees, decisions and action items."
+    }
+   ]
+  },
+  {
+   "id": "negotiation",
+   "title": "Business Negotiation",
+   "icon": "🤝",
+   "level": "C1",
+   "items": [
+    {
+     "kind": "lesson",
+     "ref": "biz-negotiation"
+    },
+    {
+     "kind": "conversation",
+     "ref": "negotiation",
+     "title": "Supplier negotiation"
+    }
+   ]
+  },
+  {
+   "id": "presentations",
+   "title": "Corporate Presentations",
+   "icon": "📊",
+   "level": "B2–C1",
+   "items": [
+    {
+     "kind": "lesson",
+     "ref": "biz-presentations"
+    },
+    {
+     "kind": "conversation",
+     "ref": "presentation",
+     "title": "Present your quarterly results"
+    }
+   ]
+  },
+  {
+   "id": "writing",
+   "title": "Business Writing",
+   "icon": "✍️",
+   "level": "B2",
+   "items": [
+    {
+     "kind": "lesson",
+     "ref": "biz-writing"
+    },
+    {
+     "kind": "conversation",
+     "ref": "business",
+     "title": "Discuss your draft with your manager"
+    },
+    {
+     "kind": "writing",
+     "ref": "biz-proposal",
+     "genre": "proposal",
+     "title": "Write a proposal",
+     "task": "Write a one-page proposal recommending a four-day work week pilot for your team."
+    }
+   ]
+  },
+  {
+   "id": "emails",
+   "title": "Professional Emails",
+   "icon": "📧",
+   "level": "B1–B2",
+   "items": [
+    {
+     "kind": "lesson",
+     "ref": "biz-emails"
+    },
+    {
+     "kind": "conversation",
+     "ref": "networking",
+     "title": "Follow up by phone after your email"
+    },
+    {
+     "kind": "writing",
+     "ref": "biz-email",
+     "genre": "email",
+     "title": "Write a professional email",
+     "task": "Write to a client to apologise for a delayed delivery, explain the cause and propose a solution."
+    }
+   ]
+  },
+  {
+   "id": "leadership",
+   "title": "Leadership and Management",
+   "icon": "🧭",
+   "level": "C1",
+   "items": [
+    {
+     "kind": "lesson",
+     "ref": "biz-leadership"
+    },
+    {
+     "kind": "vocab",
+     "ref": "domain:leadership",
+     "title": "Leadership vocabulary"
+    },
+    {
+     "kind": "vocab",
+     "ref": "domain:management",
+     "title": "Management vocabulary"
+    },
+    {
+     "kind": "conversation",
+     "ref": "leadership",
+     "title": "Give feedback to a team member"
+    }
+   ]
+  },
+  {
+   "id": "hr",
+   "title": "Human Resources",
+   "icon": "👥",
+   "level": "B2",
+   "items": [
+    {
+     "kind": "lesson",
+     "ref": "biz-hr"
+    },
+    {
+     "kind": "conversation",
+     "ref": "hr",
+     "title": "HR conversation: performance review"
+    }
+   ]
+  },
+  {
+   "id": "marketing",
+   "title": "Marketing and Sales",
+   "icon": "📣",
+   "level": "B2",
+   "items": [
+    {
+     "kind": "lesson",
+     "ref": "biz-marketing-sales"
+    },
+    {
+     "kind": "reading",
+     "ref": "pricing-psychology"
+    },
+    {
+     "kind": "conversation",
+     "ref": "marketing",
+     "title": "Sales call with a prospect"
+    }
+   ]
+  },
+  {
+   "id": "corporate-finance",
+   "title": "Corporate Finance",
+   "icon": "💼",
+   "level": "C1",
+   "items": [
+    {
+     "kind": "lesson",
+     "ref": "biz-corporate-finance"
+    },
+    {
+     "kind": "reading",
+     "ref": "esg-quarterly-report"
+    },
+    {
+     "kind": "vocab",
+     "ref": "domain:finance",
+     "title": "Finance vocabulary"
+    },
+    {
+     "kind": "conversation",
+     "ref": "investment_committee",
+     "title": "Investment committee"
+    }
+   ]
+  },
+  {
+   "id": "banking",
+   "title": "Banking and Investment",
+   "icon": "🏦",
+   "level": "B2",
+   "items": [
+    {
+     "kind": "lesson",
+     "ref": "biz-banking-investment"
+    },
+    {
+     "kind": "listening",
+     "ref": "bank-account"
+    },
+    {
+     "kind": "vocab",
+     "ref": "domain:banking",
+     "title": "Banking vocabulary"
+    },
+    {
+     "kind": "vocab",
+     "ref": "domain:investment",
+     "title": "Investment vocabulary"
+    },
+    {
+     "kind": "conversation",
+     "ref": "finance",
+     "title": "Client meeting with a bank advisor"
+    }
+   ]
+  },
+  {
+   "id": "markets",
+   "title": "Financial Markets",
+   "icon": "📈",
+   "level": "C1",
+   "items": [
+    {
+     "kind": "lesson",
+     "ref": "biz-financial-markets"
+    },
+    {
+     "kind": "listening",
+     "ref": "lecture-behavioural-finance"
+    },
+    {
+     "kind": "vocab",
+     "ref": "domain:risk management",
+     "title": "Risk management vocabulary"
+    },
+    {
+     "kind": "conversation",
+     "ref": "analyst_meeting",
+     "title": "Analyst meeting"
+    }
+   ]
+  },
+  {
+   "id": "economics",
+   "title": "Economics",
+   "icon": "🌐",
+   "level": "B2–C1",
+   "items": [
+    {
+     "kind": "lesson",
+     "ref": "biz-economics"
+    },
+    {
+     "kind": "reading",
+     "ref": "central-banks-inflation"
+    },
+    {
+     "kind": "vocab",
+     "ref": "domain:economics",
+     "title": "Economics vocabulary"
+    },
+    {
+     "kind": "conversation",
+     "ref": "economics",
+     "title": "Discuss the economic outlook"
+    }
+   ]
+  },
+  {
+   "id": "projects",
+   "title": "Project Management",
+   "icon": "🗂️",
+   "level": "B2",
+   "items": [
+    {
+     "kind": "lesson",
+     "ref": "biz-project-management"
+    },
+    {
+     "kind": "vocab",
+     "ref": "domain:project management",
+     "title": "Project management vocabulary"
+    },
+    {
+     "kind": "conversation",
+     "ref": "project",
+     "title": "Project status meeting"
+    }
+   ]
+  },
+  {
+   "id": "interviews",
+   "title": "Business Interviews",
+   "icon": "🎯",
+   "level": "B2–C1",
+   "items": [
+    {
+     "kind": "lesson",
+     "ref": "biz-interviews"
+    },
+    {
+     "kind": "listening",
+     "ref": "job-interview-analyst"
+    },
+    {
+     "kind": "conversation",
+     "ref": "job_interview",
+     "title": "Job interview simulation"
+    },
+    {
+     "kind": "writing",
+     "ref": "biz-cover-letter",
+     "genre": "cover_letter",
+     "title": "Write a cover letter",
+     "task": "Write a cover letter for a financial analyst role at a Canadian bank."
+    }
+   ]
+  },
+  {
+   "id": "networking",
+   "title": "Professional Networking",
+   "icon": "🔗",
+   "level": "B1–B2",
+   "items": [
+    {
+     "kind": "lesson",
+     "ref": "biz-networking"
+    },
+    {
+     "kind": "conversation",
+     "ref": "networking",
+     "title": "Networking event"
+    }
+   ]
+  },
+  {
+   "id": "executive",
+   "title": "Executive Communication",
+   "icon": "🏛️",
+   "level": "C1–C2",
+   "items": [
+    {
+     "kind": "lesson",
+     "ref": "biz-executive"
+    },
+    {
+     "kind": "conversation",
+     "ref": "executive",
+     "title": "Brief the CEO"
+    },
+    {
+     "kind": "conversation",
+     "ref": "mba",
+     "title": "MBA case discussion"
+    }
+   ]
+  },
+  {
+   "id": "reports",
+   "title": "Business Reports and Analysis",
+   "icon": "📑",
+   "level": "C1",
+   "items": [
+    {
+     "kind": "lesson",
+     "ref": "biz-reports"
+    },
+    {
+     "kind": "writing",
+     "ref": "biz-report",
+     "genre": "report",
+     "title": "Write an executive summary",
+     "task": "Write an executive summary (200 words) of a report on rising customer churn, with three recommendations."
+    },
+    {
+     "kind": "conversation",
+     "ref": "reports",
+     "title": "Present your analysis"
+    }
+   ]
+  }
+ ]
+}

@@ -15,7 +15,8 @@ export default function Writing() {
   const [genres, setGenres] = useState<Record<string, string>>({});
   const [params] = useSearchParams();
   const [genre, setGenre] = useState(params.get("genre") ?? "email");
-  const [task, setTask] = useState("");
+  const [task, setTask] = useState(params.get("task") ?? "");
+  const lessonId = params.get("lesson");
   const [text, setText] = useState("");
   const [busy, setBusy] = useState(false);
   const [res, setRes] = useState<Result | null>(null);
@@ -24,7 +25,7 @@ export default function Writing() {
 
   async function submit() {
     setBusy(true); setErr(null);
-    try { setRes(await api.post<Result>("/api/writing/evaluate", { genre, text, task: task || null })); }
+    try { setRes(await api.post<Result>("/api/writing/evaluate", { genre, text, task: task || null, lesson_id: lessonId })); }
     catch (e) { const a = e as ApiError; setErr({ msg: a.message, key: a.status === 412 }); }
     finally { setBusy(false); }
   }
@@ -33,6 +34,7 @@ export default function Writing() {
   return (
     <div className="mx-auto max-w-6xl space-y-6">
       <div><h1 className="h1">Writing Masterclass</h1><p className="muted mt-1">Write, then get line-by-line corrections, scores and a before/after comparison.</p></div>
+      {lessonId && task && <div className="card !border-brand-400 !py-3 text-sm"><span className="label">Academy writing assignment</span>{task}</div>}
       <div className="grid grid-cols-2 gap-6">
         <div className="card space-y-3">
           <div className="grid grid-cols-2 gap-3">

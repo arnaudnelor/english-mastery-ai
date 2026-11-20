@@ -10,7 +10,7 @@ from ..services import learning
 
 router = APIRouter(prefix="/api/profile", tags=["profile"])
 
-LEVELS = r"^(B1|B2|C1|C2)$"
+LEVELS = r"^(A1|A2|B1|B2|C1|C2)$"
 MODES = r"^(immediate|after_response|end_of_conversation|strict)$"
 
 
@@ -37,6 +37,7 @@ def _out(p: Profile) -> dict:
         "french_explanations": bool(p.french_explanations),
         "reminder_time": p.reminder_time,
         "placement_done": p.placement_done_at is not None,
+        "level_confirmed": bool(p.level_confirmed) or p.placement_done_at is not None,
     }
 
 

@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import { NavLink, Route, Routes, useNavigate } from "react-router-dom";
+import { NavLink, Route, Routes, useLocation, useNavigate } from "react-router-dom";
 import { api, ApiError, Profile } from "./lib/api";
 import PinScreen from "./pages/PinScreen";
 import Dashboard from "./pages/Dashboard";
@@ -20,16 +20,23 @@ import Search from "./pages/Search";
 import History from "./pages/History";
 import { useReminder } from "./lib/reminder";
 import { PREVIEW } from "./lib/preview";
-import Business from "./pages/Business";
+import { Assessments, BusinessAcademy, BusinessCategory, LevelPage, Overview } from "./pages/Academy";
 import { AnimatedScene, VideoHub, VideoPlayerPage } from "./pages/Video";
 
 interface Ctx { profile: Profile; setProfile: (p: Profile) => void }
 const ProfileCtx = createContext<Ctx>(null!);
 export const useProfile = () => useContext(ProfileCtx);
+interface AcademyCtxT { overview: Overview | null; reload: () => void }
+const AcademyCtx = createContext<AcademyCtxT>({ overview: null, reload: () => {} });
+export const useAcademy = () => useContext(AcademyCtx);
 
-const NAV: { to: string; label: string; phase?: number }[] = [
+const ACADEMY_NAV: { to: string; label: string }[] = [
   { to: "/", label: "Dashboard" },
   { to: "/path", label: "My Learning Path" },
+  { to: "/tests?start=placement", label: "Placement Test" },
+];
+
+const NAV: { to: string; label: string; phase?: number }[] = [
   { to: "/conversation", label: "AI Conversation" },
   { to: "/listening", label: "Listening Laboratory" },
   { to: "/video", label: "Video Academy" },
@@ -39,8 +46,8 @@ const NAV: { to: string; label: string; phase?: number }[] = [
   { to: "/reading", label: "Reading" },
   { to: "/writing", label: "Writing" },
   { to: "/exams", label: "IELTS & TOEFL" },
-  { to: "/business", label: "Business English" },
   { to: "/tests", label: "Tests & Assessments" },
+  { to: "/assessments", label: "Assessment Results" },
   { to: "/analytics", label: "Progress Analytics" },
   { to: "/history", label: "Learning History" },
   { to: "/settings", label: "Settings" },
@@ -52,6 +59,10 @@ export default function App() {
   const [locked, setLocked] = useState(false);
   const [q, setQ] = useState("");
   const navigate = useNavigate();
+  const location = useLocation();
+  const [overview, setOverview] = useState<Overview | null>(null);
+  const reload = () => { api.get<Overview>("/api/academy/overview").then(setOverview).catch(() => {}); };
+  useEffect(() => { if (profile) reload(); }, [profile, location.pathname]); // eslint-disable-line
   useReminder(profile?.reminder_time);
 
   const load = () => api.get<Profile | null>("/api/profile").then((p) => { setLocked(false); setProfile(p); })
@@ -65,6 +76,7 @@ export default function App() {
 
   return (
     <ProfileCtx.Provider value={{ profile, setProfile }}>
+     <AcademyCtx.Provider value={{ overview, reload }}>
       <div className="flex h-screen overflow-hidden">
         <aside className="flex w-64 shrink-0 flex-col border-r border-ink-200/70 bg-white dark:border-ink-800 dark:bg-ink-900">
           <div className="px-6 pb-4 pt-6">
@@ -75,6 +87,14 @@ export default function App() {
             <input className="input !py-1.5" placeholder="Search lessons, words…" value={q} onChange={(e) => setQ(e.target.value)} />
           </form>
           <nav className="flex-1 space-y-0.5 overflow-y-auto px-3 pb-4">
+            <div className="px-3 pb-1 pt-1 text-[10px] font-semibold uppercase tracking-widest text-ink-400">Academy</div>
+            {ACADEMY_NAV.map((n) => <SideLink key={n.to} to={n.to} label={n.label} />)}
+            {(overview?.levels ?? []).map((lv) => (
+              <SideLink key={lv.code} to={`/level/${lv.code}`} label={`${lv.code} · ${lv.name}`}
+                right={lv.status === "locked" ? "🔒" : lv.status === "completed" ? "✓" : lv.status === "current" ? `${lv.percent}%` : ""} />
+            ))}
+            <SideLink to="/business" label="Business English Academy" />
+            <div className="px-3 pb-1 pt-4 text-[10px] font-semibold uppercase tracking-widest text-ink-400">Practice tools</div>
             {NAV.map((n) => (
               <NavLink
                 key={n.to}
@@ -120,7 +140,11 @@ export default function App() {
             <Route path="/video/scene/:id" element={<AnimatedScene />} />
             <Route path="/video/:id" element={<VideoPlayerPage />} />
             <Route path="/exams" element={<ExamPage />} />
-            <Route path="/business" element={<Business />} />
+            <Route path="/business" element={<BusinessAcademy />} />
+            <Route path="/business/:id" element={<BusinessCategory />} />
+            <Route path="/level/:code" element={<LevelPage />} />
+            <Route path="/lesson/:id" element={<GrammarTopic />} />
+            <Route path="/assessments" element={<Assessments />} />
             <Route path="/tests" element={<Tests />} />
             <Route path="/search" element={<Search />} />
             <Route path="/history" element={<History />} />
@@ -128,6 +152,18 @@ export default function App() {
           </Routes>
         </main>
       </div>
+     </AcademyCtx.Provider>
     </ProfileCtx.Provider>
+  );
+}
+
+function SideLink({ to, label, right }: { to: string; label: string; right?: string }) {
+  const loc = useLocation();
+  const [path, qs] = to.split("?");
+  const active = qs ? loc.pathname === path && loc.search.includes(qs) : path === "/" ? loc.pathname === "/" : loc.pathname === path || loc.pathname.startsWith(path + "/");
+  return (
+    <NavLink to={to} className={`flex items-center justify-between rounded-lg px-3 py-2 text-sm transition ${active ? "bg-brand-50 font-medium text-brand-700 dark:bg-brand-500/15 dark:text-brand-100" : "text-ink-800 hover:bg-ink-50 dark:text-ink-200 dark:hover:bg-ink-800/50"}`}>
+      {label}{right && <span className="text-[11px] text-ink-400">{right}</span>}
+    </NavLink>
   );
 }

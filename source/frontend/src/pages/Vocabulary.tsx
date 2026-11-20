@@ -13,7 +13,9 @@ const STATUS: Record<string, string> = {
 export default function Vocabulary() {
   const { profile } = useProfile();
   const [params] = useSearchParams();
-  const [tab, setTab] = useState<"review" | "browse">(params.get("domain") ? "browse" : "review");
+  const setLevel = params.get("level") ?? "";
+  const [tab, setTab] = useState<"review" | "browse">(params.get("domain") || setLevel ? "browse" : "review");
+  const [lvl, setLvl] = useState(setLevel);
   const [words, setWords] = useState<Word[]>([]);
   const [due, setDue] = useState<Due[]>([]);
   const [q, setQ] = useState("");
@@ -36,14 +38,14 @@ export default function Vocabulary() {
   }
 
   const domains = [...new Set(words.map((w) => w.domain))];
-  const shown = words.filter((w) => (!domain || w.domain === domain) && (!q || (w.word + w.definition).toLowerCase().includes(q.toLowerCase())));
+  const shown = words.filter((w) => (!lvl || w.level === lvl) && (!domain || w.domain === domain) && (!q || (w.word + w.definition).toLowerCase().includes(q.toLowerCase())));
   const card = due[0]?.word;
   const accent = profile.accent_preference;
 
   return (
     <div className="mx-auto max-w-5xl space-y-6">
       <div className="flex items-end justify-between">
-        <div><h1 className="h1">Vocabulary Masterclass</h1><p className="muted mt-1">Spaced repetition (SM-2) schedules each word right before you'd forget it. Works offline.</p></div>
+        <div><h1 className="h1">Vocabulary Masterclass</h1><p className="muted mt-1">Words from A1 to C2. Spaced repetition (SM-2) schedules each word right before you'd forget it.</p></div>
         <div className="flex gap-1"><button className={tab === "review" ? "btn-primary" : "btn-ghost"} onClick={() => setTab("review")}>Review ({due.length})</button><button className={tab === "browse" ? "btn-primary" : "btn-ghost"} onClick={() => setTab("browse")}>Word bank ({words.length})</button></div>
       </div>
       <ErrorBox msg={err} />
@@ -87,7 +89,13 @@ export default function Vocabulary() {
       {tab === "browse" && (
         <>
           <div className="flex gap-3"><input className="input" placeholder="Search words or definitions…" value={q} onChange={(e) => setQ(e.target.value)} />
+            <select className="input !w-40" value={lvl} onChange={(e) => setLvl(e.target.value)}><option value="">All levels</option>{["A1", "A2", "B1", "B2", "C1", "C2"].map((l) => <option key={l}>{l}</option>)}</select>
             <select className="input !w-56" value={domain} onChange={(e) => setDomain(e.target.value)}><option value="">All domains</option>{domains.map((d) => <option key={d}>{d}</option>)}</select></div>
+          {(lvl || domain) && shown.some((w) => !w.in_deck) && (
+            <div className="card flex items-center justify-between !py-3 text-sm">
+              <span>{shown.filter((w) => !w.in_deck).length} words in this set are not in your review deck yet.</span>
+              <button className="btn-primary" onClick={async () => { const qs = new URLSearchParams(); if (lvl) qs.set("level", lvl); if (domain) qs.set("domain", domain); await api.post(`/api/vocabulary/deck-all?${qs}`); load(); setTab("review"); }}>Add this set and start reviewing</button>
+            </div>)}
           <div className="grid grid-cols-2 gap-4">
             {shown.map((w) => (
               <div key={w.id} className="card !p-5">

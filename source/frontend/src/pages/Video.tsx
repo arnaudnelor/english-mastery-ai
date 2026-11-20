@@ -92,7 +92,7 @@ function Library({ items, reload }: { items: VideoSummary[]; reload: () => void 
           : <label className="block text-sm">Video (.mp4, .webm)<input type="file" accept=".mp4,.m4v,.webm" required className="mt-1 block text-xs" onChange={(e) => setVideo(e.target.files?.[0] ?? null)} /></label>}
         <label className="block text-sm">Subtitles (.srt / .vtt), recommended<input type="file" accept=".srt,.vtt" className="mt-1 block text-xs" onChange={(e) => setSubs(e.target.files?.[0] ?? null)} /></label>
         <textarea className="input min-h-[90px] text-xs" placeholder="…or paste a transcript (timestamps like 0:12 are fine; sync works best with subtitle files)" value={transcript} onChange={(e) => setTranscript(e.target.value)} />
-        <select className="input" value={level} onChange={(e) => setLevel(e.target.value)}>{["B2", "C1", "C2"].map((l) => <option key={l}>{l}</option>)}</select>
+        <select className="input" value={level} onChange={(e) => setLevel(e.target.value)}>{["A1", "A2", "B1", "B2", "C1", "C2"].map((l) => <option key={l}>{l}</option>)}</select>
         <ErrorBox msg={err} />
         <button className="btn-primary w-full" disabled={busy}>{busy ? "Adding…" : "Add to my library"}</button>
         <p className="text-xs text-ink-400">Files stay on this computer (%APPDATA%\EnglishMasteryAI\videos). Nothing is uploaded to the internet.</p>

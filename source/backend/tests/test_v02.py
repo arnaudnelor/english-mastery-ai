@@ -5,9 +5,9 @@ import app.providers.speech as S
 
 def test_new_content_integrity():
     texts = content.reading_texts()
-    assert len(texts) >= 8 and {t["level"] for t in texts} == {"B2", "C1", "C2"}
+    assert len(texts) >= 8 and {t["level"] for t in texts} == {"A1", "A2", "B1", "B2", "C1", "C2"}
     for t in texts:
-        assert len(t["body"].split()) > 200
+        assert len(t["body"].split()) > (120 if t["level"] in ("A1", "A2") else 200)
         for q in t["questions"]:
             assert q["answer"] in q["options"]
         for g in t["glossary"]:
@@ -41,7 +41,7 @@ def test_alignment():
 
 def test_reading_flow(client, profile, llm):
     lst = client.get("/api/reading/texts").json()
-    assert lst[0]["word_count"] > 200
+    assert next(x for x in lst if x["id"] == "four-day-week")["word_count"] > 200
     t = client.get("/api/reading/texts/four-day-week").json()
     assert "answer" not in t["questions"][0]
     r = client.post("/api/reading/texts/four-day-week/answer", json={"question_id": "q2", "answer": "It fell from 18% to 4%."}).json()

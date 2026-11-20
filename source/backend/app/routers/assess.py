@@ -12,26 +12,32 @@ from sqlalchemy.orm import Session
 from .. import content
 from ..db import get_db
 from ..deps import current_profile, provider_errors
-from ..models import ActivityLog, Mistake, Profile, VocabCard
+from ..models import ActivityLog, AssessmentResult, Mistake, Profile, VocabCard
 from ..providers.llm import ChatMessage, MissingAPIKey, ProviderError, get_llm
 from ..providers.speech import fluency_metrics, transcribe_any
 
 router = APIRouter(prefix="/api/assess", tags=["assessment"])
-LEVELS = ["B1", "B2", "C1", "C2"]
+LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"]
 CEFR_PROMPT = """You are a CEFR-certified assessor. Rate the learner's {skill} sample on the CEFR scale. \
-Return strict JSON: {{"level": "A2"|"B1"|"B2"|"C1"|"C2", "justification": str, "strengths": [str], "priorities": [str]}}. \
+Return strict JSON: {{"level": "A1"|"A2"|"B1"|"B2"|"C1"|"C2", "justification": str, "strengths": [str], "priorities": [str]}}. \
 Be calibrated and conservative; quote the learner where useful."""
 
 
 def accuracy_level(pct: float) -> str:
-    return "B1" if pct < 0.5 else "B2" if pct < 0.7 else "C1" if pct < 0.85 else "C2"
+    """Placement reading/listening mix an A2 item with B2–C1 items, so low scores map below B1."""
+    for cut, lv in ((0.2, "A1"), (0.4, "A2"), (0.55, "B1"), (0.7, "B2"), (0.85, "C1")):
+        if pct < cut:
+            return lv
+    return "C2"
 
 
 def grammar_level(by_level: dict[str, tuple[int, int]]) -> str:
-    """Highest level such that it and every lower level are >= 60% correct."""
-    result = "B1" if by_level.get("B1", (0, 1))[0] / by_level.get("B1", (0, 1))[1] >= 0.5 else "A2"
+    """Highest level such that it and every lower level are >= 60% correct (A1 is the floor)."""
+    result = "A1"
     for lv in LEVELS:
-        c, t = by_level.get(lv, (0, 1))
+        if lv not in by_level:
+            continue
+        c, t = by_level[lv]
         if c / t >= 0.6:
             result = lv
         else:
@@ -40,7 +46,7 @@ def grammar_level(by_level: dict[str, tuple[int, int]]) -> str:
 
 
 def median_level(levels: list[str]) -> str:
-    order = ["A2"] + LEVELS
+    order = LEVELS
     idx = sorted(order.index(lv) for lv in levels)
     return order[idx[(len(idx) - 1) // 2]]  # lower median: conservative
 
@@ -83,7 +89,7 @@ def placement_speaking(audio: UploadFile = File(...), transcript: str = Form("")
 class PlacementIn(BaseModel):
     answers: dict[str, str]
     writing: str = Field("", max_length=5000)
-    speaking_level: str | None = Field(None, pattern=r"^(A2|B1|B2|C1|C2)$")
+    speaking_level: str | None = Field(None, pattern=r"^(A1|A2|B1|B2|C1|C2)$")
     seconds: int = Field(0, ge=0, le=14400)
 
 
@@ -115,7 +121,7 @@ def placement_submit(body: PlacementIn, p: Profile = Depends(current_profile), d
         try:
             writing_result = get_llm().chat_json([ChatMessage("system", CEFR_PROMPT.format(skill="written")),
                                                   ChatMessage("user", f"Prompt: {pl['writing_prompt']}\nText: {body.writing}")], max_tokens=600)
-            if writing_result.get("level") in ["A2"] + LEVELS:
+            if writing_result.get("level") in LEVELS:
                 skills["writing"] = writing_result["level"]
         except (MissingAPIKey, ProviderError) as e:
             notes.append(f"Writing not assessed: {e}")
@@ -127,17 +133,20 @@ def placement_submit(body: PlacementIn, p: Profile = Depends(current_profile), d
         notes.append("Speaking skipped.")
 
     overall = median_level(list(skills.values()))
-    if overall == "A2":
-        overall_profile = "B1"
-        notes.append("Some answers suggest a level below B1. This course is designed for B1+, so the content may feel demanding at first.")
-    else:
-        overall_profile = overall
-    p.estimated_level = overall_profile
+    p.estimated_level = overall
+    p.level_confirmed = 1
     p.placement_done_at = datetime.utcnow()
+    construction = [q for q in pl["grammar_vocab"] if q.get("skill") == "construction"]
+    c_score = sum(content.normalise(body.answers.get(q["id"], "")) == content.normalise(q["answer"]) for q in construction) / max(1, len(construction))
+    db.add(AssessmentResult(profile_id=p.id, kind="placement", level=overall, score=g_score, passed=1,
+                            details={"skills": skills, "scores": {"grammar_vocabulary": round(g_score, 2), "sentence_construction": round(c_score, 2),
+                                                                  "reading": round(r_score, 2), "listening": round(l_score, 2)}}))
     for skill, score in (("grammar", g_score), ("reading", r_score), ("listening", l_score)):
         db.add(ActivityLog(profile_id=p.id, skill=skill, item_id="placement", score=score, seconds=body.seconds // 4))
     db.commit()
-    return {"overall": overall, "skills": skills, "scores": {"grammar_vocabulary": round(g_score, 2), "reading": round(r_score, 2), "listening": round(l_score, 2)},
+    names = {"A1": "Beginner", "A2": "Elementary", "B1": "Intermediate", "B2": "Upper Intermediate", "C1": "Advanced", "C2": "Proficiency"}
+    return {"overall": overall, "overall_name": names[overall], "skills": skills,
+            "scores": {"grammar_vocabulary": round(g_score, 2), "sentence_construction": round(c_score, 2), "reading": round(r_score, 2), "listening": round(l_score, 2)},
             "writing": writing_result, "notes": notes,
             "disclaimer": "Placement estimate for planning your study, not a certified CEFR result."}
 
@@ -146,8 +155,9 @@ def placement_submit(body: PlacementIn, p: Profile = Depends(current_profile), d
 def _weekly_pool(db: Session, p: Profile) -> list[dict]:
     target_levels = {p.estimated_level, p.target_level}
     weak_topics = {m.pattern for m in db.scalars(select(Mistake).where(Mistake.profile_id == p.id, Mistake.source == "grammar_exercise"))}
-    topics = [t for t in content.grammar_topics() if t["title"] in weak_topics] + \
-             [t for t in content.grammar_topics() if t["level"] in target_levels and t["title"] not in weak_topics]
+    pool = content.grammar_topics() + content.lessons()
+    topics = [t for t in pool if t["title"] in weak_topics] + \
+             [t for t in pool if t["level"] in target_levels and t["title"] not in weak_topics]
     items = []
     for t in topics:
         for e in t["exercises"]:
