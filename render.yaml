@@ -1,0 +1,30 @@
+# Render Blueprint: the English Mastery AI API (FastAPI) on a free web service.
+# The database is Neon Postgres (free, persistent); paste its connection string as EMA_DATABASE_URL.
+services:
+  - type: web
+    name: english-mastery-ai
+    runtime: python
+    plan: free
+    region: ohio
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT --proxy-headers --forwarded-allow-ips "*"
+    healthCheckPath: /api/system/health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+      - key: EMA_MODE
+        value: server
+      - key: EMA_DATA_DIR
+        value: /tmp/ema
+      - key: EMA_CORS_ORIGINS
+        value: https://arnaudnelor.github.io
+      - key: EMA_PUBLIC_APP_URL
+        value: https://arnaudnelor.github.io/english-mastery-ai/
+      - key: EMA_SECRET_KEY
+        generateValue: true
+      - key: EMA_DATABASE_URL
+        sync: false
+      - key: EMA_ADMIN_SETUP_CODE
+        sync: false

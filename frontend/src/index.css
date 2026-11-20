@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card { @apply rounded-2xl border border-ink-200/70 bg-white p-6 shadow-sm dark:border-ink-800 dark:bg-ink-900; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-50; }
+  .btn-primary { @apply btn bg-brand-600 text-white hover:bg-brand-700; }
+  .btn-ghost { @apply btn border border-ink-200 text-ink-800 hover:bg-ink-100 dark:border-ink-800 dark:text-ink-100 dark:hover:bg-ink-800; }
+  .input { @apply w-full rounded-xl border border-ink-200 bg-white px-3 py-2 text-sm text-ink-900 outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-100 dark:border-ink-800 dark:bg-ink-950 dark:text-ink-100 dark:focus:ring-brand-700/40; }
+  .label { @apply mb-1 block text-xs font-semibold uppercase tracking-wide text-ink-400; }
+  .h1 { @apply font-serif text-3xl text-ink-900 dark:text-white; }
+  .muted { @apply text-sm text-ink-600 dark:text-ink-400; }
+  .chip { @apply rounded-full border border-ink-200 px-2.5 py-1 text-xs capitalize hover:border-brand-400 hover:text-brand-600 dark:border-ink-800 dark:hover:text-brand-400; }
+  .pill { @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium; }
+}
+
+body { @apply font-sans text-ink-900 antialiased dark:text-ink-100; }
+
+/* Phones and small tablets: stack multi-column layouts written for desktop. */
+@media (max-width: 640px) {
+  main .grid.grid-cols-2:not([class*="sm:grid-cols"]):not(.keep-cols),
+  main .grid.grid-cols-3:not([class*="sm:grid-cols"]),
+  main .grid.grid-cols-5:not([class*="sm:grid-cols"]) { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+  main .grid.grid-cols-4:not([class*="sm:grid-cols"]) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  main .grid[class*="grid-cols-["] { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+  main .col-span-2, main .col-span-3 { grid-column: auto; }
+  main table { font-size: 0.8rem; }
+  .h1 { font-size: 1.75rem; line-height: 2.1rem; }
+}
+@media (min-width: 641px) and (max-width: 1024px) {
+  main .grid.grid-cols-3:not([class*="md:grid-cols"]):not([class*="lg:grid-cols"]),
+  main .grid.grid-cols-5:not([class*="md:grid-cols"]) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
